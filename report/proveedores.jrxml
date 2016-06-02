@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.1.0.final using JasperReports Library version 6.1.0  -->
+<!-- 2016-05-30T09:51:13 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="proveedores" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="com.jaspersoft.studio.data.sql.tables" value="YmllbmVzX21pbmlzdGVyaW8gQVMgLDIxMSwxNTAsNDIxOGVhZmYtOTFiNy00MGMxLWIyOGUtNzI1&#xA;ZTA1MDM2MTZmO3Byb3ZlZWRvcmVzICwyMCwyMCxjMzM5NjZiOS03NDlkLTRkNGEtYjkxMC02Mjg4&#xA;NTM2NGIxOGE7"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="bienbea"/>
+	<property name="ireport.jasperserver.url" value="http://localhost:8080/jasperserver-pro/"/>
+	<property name="ireport.jasperserver.user" value="superuser"/>
+	<property name="ireport.jasperserver.report.resource" value="/organizations/organization_1/reports/interactive/TableReport_files/TableReport"/>
+	<property name="ireport.jasperserver.reportUnit" value="/organizations/organization_1/reports/interactive/TableReport"/>
+	<property name="net.sf.jasperreports.export.csv.field.delimiter" value=";"/>
+	<property name="net.sf.jasperreports.export.csv.record.delimiter" value=";"/>
+	<subDataset name="bienbea" uuid="9ad4dc0a-ffe0-4fe9-9bf9-003dc75d6212">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="bienbea"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+	</subDataset>
+	<queryString>
+		<![CDATA[SELECT proveedores.proveedores_nombre,
+	proveedores.id,
+	proveedores.rif,
+	proveedores.proveedores_tipo,
+	proveedores.proveedores_observacion,
+	bienes_ministerio.fecha_remision,
+	bienes_ministerio.rif as rifmin ,
+	bienes_ministerio.nsudebip,
+	bienes_ministerio.seleinv
+FROM proveedores,
+	bienes_ministerio
+	where seleinv = true]]>
+	</queryString>
+	<field name="proveedores_nombre" class="java.lang.String"/>
+	<field name="id" class="java.lang.Integer"/>
+	<field name="rif" class="java.lang.String"/>
+	<field name="proveedores_tipo" class="java.lang.String"/>
+	<field name="proveedores_observacion" class="java.lang.String"/>
+	<field name="fecha_remision" class="java.sql.Date"/>
+	<field name="rifmin" class="java.lang.String"/>
+	<field name="nsudebip" class="java.lang.String"/>
+	<field name="seleinv" class="java.lang.Boolean"/>
+	<title>
+		<band height="35" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="2" width="100" height="30">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{nsudebip}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1" y="2" width="100" height="30">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[new java.text.SimpleDateFormat("ddMMyyyy").format($F{fecha_remision})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="-1" y="2" width="100" height="30">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{rif}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<detail>
+		<band height="32" splitType="Stretch">
+			<textField>
+				<reportElement x="-1" y="0" width="70" height="30"/>
+				<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="0" y="0" width="100" height="30">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{proveedores_nombre}.trim()]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="1" y="0" width="100" height="30"/>
+				<textFieldExpression><![CDATA[$F{proveedores_tipo}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="1" y="0" width="100" height="30"/>
+				<textFieldExpression><![CDATA[$F{rif}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

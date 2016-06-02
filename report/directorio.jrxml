@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="directorio" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" whenResourceMissingType="Empty">
+	<property name="com.jaspersoft.studio.data.sql.tables" value="b2ZpY2luYXMgQVMgLDMyMSwxNSwwNTRmNWVmNi04ZDQxLTQ4NGItOWE3My0yODM4NWI5NWI5ZTU7 b2ZpY2luYXMgLDIwLDIwLGNlMDBmNTBmLTJkMDEtNDg1MS1iNGU0LTNhYTBhODgyMzk3Mjs="/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter "/>
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="Title" fontName="Times New Roman" fontSize="50" isBold="true"/>
+	<style name="SubTitle" forecolor="#736343" fontName="Arial" fontSize="18"/>
+	<style name="Column header" forecolor="#666666" fontName="Arial" fontSize="12" isBold="true"/>
+	<style name="Detail" fontName="Arial" fontSize="12"/>
+	<style name="Row" mode="Transparent">
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$V{REPORT_COUNT}%2 == 0]]></conditionExpression>
+			<style backcolor="#E6DAC3"/>
+		</conditionalStyle>
+	</style>
+	<queryString>
+		<![CDATA[SELECT
+  oficinas.oficinas_padre_id,
+  oficinas.oficinas_nombre,
+  ofi.oficinas_nombre
+FROM
+  public.oficinas,
+  public.oficinas ofi
+WHERE
+  oficinas.oficinas_padre_id = ofi.id
+  order by oficinas.oficinas_padre_id]]>
+	</queryString>
+	<field name="oficinas_padre_id" class="java.lang.Integer"/>
+	<field name="oficinas_nombre" class="java.lang.String"/>
+	<sortField name="oficinas_padre_id"/>
+	<variable name="padre1" class="java.lang.String" resetType="Group" resetGroup="Group1" incrementType="Group" incrementGroup="Group1">
+		<variableExpression><![CDATA[$F{oficinas_padre_id}]]></variableExpression>
+		<initialValueExpression><![CDATA[$F{oficinas_padre_id}]]></initialValueExpression>
+	</variable>
+	<group name="Group1" isStartNewPage="true" isReprintHeaderOnEachPage="true">
+		<groupExpression><![CDATA[$F{oficinas_padre_id}]]></groupExpression>
+		<groupHeader>
+			<band height="37" splitType="Stretch">
+				<frame>
+					<reportElement mode="Opaque" x="0" y="7" width="802" height="24" forecolor="#B89F7D" backcolor="#F2EBDF"/>
+					<rectangle>
+						<reportElement mode="Opaque" x="21" y="0" width="36" height="24" backcolor="#736343"/>
+						<graphicElement>
+							<pen lineWidth="0.0"/>
+						</graphicElement>
+					</rectangle>
+					<textField>
+						<reportElement x="179" y="0" width="591" height="20" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true" printWhenGroupChanges="Group1"/>
+						<textElement>
+							<font size="14" isBold="true"/>
+						</textElement>
+						<textFieldExpression class="java.lang.String"><![CDATA[$F{oficinas_nombre}]]></textFieldExpression>
+					</textField>
+					<textField>
+						<reportElement x="67" y="4" width="100" height="20"/>
+						<textElement/>
+						<textFieldExpression class="java.lang.String"><![CDATA[$F{oficinas_padre_id}]]></textFieldExpression>
+					</textField>
+				</frame>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="10"/>
+		</groupFooter>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="104" splitType="Stretch">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="15" width="802" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<image>
+				<reportElement x="0" y="15" width="792" height="50" isRemoveLineWhenBlank="true"/>
+				<imageExpression class="java.lang.String"><![CDATA["/usr/lib/python2.7/dist-packages/openerp/addons/bienes/data/Cintillo-PuebloVictorioso-Carta.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="80" y="74" width="530" height="30"/>
+				<textElement textAlignment="Center">
+					<font size="20" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Oficinas del Ministerio]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="61" splitType="Stretch">
+			<frame>
+				<reportElement style="Row" mode="Opaque" x="10" y="40" width="787" height="15"/>
+			</frame>
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="40" width="802" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement x="190" y="3" width="580" height="30" isPrintWhenDetailOverflows="true">
+					<property name="net.sf.jasperreports.export.json.path" value="oficinas_nombre"/>
+					<propertyExpression name="net.sf.jasperreports.export.json.data"><![CDATA[$F{oficinas_nombre}]]></propertyExpression>
+				</reportElement>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{oficinas_nombre}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="70" splitType="Stretch">
+			<frame>
+				<reportElement mode="Opaque" x="-10" y="40" width="802" height="24" forecolor="#D0B48E" backcolor="#F2EBDF"/>
+				<textField evaluationTime="Report">
+					<reportElement style="Column header" x="740" y="2" width="40" height="20" forecolor="#736343"/>
+					<textElement verticalAlignment="Middle">
+						<font size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression class="java.lang.String"><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="Column header" x="630" y="0" width="80" height="20" forecolor="#736343"/>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression class="java.lang.String"><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,1683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data noupdate="1">
+	
+	   <!-- Municipos de Venezuela, segun codificacion del INE -->
+	   <record id="geo_mun_0101" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0101</field>
+		  <field name="municipio">LIBERTADOR</field>
+		  <field name="estado_id" ref="geo_est_01" />
+	   </record>
+	   <record id="geo_mun_0201" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0201</field>
+		  <field name="municipio">AUTÓNOMO ALTO ORINOCO</field>
+		  <field name="estado_id" ref="geo_est_02" />
+	   </record>
+	   <record id="geo_mun_0202" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0202</field>
+		  <field name="municipio">AUTÓNOMO ATABAPO</field>
+		  <field name="estado_id" ref="geo_est_02" />
+	   </record>
+	   <record id="geo_mun_0203" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0203</field>
+		  <field name="municipio">AUTÓNOMO ATURES</field>
+		  <field name="estado_id" ref="geo_est_02" />
+	   </record>
+	   <record id="geo_mun_0204" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0204</field>
+		  <field name="municipio">AUTÓNOMO AUTANA</field>
+		  <field name="estado_id" ref="geo_est_02" />
+	   </record>
+	   <record id="geo_mun_0205" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0205</field>
+		  <field name="municipio">AUTÓNOMO MAROA</field>
+		  <field name="estado_id" ref="geo_est_02" />
+	   </record>
+	   <record id="geo_mun_0206" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0206</field>
+		  <field name="municipio">AUTÓNOMO MANAPIARE</field>
+		  <field name="estado_id" ref="geo_est_02" />
+	   </record>
+	   <record id="geo_mun_0207" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0207</field>
+		  <field name="municipio">AUTÓNOMO RÍO NEGRO</field>
+		  <field name="estado_id" ref="geo_est_02" />
+	   </record>
+	   <record id="geo_mun_0301" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0301</field>
+		  <field name="municipio">ANACO</field>
+		  <field name="estado_id" ref="geo_est_03" />
+	   </record>
+	   <record id="geo_mun_0302" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0302</field>
+		  <field name="municipio">ARAGUA</field>
+		  <field name="estado_id" ref="geo_est_03" />
+	   </record>
+	   <record id="geo_mun_0303" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0303</field>
+		  <field name="municipio">FERNANDO DE PEÑALVER</field>
+		  <field name="estado_id" ref="geo_est_03" />
+	   </record>
+	   <record id="geo_mun_0304" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0304</field>
+		  <field name="municipio">FRANCISCO DEL CARMEN CARVAJAL</field>
+		  <field name="estado_id" ref="geo_est_03" />
+	   </record>
+	   <record id="geo_mun_0305" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0305</field>
+		  <field name="municipio">FRANCISCO DE MIRANDA</field>
+		  <field name="estado_id" ref="geo_est_03" />
+	   </record>
+	   <record id="geo_mun_0306" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0306</field>
+		  <field name="municipio">GUANTA</field>
+		  <field name="estado_id" ref="geo_est_03" />
+	   </record>
+	   <record id="geo_mun_0307" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0307</field>
+		  <field name="municipio">INDEPENDENCIA</field>
+		  <field name="estado_id" ref="geo_est_03" />
+	   </record>
+	   <record id="geo_mun_0308" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0308</field>
+		  <field name="municipio">JUAN ANTONIO SOTILLO</field>
+		  <field name="estado_id" ref="geo_est_03" />
+	   </record>
+	   <record id="geo_mun_0309" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0309</field>
+		  <field name="municipio">JUAN MANUEL CAJIGAL</field>
+		  <field name="estado_id" ref="geo_est_03" />
+	   </record>
+	   <record id="geo_mun_0310" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0310</field>
+		  <field name="municipio">JOSÉ GREGORIO MONAGAS</field>
+		  <field name="estado_id" ref="geo_est_03" />
+	   </record>
+	   <record id="geo_mun_0311" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0311</field>
+		  <field name="municipio">LIBERTAD</field>
+		  <field name="estado_id" ref="geo_est_03" />
+	   </record>
+	   <record id="geo_mun_0312" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0312</field>
+		  <field name="municipio">MANUEL EZEQUIEL BRUZUAL</field>
+		  <field name="estado_id" ref="geo_est_03" />
+	   </record>
+	   <record id="geo_mun_0313" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0313</field>
+		  <field name="municipio">PEDRO MARÍA FREITES</field>
+		  <field name="estado_id" ref="geo_est_03" />
+	   </record>
+	   <record id="geo_mun_0314" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0314</field>
+		  <field name="municipio">PÍRITU</field>
+		  <field name="estado_id" ref="geo_est_03" />
+	   </record>
+	   <record id="geo_mun_0315" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0315</field>
+		  <field name="municipio">SAN JOSÉ DE GUANIPA</field>
+		  <field name="estado_id" ref="geo_est_03" />
+	   </record>
+	   <record id="geo_mun_0316" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0316</field>
+		  <field name="municipio">SAN JUAN DE CAPISTRANO</field>
+		  <field name="estado_id" ref="geo_est_03" />
+	   </record>
+	   <record id="geo_mun_0317" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0317</field>
+		  <field name="municipio">SANTA ANA</field>
+		  <field name="estado_id" ref="geo_est_03" />
+	   </record>
+	   <record id="geo_mun_0318" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0318</field>
+		  <field name="municipio">SIMÓN BOLÍVAR</field>
+		  <field name="estado_id" ref="geo_est_03" />
+	   </record>
+	   <record id="geo_mun_0319" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0319</field>
+		  <field name="municipio">SIMÓN RODRÍGUEZ</field>
+		  <field name="estado_id" ref="geo_est_03" />
+	   </record>
+	   <record id="geo_mun_0320" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0320</field>
+		  <field name="municipio">SIR ARTHUR MC GREGOR</field>
+		  <field name="estado_id" ref="geo_est_03" />
+	   </record>
+	   <record id="geo_mun_0321" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0321</field>
+		  <field name="municipio">DIEGO BAUTISTA URBANEJA</field>
+		  <field name="estado_id" ref="geo_est_03" />
+	   </record>
+	   <record id="geo_mun_0401" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0401</field>
+		  <field name="municipio">ACHAGUAS</field>
+		  <field name="estado_id" ref="geo_est_04" />
+	   </record>
+	   <record id="geo_mun_0402" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0402</field>
+		  <field name="municipio">BIRUACA</field>
+		  <field name="estado_id" ref="geo_est_04" />
+	   </record>
+	   <record id="geo_mun_0403" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0403</field>
+		  <field name="municipio">MUÑOZ</field>
+		  <field name="estado_id" ref="geo_est_04" />
+	   </record>
+	   <record id="geo_mun_0404" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0404</field>
+		  <field name="municipio">PÁEZ</field>
+		  <field name="estado_id" ref="geo_est_04" />
+	   </record>
+	   <record id="geo_mun_0405" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0405</field>
+		  <field name="municipio">PEDRO CAMEJO</field>
+		  <field name="estado_id" ref="geo_est_04" />
+	   </record>
+	   <record id="geo_mun_0406" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0406</field>
+		  <field name="municipio">RÓMULO GALLEGOS</field>
+		  <field name="estado_id" ref="geo_est_04" />
+	   </record>
+	   <record id="geo_mun_0407" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0407</field>
+		  <field name="municipio">SAN FERNANDO</field>
+		  <field name="estado_id" ref="geo_est_04" />
+	   </record>
+	   <record id="geo_mun_0501" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0501</field>
+		  <field name="municipio">BOLÍVAR</field>
+		  <field name="estado_id" ref="geo_est_05" />
+	   </record>
+	   <record id="geo_mun_0502" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0502</field>
+		  <field name="municipio">CAMATAGUA</field>
+		  <field name="estado_id" ref="geo_est_05" />
+	   </record>
+	   <record id="geo_mun_0503" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0503</field>
+		  <field name="municipio">GIRARDOT</field>
+		  <field name="estado_id" ref="geo_est_05" />
+	   </record>
+	   <record id="geo_mun_0504" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0504</field>
+		  <field name="municipio">JOSÉ ANGEL LAMAS</field>
+		  <field name="estado_id" ref="geo_est_05" />
+	   </record>
+	   <record id="geo_mun_0505" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0505</field>
+		  <field name="municipio">JOSÉ FÉLIX RIBAS</field>
+		  <field name="estado_id" ref="geo_est_05" />
+	   </record>
+	   <record id="geo_mun_0506" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0506</field>
+		  <field name="municipio">JOSÉ RAFAEL REVENGA</field>
+		  <field name="estado_id" ref="geo_est_05" />
+	   </record>
+	   <record id="geo_mun_0507" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0507</field>
+		  <field name="municipio">LIBERTADOR</field>
+		  <field name="estado_id" ref="geo_est_05" />
+	   </record>
+	   <record id="geo_mun_0508" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0508</field>
+		  <field name="municipio">MARIO BRICEÑO IRAGORRY</field>
+		  <field name="estado_id" ref="geo_est_05" />
+	   </record>
+	   <record id="geo_mun_0509" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0509</field>
+		  <field name="municipio">SAN CASIMIRO</field>
+		  <field name="estado_id" ref="geo_est_05" />
+	   </record>
+	   <record id="geo_mun_0510" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0510</field>
+		  <field name="municipio">SAN SEBASTIÁN</field>
+		  <field name="estado_id" ref="geo_est_05" />
+	   </record>
+	   <record id="geo_mun_0511" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0511</field>
+		  <field name="municipio">SANTIAGO MARIÑO</field>
+		  <field name="estado_id" ref="geo_est_05" />
+	   </record>
+	   <record id="geo_mun_0512" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0512</field>
+		  <field name="municipio">SANTOS MICHELENA</field>
+		  <field name="estado_id" ref="geo_est_05" />
+	   </record>
+	   <record id="geo_mun_0513" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0513</field>
+		  <field name="municipio">SUCRE</field>
+		  <field name="estado_id" ref="geo_est_05" />
+	   </record>
+	   <record id="geo_mun_0514" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0514</field>
+		  <field name="municipio">TOVAR</field>
+		  <field name="estado_id" ref="geo_est_05" />
+	   </record>
+	   <record id="geo_mun_0515" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0515</field>
+		  <field name="municipio">URDANETA</field>
+		  <field name="estado_id" ref="geo_est_05" />
+	   </record>
+	   <record id="geo_mun_0516" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0516</field>
+		  <field name="municipio">ZAMORA</field>
+		  <field name="estado_id" ref="geo_est_05" />
+	   </record>
+	   <record id="geo_mun_0517" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0517</field>
+		  <field name="municipio">FRANCISCO LINARES ALCÁNTARA</field>
+		  <field name="estado_id" ref="geo_est_05" />
+	   </record>
+	   <record id="geo_mun_0518" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0518</field>
+		  <field name="municipio">OCUMARE DE LA COSTA DE ORO</field>
+		  <field name="estado_id" ref="geo_est_05" />
+	   </record>
+	   <record id="geo_mun_0601" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0601</field>
+		  <field name="municipio">ALBERTO ARVELO TORREALBA</field>
+		  <field name="estado_id" ref="geo_est_06" />
+	   </record>
+	   <record id="geo_mun_0602" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0602</field>
+		  <field name="municipio">ANTONIO JOSÉ DE SUCRE</field>
+		  <field name="estado_id" ref="geo_est_06" />
+	   </record>
+	   <record id="geo_mun_0603" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0603</field>
+		  <field name="municipio">ARISMENDI</field>
+		  <field name="estado_id" ref="geo_est_06" />
+	   </record>
+	   <record id="geo_mun_0604" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0604</field>
+		  <field name="municipio">BARINAS</field>
+		  <field name="estado_id" ref="geo_est_06" />
+	   </record>
+	   <record id="geo_mun_0605" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0605</field>
+		  <field name="municipio">BOLÍVAR</field>
+		  <field name="estado_id" ref="geo_est_06" />
+	   </record>
+	   <record id="geo_mun_0606" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0606</field>
+		  <field name="municipio">CRUZ PAREDES</field>
+		  <field name="estado_id" ref="geo_est_06" />
+	   </record>
+	   <record id="geo_mun_0607" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0607</field>
+		  <field name="municipio">EZEQUIEL ZAMORA</field>
+		  <field name="estado_id" ref="geo_est_06" />
+	   </record>
+	   <record id="geo_mun_0608" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0608</field>
+		  <field name="municipio">OBISPOS</field>
+		  <field name="estado_id" ref="geo_est_06" />
+	   </record>
+	   <record id="geo_mun_0609" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0609</field>
+		  <field name="municipio">PEDRAZA</field>
+		  <field name="estado_id" ref="geo_est_06" />
+	   </record>
+	   <record id="geo_mun_0610" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0610</field>
+		  <field name="municipio">ROJAS</field>
+		  <field name="estado_id" ref="geo_est_06" />
+	   </record>
+	   <record id="geo_mun_0611" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0611</field>
+		  <field name="municipio">SOSA</field>
+		  <field name="estado_id" ref="geo_est_06" />
+	   </record>
+	   <record id="geo_mun_0612" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0612</field>
+		  <field name="municipio">ANDRÉS ELOY BLANCO</field>
+		  <field name="estado_id" ref="geo_est_06" />
+	   </record>
+	   <record id="geo_mun_0701" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0701</field>
+		  <field name="municipio">CARONÍ</field>
+		  <field name="estado_id" ref="geo_est_07" />
+	   </record>
+	   <record id="geo_mun_0702" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0702</field>
+		  <field name="municipio">CEDEÑO</field>
+		  <field name="estado_id" ref="geo_est_07" />
+	   </record>
+	   <record id="geo_mun_0703" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0703</field>
+		  <field name="municipio">EL CALLAO</field>
+		  <field name="estado_id" ref="geo_est_07" />
+	   </record>
+	   <record id="geo_mun_0704" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0704</field>
+		  <field name="municipio">GRAN SABANA</field>
+		  <field name="estado_id" ref="geo_est_07" />
+	   </record>
+	   <record id="geo_mun_0705" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0705</field>
+		  <field name="municipio">HERES</field>
+		  <field name="estado_id" ref="geo_est_07" />
+	   </record>
+	   <record id="geo_mun_0706" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0706</field>
+		  <field name="municipio">PIAR</field>
+		  <field name="estado_id" ref="geo_est_07" />
+	   </record>
+	   <record id="geo_mun_0707" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0707</field>
+		  <field name="municipio">RAÚL LEONI</field>
+		  <field name="estado_id" ref="geo_est_07" />
+	   </record>
+	   <record id="geo_mun_0708" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0708</field>
+		  <field name="municipio">ROSCIO</field>
+		  <field name="estado_id" ref="geo_est_07" />
+	   </record>
+	   <record id="geo_mun_0709" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0709</field>
+		  <field name="municipio">SIFONTES</field>
+		  <field name="estado_id" ref="geo_est_07" />
+	   </record>
+	   <record id="geo_mun_0710" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0710</field>
+		  <field name="municipio">SUCRE</field>
+		  <field name="estado_id" ref="geo_est_07" />
+	   </record>
+	   <record id="geo_mun_0711" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0711</field>
+		  <field name="municipio">PADRE PEDRO CHIEN</field>
+		  <field name="estado_id" ref="geo_est_07" />
+	   </record>
+	   <record id="geo_mun_0801" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0801</field>
+		  <field name="municipio">BEJUMA</field>
+		  <field name="estado_id" ref="geo_est_08" />
+	   </record>
+	   <record id="geo_mun_0802" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0802</field>
+		  <field name="municipio">CARLOS ARVELO</field>
+		  <field name="estado_id" ref="geo_est_08" />
+	   </record>
+	   <record id="geo_mun_0803" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0803</field>
+		  <field name="municipio">DIEGO IBARRA</field>
+		  <field name="estado_id" ref="geo_est_08" />
+	   </record>
+	   <record id="geo_mun_0804" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0804</field>
+		  <field name="municipio">GUACARA</field>
+		  <field name="estado_id" ref="geo_est_08" />
+	   </record>
+	   <record id="geo_mun_0805" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0805</field>
+		  <field name="municipio">JUAN JOSÉ MORA</field>
+		  <field name="estado_id" ref="geo_est_08" />
+	   </record>
+	   <record id="geo_mun_0806" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0806</field>
+		  <field name="municipio">LIBERTADOR</field>
+		  <field name="estado_id" ref="geo_est_08" />
+	   </record>
+	   <record id="geo_mun_0807" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0807</field>
+		  <field name="municipio">LOS GUAYOS</field>
+		  <field name="estado_id" ref="geo_est_08" />
+	   </record>
+	   <record id="geo_mun_0808" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0808</field>
+		  <field name="municipio">MIRANDA</field>
+		  <field name="estado_id" ref="geo_est_08" />
+	   </record>
+	   <record id="geo_mun_0809" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0809</field>
+		  <field name="municipio">MONTALBÁN</field>
+		  <field name="estado_id" ref="geo_est_08" />
+	   </record>
+	   <record id="geo_mun_0810" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0810</field>
+		  <field name="municipio">NAGUANAGUA</field>
+		  <field name="estado_id" ref="geo_est_08" />
+	   </record>
+	   <record id="geo_mun_0811" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0811</field>
+		  <field name="municipio">PUERTO CABELLO</field>
+		  <field name="estado_id" ref="geo_est_08" />
+	   </record>
+	   <record id="geo_mun_0812" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0812</field>
+		  <field name="municipio">SAN DIEGO</field>
+		  <field name="estado_id" ref="geo_est_08" />
+	   </record>
+	   <record id="geo_mun_0813" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0813</field>
+		  <field name="municipio">SAN JOAQUÍN</field>
+		  <field name="estado_id" ref="geo_est_08" />
+	   </record>
+	   <record id="geo_mun_0814" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0814</field>
+		  <field name="municipio">VALENCIA</field>
+		  <field name="estado_id" ref="geo_est_08" />
+	   </record>
+	   <record id="geo_mun_0901" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0901</field>
+		  <field name="municipio">ANZOÁTEGUI</field>
+		  <field name="estado_id" ref="geo_est_09" />
+	   </record>
+	   <record id="geo_mun_0902" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0902</field>
+		  <field name="municipio">FALCÓN</field>
+		  <field name="estado_id" ref="geo_est_09" />
+	   </record>
+	   <record id="geo_mun_0903" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0903</field>
+		  <field name="municipio">GIRARDOT</field>
+		  <field name="estado_id" ref="geo_est_09" />
+	   </record>
+	   <record id="geo_mun_0904" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0904</field>
+		  <field name="municipio">LIMA BLANCO</field>
+		  <field name="estado_id" ref="geo_est_09" />
+	   </record>
+	   <record id="geo_mun_0905" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0905</field>
+		  <field name="municipio">PAO DE SAN JUAN BAUTISTA</field>
+		  <field name="estado_id" ref="geo_est_09" />
+	   </record>
+	   <record id="geo_mun_0906" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0906</field>
+		  <field name="municipio">RICAURTE</field>
+		  <field name="estado_id" ref="geo_est_09" />
+	   </record>
+	   <record id="geo_mun_0907" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0907</field>
+		  <field name="municipio">RÓMULO GALLEGOS</field>
+		  <field name="estado_id" ref="geo_est_09" />
+	   </record>
+	   <record id="geo_mun_0908" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0908</field>
+		  <field name="municipio">SAN CARLOS</field>
+		  <field name="estado_id" ref="geo_est_09" />
+	   </record>
+	   <record id="geo_mun_0909" model="mppp_reg_pro_municipios">
+		  <field name="codigo">0909</field>
+		  <field name="municipio">TINACO</field>
+		  <field name="estado_id" ref="geo_est_09" />
+	   </record>
+	   <record id="geo_mun_1001" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1001</field>
+		  <field name="municipio">ANTONIO DÍAZ</field>
+		  <field name="estado_id" ref="geo_est_10" />
+	   </record>
+	   <record id="geo_mun_1002" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1002</field>
+		  <field name="municipio">CASACOIMA</field>
+		  <field name="estado_id" ref="geo_est_10" />
+	   </record>
+	   <record id="geo_mun_1003" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1003</field>
+		  <field name="municipio">PEDERNALES</field>
+		  <field name="estado_id" ref="geo_est_10" />
+	   </record>
+	   <record id="geo_mun_1004" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1004</field>
+		  <field name="municipio">TUCUPITA</field>
+		  <field name="estado_id" ref="geo_est_10" />
+	   </record>
+	   <record id="geo_mun_1101" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1101</field>
+		  <field name="municipio">ACOSTA</field>
+		  <field name="estado_id" ref="geo_est_11" />
+	   </record>
+	   <record id="geo_mun_1102" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1102</field>
+		  <field name="municipio">BOLÍVAR</field>
+		  <field name="estado_id" ref="geo_est_11" />
+	   </record>
+	   <record id="geo_mun_1103" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1103</field>
+		  <field name="municipio">BUCHIVACOA</field>
+		  <field name="estado_id" ref="geo_est_11" />
+	   </record>
+	   <record id="geo_mun_1104" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1104</field>
+		  <field name="municipio">CACIQUE MANAURE</field>
+		  <field name="estado_id" ref="geo_est_11" />
+	   </record>
+	   <record id="geo_mun_1105" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1105</field>
+		  <field name="municipio">CARIRUBANA</field>
+		  <field name="estado_id" ref="geo_est_11" />
+	   </record>
+	   <record id="geo_mun_1106" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1106</field>
+		  <field name="municipio">COLINA</field>
+		  <field name="estado_id" ref="geo_est_11" />
+	   </record>
+	   <record id="geo_mun_1107" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1107</field>
+		  <field name="municipio">DABAJURO</field>
+		  <field name="estado_id" ref="geo_est_11" />
+	   </record>
+	   <record id="geo_mun_1108" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1108</field>
+		  <field name="municipio">DEMOCRACIA</field>
+		  <field name="estado_id" ref="geo_est_11" />
+	   </record>
+	   <record id="geo_mun_1109" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1109</field>
+		  <field name="municipio">FALCÓN</field>
+		  <field name="estado_id" ref="geo_est_11" />
+	   </record>
+	   <record id="geo_mun_1110" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1110</field>
+		  <field name="municipio">FEDERACIÓN</field>
+		  <field name="estado_id" ref="geo_est_11" />
+	   </record>
+	   <record id="geo_mun_1111" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1111</field>
+		  <field name="municipio">JACURA</field>
+		  <field name="estado_id" ref="geo_est_11" />
+	   </record>
+	   <record id="geo_mun_1112" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1112</field>
+		  <field name="municipio">LOS TAQUES</field>
+		  <field name="estado_id" ref="geo_est_11" />
+	   </record>
+	   <record id="geo_mun_1113" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1113</field>
+		  <field name="municipio">MAUROA</field>
+		  <field name="estado_id" ref="geo_est_11" />
+	   </record>
+	   <record id="geo_mun_1114" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1114</field>
+		  <field name="municipio">MIRANDA</field>
+		  <field name="estado_id" ref="geo_est_11" />
+	   </record>
+	   <record id="geo_mun_1115" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1115</field>
+		  <field name="municipio">MONSEÑOR ITURRIZA</field>
+		  <field name="estado_id" ref="geo_est_11" />
+	   </record>
+	   <record id="geo_mun_1116" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1116</field>
+		  <field name="municipio">PALMASOLA</field>
+		  <field name="estado_id" ref="geo_est_11" />
+	   </record>
+	   <record id="geo_mun_1117" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1117</field>
+		  <field name="municipio">PETIT</field>
+		  <field name="estado_id" ref="geo_est_11" />
+	   </record>
+	   <record id="geo_mun_1118" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1118</field>
+		  <field name="municipio">PÍRITU</field>
+		  <field name="estado_id" ref="geo_est_11" />
+	   </record>
+	   <record id="geo_mun_1119" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1119</field>
+		  <field name="municipio">SAN FRANCISCO</field>
+		  <field name="estado_id" ref="geo_est_11" />
+	   </record>
+	   <record id="geo_mun_1120" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1120</field>
+		  <field name="municipio">SILVA</field>
+		  <field name="estado_id" ref="geo_est_11" />
+	   </record>
+	   <record id="geo_mun_1121" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1121</field>
+		  <field name="municipio">SUCRE</field>
+		  <field name="estado_id" ref="geo_est_11" />
+	   </record>
+	   <record id="geo_mun_1122" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1122</field>
+		  <field name="municipio">TOCÓPERO</field>
+		  <field name="estado_id" ref="geo_est_11" />
+	   </record>
+	   <record id="geo_mun_1123" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1123</field>
+		  <field name="municipio">UNIÓN</field>
+		  <field name="estado_id" ref="geo_est_11" />
+	   </record>
+	   <record id="geo_mun_1124" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1124</field>
+		  <field name="municipio">URUMACO</field>
+		  <field name="estado_id" ref="geo_est_11" />
+	   </record>
+	   <record id="geo_mun_1125" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1125</field>
+		  <field name="municipio">ZAMORA</field>
+		  <field name="estado_id" ref="geo_est_11" />
+	   </record>
+	   <record id="geo_mun_1201" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1201</field>
+		  <field name="municipio">CAMAGUÁN</field>
+		  <field name="estado_id" ref="geo_est_12" />
+	   </record>
+	   <record id="geo_mun_1202" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1202</field>
+		  <field name="municipio">CHAGUARAMAS</field>
+		  <field name="estado_id" ref="geo_est_12" />
+	   </record>
+	   <record id="geo_mun_1203" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1203</field>
+		  <field name="municipio">EL SOCORRO</field>
+		  <field name="estado_id" ref="geo_est_12" />
+	   </record>
+	   <record id="geo_mun_1204" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1204</field>
+		  <field name="municipio">SAN GERÓNIMO DE GUAYABAL</field>
+		  <field name="estado_id" ref="geo_est_12" />
+	   </record>
+	   <record id="geo_mun_1205" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1205</field>
+		  <field name="municipio">LEONARDO INFANTE</field>
+		  <field name="estado_id" ref="geo_est_12" />
+	   </record>
+	   <record id="geo_mun_1206" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1206</field>
+		  <field name="municipio">LAS MERCEDES</field>
+		  <field name="estado_id" ref="geo_est_12" />
+	   </record>
+	   <record id="geo_mun_1207" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1207</field>
+		  <field name="municipio">JULIÁN MELLADO</field>
+		  <field name="estado_id" ref="geo_est_12" />
+	   </record>
+	   <record id="geo_mun_1208" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1208</field>
+		  <field name="municipio">FRANCISCO DE MIRANDA</field>
+		  <field name="estado_id" ref="geo_est_12" />
+	   </record>
+	   <record id="geo_mun_1209" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1209</field>
+		  <field name="municipio">JOSÉ TADEO MONAGAS</field>
+		  <field name="estado_id" ref="geo_est_12" />
+	   </record>
+	   <record id="geo_mun_1210" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1210</field>
+		  <field name="municipio">ORTIZ</field>
+		  <field name="estado_id" ref="geo_est_12" />
+	   </record>
+	   <record id="geo_mun_1211" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1211</field>
+		  <field name="municipio">JOSÉ FÉLIX RIBAS</field>
+		  <field name="estado_id" ref="geo_est_12" />
+	   </record>
+	   <record id="geo_mun_1212" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1212</field>
+		  <field name="municipio">JUAN GERMÁN ROSCIO</field>
+		  <field name="estado_id" ref="geo_est_12" />
+	   </record>
+	   <record id="geo_mun_1213" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1213</field>
+		  <field name="municipio">SAN JOSÉ DE GUARIBE</field>
+		  <field name="estado_id" ref="geo_est_12" />
+	   </record>
+	   <record id="geo_mun_1214" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1214</field>
+		  <field name="municipio">SANTA MARÍA DE IPIRE</field>
+		  <field name="estado_id" ref="geo_est_12" />
+	   </record>
+	   <record id="geo_mun_1215" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1215</field>
+		  <field name="municipio">PEDRO ZARAZA</field>
+		  <field name="estado_id" ref="geo_est_12" />
+	   </record>
+	   <record id="geo_mun_1301" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1301</field>
+		  <field name="municipio">ANDRÉS ELOY BLANCO</field>
+		  <field name="estado_id" ref="geo_est_13" />
+	   </record>
+	   <record id="geo_mun_1302" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1302</field>
+		  <field name="municipio">CRESPO</field>
+		  <field name="estado_id" ref="geo_est_13" />
+	   </record>
+	   <record id="geo_mun_1303" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1303</field>
+		  <field name="municipio">IRIBARREN</field>
+		  <field name="estado_id" ref="geo_est_13" />
+	   </record>
+	   <record id="geo_mun_1304" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1304</field>
+		  <field name="municipio">JIMÉNEZ</field>
+		  <field name="estado_id" ref="geo_est_13" />
+	   </record>
+	   <record id="geo_mun_1305" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1305</field>
+		  <field name="municipio">MORÁN</field>
+		  <field name="estado_id" ref="geo_est_13" />
+	   </record>
+	   <record id="geo_mun_1306" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1306</field>
+		  <field name="municipio">PALAVECINO</field>
+		  <field name="estado_id" ref="geo_est_13" />
+	   </record>
+	   <record id="geo_mun_1307" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1307</field>
+		  <field name="municipio">SIMÓN PLANAS</field>
+		  <field name="estado_id" ref="geo_est_13" />
+	   </record>
+	   <record id="geo_mun_1308" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1308</field>
+		  <field name="municipio">TORRES</field>
+		  <field name="estado_id" ref="geo_est_13" />
+	   </record>
+	   <record id="geo_mun_1309" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1309</field>
+		  <field name="municipio">URDANETA</field>
+		  <field name="estado_id" ref="geo_est_13" />
+	   </record>
+	   <record id="geo_mun_1401" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1401</field>
+		  <field name="municipio">ALBERTO ADRIANI</field>
+		  <field name="estado_id" ref="geo_est_14" />
+	   </record>
+	   <record id="geo_mun_1402" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1402</field>
+		  <field name="municipio">ANDRÉS BELLO</field>
+		  <field name="estado_id" ref="geo_est_14" />
+	   </record>
+	   <record id="geo_mun_1403" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1403</field>
+		  <field name="municipio">ANTONIO PINTO SALINAS</field>
+		  <field name="estado_id" ref="geo_est_14" />
+	   </record>
+	   <record id="geo_mun_1404" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1404</field>
+		  <field name="municipio">ARICAGUA</field>
+		  <field name="estado_id" ref="geo_est_14" />
+	   </record>
+	   <record id="geo_mun_1405" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1405</field>
+		  <field name="municipio">ARZOBISPO CHACÓN</field>
+		  <field name="estado_id" ref="geo_est_14" />
+	   </record>
+	   <record id="geo_mun_1406" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1406</field>
+		  <field name="municipio">CAMPO ELÍAS</field>
+		  <field name="estado_id" ref="geo_est_14" />
+	   </record>
+	   <record id="geo_mun_1407" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1407</field>
+		  <field name="municipio">CARACCIOLO PARRA OLMEDO</field>
+		  <field name="estado_id" ref="geo_est_14" />
+	   </record>
+	   <record id="geo_mun_1408" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1408</field>
+		  <field name="municipio">CARDENAL QUINTERO</field>
+		  <field name="estado_id" ref="geo_est_14" />
+	   </record>
+	   <record id="geo_mun_1409" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1409</field>
+		  <field name="municipio">GUARAQUE</field>
+		  <field name="estado_id" ref="geo_est_14" />
+	   </record>
+	   <record id="geo_mun_1410" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1410</field>
+		  <field name="municipio">JULIO CÉSAR SALAS</field>
+		  <field name="estado_id" ref="geo_est_14" />
+	   </record>
+	   <record id="geo_mun_1411" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1411</field>
+		  <field name="municipio">JUSTO BRICEÑO</field>
+		  <field name="estado_id" ref="geo_est_14" />
+	   </record>
+	   <record id="geo_mun_1412" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1412</field>
+		  <field name="municipio">LIBERTADOR</field>
+		  <field name="estado_id" ref="geo_est_14" />
+	   </record>
+	   <record id="geo_mun_1413" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1413</field>
+		  <field name="municipio">MIRANDA</field>
+		  <field name="estado_id" ref="geo_est_14" />
+	   </record>
+	   <record id="geo_mun_1414" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1414</field>
+		  <field name="municipio">OBISPO RAMOS DE LORA</field>
+		  <field name="estado_id" ref="geo_est_14" />
+	   </record>
+	   <record id="geo_mun_1415" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1415</field>
+		  <field name="municipio">PADRE NOGUERA</field>
+		  <field name="estado_id" ref="geo_est_14" />
+	   </record>
+	   <record id="geo_mun_1416" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1416</field>
+		  <field name="municipio">PUEBLO LLANO</field>
+		  <field name="estado_id" ref="geo_est_14" />
+	   </record>
+	   <record id="geo_mun_1417" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1417</field>
+		  <field name="municipio">RANGEL</field>
+		  <field name="estado_id" ref="geo_est_14" />
+	   </record>
+	   <record id="geo_mun_1418" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1418</field>
+		  <field name="municipio">RIVAS DÁVILA</field>
+		  <field name="estado_id" ref="geo_est_14" />
+	   </record>
+	   <record id="geo_mun_1419" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1419</field>
+		  <field name="municipio">SANTOS MARQUINA</field>
+		  <field name="estado_id" ref="geo_est_14" />
+	   </record>
+	   <record id="geo_mun_1420" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1420</field>
+		  <field name="municipio">SUCRE</field>
+		  <field name="estado_id" ref="geo_est_14" />
+	   </record>
+	   <record id="geo_mun_1421" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1421</field>
+		  <field name="municipio">TOVAR</field>
+		  <field name="estado_id" ref="geo_est_14" />
+	   </record>
+	   <record id="geo_mun_1422" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1422</field>
+		  <field name="municipio">TULIO FEBRES CORDERO</field>
+		  <field name="estado_id" ref="geo_est_14" />
+	   </record>
+	   <record id="geo_mun_1423" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1423</field>
+		  <field name="municipio">ZEA</field>
+		  <field name="estado_id" ref="geo_est_14" />
+	   </record>
+	   <record id="geo_mun_1501" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1501</field>
+		  <field name="municipio">ACEVEDO</field>
+		  <field name="estado_id" ref="geo_est_15" />
+	   </record>
+	   <record id="geo_mun_1502" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1502</field>
+		  <field name="municipio">ANDRÉS BELLO</field>
+		  <field name="estado_id" ref="geo_est_15" />
+	   </record>
+	   <record id="geo_mun_1503" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1503</field>
+		  <field name="municipio">BARUTA</field>
+		  <field name="estado_id" ref="geo_est_15" />
+	   </record>
+	   <record id="geo_mun_1504" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1504</field>
+		  <field name="municipio">BRIÓN</field>
+		  <field name="estado_id" ref="geo_est_15" />
+	   </record>
+	   <record id="geo_mun_1505" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1505</field>
+		  <field name="municipio">BUROZ</field>
+		  <field name="estado_id" ref="geo_est_15" />
+	   </record>
+	   <record id="geo_mun_1506" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1506</field>
+		  <field name="municipio">CARRIZAL</field>
+		  <field name="estado_id" ref="geo_est_15" />
+	   </record>
+	   <record id="geo_mun_1507" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1507</field>
+		  <field name="municipio">CHACAO</field>
+		  <field name="estado_id" ref="geo_est_15" />
+	   </record>
+	   <record id="geo_mun_1508" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1508</field>
+		  <field name="municipio">CRISTÓBAL ROJAS</field>
+		  <field name="estado_id" ref="geo_est_15" />
+	   </record>
+	   <record id="geo_mun_1509" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1509</field>
+		  <field name="municipio">EL HATILLO</field>
+		  <field name="estado_id" ref="geo_est_15" />
+	   </record>
+	   <record id="geo_mun_1510" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1510</field>
+		  <field name="municipio">GUAICAIPURO</field>
+		  <field name="estado_id" ref="geo_est_15" />
+	   </record>
+	   <record id="geo_mun_1511" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1511</field>
+		  <field name="municipio">INDEPENDENCIA</field>
+		  <field name="estado_id" ref="geo_est_15" />
+	   </record>
+	   <record id="geo_mun_1512" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1512</field>
+		  <field name="municipio">LANDER</field>
+		  <field name="estado_id" ref="geo_est_15" />
+	   </record>
+	   <record id="geo_mun_1513" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1513</field>
+		  <field name="municipio">LOS SALIAS</field>
+		  <field name="estado_id" ref="geo_est_15" />
+	   </record>
+	   <record id="geo_mun_1514" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1514</field>
+		  <field name="municipio">PÁEZ</field>
+		  <field name="estado_id" ref="geo_est_15" />
+	   </record>
+	   <record id="geo_mun_1515" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1515</field>
+		  <field name="municipio">PAZ CASTILLO</field>
+		  <field name="estado_id" ref="geo_est_15" />
+	   </record>
+	   <record id="geo_mun_1516" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1516</field>
+		  <field name="municipio">PEDRO GUAL</field>
+		  <field name="estado_id" ref="geo_est_15" />
+	   </record>
+	   <record id="geo_mun_1517" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1517</field>
+		  <field name="municipio">PLAZA</field>
+		  <field name="estado_id" ref="geo_est_15" />
+	   </record>
+	   <record id="geo_mun_1518" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1518</field>
+		  <field name="municipio">SIMÓN BOLÍVAR</field>
+		  <field name="estado_id" ref="geo_est_15" />
+	   </record>
+	   <record id="geo_mun_1519" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1519</field>
+		  <field name="municipio">SUCRE</field>
+		  <field name="estado_id" ref="geo_est_15" />
+	   </record>
+	   <record id="geo_mun_1520" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1520</field>
+		  <field name="municipio">URDANETA</field>
+		  <field name="estado_id" ref="geo_est_15" />
+	   </record>
+	   <record id="geo_mun_1521" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1521</field>
+		  <field name="municipio">ZAMORA</field>
+		  <field name="estado_id" ref="geo_est_15" />
+	   </record>
+	   <record id="geo_mun_1601" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1601</field>
+		  <field name="municipio">ACOSTA</field>
+		  <field name="estado_id" ref="geo_est_16" />
+	   </record>
+	   <record id="geo_mun_1602" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1602</field>
+		  <field name="municipio">AGUASAY</field>
+		  <field name="estado_id" ref="geo_est_16" />
+	   </record>
+	   <record id="geo_mun_1603" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1603</field>
+		  <field name="municipio">BOLÍVAR</field>
+		  <field name="estado_id" ref="geo_est_16" />
+	   </record>
+	   <record id="geo_mun_1604" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1604</field>
+		  <field name="municipio">CARIPE</field>
+		  <field name="estado_id" ref="geo_est_16" />
+	   </record>
+	   <record id="geo_mun_1605" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1605</field>
+		  <field name="municipio">CEDEÑO</field>
+		  <field name="estado_id" ref="geo_est_16" />
+	   </record>
+	   <record id="geo_mun_1606" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1606</field>
+		  <field name="municipio">EZEQUIEL ZAMORA</field>
+		  <field name="estado_id" ref="geo_est_16" />
+	   </record>
+	   <record id="geo_mun_1607" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1607</field>
+		  <field name="municipio">LIBERTADOR</field>
+		  <field name="estado_id" ref="geo_est_16" />
+	   </record>
+	   <record id="geo_mun_1608" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1608</field>
+		  <field name="municipio">MATURÍN</field>
+		  <field name="estado_id" ref="geo_est_16" />
+	   </record>
+	   <record id="geo_mun_1609" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1609</field>
+		  <field name="municipio">PIAR</field>
+		  <field name="estado_id" ref="geo_est_16" />
+	   </record>
+	   <record id="geo_mun_1610" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1610</field>
+		  <field name="municipio">PUNCERES</field>
+		  <field name="estado_id" ref="geo_est_16" />
+	   </record>
+	   <record id="geo_mun_1611" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1611</field>
+		  <field name="municipio">SANTA BÁRBARA</field>
+		  <field name="estado_id" ref="geo_est_16" />
+	   </record>
+	   <record id="geo_mun_1612" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1612</field>
+		  <field name="municipio">SOTILLO</field>
+		  <field name="estado_id" ref="geo_est_16" />
+	   </record>
+	   <record id="geo_mun_1613" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1613</field>
+		  <field name="municipio">URACOA</field>
+		  <field name="estado_id" ref="geo_est_16" />
+	   </record>
+	   <record id="geo_mun_1701" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1701</field>
+		  <field name="municipio">ANTOLÍN DEL CAMPO</field>
+		  <field name="estado_id" ref="geo_est_17" />
+	   </record>
+	   <record id="geo_mun_1702" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1702</field>
+		  <field name="municipio">ARISMENDI</field>
+		  <field name="estado_id" ref="geo_est_17" />
+	   </record>
+	   <record id="geo_mun_1703" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1703</field>
+		  <field name="municipio">DÍAZ</field>
+		  <field name="estado_id" ref="geo_est_17" />
+	   </record>
+	   <record id="geo_mun_1704" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1704</field>
+		  <field name="municipio">GARCÍA</field>
+		  <field name="estado_id" ref="geo_est_17" />
+	   </record>
+	   <record id="geo_mun_1705" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1705</field>
+		  <field name="municipio">GÓMEZ</field>
+		  <field name="estado_id" ref="geo_est_17" />
+	   </record>
+	   <record id="geo_mun_1706" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1706</field>
+		  <field name="municipio">MANEIRO</field>
+		  <field name="estado_id" ref="geo_est_17" />
+	   </record>
+	   <record id="geo_mun_1707" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1707</field>
+		  <field name="municipio">MARCANO</field>
+		  <field name="estado_id" ref="geo_est_17" />
+	   </record>
+	   <record id="geo_mun_1708" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1708</field>
+		  <field name="municipio">MARIÑO</field>
+		  <field name="estado_id" ref="geo_est_17" />
+	   </record>
+	   <record id="geo_mun_1709" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1709</field>
+		  <field name="municipio">PENÍNSULA DE MACANAO</field>
+		  <field name="estado_id" ref="geo_est_17" />
+	   </record>
+	   <record id="geo_mun_1710" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1710</field>
+		  <field name="municipio">TUBORES</field>
+		  <field name="estado_id" ref="geo_est_17" />
+	   </record>
+	   <record id="geo_mun_1711" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1711</field>
+		  <field name="municipio">VILLALBA</field>
+		  <field name="estado_id" ref="geo_est_17" />
+	   </record>
+	   <record id="geo_mun_1801" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1801</field>
+		  <field name="municipio">AGUA BLANCA</field>
+		  <field name="estado_id" ref="geo_est_18" />
+	   </record>
+	   <record id="geo_mun_1802" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1802</field>
+		  <field name="municipio">ARAURE</field>
+		  <field name="estado_id" ref="geo_est_18" />
+	   </record>
+	   <record id="geo_mun_1803" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1803</field>
+		  <field name="municipio">ESTELLER</field>
+		  <field name="estado_id" ref="geo_est_18" />
+	   </record>
+	   <record id="geo_mun_1804" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1804</field>
+		  <field name="municipio">GUANARE</field>
+		  <field name="estado_id" ref="geo_est_18" />
+	   </record>
+	   <record id="geo_mun_1805" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1805</field>
+		  <field name="municipio">GUANARITO</field>
+		  <field name="estado_id" ref="geo_est_18" />
+	   </record>
+	   <record id="geo_mun_1806" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1806</field>
+		  <field name="municipio">MONSEÑOR JOSÉ VICENTE DE UNDA</field>
+		  <field name="estado_id" ref="geo_est_18" />
+	   </record>
+	   <record id="geo_mun_1807" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1807</field>
+		  <field name="municipio">OSPINO</field>
+		  <field name="estado_id" ref="geo_est_18" />
+	   </record>
+	   <record id="geo_mun_1808" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1808</field>
+		  <field name="municipio">PÁEZ</field>
+		  <field name="estado_id" ref="geo_est_18" />
+	   </record>
+	   <record id="geo_mun_1809" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1809</field>
+		  <field name="municipio">PAPELÓN</field>
+		  <field name="estado_id" ref="geo_est_18" />
+	   </record>
+	   <record id="geo_mun_1810" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1810</field>
+		  <field name="municipio">SAN GENARO DE BOCONOITO</field>
+		  <field name="estado_id" ref="geo_est_18" />
+	   </record>
+	   <record id="geo_mun_1811" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1811</field>
+		  <field name="municipio">SAN RAFAEL DE ONOTO</field>
+		  <field name="estado_id" ref="geo_est_18" />
+	   </record>
+	   <record id="geo_mun_1812" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1812</field>
+		  <field name="municipio">SANTA ROSALÍA</field>
+		  <field name="estado_id" ref="geo_est_18" />
+	   </record>
+	   <record id="geo_mun_1813" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1813</field>
+		  <field name="municipio">SUCRE</field>
+		  <field name="estado_id" ref="geo_est_18" />
+	   </record>
+	   <record id="geo_mun_1814" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1814</field>
+		  <field name="municipio">TURÉN</field>
+		  <field name="estado_id" ref="geo_est_18" />
+	   </record>
+	   <record id="geo_mun_1901" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1901</field>
+		  <field name="municipio">ANDRÉS ELOY BLANCO</field>
+		  <field name="estado_id" ref="geo_est_19" />
+	   </record>
+	   <record id="geo_mun_1902" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1902</field>
+		  <field name="municipio">ANDRÉS MATA</field>
+		  <field name="estado_id" ref="geo_est_19" />
+	   </record>
+	   <record id="geo_mun_1903" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1903</field>
+		  <field name="municipio">ARISMENDI</field>
+		  <field name="estado_id" ref="geo_est_19" />
+	   </record>
+	   <record id="geo_mun_1904" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1904</field>
+		  <field name="municipio">BENÍTEZ</field>
+		  <field name="estado_id" ref="geo_est_19" />
+	   </record>
+	   <record id="geo_mun_1905" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1905</field>
+		  <field name="municipio">BERMÚDEZ</field>
+		  <field name="estado_id" ref="geo_est_19" />
+	   </record>
+	   <record id="geo_mun_1906" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1906</field>
+		  <field name="municipio">BOLÍVAR</field>
+		  <field name="estado_id" ref="geo_est_19" />
+	   </record>
+	   <record id="geo_mun_1907" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1907</field>
+		  <field name="municipio">CAJIGAL</field>
+		  <field name="estado_id" ref="geo_est_19" />
+	   </record>
+	   <record id="geo_mun_1908" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1908</field>
+		  <field name="municipio">CRUZ SALMERÓN ACOSTA</field>
+		  <field name="estado_id" ref="geo_est_19" />
+	   </record>
+	   <record id="geo_mun_1909" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1909</field>
+		  <field name="municipio">LIBERTADOR</field>
+		  <field name="estado_id" ref="geo_est_19" />
+	   </record>
+	   <record id="geo_mun_1910" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1910</field>
+		  <field name="municipio">MARIÑO</field>
+		  <field name="estado_id" ref="geo_est_19" />
+	   </record>
+	   <record id="geo_mun_1911" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1911</field>
+		  <field name="municipio">MEJÍA</field>
+		  <field name="estado_id" ref="geo_est_19" />
+	   </record>
+	   <record id="geo_mun_1912" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1912</field>
+		  <field name="municipio">MONTES</field>
+		  <field name="estado_id" ref="geo_est_19" />
+	   </record>
+	   <record id="geo_mun_1913" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1913</field>
+		  <field name="municipio">RIBERO</field>
+		  <field name="estado_id" ref="geo_est_19" />
+	   </record>
+	   <record id="geo_mun_1914" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1914</field>
+		  <field name="municipio">SUCRE</field>
+		  <field name="estado_id" ref="geo_est_19" />
+	   </record>
+	   <record id="geo_mun_1915" model="mppp_reg_pro_municipios">
+		  <field name="codigo">1915</field>
+		  <field name="municipio">VALDEZ</field>
+		  <field name="estado_id" ref="geo_est_19" />
+	   </record>
+	   <record id="geo_mun_2001" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2001</field>
+		  <field name="municipio">ANDRÉS BELLO</field>
+		  <field name="estado_id" ref="geo_est_20" />
+	   </record>
+	   <record id="geo_mun_2002" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2002</field>
+		  <field name="municipio">ANTONIO RÓMULO COSTA</field>
+		  <field name="estado_id" ref="geo_est_20" />
+	   </record>
+	   <record id="geo_mun_2003" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2003</field>
+		  <field name="municipio">AYACUCHO</field>
+		  <field name="estado_id" ref="geo_est_20" />
+	   </record>
+	   <record id="geo_mun_2004" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2004</field>
+		  <field name="municipio">BOLÍVAR</field>
+		  <field name="estado_id" ref="geo_est_20" />
+	   </record>
+	   <record id="geo_mun_2005" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2005</field>
+		  <field name="municipio">CÁRDENAS</field>
+		  <field name="estado_id" ref="geo_est_20" />
+	   </record>
+	   <record id="geo_mun_2006" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2006</field>
+		  <field name="municipio">CÓRDOBA</field>
+		  <field name="estado_id" ref="geo_est_20" />
+	   </record>
+	   <record id="geo_mun_2007" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2007</field>
+		  <field name="municipio">FERNÁNDEZ FEO</field>
+		  <field name="estado_id" ref="geo_est_20" />
+	   </record>
+	   <record id="geo_mun_2008" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2008</field>
+		  <field name="municipio">FRANCISCO DE MIRANDA</field>
+		  <field name="estado_id" ref="geo_est_20" />
+	   </record>
+	   <record id="geo_mun_2009" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2009</field>
+		  <field name="municipio">GARCÍA DE HEVIA</field>
+		  <field name="estado_id" ref="geo_est_20" />
+	   </record>
+	   <record id="geo_mun_2010" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2010</field>
+		  <field name="municipio">GUÁSIMOS</field>
+		  <field name="estado_id" ref="geo_est_20" />
+	   </record>
+	   <record id="geo_mun_2011" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2011</field>
+		  <field name="municipio">INDEPENDENCIA</field>
+		  <field name="estado_id" ref="geo_est_20" />
+	   </record>
+	   <record id="geo_mun_2012" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2012</field>
+		  <field name="municipio">JÁUREGUI</field>
+		  <field name="estado_id" ref="geo_est_20" />
+	   </record>
+	   <record id="geo_mun_2013" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2013</field>
+		  <field name="municipio">JOSÉ MARÍA VARGAS</field>
+		  <field name="estado_id" ref="geo_est_20" />
+	   </record>
+	   <record id="geo_mun_2014" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2014</field>
+		  <field name="municipio">JUNÍN</field>
+		  <field name="estado_id" ref="geo_est_20" />
+	   </record>
+	   <record id="geo_mun_2015" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2015</field>
+		  <field name="municipio">LIBERTAD</field>
+		  <field name="estado_id" ref="geo_est_20" />
+	   </record>
+	   <record id="geo_mun_2016" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2016</field>
+		  <field name="municipio">LIBERTADOR</field>
+		  <field name="estado_id" ref="geo_est_20" />
+	   </record>
+	   <record id="geo_mun_2017" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2017</field>
+		  <field name="municipio">LOBATERA</field>
+		  <field name="estado_id" ref="geo_est_20" />
+	   </record>
+	   <record id="geo_mun_2018" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2018</field>
+		  <field name="municipio">MICHELENA</field>
+		  <field name="estado_id" ref="geo_est_20" />
+	   </record>
+	   <record id="geo_mun_2019" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2019</field>
+		  <field name="municipio">PANAMERICANO</field>
+		  <field name="estado_id" ref="geo_est_20" />
+	   </record>
+	   <record id="geo_mun_2020" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2020</field>
+		  <field name="municipio">PEDRO MARÍA UREÑA</field>
+		  <field name="estado_id" ref="geo_est_20" />
+	   </record>
+	   <record id="geo_mun_2021" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2021</field>
+		  <field name="municipio">RAFAEL URDANETA</field>
+		  <field name="estado_id" ref="geo_est_20" />
+	   </record>
+	   <record id="geo_mun_2022" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2022</field>
+		  <field name="municipio">SAMUEL DARÍO MALDONADO</field>
+		  <field name="estado_id" ref="geo_est_20" />
+	   </record>
+	   <record id="geo_mun_2023" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2023</field>
+		  <field name="municipio">SAN CRISTÓBAL</field>
+		  <field name="estado_id" ref="geo_est_20" />
+	   </record>
+	   <record id="geo_mun_2024" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2024</field>
+		  <field name="municipio">SEBORUCO</field>
+		  <field name="estado_id" ref="geo_est_20" />
+	   </record>
+	   <record id="geo_mun_2025" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2025</field>
+		  <field name="municipio">SIMÓN RODRÍGUEZ</field>
+		  <field name="estado_id" ref="geo_est_20" />
+	   </record>
+	   <record id="geo_mun_2026" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2026</field>
+		  <field name="municipio">SUCRE</field>
+		  <field name="estado_id" ref="geo_est_20" />
+	   </record>
+	   <record id="geo_mun_2027" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2027</field>
+		  <field name="municipio">TORBES</field>
+		  <field name="estado_id" ref="geo_est_20" />
+	   </record>
+	   <record id="geo_mun_2028" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2028</field>
+		  <field name="municipio">URIBANTE</field>
+		  <field name="estado_id" ref="geo_est_20" />
+	   </record>
+	   <record id="geo_mun_2029" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2029</field>
+		  <field name="municipio">SAN JUDAS TADEO</field>
+		  <field name="estado_id" ref="geo_est_20" />
+	   </record>
+	   <record id="geo_mun_2101" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2101</field>
+		  <field name="municipio">ANDRÉS BELLO</field>
+		  <field name="estado_id" ref="geo_est_21" />
+	   </record>
+	   <record id="geo_mun_2102" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2102</field>
+		  <field name="municipio">BOCONÓ</field>
+		  <field name="estado_id" ref="geo_est_21" />
+	   </record>
+	   <record id="geo_mun_2103" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2103</field>
+		  <field name="municipio">BOLÍVAR</field>
+		  <field name="estado_id" ref="geo_est_21" />
+	   </record>
+	   <record id="geo_mun_2104" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2104</field>
+		  <field name="municipio">CANDELARIA</field>
+		  <field name="estado_id" ref="geo_est_21" />
+	   </record>
+	   <record id="geo_mun_2105" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2105</field>
+		  <field name="municipio">CARACHE</field>
+		  <field name="estado_id" ref="geo_est_21" />
+	   </record>
+	   <record id="geo_mun_2106" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2106</field>
+		  <field name="municipio">ESCUQUE</field>
+		  <field name="estado_id" ref="geo_est_21" />
+	   </record>
+	   <record id="geo_mun_2107" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2107</field>
+		  <field name="municipio">JOSÉ FELIPE MÁRQUEZ CAÑIZALES</field>
+		  <field name="estado_id" ref="geo_est_21" />
+	   </record>
+	   <record id="geo_mun_2108" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2108</field>
+		  <field name="municipio">JUAN VICENTE CAMPO ELÍAS</field>
+		  <field name="estado_id" ref="geo_est_21" />
+	   </record>
+	   <record id="geo_mun_2109" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2109</field>
+		  <field name="municipio">LA CEIBA</field>
+		  <field name="estado_id" ref="geo_est_21" />
+	   </record>
+	   <record id="geo_mun_2110" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2110</field>
+		  <field name="municipio">MIRANDA</field>
+		  <field name="estado_id" ref="geo_est_21" />
+	   </record>
+	   <record id="geo_mun_2111" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2111</field>
+		  <field name="municipio">MONTE CARMELO</field>
+		  <field name="estado_id" ref="geo_est_21" />
+	   </record>
+	   <record id="geo_mun_2112" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2112</field>
+		  <field name="municipio">MOTATÁN</field>
+		  <field name="estado_id" ref="geo_est_21" />
+	   </record>
+	   <record id="geo_mun_2113" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2113</field>
+		  <field name="municipio">PAMPÁN</field>
+		  <field name="estado_id" ref="geo_est_21" />
+	   </record>
+	   <record id="geo_mun_2114" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2114</field>
+		  <field name="municipio">PAMPANITO</field>
+		  <field name="estado_id" ref="geo_est_21" />
+	   </record>
+	   <record id="geo_mun_2115" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2115</field>
+		  <field name="municipio">RAFAEL RANGEL</field>
+		  <field name="estado_id" ref="geo_est_21" />
+	   </record>
+	   <record id="geo_mun_2116" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2116</field>
+		  <field name="municipio">SAN RAFAEL DE CARVAJAL</field>
+		  <field name="estado_id" ref="geo_est_21" />
+	   </record>
+	   <record id="geo_mun_2117" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2117</field>
+		  <field name="municipio">SUCRE</field>
+		  <field name="estado_id" ref="geo_est_21" />
+	   </record>
+	   <record id="geo_mun_2118" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2118</field>
+		  <field name="municipio">TRUJILLO</field>
+		  <field name="estado_id" ref="geo_est_21" />
+	   </record>
+	   <record id="geo_mun_2119" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2119</field>
+		  <field name="municipio">URDANETA</field>
+		  <field name="estado_id" ref="geo_est_21" />
+	   </record>
+	   <record id="geo_mun_2120" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2120</field>
+		  <field name="municipio">VALERA</field>
+		  <field name="estado_id" ref="geo_est_21" />
+	   </record>
+	   <record id="geo_mun_2201" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2201</field>
+		  <field name="municipio">ARÍSTIDES BASTIDAS</field>
+		  <field name="estado_id" ref="geo_est_22" />
+	   </record>
+	   <record id="geo_mun_2202" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2202</field>
+		  <field name="municipio">BOLÍVAR</field>
+		  <field name="estado_id" ref="geo_est_22" />
+	   </record>
+	   <record id="geo_mun_2203" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2203</field>
+		  <field name="municipio">BRUZUAL</field>
+		  <field name="estado_id" ref="geo_est_22" />
+	   </record>
+	   <record id="geo_mun_2204" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2204</field>
+		  <field name="municipio">COCOROTE</field>
+		  <field name="estado_id" ref="geo_est_22" />
+	   </record>
+	   <record id="geo_mun_2205" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2205</field>
+		  <field name="municipio">INDEPENDENCIA</field>
+		  <field name="estado_id" ref="geo_est_22" />
+	   </record>
+	   <record id="geo_mun_2206" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2206</field>
+		  <field name="municipio">JOSÉ ANTONIO PÁEZ</field>
+		  <field name="estado_id" ref="geo_est_22" />
+	   </record>
+	   <record id="geo_mun_2207" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2207</field>
+		  <field name="municipio">LA TRINIDAD</field>
+		  <field name="estado_id" ref="geo_est_22" />
+	   </record>
+	   <record id="geo_mun_2208" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2208</field>
+		  <field name="municipio">MANUEL MONGE</field>
+		  <field name="estado_id" ref="geo_est_22" />
+	   </record>
+	   <record id="geo_mun_2209" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2209</field>
+		  <field name="municipio">NIRGUA</field>
+		  <field name="estado_id" ref="geo_est_22" />
+	   </record>
+	   <record id="geo_mun_2210" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2210</field>
+		  <field name="municipio">PEÑA</field>
+		  <field name="estado_id" ref="geo_est_22" />
+	   </record>
+	   <record id="geo_mun_2211" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2211</field>
+		  <field name="municipio">SAN FELIPE</field>
+		  <field name="estado_id" ref="geo_est_22" />
+	   </record>
+	   <record id="geo_mun_2212" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2212</field>
+		  <field name="municipio">SUCRE</field>
+		  <field name="estado_id" ref="geo_est_22" />
+	   </record>
+	   <record id="geo_mun_2213" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2213</field>
+		  <field name="municipio">URACHICHE</field>
+		  <field name="estado_id" ref="geo_est_22" />
+	   </record>
+	   <record id="geo_mun_2214" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2214</field>
+		  <field name="municipio">VEROES</field>
+		  <field name="estado_id" ref="geo_est_22" />
+	   </record>
+	   <record id="geo_mun_2301" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2301</field>
+		  <field name="municipio">ALMIRANTE PADILLA</field>
+		  <field name="estado_id" ref="geo_est_23" />
+	   </record>
+	   <record id="geo_mun_2302" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2302</field>
+		  <field name="municipio">BARALT</field>
+		  <field name="estado_id" ref="geo_est_23" />
+	   </record>
+	   <record id="geo_mun_2303" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2303</field>
+		  <field name="municipio">CABIMAS</field>
+		  <field name="estado_id" ref="geo_est_23" />
+	   </record>
+	   <record id="geo_mun_2304" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2304</field>
+		  <field name="municipio">CATATUMBO</field>
+		  <field name="estado_id" ref="geo_est_23" />
+	   </record>
+	   <record id="geo_mun_2305" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2305</field>
+		  <field name="municipio">COLÓN</field>
+		  <field name="estado_id" ref="geo_est_23" />
+	   </record>
+	   <record id="geo_mun_2306" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2306</field>
+		  <field name="municipio">FRANCISCO JAVIER PULGAR</field>
+		  <field name="estado_id" ref="geo_est_23" />
+	   </record>
+	   <record id="geo_mun_2307" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2307</field>
+		  <field name="municipio">JESÚS ENRIQUE LOSSADA</field>
+		  <field name="estado_id" ref="geo_est_23" />
+	   </record>
+	   <record id="geo_mun_2308" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2308</field>
+		  <field name="municipio">JESÚS MARÍA SEMPRÚN</field>
+		  <field name="estado_id" ref="geo_est_23" />
+	   </record>
+	   <record id="geo_mun_2309" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2309</field>
+		  <field name="municipio">LA CAÑADA DE URDANETA</field>
+		  <field name="estado_id" ref="geo_est_23" />
+	   </record>
+	   <record id="geo_mun_2310" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2310</field>
+		  <field name="municipio">LAGUNILLAS</field>
+		  <field name="estado_id" ref="geo_est_23" />
+	   </record>
+	   <record id="geo_mun_2311" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2311</field>
+		  <field name="municipio">MACHIQUES DE PERIJÁ</field>
+		  <field name="estado_id" ref="geo_est_23" />
+	   </record>
+	   <record id="geo_mun_2312" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2312</field>
+		  <field name="municipio">MARA</field>
+		  <field name="estado_id" ref="geo_est_23" />
+	   </record>
+	   <record id="geo_mun_2313" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2313</field>
+		  <field name="municipio">MARACAIBO</field>
+		  <field name="estado_id" ref="geo_est_23" />
+	   </record>
+	   <record id="geo_mun_2314" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2314</field>
+		  <field name="municipio">MIRANDA</field>
+		  <field name="estado_id" ref="geo_est_23" />
+	   </record>
+	   <record id="geo_mun_2315" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2315</field>
+		  <field name="municipio">PÁEZ</field>
+		  <field name="estado_id" ref="geo_est_23" />
+	   </record>
+	   <record id="geo_mun_2316" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2316</field>
+		  <field name="municipio">ROSARIO DE PERIJÁ</field>
+		  <field name="estado_id" ref="geo_est_23" />
+	   </record>
+	   <record id="geo_mun_2317" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2317</field>
+		  <field name="municipio">SAN FRANCISCO</field>
+		  <field name="estado_id" ref="geo_est_23" />
+	   </record>
+	   <record id="geo_mun_2318" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2318</field>
+		  <field name="municipio">SANTA RITA</field>
+		  <field name="estado_id" ref="geo_est_23" />
+	   </record>
+	   <record id="geo_mun_2319" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2319</field>
+		  <field name="municipio">SIMÓN BOLÍVAR</field>
+		  <field name="estado_id" ref="geo_est_23" />
+	   </record>
+	   <record id="geo_mun_2320" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2320</field>
+		  <field name="municipio">SUCRE</field>
+		  <field name="estado_id" ref="geo_est_23" />
+	   </record>
+	   <record id="geo_mun_2321" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2321</field>
+		  <field name="municipio">VALMORE RODRÍGUEZ</field>
+		  <field name="estado_id" ref="geo_est_23" />
+	   </record>
+	   <record id="geo_mun_2401" model="mppp_reg_pro_municipios">
+		  <field name="codigo">2401</field>
+		  <field name="municipio">VARGAS</field>
+		  <field name="estado_id" ref="geo_est_24" />
+	   </record>
+	</data>
+</openerp>
+

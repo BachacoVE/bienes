@@ -1,0 +1,1871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data noupdate="1">
+		<record id="demod_1" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">1</field>
+			<field name="detalle_modelo_nombre">DE 3 VELOCIDADES</field>
+			<field name="modelo_id" ref="mod_15"/>
+		</record>    
+		<record id="demod_6" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">6</field>
+			<field name="detalle_modelo_nombre">REDONDA</field>
+			<field name="modelo_id" ref="mod_8"/>
+		</record>
+		<record id="demod_7" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">7</field>
+			<field name="detalle_modelo_nombre">SIDE BY SIDE, SIN ESCARCHA</field>
+			<field name="modelo_id" ref="mod_10"/>
+		</record>
+		<record id="demod_9" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">9</field>
+			<field name="detalle_modelo_nombre">MÓVIL</field>
+			<field name="modelo_id" ref="mod_7"/>
+		</record>
+		<record id="demod_10" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">10</field>
+			<field name="detalle_modelo_nombre">CON IMPRESIÓN</field>
+			<field name="modelo_id" ref="mod_12"/>
+		</record>
+		<record id="demod_11" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">11</field>
+			<field name="detalle_modelo_nombre">DE 3 GAVETAS</field>
+			<field name="modelo_id" ref="mod_14"/>
+		</record>
+		<record id="demod_14" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">14</field>
+			<field name="detalle_modelo_nombre">CAPACIDAD 10 TAZAS</field>
+			<field name="modelo_id" ref="mod_17"/>
+		</record>
+		<record id="demod_15" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">15</field>
+			<field name="detalle_modelo_nombre">CAPACIDAD 1.0</field>
+			<field name="modelo_id" ref="mod_18"/>
+		</record>
+		<record id="demod_16" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">16</field>
+			<field name="detalle_modelo_nombre">DE 2 PUERTAS, CORREDIZAS</field>
+			<field name="modelo_id" ref="mod_19"/>
+		</record>
+		<record id="demod_17" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">17</field>
+			<field name="detalle_modelo_nombre">MOVIL, CON BASE GIRATORIA Y APOYA CABEZA</field>
+			<field name="modelo_id" ref="mod_1"/>
+		</record>
+		<record id="demod_18" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">18</field>
+			<field name="detalle_modelo_nombre">CON ALA SIN GAVETAS</field>
+			<field name="modelo_id" ref="mod_21"/>
+		</record>
+		<record id="demod_21" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">21</field>
+			<field name="detalle_modelo_nombre">CON LATERAL IZQUIERDO, DE 7 GAVETAS</field>
+			<field name="modelo_id" ref="mod_20"/>
+		</record>
+		<record id="demod_22" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">22</field>
+			<field name="detalle_modelo_nombre">MÓVIL, CON BASE GIRATORIA</field>
+			<field name="modelo_id" ref="mod_24"/>
+		</record>
+		<record id="demod_25" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">25</field>
+			<field name="detalle_modelo_nombre">DE 8 GAVETAS</field>
+			<field name="modelo_id" ref="mod_20"/>
+		</record>
+		<record id="demod_26" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">26</field>
+			<field name="detalle_modelo_nombre">MÓVIL</field>
+			<field name="modelo_id" ref="mod_27"/>
+		</record>
+		<record id="demod_27" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">27</field>
+			<field name="detalle_modelo_nombre">PORTÁTIL</field>
+			<field name="modelo_id" ref="mod_29"/>
+		</record>
+		<record id="demod_28" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">28</field>
+			<field name="detalle_modelo_nombre">DE 4 NIVELES</field>
+			<field name="modelo_id" ref="mod_30"/>
+		</record>
+		<record id="demod_31" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">31</field>
+			<field name="detalle_modelo_nombre">CON ALA DE 3 GAVETAS</field>
+			<field name="modelo_id" ref="mod_20"/>
+		</record>
+		<record id="demod_32" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">32</field>
+			<field name="detalle_modelo_nombre">DE 4 GAVETAS</field>
+			<field name="modelo_id" ref="mod_14"/>
+		</record>
+		<record id="demod_34" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">34</field>
+			<field name="detalle_modelo_nombre">DE 2 GAVETAS</field>
+			<field name="modelo_id" ref="mod_14"/>
+		</record>
+		<record id="demod_35" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">35</field>
+			<field name="detalle_modelo_nombre">MEDIANA</field>
+			<field name="modelo_id" ref="mod_35"/>
+		</record>
+		<record id="demod_36" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">36</field>
+			<field name="detalle_modelo_nombre">ESTÁNDAR</field>
+			<field name="modelo_id" ref="mod_37"/>
+		</record>
+		<record id="demod_37" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">37</field>
+			<field name="detalle_modelo_nombre">DE 1 PUESTO</field>
+			<field name="modelo_id" ref="mod_38"/>
+		</record>
+		<record id="demod_39" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">39</field>
+			<field name="detalle_modelo_nombre">FIJA, CON BASE GIRATORIA</field>
+			<field name="modelo_id" ref="mod_39"/>
+		</record>
+		<record id="demod_40" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">40</field>
+			<field name="detalle_modelo_nombre">CON BORDE DE METAL</field>
+			<field name="modelo_id" ref="mod_40"/>
+		</record>
+		<record id="demod_42" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">42</field>
+			<field name="detalle_modelo_nombre">DE 27 PULGADAS</field>
+			<field name="modelo_id" ref="mod_41"/>
+		</record>
+		<record id="demod_43" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">43</field>
+			<field name="detalle_modelo_nombre">DE 3 CDS DE 5 CORNETAS</field>
+			<field name="modelo_id" ref="mod_42"/>
+		</record>
+		<record id="demod_47" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">47</field>
+			<field name="detalle_modelo_nombre">DE 2 PUERTAS, CORREDIZAS DE VIDRIO</field>
+			<field name="modelo_id" ref="mod_19"/>
+		</record>
+		<record id="demod_48" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">48</field>
+			<field name="detalle_modelo_nombre">CON BASE GIRATORIA</field>
+			<field name="modelo_id" ref="mod_11"/>
+		</record>
+		<record id="demod_50" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">50</field>
+			<field name="detalle_modelo_nombre">MOVIL, CON BASE GIRATORIA</field>
+			<field name="modelo_id" ref="mod_32"/>
+		</record>
+		<record id="demod_51" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">51</field>
+			<field name="detalle_modelo_nombre">REDONDA</field>
+			<field name="modelo_id" ref="mod_9"/>
+		</record>
+		<record id="demod_53" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">53</field>
+			<field name="detalle_modelo_nombre">2 BOMBILLOS</field>
+			<field name="modelo_id" ref="mod_46"/>
+		</record>
+		<record id="demod_54" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">54</field>
+			<field name="detalle_modelo_nombre">DE 6 NIVELES</field>
+			<field name="modelo_id" ref="mod_50"/>
+		</record>
+		<record id="demod_56" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">56</field>
+			<field name="detalle_modelo_nombre">MODULAR</field>
+			<field name="modelo_id" ref="mod_51"/>
+		</record>
+		<record id="demod_57" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">57</field>
+			<field name="detalle_modelo_nombre">RECTANGULAR</field>
+			<field name="modelo_id" ref="mod_8"/>
+		</record>
+		<record id="demod_59" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">59</field>
+			<field name="detalle_modelo_nombre">CON REJAS METÁLICAS Y ASPA</field>
+			<field name="modelo_id" ref="mod_53"/>
+		</record>
+		<record id="demod_60" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">60</field>
+			<field name="detalle_modelo_nombre">MANUAL</field>
+			<field name="modelo_id" ref="mod_55"/>
+		</record>
+		<record id="demod_61" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">61</field>
+			<field name="detalle_modelo_nombre">SEMI-INDUSTRIAL</field>
+			<field name="modelo_id" ref="mod_56"/>
+		</record>
+		<record id="demod_62" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">62</field>
+			<field name="detalle_modelo_nombre">MANUAL</field>
+			<field name="modelo_id" ref="mod_57"/>
+		</record>
+		<record id="demod_64" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">64</field>
+			<field name="detalle_modelo_nombre">PEQUEÑA</field>
+			<field name="modelo_id" ref="mod_59"/>
+		</record>
+		<record id="demod_65" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">65</field>
+			<field name="detalle_modelo_nombre">PARA ENCUADERNACIÓN DE ENGOMADO</field>
+			<field name="modelo_id" ref="mod_60"/>
+		</record>
+		<record id="demod_66" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">66</field>
+			<field name="detalle_modelo_nombre">ELÉCTRICA</field>
+			<field name="modelo_id" ref="mod_61"/>
+		</record>
+		<record id="demod_67" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">67</field>
+			<field name="detalle_modelo_nombre">MANUAL</field>
+			<field name="modelo_id" ref="mod_62"/>
+		</record>
+		<record id="demod_68" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">68</field>
+			<field name="detalle_modelo_nombre">BLANCO Y NEGRO</field>
+			<field name="modelo_id" ref="mod_63"/>
+		</record>
+		<record id="demod_69" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">69</field>
+			<field name="detalle_modelo_nombre">SIN MENÚ</field>
+			<field name="modelo_id" ref="mod_64"/>
+		</record>
+		<record id="demod_70" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">70</field>
+			<field name="detalle_modelo_nombre">PARA TELEVISOR</field>
+			<field name="modelo_id" ref="mod_65"/>
+		</record>
+		<record id="demod_71" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">71</field>
+			<field name="detalle_modelo_nombre">PARA VIDEO</field>
+			<field name="modelo_id" ref="mod_66"/>
+		</record>
+		<record id="demod_72" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">72</field>
+			<field name="detalle_modelo_nombre">PARA EQUIPO DE SONIDO</field>
+			<field name="modelo_id" ref="mod_65"/>
+		</record>
+		<record id="demod_80" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">80</field>
+			<field name="detalle_modelo_nombre">CON IMPRESIÓN DE TINTA</field>
+			<field name="modelo_id" ref="mod_67"/>
+		</record>
+		<record id="demod_81" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">81</field>
+			<field name="detalle_modelo_nombre">DE 5 NIVELES</field>
+			<field name="modelo_id" ref="mod_50"/>
+		</record>
+		<record id="demod_82" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">82</field>
+			<field name="detalle_modelo_nombre">MOVIL, CON BASE GIRATORIA SIN APOYA CABEZA</field>
+			<field name="modelo_id" ref="mod_1"/>
+		</record>
+		<record id="demod_83" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">83</field>
+			<field name="detalle_modelo_nombre">DE 3 GAVETAS</field>
+			<field name="modelo_id" ref="mod_68"/>
+		</record>
+		<record id="demod_84" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">84</field>
+			<field name="detalle_modelo_nombre">DE 2 GAVETAS</field>
+			<field name="modelo_id" ref="mod_69"/>
+		</record>
+		<record id="demod_88" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">88</field>
+			<field name="detalle_modelo_nombre">DE 5 NIVELES, CON 2 PUERTAS</field>
+			<field name="modelo_id" ref="mod_30"/>
+		</record>
+		<record id="demod_89" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">89</field>
+			<field name="detalle_modelo_nombre">DE 2 PUERTAS CORREDIZAS, CON 4 GAVETAS</field>
+			<field name="modelo_id" ref="mod_19"/>
+		</record>
+		<record id="demod_90" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">90</field>
+			<field name="detalle_modelo_nombre">DE 5 GAVETAS</field>
+			<field name="modelo_id" ref="mod_20"/>
+		</record>
+		<record id="demod_91" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">91</field>
+			<field name="detalle_modelo_nombre">DE 2 NIVELES CON 2 PUERTAS</field>
+			<field name="modelo_id" ref="mod_30"/>
+		</record>
+		<record id="demod_92" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">92</field>
+			<field name="detalle_modelo_nombre">CON MENU Y SIN PANTALLA</field>
+			<field name="modelo_id" ref="mod_73"/>
+		</record>
+		<record id="demod_93" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">93</field>
+			<field name="detalle_modelo_nombre">CON MENU Y CON PANTALLA</field>
+			<field name="modelo_id" ref="mod_73"/>
+		</record>
+		<record id="demod_94" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">94</field>
+			<field name="detalle_modelo_nombre">CON MARCO DE ALUMINIO</field>
+			<field name="modelo_id" ref="mod_75"/>
+		</record>
+		<record id="demod_95" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">95</field>
+			<field name="detalle_modelo_nombre">EJECUTIVA</field>
+			<field name="modelo_id" ref="mod_10"/>
+		</record>
+		<record id="demod_98" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">98</field>
+			<field name="detalle_modelo_nombre">CON REJAS METÁLICAS Y ASPA</field>
+			<field name="modelo_id" ref="mod_76"/>
+		</record>
+		<record id="demod_99" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">99</field>
+			<field name="detalle_modelo_nombre">PINTURA</field>
+			<field name="modelo_id" ref="mod_77"/>
+		</record>
+		<record id="demod_100" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">100</field>
+			<field name="detalle_modelo_nombre">CON MENU Y CON PANTALLA</field>
+			<field name="modelo_id" ref="mod_79"/>
+		</record>
+		<record id="demod_101" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">101</field>
+			<field name="detalle_modelo_nombre">SISTEMA MANUAL</field>
+			<field name="modelo_id" ref="mod_80"/>
+		</record>
+		<record id="demod_102" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">102</field>
+			<field name="detalle_modelo_nombre">DE 2 PUERTAS, CON 4 NIVELES</field>
+			<field name="modelo_id" ref="mod_89"/>
+		</record>
+		<record id="demod_103" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">103</field>
+			<field name="detalle_modelo_nombre">DE 5 NIVELES</field>
+			<field name="modelo_id" ref="mod_30"/>
+		</record>
+		<record id="demod_104" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">104</field>
+			<field name="detalle_modelo_nombre">DE 3 NIVELES</field>
+			<field name="modelo_id" ref="mod_30"/>
+		</record>
+		<record id="demod_105" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">105</field>
+			<field name="detalle_modelo_nombre">DE 7 NIVELES, CON 2 PUERTAS</field>
+			<field name="modelo_id" ref="mod_30"/>
+		</record>
+		<record id="demod_106" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">106</field>
+			<field name="detalle_modelo_nombre">CON PANEL DE CONTROL Y FUNCIONES</field>
+			<field name="modelo_id" ref="mod_82"/>
+		</record>
+		<record id="demod_107" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">107</field>
+			<field name="detalle_modelo_nombre">DE 2 NIVELES</field>
+			<field name="modelo_id" ref="mod_50"/>
+		</record>
+		<record id="demod_108" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">108</field>
+			<field name="detalle_modelo_nombre">DE 4 NIVELES</field>
+			<field name="modelo_id" ref="mod_50"/>
+		</record>
+		<record id="demod_109" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">109</field>
+			<field name="detalle_modelo_nombre">DE 34 PULGADAS</field>
+			<field name="modelo_id" ref="mod_41"/>
+		</record>
+		<record id="demod_111" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">111</field>
+			<field name="detalle_modelo_nombre">DE 2 PUESTOS</field>
+			<field name="modelo_id" ref="mod_38"/>
+		</record>
+		<record id="demod_112" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">112</field>
+			<field name="detalle_modelo_nombre">DE 29 PULGADAS</field>
+			<field name="modelo_id" ref="mod_41"/>
+		</record>
+		<record id="demod_113" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">113</field>
+			<field name="detalle_modelo_nombre">SÍMBOLOS PATRIOS</field>
+			<field name="modelo_id" ref="mod_83"/>
+		</record>
+		<record id="demod_115" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">115</field>
+			<field name="detalle_modelo_nombre">SIMÓN BOLÍVAR EL LIBERTADOR</field>
+			<field name="modelo_id" ref="mod_84"/>
+		</record>
+		<record id="demod_116" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">116</field>
+			<field name="detalle_modelo_nombre">DE 3 GAVETAS</field>
+			<field name="modelo_id" ref="mod_85"/>
+		</record>
+		<record id="demod_117" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">117</field>
+			<field name="detalle_modelo_nombre">SIN GAVETAS</field>
+			<field name="modelo_id" ref="mod_20"/>
+		</record>
+		<record id="demod_118" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">118</field>
+			<field name="detalle_modelo_nombre">DE 3 NIVELES Y 4 GAVETAS</field>
+			<field name="modelo_id" ref="mod_30"/>
+		</record>
+		<record id="demod_119" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">119</field>
+			<field name="detalle_modelo_nombre">DE 6 GAVETAS</field>
+			<field name="modelo_id" ref="mod_20"/>
+		</record>
+		<record id="demod_120" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">120</field>
+			<field name="detalle_modelo_nombre">DE 2 GAVETAS</field>
+			<field name="modelo_id" ref="mod_34"/>
+		</record>
+		<record id="demod_121" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">121</field>
+			<field name="detalle_modelo_nombre">CUADRADA</field>
+			<field name="modelo_id" ref="mod_9"/>
+		</record>
+		<record id="demod_122" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">122</field>
+			<field name="detalle_modelo_nombre">DE VENEZUELA</field>
+			<field name="modelo_id" ref="mod_88"/>
+		</record>
+		<record id="demod_123" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">123</field>
+			<field name="detalle_modelo_nombre">CON PUERTA, DE 2 NIVELES</field>
+			<field name="modelo_id" ref="mod_91"/>
+		</record>
+		<record id="demod_124" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">124</field>
+			<field name="detalle_modelo_nombre">MANUAL</field>
+			<field name="modelo_id" ref="mod_92"/>
+		</record>
+		<record id="demod_125" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">125</field>
+			<field name="detalle_modelo_nombre">PORTÁTIL</field>
+			<field name="modelo_id" ref="mod_93"/>
+		</record>
+		<record id="demod_126" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">126</field>
+			<field name="detalle_modelo_nombre">EQUIPO DE 13 PIEZAS</field>
+			<field name="modelo_id" ref="mod_94"/>
+		</record>
+		<record id="demod_127" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">127</field>
+			<field name="detalle_modelo_nombre">EQUIPO DE 12 PIEZAS</field>
+			<field name="modelo_id" ref="mod_95"/>
+		</record>
+		<record id="demod_128" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">128</field>
+			<field name="detalle_modelo_nombre">FIJO</field>
+			<field name="modelo_id" ref="mod_96"/>
+		</record>
+		<record id="demod_129" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">129</field>
+			<field name="detalle_modelo_nombre">FIJA</field>
+			<field name="modelo_id" ref="mod_97"/>
+		</record>
+		<record id="demod_130" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">130</field>
+			<field name="detalle_modelo_nombre">DE UNA HOJA</field>
+			<field name="modelo_id" ref="mod_98"/>
+		</record>
+		<record id="demod_131" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">131</field>
+			<field name="detalle_modelo_nombre">DE 2 NIVELES</field>
+			<field name="modelo_id" ref="mod_100"/>
+		</record>
+		<record id="demod_133" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">133</field>
+			<field name="detalle_modelo_nombre">CON 2 RUEDAS</field>
+			<field name="modelo_id" ref="mod_102"/>
+		</record>
+		<record id="demod_135" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">135</field>
+			<field name="detalle_modelo_nombre">REFRIGERACION COMPACTA</field>
+			<field name="modelo_id" ref="mod_103"/>
+		</record>
+		<record id="demod_136" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">136</field>
+			<field name="detalle_modelo_nombre">Y MANIJA DE BLOQUEO</field>
+			<field name="modelo_id" ref="mod_104"/>
+		</record>
+		<record id="demod_138" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">138</field>
+			<field name="detalle_modelo_nombre">MANUAL</field>
+			<field name="modelo_id" ref="mod_105"/>
+		</record>
+		<record id="demod_139" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">139</field>
+			<field name="detalle_modelo_nombre">TECNOLOGÍA X-PAND TM</field>
+			<field name="modelo_id" ref="mod_106"/>
+		</record>
+		<record id="demod_143" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">143</field>
+			<field name="detalle_modelo_nombre">PARA HACER LLAVES</field>
+			<field name="modelo_id" ref="mod_111"/>
+		</record>
+		<record id="demod_144" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">144</field>
+			<field name="detalle_modelo_nombre">CON DOBLE AISLAMIENTO</field>
+			<field name="modelo_id" ref="mod_112"/>
+		</record>
+		<record id="demod_145" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">145</field>
+			<field name="detalle_modelo_nombre">PERCUSOR REVERSIBLE</field>
+			<field name="modelo_id" ref="mod_113"/>
+		</record>
+		<record id="demod_146" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">146</field>
+			<field name="detalle_modelo_nombre">NO APLICA</field>
+			<field name="modelo_id" ref="mod_115"/>
+		</record>
+		<record id="demod_147" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">147</field>
+			<field name="detalle_modelo_nombre">DE DRENAJE</field>
+			<field name="modelo_id" ref="mod_116"/>
+		</record>
+		<record id="demod_148" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">148</field>
+			<field name="detalle_modelo_nombre">MINITOWER</field>
+			<field name="modelo_id" ref="mod_117"/>
+		</record>
+		<record id="demod_149" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">149</field>
+			<field name="detalle_modelo_nombre">TOWER</field>
+			<field name="modelo_id" ref="mod_117"/>
+		</record>
+		<record id="demod_150" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">150</field>
+			<field name="detalle_modelo_nombre">DESKTOP</field>
+			<field name="modelo_id" ref="mod_117"/>
+		</record>
+		<record id="demod_159" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">159</field>
+			<field name="detalle_modelo_nombre">ESTANDAR</field>
+			<field name="modelo_id" ref="mod_121"/>
+		</record>
+		<record id="demod_166" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">166</field>
+			<field name="detalle_modelo_nombre">CRT</field>
+			<field name="modelo_id" ref="mod_125"/>
+		</record>
+		<record id="demod_167" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">167</field>
+			<field name="detalle_modelo_nombre">TTF (PLANO)</field>
+			<field name="modelo_id" ref="mod_125"/>
+		</record>
+		<record id="demod_168" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">168</field>
+			<field name="detalle_modelo_nombre">EN INGLES</field>
+			<field name="modelo_id" ref="mod_127"/>
+		</record>
+		<record id="demod_169" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">169</field>
+			<field name="detalle_modelo_nombre">EN ESPANOL</field>
+			<field name="modelo_id" ref="mod_127"/>
+		</record>
+		<record id="demod_171" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">171</field>
+			<field name="detalle_modelo_nombre">CON 2 BOTONES</field>
+			<field name="modelo_id" ref="mod_128"/>
+		</record>
+		<record id="demod_172" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">172</field>
+			<field name="detalle_modelo_nombre">CON 3 BOTONES</field>
+			<field name="modelo_id" ref="mod_128"/>
+		</record>
+		<record id="demod_173" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">173</field>
+			<field name="detalle_modelo_nombre">CON 2 BOTONES Y SCROLL</field>
+			<field name="modelo_id" ref="mod_128"/>
+		</record>
+		<record id="demod_174" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">174</field>
+			<field name="detalle_modelo_nombre">CON 3 BOTONES Y SCROLL</field>
+			<field name="modelo_id" ref="mod_128"/>
+		</record>
+		<record id="demod_176" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">176</field>
+			<field name="detalle_modelo_nombre">DE GRAN FORMATO</field>
+			<field name="modelo_id" ref="mod_129"/>
+		</record>
+		<record id="demod_177" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">177</field>
+			<field name="detalle_modelo_nombre">DE FORMATO ESTANDAR</field>
+			<field name="modelo_id" ref="mod_129"/>
+		</record>
+		<record id="demod_179" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">179</field>
+			<field name="detalle_modelo_nombre">DE 2 TOMAS</field>
+			<field name="modelo_id" ref="mod_130"/>
+		</record>
+		<record id="demod_180" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">180</field>
+			<field name="detalle_modelo_nombre">DE 4 TOMAS</field>
+			<field name="modelo_id" ref="mod_130"/>
+		</record>
+		<record id="demod_181" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">181</field>
+			<field name="detalle_modelo_nombre">DE 6 TOMAS</field>
+			<field name="modelo_id" ref="mod_130"/>
+		</record>
+		<record id="demod_182" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">182</field>
+			<field name="detalle_modelo_nombre">DE RACK</field>
+			<field name="modelo_id" ref="mod_130"/>
+		</record>
+		<record id="demod_183" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">183</field>
+			<field name="detalle_modelo_nombre">DE 2 TOMAS</field>
+			<field name="modelo_id" ref="mod_132"/>
+		</record>
+		<record id="demod_184" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">184</field>
+			<field name="detalle_modelo_nombre">DE 4 TOMAS</field>
+			<field name="modelo_id" ref="mod_132"/>
+		</record>
+		<record id="demod_185" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">185</field>
+			<field name="detalle_modelo_nombre">DE 6 TOMAS</field>
+			<field name="modelo_id" ref="mod_132"/>
+		</record>
+		<record id="demod_186" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">186</field>
+			<field name="detalle_modelo_nombre">DE RACK DE 4 TOMAS</field>
+			<field name="modelo_id" ref="mod_132"/>
+		</record>
+		<record id="demod_187" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">187</field>
+			<field name="detalle_modelo_nombre">CON BASE</field>
+			<field name="modelo_id" ref="mod_133"/>
+		</record>
+		<record id="demod_188" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">188</field>
+			<field name="detalle_modelo_nombre">SIN BASE</field>
+			<field name="modelo_id" ref="mod_133"/>
+		</record>
+		<record id="demod_189" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">189</field>
+			<field name="detalle_modelo_nombre">PORTATIL</field>
+			<field name="modelo_id" ref="mod_134"/>
+		</record>
+		<record id="demod_191" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">191</field>
+			<field name="detalle_modelo_nombre">PARA MONTAJE</field>
+			<field name="modelo_id" ref="mod_134"/>
+		</record>
+		<record id="demod_192" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">192</field>
+			<field name="detalle_modelo_nombre">PORTATIL</field>
+			<field name="modelo_id" ref="mod_135"/>
+		</record>
+		<record id="demod_193" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">193</field>
+			<field name="detalle_modelo_nombre">PARA MONTAJE</field>
+			<field name="modelo_id" ref="mod_135"/>
+		</record>
+		<record id="demod_194" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">194</field>
+			<field name="detalle_modelo_nombre">A COLOR</field>
+			<field name="modelo_id" ref="mod_136"/>
+		</record>
+		<record id="demod_195" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">195</field>
+			<field name="detalle_modelo_nombre">BLANCO Y NEGRO</field>
+			<field name="modelo_id" ref="mod_136"/>
+		</record>
+		<record id="demod_196" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">196</field>
+			<field name="detalle_modelo_nombre">CON CARRO ANGOSTO</field>
+			<field name="modelo_id" ref="mod_137"/>
+		</record>
+		<record id="demod_197" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">197</field>
+			<field name="detalle_modelo_nombre">CON CARRO ANCHO</field>
+			<field name="modelo_id" ref="mod_137"/>
+		</record>
+		<record id="demod_199" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">199</field>
+			<field name="detalle_modelo_nombre">CON CARRO ANGOSTO</field>
+			<field name="modelo_id" ref="mod_138"/>
+		</record>
+		<record id="demod_200" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">200</field>
+			<field name="detalle_modelo_nombre">CON CARRO ANCHO</field>
+			<field name="modelo_id" ref="mod_138"/>
+		</record>
+		<record id="demod_201" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">201</field>
+			<field name="detalle_modelo_nombre">PORTABLE</field>
+			<field name="modelo_id" ref="mod_139"/>
+		</record>
+		<record id="demod_202" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">202</field>
+			<field name="detalle_modelo_nombre">DE 36 PULGADAS</field>
+			<field name="modelo_id" ref="mod_140"/>
+		</record>
+		<record id="demod_203" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">203</field>
+			<field name="detalle_modelo_nombre">PARA PC</field>
+			<field name="modelo_id" ref="mod_141"/>
+		</record>
+		<record id="demod_205" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">205</field>
+			<field name="detalle_modelo_nombre">DIGITAL</field>
+			<field name="modelo_id" ref="mod_143"/>
+		</record>
+		<record id="demod_206" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">206</field>
+			<field name="detalle_modelo_nombre">DVD</field>
+			<field name="modelo_id" ref="mod_107"/>
+		</record>
+		<record id="demod_207" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">207</field>
+			<field name="detalle_modelo_nombre">ELECTRICA</field>
+			<field name="modelo_id" ref="mod_145"/>
+		</record>
+		<record id="demod_208" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">208</field>
+			<field name="detalle_modelo_nombre">VOLUMEN ALTO</field>
+			<field name="modelo_id" ref="mod_146"/>
+		</record>
+		<record id="demod_209" model="detalle_modelo_bien">
+		<field name="detalle_modelo_codigo">209</field>
+		<field name="detalle_modelo_nombre">EN CINTA PARA RACK</field>
+		<field name="modelo_id" ref="mod_147"/>
+		</record>
+		<record id="demod_211" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">211</field>
+			<field name="detalle_modelo_nombre">ZIP EXTERNO</field>
+			<field name="modelo_id" ref="mod_147"/>
+		</record>
+		<record id="demod_213" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">213</field>
+			<field name="detalle_modelo_nombre">6 HEAD</field>
+			<field name="modelo_id" ref="mod_149"/>
+		</record>
+		<record id="demod_215" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">215</field>
+			<field name="detalle_modelo_nombre">DE PLANOS</field>
+			<field name="modelo_id" ref="mod_150"/>
+		</record>
+		<record id="demod_216" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">216</field>
+			<field name="detalle_modelo_nombre">GIRATORIO</field>
+			<field name="modelo_id" ref="mod_34"/>
+		</record>
+		<record id="demod_218" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">218</field>
+			<field name="detalle_modelo_nombre">DIGITAL</field>
+			<field name="modelo_id" ref="mod_144"/>
+		</record>
+		<record id="demod_225" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">225</field>
+			<field name="detalle_modelo_nombre">PLACA 18-01</field>
+			<field name="modelo_id" ref="mod_175"/>
+		</record>
+		<record id="demod_227" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">227</field>
+			<field name="detalle_modelo_nombre">DE RACK</field>
+			<field name="modelo_id" ref="mod_118"/>
+		</record>
+		<record id="demod_228" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">228</field>
+			<field name="detalle_modelo_nombre">DE TORRE</field>
+			<field name="modelo_id" ref="mod_118"/>
+		</record>
+		<record id="demod_229" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">229</field>
+			<field name="detalle_modelo_nombre">DE DESKTOP</field>
+			<field name="modelo_id" ref="mod_118"/>
+		</record>
+		<record id="demod_230" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">230</field>
+			<field name="detalle_modelo_nombre">DE 10 GAVETAS</field>
+			<field name="modelo_id" ref="mod_20"/>
+		</record>
+		<record id="demod_232" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">232</field>
+			<field name="detalle_modelo_nombre">DE 9 GAVETAS</field>
+			<field name="modelo_id" ref="mod_20"/>
+		</record>
+		<record id="demod_233" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">233</field>
+			<field name="detalle_modelo_nombre">CON LATERAL DERECHO, DE 7 GAVETAS</field>
+			<field name="modelo_id" ref="mod_20"/>
+		</record>
+		<record id="demod_234" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">234</field>
+			<field name="detalle_modelo_nombre">SIN ALA</field>
+			<field name="modelo_id" ref="mod_21"/>
+		</record>
+<!--
+		<record id="demod_235" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">235</field>
+			<field name="detalle_modelo_nombre">REDONDA</field>
+			<field name="modelo_id" ref="mod_8"/>
+		</record>
+-->
+		<record id="demod_236" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">236</field>
+			<field name="detalle_modelo_nombre">DE 2 PUERTAS CORREDIZAS, CON 3 GAVETAS</field>
+			<field name="modelo_id" ref="mod_19"/>
+		</record>
+		<record id="demod_237" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">237</field>
+			<field name="detalle_modelo_nombre">DE 4 PUERTAS CORREDIZAS, CON 8 GAVETAS</field>
+			<field name="modelo_id" ref="mod_19"/>
+		</record>
+		<record id="demod_239" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">239</field>
+			<field name="detalle_modelo_nombre">DE PLASMA</field>
+			<field name="modelo_id" ref="mod_41"/>
+		</record>
+		<record id="demod_241" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">241</field>
+			<field name="detalle_modelo_nombre">DE 32 PULGADAS</field>
+			<field name="modelo_id" ref="mod_41"/>
+		</record>
+		<record id="demod_242" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">242</field>
+			<field name="detalle_modelo_nombre">DE 20 PULGADAS</field>
+			<field name="modelo_id" ref="mod_41"/>
+		</record>
+		<record id="demod_243" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">243</field>
+			<field name="detalle_modelo_nombre">DE 42 PULGADAS</field>
+			<field name="modelo_id" ref="mod_41"/>
+		</record>
+		<record id="demod_244" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">244</field>
+			<field name="detalle_modelo_nombre">PLACA MDX-78H</field>
+			<field name="modelo_id" ref="mod_175"/>
+		</record>
+		<record id="demod_245" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">245</field>
+			<field name="detalle_modelo_nombre">PLACA MDX-76H</field>
+			<field name="modelo_id" ref="mod_175"/>
+		</record>
+		<record id="demod_246" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">246</field>
+			<field name="detalle_modelo_nombre">PLACA MCW-79A</field>
+			<field name="modelo_id" ref="mod_176"/>
+		</record>
+		<record id="demod_247" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">247</field>
+			<field name="detalle_modelo_nombre">PLACA 18-08</field>
+			<field name="modelo_id" ref="mod_177"/>
+		</record>
+		<record id="demod_248" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">248</field>
+			<field name="detalle_modelo_nombre">PLACA 18-04</field>
+			<field name="modelo_id" ref="mod_178"/>
+		</record>
+		<record id="demod_250" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">250</field>
+			<field name="detalle_modelo_nombre">PLACA 18-07</field>
+			<field name="modelo_id" ref="mod_178"/>
+		</record>
+		<record id="demod_251" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">251</field>
+			<field name="detalle_modelo_nombre">PLACA MAR-320</field>
+			<field name="modelo_id" ref="mod_179"/>
+		</record>
+		<record id="demod_252" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">252</field>
+			<field name="detalle_modelo_nombre">PLACA MAR-321</field>
+			<field name="modelo_id" ref="mod_179"/>
+		</record>
+		<record id="demod_253" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">253</field>
+			<field name="detalle_modelo_nombre">PLACA MAR-322</field>
+			<field name="modelo_id" ref="mod_179"/>
+		</record>
+		<record id="demod_255" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">255</field>
+			<field name="detalle_modelo_nombre">ESTÁNDAR</field>
+			<field name="modelo_id" ref="mod_119"/>
+		</record>
+		<record id="demod_257" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">257</field>
+			<field name="detalle_modelo_nombre">DE RACK DE 6 TOMAS</field>
+			<field name="modelo_id" ref="mod_132"/>
+		</record>
+		<record id="demod_258" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">258</field>
+			<field name="detalle_modelo_nombre">DE RACK DE 2 TOMAS</field>
+			<field name="modelo_id" ref="mod_132"/>
+		</record>
+		<record id="demod_259" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">259</field>
+			<field name="detalle_modelo_nombre">PLACA VBW-79W</field>
+			<field name="modelo_id" ref="mod_181"/>
+		</record>
+		<record id="demod_260" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">260</field>
+			<field name="detalle_modelo_nombre">PLACA XAC-32T</field>
+			<field name="modelo_id" ref="mod_181"/>
+		</record>
+		<record id="demod_261" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">261</field>
+			<field name="detalle_modelo_nombre">PLACA DBT-57D</field>
+			<field name="modelo_id" ref="mod_181"/>
+		</record>
+		<record id="demod_262" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">262</field>
+			<field name="detalle_modelo_nombre">PLACA MDY-68A</field>
+			<field name="modelo_id" ref="mod_181"/>
+		</record>
+		<record id="demod_263" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">263</field>
+			<field name="detalle_modelo_nombre">PLACA MDW-01U</field>
+			<field name="modelo_id" ref="mod_182"/>
+		</record>
+		<record id="demod_264" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">264</field>
+			<field name="detalle_modelo_nombre">PLACA AFB-07P</field>
+			<field name="modelo_id" ref="mod_183"/>
+		</record>
+		<record id="demod_265" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">265</field>
+			<field name="detalle_modelo_nombre">PLACA MDW-08U</field>
+			<field name="modelo_id" ref="mod_182"/>
+		</record>
+		<record id="demod_266" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">266</field>
+			<field name="detalle_modelo_nombre">PLACA 480-ABI</field>
+			<field name="modelo_id" ref="mod_184"/>
+		</record>
+		<record id="demod_268" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">268</field>
+			<field name="detalle_modelo_nombre">PLACA 93L-ABI</field>
+			<field name="modelo_id" ref="mod_185"/>
+		</record>
+		<record id="demod_269" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">269</field>
+			<field name="detalle_modelo_nombre">PLACA MCU-77F</field>
+			<field name="modelo_id" ref="mod_186"/>
+		</record>
+		<record id="demod_270" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">270</field>
+			<field name="detalle_modelo_nombre">PLACA MAM-37X</field>
+			<field name="modelo_id" ref="mod_187"/>
+		</record>
+		<record id="demod_272" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">272</field>
+			<field name="detalle_modelo_nombre">PLACA FAJ-16S</field>
+			<field name="modelo_id" ref="mod_188"/>
+		</record>
+		<record id="demod_273" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">273</field>
+			<field name="detalle_modelo_nombre">PLACA FAA-78J</field>
+			<field name="modelo_id" ref="mod_188"/>
+		</record>
+		<record id="demod_274" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">274</field>
+			<field name="detalle_modelo_nombre">PLACA YBZ-286</field>
+			<field name="modelo_id" ref="mod_189"/>
+		</record>
+		<record id="demod_275" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">275</field>
+			<field name="detalle_modelo_nombre">PLACA KBK-80P</field>
+			<field name="modelo_id" ref="mod_190"/>
+		</record>
+		<record id="demod_276" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">276</field>
+			<field name="detalle_modelo_nombre">MINITOWER</field>
+			<field name="modelo_id" ref="mod_191"/>
+		</record>
+		<record id="demod_277" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">277</field>
+			<field name="detalle_modelo_nombre">TOWER</field>
+			<field name="modelo_id" ref="mod_191"/>
+		</record>
+		<record id="demod_278" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">278</field>
+			<field name="detalle_modelo_nombre">DESKTOP</field>
+			<field name="modelo_id" ref="mod_191"/>
+		</record>
+		<record id="demod_280" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">280</field>
+			<field name="detalle_modelo_nombre">PALM</field>
+			<field name="modelo_id" ref="mod_192"/>
+		</record>
+		<record id="demod_281" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">281</field>
+			<field name="detalle_modelo_nombre">PDA</field>
+			<field name="modelo_id" ref="mod_192"/>
+		</record>
+		<record id="demod_282" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">282</field>
+			<field name="detalle_modelo_nombre">EXTERNO</field>
+			<field name="modelo_id" ref="mod_193"/>
+		</record>
+		<record id="demod_284" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">284</field>
+			<field name="detalle_modelo_nombre">INTERNO</field>
+			<field name="modelo_id" ref="mod_194"/>
+		</record>
+		<record id="demod_285" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">285</field>
+			<field name="detalle_modelo_nombre">USB</field>
+			<field name="modelo_id" ref="mod_194"/>
+		</record>
+		<record id="demod_287" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">287</field>
+			<field name="detalle_modelo_nombre">CDROM</field>
+			<field name="modelo_id" ref="mod_195"/>
+		</record>
+		<record id="demod_288" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">288</field>
+			<field name="detalle_modelo_nombre">CDRW (LEE Y QUEMA CD)</field>
+			<field name="modelo_id" ref="mod_195"/>
+		</record>
+		<record id="demod_289" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">289</field>
+			<field name="detalle_modelo_nombre">DVDROM</field>
+			<field name="modelo_id" ref="mod_195"/>
+		</record>
+		<record id="demod_290" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">290</field>
+			<field name="detalle_modelo_nombre">DVDRW</field>
+			<field name="modelo_id" ref="mod_195"/>
+		</record>
+		<record id="demod_291" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">291</field>
+			<field name="detalle_modelo_nombre">MINITOWER</field>
+			<field name="modelo_id" ref="mod_196"/>
+		</record>
+		<record id="demod_292" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">292</field>
+			<field name="detalle_modelo_nombre">TOWER</field>
+			<field name="modelo_id" ref="mod_196"/>
+		</record>
+		<record id="demod_293" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">293</field>
+			<field name="detalle_modelo_nombre">DESKTOP</field>
+			<field name="modelo_id" ref="mod_196"/>
+		</record>
+		<record id="demod_297" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">297</field>
+			<field name="detalle_modelo_nombre">CDROM</field>
+			<field name="modelo_id" ref="mod_201"/>
+		</record>
+		<record id="demod_298" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">298</field>
+			<field name="detalle_modelo_nombre">CDRW (LEE Y QUEMA CD)</field>
+			<field name="modelo_id" ref="mod_201"/>
+		</record>
+		<record id="demod_299" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">299</field>
+			<field name="detalle_modelo_nombre">DVDROM</field>
+			<field name="modelo_id" ref="mod_201"/>
+		</record>
+		<record id="demod_300" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">300</field>
+			<field name="detalle_modelo_nombre">DVDRW</field>
+			<field name="modelo_id" ref="mod_201"/>
+		</record>
+		<record id="demod_301" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">301</field>
+			<field name="detalle_modelo_nombre">2 INPUT 1 OUTPUT</field>
+			<field name="modelo_id" ref="mod_202"/>
+		</record>
+		<record id="demod_302" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">302</field>
+			<field name="detalle_modelo_nombre">3 INPUT 1 OUTPUT</field>
+			<field name="modelo_id" ref="mod_202"/>
+		</record>
+		<record id="demod_303" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">303</field>
+			<field name="detalle_modelo_nombre">DE 42 PULGADAS</field>
+			<field name="modelo_id" ref="mod_140"/>
+		</record>
+		<record id="demod_304" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">304</field>
+			<field name="detalle_modelo_nombre">VOLUMEN MEDIO</field>
+			<field name="modelo_id" ref="mod_146"/>
+		</record>
+		<record id="demod_305" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">305</field>
+			<field name="detalle_modelo_nombre">VOLUMEN BAJO</field>
+			<field name="modelo_id" ref="mod_146"/>
+		</record>
+		<record id="demod_306" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">306</field>
+			<field name="detalle_modelo_nombre">11 MEGABYTES SGDO</field>
+			<field name="modelo_id" ref="mod_203"/>
+		</record>
+		<record id="demod_307" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">307</field>
+			<field name="detalle_modelo_nombre">54 MEGABYTES SGDO</field>
+			<field name="modelo_id" ref="mod_203"/>
+		</record>
+		<record id="demod_308" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">308</field>
+			<field name="detalle_modelo_nombre">PARA RACK</field>
+			<field name="modelo_id" ref="mod_204"/>
+		</record>
+		<record id="demod_309" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">309</field>
+			<field name="detalle_modelo_nombre">PORTABLES</field>
+			<field name="modelo_id" ref="mod_204"/>
+		</record>
+		<record id="demod_310" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">310</field>
+			<field name="detalle_modelo_nombre">PARA RACK</field>
+			<field name="modelo_id" ref="mod_205"/>
+		</record>
+		<record id="demod_311" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">311</field>
+			<field name="detalle_modelo_nombre">PORTABLES</field>
+			<field name="modelo_id" ref="mod_205"/>
+		</record>
+		<record id="demod_312" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">312</field>
+			<field name="detalle_modelo_nombre">PARA RACK</field>
+			<field name="modelo_id" ref="mod_206"/>
+		</record>
+		<record id="demod_314" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">314</field>
+			<field name="detalle_modelo_nombre">PORTABLES</field>
+			<field name="modelo_id" ref="mod_206"/>
+		</record>
+		<record id="demod_315" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">315</field>
+			<field name="detalle_modelo_nombre">PARA RACK</field>
+			<field name="modelo_id" ref="mod_207"/>
+		</record>
+		<record id="demod_316" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">316</field>
+			<field name="detalle_modelo_nombre">PORTABLES</field>
+			<field name="modelo_id" ref="mod_207"/>
+		</record>
+		<record id="demod_317" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">317</field>
+			<field name="detalle_modelo_nombre">MANUAL</field>
+			<field name="modelo_id" ref="mod_87"/>
+		</record>
+		<record id="demod_318" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">318</field>
+			<field name="detalle_modelo_nombre">1000 MEGABYTES SGDO</field>
+			<field name="modelo_id" ref="mod_208"/>
+		</record>
+<!--
+		<record id="demod_319" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">319</field>
+			<field name="detalle_modelo_nombre">MANUAL</field>
+			<field name="modelo_id" ref="mod_87"/>
+		</record>
+-->
+		<record id="demod_320" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">320</field>
+			<field name="detalle_modelo_nombre">100 MEGABYTES SGDO</field>
+			<field name="modelo_id" ref="mod_209"/>
+		</record>
+		<record id="demod_322" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">322</field>
+			<field name="detalle_modelo_nombre">CON VIDEO BEAM</field>
+			<field name="modelo_id" ref="mod_210"/>
+		</record>
+		<record id="demod_323" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">323</field>
+			<field name="detalle_modelo_nombre">SIN VIDEO BEAM</field>
+			<field name="modelo_id" ref="mod_210"/>
+		</record>
+		<record id="demod_324" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">324</field>
+			<field name="detalle_modelo_nombre">CON PORTATIL</field>
+			<field name="modelo_id" ref="mod_211"/>
+		</record>
+		<record id="demod_325" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">325</field>
+			<field name="detalle_modelo_nombre">SIN PORTATIL</field>
+			<field name="modelo_id" ref="mod_211"/>
+		</record>
+		<record id="demod_327" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">327</field>
+			<field name="detalle_modelo_nombre">CD-RW / DVD-RW DE 8 UNIDADES</field>
+			<field name="modelo_id" ref="mod_201"/>
+		</record>
+		<record id="demod_328" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">328</field>
+			<field name="detalle_modelo_nombre">EN DISCO OPTICO PARA RACK</field>
+			<field name="modelo_id" ref="mod_147"/>
+		</record>
+		<record id="demod_329" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">329</field>
+			<field name="detalle_modelo_nombre">JAZ INTERNO</field>
+			<field name="modelo_id" ref="mod_148"/>
+		</record>
+		<record id="demod_330" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">330</field>
+			<field name="detalle_modelo_nombre">ZIP INTERNO</field>
+			<field name="modelo_id" ref="mod_148"/>
+		</record>
+		<record id="demod_331" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">331</field>
+			<field name="detalle_modelo_nombre">UNIDAD DE CINTA DL TAPE</field>
+			<field name="modelo_id" ref="mod_148"/>
+		</record>
+<!--
+		<record id="demod_332" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">332</field>
+			<field name="detalle_modelo_nombre">SIN GAVETAS</field>
+			<field name="modelo_id" ref="mod_20"/>
+		</record>
+-->
+		<record id="demod_333" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">333</field>
+			<field name="detalle_modelo_nombre">SIN GAVETAS Y CON 2 PUERTAS</field>
+			<field name="modelo_id" ref="mod_20"/>
+		</record>
+		<record id="demod_334" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">334</field>
+			<field name="detalle_modelo_nombre">DE 2 PUERTAS CON 2 NIVELES</field>
+			<field name="modelo_id" ref="mod_89"/>
+		</record>
+		<record id="demod_335" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">335</field>
+			<field name="detalle_modelo_nombre">DE 4 PUERTAS BATIENTES</field>
+			<field name="modelo_id" ref="mod_19"/>
+		</record>
+		<record id="demod_336" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">336</field>
+			<field name="detalle_modelo_nombre">DE 5 GAVETAS</field>
+			<field name="modelo_id" ref="mod_21"/>
+		</record>
+		<record id="demod_337" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">337</field>
+			<field name="detalle_modelo_nombre">BÁSICA</field>
+			<field name="modelo_id" ref="mod_217"/>
+		</record>
+		<record id="demod_338" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">338</field>
+			<field name="detalle_modelo_nombre">DE 2 PUERTAS, CON 3 NIVELES</field>
+			<field name="modelo_id" ref="mod_89"/>
+		</record>
+		<record id="demod_341" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">341</field>
+			<field name="detalle_modelo_nombre">DE 3 GAVETAS</field>
+			<field name="modelo_id" ref="mod_34"/>
+		</record>
+		<record id="demod_342" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">342</field>
+			<field name="detalle_modelo_nombre">MÓVIL, CON BASE GIRATORIA</field>
+			<field name="modelo_id" ref="mod_39"/>
+		</record>
+		<record id="demod_344" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">344</field>
+			<field name="detalle_modelo_nombre">CON BASE FIJA</field>
+			<field name="modelo_id" ref="mod_11"/>
+		</record>
+		<record id="demod_345" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">345</field>
+			<field name="detalle_modelo_nombre">DE 2 PUERTAS CON 5 GAVETAS</field>
+			<field name="modelo_id" ref="mod_21"/>
+		</record>
+		<record id="demod_346" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">346</field>
+			<field name="detalle_modelo_nombre">DE 12 PUERTAS</field>
+			<field name="modelo_id" ref="mod_30"/>
+		</record>
+		<record id="demod_347" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">347</field>
+			<field name="detalle_modelo_nombre">DE 5 GAVETAS</field>
+			<field name="modelo_id" ref="mod_19"/>
+		</record>
+		<record id="demod_348" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">348</field>
+			<field name="detalle_modelo_nombre">DE 4 GAVETAS CON 2 PUERTAS</field>
+			<field name="modelo_id" ref="mod_19"/>
+		</record>
+		<record id="demod_349" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">349</field>
+			<field name="detalle_modelo_nombre">DE 10 PUERTAS</field>
+			<field name="modelo_id" ref="mod_30"/>
+		</record>
+		<record id="demod_350" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">350</field>
+			<field name="detalle_modelo_nombre">OVALADA</field>
+			<field name="modelo_id" ref="mod_8"/>
+		</record>
+		<record id="demod_352" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">352</field>
+			<field name="detalle_modelo_nombre">CON MENU, PANTALLA Y FUNCIONES ESTANDAR</field>
+			<field name="modelo_id" ref="mod_214"/>
+		</record>
+		<record id="demod_353" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">353</field>
+			<field name="detalle_modelo_nombre">DE 4 GAVETAS</field>
+			<field name="modelo_id" ref="mod_34"/>
+		</record>
+		<record id="demod_354" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">354</field>
+			<field name="detalle_modelo_nombre">CON ALA SIN GAVETAS</field>
+			<field name="modelo_id" ref="mod_20"/>
+		</record>
+		<record id="demod_357" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">357</field>
+			<field name="detalle_modelo_nombre">DE 7 GAVETAS</field>
+			<field name="modelo_id" ref="mod_34"/>
+		</record>
+		<record id="demod_359" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">359</field>
+			<field name="detalle_modelo_nombre">RECTANGULAR</field>
+			<field name="modelo_id" ref="mod_9"/>
+		</record>
+		<record id="demod_360" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">360</field>
+			<field name="detalle_modelo_nombre">DE 2 GAVETAS</field>
+			<field name="modelo_id" ref="mod_85"/>
+		</record>
+		<record id="demod_361" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">361</field>
+			<field name="detalle_modelo_nombre">DE 3 NIVELES Y 2 PUERTAS</field>
+			<field name="modelo_id" ref="mod_30"/>
+		</record>
+		<record id="demod_362" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">362</field>
+			<field name="detalle_modelo_nombre">DE 4 NIVELES Y 2 PUERTAS</field>
+			<field name="modelo_id" ref="mod_30"/>
+		</record>
+		<record id="demod_364" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">364</field>
+			<field name="detalle_modelo_nombre">CARBONCILLO</field>
+			<field name="modelo_id" ref="mod_216"/>
+		</record>
+		<record id="demod_365" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">365</field>
+			<field name="detalle_modelo_nombre">PLEGABLES Y MÓVILES</field>
+			<field name="modelo_id" ref="mod_217"/>
+		</record>
+		<record id="demod_366" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">366</field>
+			<field name="detalle_modelo_nombre">DE 2 PUERTAS, CON 5 NIVELES</field>
+			<field name="modelo_id" ref="mod_89"/>
+		</record>
+		<record id="demod_367" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">367</field>
+			<field name="detalle_modelo_nombre">DE 4 NIVELES, CON 1 PUERTA</field>
+			<field name="modelo_id" ref="mod_30"/>
+		</record>
+		<record id="demod_369" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">369</field>
+			<field name="detalle_modelo_nombre">DE 2 NIVELES</field>
+			<field name="modelo_id" ref="mod_218"/>
+		</record>
+		<record id="demod_370" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">370</field>
+			<field name="detalle_modelo_nombre">DE 5 PULGADAS</field>
+			<field name="modelo_id" ref="mod_10"/>
+		</record>
+		<record id="demod_371" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">371</field>
+			<field name="detalle_modelo_nombre">SIN GAVETAS</field>
+			<field name="modelo_id" ref="mod_85"/>
+		</record>
+		<record id="demod_373" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">373</field>
+			<field name="detalle_modelo_nombre">3 PUERTAS, 4 GAVETAS Y 8 COMPARTIMIENTOS</field>
+			<field name="modelo_id" ref="mod_221"/>
+		</record>
+		<record id="demod_374" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">374</field>
+			<field name="detalle_modelo_nombre">5 PUERTAS, 4 GAVETAS Y 4 COMPARTIMIENTOS</field>
+			<field name="modelo_id" ref="mod_221"/>
+		</record>
+		<record id="demod_375" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">375</field>
+			<field name="detalle_modelo_nombre">DE 2 NIVELES</field>
+			<field name="modelo_id" ref="mod_30"/>
+		</record>
+		<record id="demod_376" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">376</field>
+			<field name="detalle_modelo_nombre">SIN GAVETAS</field>
+			<field name="modelo_id" ref="mod_19"/>
+		</record>
+		<record id="demod_377" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">377</field>
+			<field name="detalle_modelo_nombre">SIN PUERTAS Y SIN NIVELES</field>
+			<field name="modelo_id" ref="mod_221"/>
+		</record>
+		<record id="demod_378" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">378</field>
+			<field name="detalle_modelo_nombre">DE 4 VELOCIDADES</field>
+			<field name="modelo_id" ref="mod_15"/>
+		</record>
+		<record id="demod_379" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">379</field>
+			<field name="detalle_modelo_nombre">FIGURAS</field>
+			<field name="modelo_id" ref="mod_222"/>
+		</record>
+		<record id="demod_380" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">380</field>
+			<field name="detalle_modelo_nombre">DE 2 PUERTAS Y 14 NIVELES</field>
+			<field name="modelo_id" ref="mod_30"/>
+		</record>
+		<record id="demod_381" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">381</field>
+			<field name="detalle_modelo_nombre">DE 4 NIVELES Y 4 GAVETAS</field>
+			<field name="modelo_id" ref="mod_30"/>
+		</record>
+		<record id="demod_382" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">382</field>
+			<field name="detalle_modelo_nombre">MANUAL</field>
+			<field name="modelo_id" ref="mod_223"/>
+		</record>
+		<record id="demod_383" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">383</field>
+			<field name="detalle_modelo_nombre">DE 5 GAVETAS</field>
+			<field name="modelo_id" ref="mod_34"/>
+		</record>
+		<record id="demod_384" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">384</field>
+			<field name="detalle_modelo_nombre">MANUAL</field>
+			<field name="modelo_id" ref="mod_224"/>
+		</record>
+		<record id="demod_385" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">385</field>
+			<field name="detalle_modelo_nombre">DE 5 TOMAS</field>
+			<field name="modelo_id" ref="mod_130"/>
+		</record>
+		<record id="demod_386" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">386</field>
+			<field name="detalle_modelo_nombre">DE 6 NIVELES</field>
+			<field name="modelo_id" ref="mod_30"/>
+		</record>
+		<record id="demod_387" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">387</field>
+			<field name="detalle_modelo_nombre">DE PELÍCULA</field>
+			<field name="modelo_id" ref="mod_226"/>
+		</record>
+		<record id="demod_389" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">389</field>
+			<field name="detalle_modelo_nombre">PARA CAMARA FOTOGRAFICA</field>
+			<field name="modelo_id" ref="mod_228"/>
+		</record>
+		<record id="demod_390" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">390</field>
+			<field name="detalle_modelo_nombre">DE 3 PATAS</field>
+			<field name="modelo_id" ref="mod_229"/>
+		</record>
+		<record id="demod_391" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">391</field>
+			<field name="detalle_modelo_nombre">PARA MICROFONO</field>
+			<field name="modelo_id" ref="mod_228"/>
+		</record>
+		<record id="demod_392" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">392</field>
+			<field name="detalle_modelo_nombre">DE 4 GAVETAS</field>
+			<field name="modelo_id" ref="mod_20"/>
+		</record>
+		<record id="demod_393" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">393</field>
+			<field name="detalle_modelo_nombre">AERO KIT ( CABLE, LAMPARAS, 2 TRIPODES)</field>
+			<field name="modelo_id" ref="mod_230"/>
+		</record>
+		<record id="demod_394" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">394</field>
+			<field name="detalle_modelo_nombre">ESTUCHE QUE CONTIENE: BATERIA, LENTE, LECTOR OPTICO</field>
+			<field name="modelo_id" ref="mod_143"/>
+		</record>
+		<record id="demod_395" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">395</field>
+			<field name="detalle_modelo_nombre">DE CINTA</field>
+			<field name="modelo_id" ref="mod_231"/>
+		</record>
+		<record id="demod_396" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">396</field>
+			<field name="detalle_modelo_nombre">DE 1 GAVETA</field>
+			<field name="modelo_id" ref="mod_20"/>
+		</record>
+		<record id="demod_397" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">397</field>
+			<field name="detalle_modelo_nombre">DE 1 PUERTA</field>
+			<field name="modelo_id" ref="mod_89"/>
+		</record>
+		<record id="demod_398" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">398</field>
+			<field name="detalle_modelo_nombre">CON ALA DE 4 GAVETAS</field>
+			<field name="modelo_id" ref="mod_21"/>
+		</record>
+		<record id="demod_399" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">399</field>
+			<field name="detalle_modelo_nombre">MANUAL</field>
+			<field name="modelo_id" ref="mod_232"/>
+		</record>
+		<record id="demod_400" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">400</field>
+			<field name="detalle_modelo_nombre">VARIOS</field>
+			<field name="modelo_id" ref="mod_83"/>
+		</record>
+		<record id="demod_401" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">401</field>
+			<field name="detalle_modelo_nombre">CON ALA Y ARMARIO DE 3 NIVELES</field>
+			<field name="modelo_id" ref="mod_21"/>
+		</record>
+		<record id="demod_402" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">402</field>
+			<field name="detalle_modelo_nombre">CON ALA Y ARMARIO DE 3 NIVELES</field>
+			<field name="modelo_id" ref="mod_20"/>
+		</record>
+		<record id="demod_403" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">403</field>
+			<field name="detalle_modelo_nombre">CON ALA DE 4 GAVETAS</field>
+			<field name="modelo_id" ref="mod_20"/>
+		</record>
+		<record id="demod_404" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">404</field>
+			<field name="detalle_modelo_nombre">DE 3 PUESTOS</field>
+			<field name="modelo_id" ref="mod_11"/>
+		</record>
+		<record id="demod_405" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">405</field>
+			<field name="detalle_modelo_nombre">DE 2 GAVETAS</field>
+			<field name="modelo_id" ref="mod_19"/>
+		</record>
+		<record id="demod_406" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">406</field>
+			<field name="detalle_modelo_nombre">PLACA DCM-29P</field>
+			<field name="modelo_id" ref="mod_233"/>
+		</record>
+		<record id="demod_407" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">407</field>
+			<field name="detalle_modelo_nombre">DE 2 NIVELES, CON 6 PUERTAS</field>
+			<field name="modelo_id" ref="mod_30"/>
+		</record>
+		<record id="demod_408" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">408</field>
+			<field name="detalle_modelo_nombre">DE 4 PUERTAS, CON 3 GAVETAS</field>
+			<field name="modelo_id" ref="mod_19"/>
+		</record>
+		<record id="demod_409" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">409</field>
+			<field name="detalle_modelo_nombre">DE 2 NIVELES, CON 1 PUERTA</field>
+			<field name="modelo_id" ref="mod_19"/>
+		</record>
+		<record id="demod_410" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">410</field>
+			<field name="detalle_modelo_nombre">PARA PC</field>
+			<field name="modelo_id" ref="mod_234"/>
+		</record>
+		<record id="demod_411" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">411</field>
+			<field name="detalle_modelo_nombre">BÁSICA</field>
+			<field name="modelo_id" ref="mod_235"/>
+		</record>
+		<record id="demod_412" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">412</field>
+			<field name="detalle_modelo_nombre">PARA DESTAPAR CAÑERÍAS</field>
+			<field name="modelo_id" ref="mod_236"/>
+		</record>
+		<record id="demod_414" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">414</field>
+			<field name="detalle_modelo_nombre">DE 1/2 CABALLO DE FUERZA</field>
+			<field name="modelo_id" ref="mod_237"/>
+		</record>
+		<record id="demod_417" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">417</field>
+			<field name="detalle_modelo_nombre">PAÍSES DEL MUNDO</field>
+			<field name="modelo_id" ref="mod_242"/>
+		</record>
+		<record id="demod_418" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">418</field>
+			<field name="detalle_modelo_nombre">PORTÁTIL</field>
+			<field name="modelo_id" ref="mod_240"/>
+		</record>
+		<record id="demod_419" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">419</field>
+			<field name="detalle_modelo_nombre">SIN ALA, SIN GAVETAS</field>
+			<field name="modelo_id" ref="mod_21"/>
+		</record>
+		<record id="demod_420" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">420</field>
+			<field name="detalle_modelo_nombre">DE 3 PUESTOS</field>
+			<field name="modelo_id" ref="mod_243"/>
+		</record>
+		<record id="demod_421" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">421</field>
+			<field name="detalle_modelo_nombre">FRANCISCO DE MIRANDA</field>
+			<field name="modelo_id" ref="mod_84"/>
+		</record>
+		<record id="demod_422" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">422</field>
+			<field name="detalle_modelo_nombre">DE 10 NIVELES, CON 5 PUERTAS</field>
+			<field name="modelo_id" ref="mod_30"/>
+		</record>
+		<record id="demod_423" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">423</field>
+			<field name="detalle_modelo_nombre">DE 9 GAVETAS</field>
+			<field name="modelo_id" ref="mod_34"/>
+		</record>
+		<record id="demod_424" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">424</field>
+			<field name="detalle_modelo_nombre">PRESIDENTE DE LA REPUBLICA</field>
+			<field name="modelo_id" ref="mod_84"/>
+		</record>
+		<record id="demod_425" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">425</field>
+			<field name="detalle_modelo_nombre">ANDRES BELLO</field>
+			<field name="modelo_id" ref="mod_84"/>
+		</record>
+		<record id="demod_426" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">426</field>
+			<field name="detalle_modelo_nombre">DE 5 NIVELES, CON 2 PUERTAS</field>
+			<field name="modelo_id" ref="mod_221"/>
+		</record>
+		<record id="demod_427" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">427</field>
+			<field name="detalle_modelo_nombre">PARA EQUIPO DE SONIDO</field>
+			<field name="modelo_id" ref="mod_245"/>
+		</record>
+		<record id="demod_428" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">428</field>
+			<field name="detalle_modelo_nombre">DE COCINA</field>
+			<field name="modelo_id" ref="mod_246"/>
+		</record>
+		<record id="demod_429" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">429</field>
+			<field name="detalle_modelo_nombre">DE AUDIO</field>
+			<field name="modelo_id" ref="mod_247"/>
+		</record>
+		<record id="demod_430" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">430</field>
+			<field name="detalle_modelo_nombre">DE 1 MICROFONO</field>
+			<field name="modelo_id" ref="mod_248"/>
+		</record>
+		<record id="demod_431" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">431</field>
+			<field name="detalle_modelo_nombre">DE AUDIO Y VIDEO</field>
+			<field name="modelo_id" ref="mod_249"/>
+		</record>
+		<record id="demod_432" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">432</field>
+			<field name="detalle_modelo_nombre">DE 4 PUERTAS, CON 8 GAVETAS</field>
+			<field name="modelo_id" ref="mod_30"/>
+		</record>
+		<record id="demod_434" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">434</field>
+			<field name="detalle_modelo_nombre">DE 3 PUESTOS</field>
+			<field name="modelo_id" ref="mod_243"/>
+		</record>
+		<record id="demod_435" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">435</field>
+			<field name="detalle_modelo_nombre">DE 2 PUERTAS</field>
+			<field name="modelo_id" ref="mod_20"/>
+		</record>
+		<record id="demod_436" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">436</field>
+			<field name="detalle_modelo_nombre">DE 3 GAVETAS</field>
+			<field name="modelo_id" ref="mod_221"/>
+		</record>
+		<record id="demod_437" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">437</field>
+			<field name="detalle_modelo_nombre">ACOLCHADO</field>
+			<field name="modelo_id" ref="mod_251"/>
+		</record>
+		<record id="demod_438" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">438</field>
+			<field name="detalle_modelo_nombre">DE 3 NIVELES, DE 1 PUERTA</field>
+			<field name="modelo_id" ref="mod_30"/>
+		</record>
+		<record id="demod_439" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">439</field>
+			<field name="detalle_modelo_nombre">DE PILAS</field>
+			<field name="modelo_id" ref="mod_252"/>
+		</record>
+		<record id="demod_440" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">440</field>
+			<field name="detalle_modelo_nombre">INALAMBRICO</field>
+			<field name="modelo_id" ref="mod_64"/>
+		</record>
+		<record id="demod_441" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">441</field>
+			<field name="detalle_modelo_nombre">DE 2 PUERTAS, DE 4 GAVETAS</field>
+			<field name="modelo_id" ref="mod_89"/>
+		</record>
+		<record id="demod_443" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">443</field>
+			<field name="detalle_modelo_nombre">TRICOLOR</field>
+			<field name="modelo_id" ref="mod_242"/>
+		</record>			
+		<record id="demod_444" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">444</field>
+			<field name="detalle_modelo_nombre">CON BASE</field>
+			<field name="modelo_id" ref="mod_253"/>	
+		</record>			
+		<record id="demod_445" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">445</field>
+			<field name="detalle_modelo_nombre">PARA PC</field>
+			<field name="modelo_id" ref="mod_254"/>	
+		</record>				
+		<record id="demod_446" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">446</field>
+			<field name="detalle_modelo_nombre">INALAMBRICO</field>
+			<field name="modelo_id" ref="mod_128"/>	
+		</record>					
+		<record id="demod_447" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">447</field>
+			<field name="detalle_modelo_nombre">DE 3 VELOCIDADES</field>
+			<field name="modelo_id" ref="mod_255"/>	
+		</record>					
+		<record id="demod_448" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">448</field>
+			<field name="detalle_modelo_nombre">DE 4 PUERTAS</field>
+			<field name="modelo_id" ref="mod_221"/>	
+		</record>	
+		<record id="demod_449" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">449</field>
+			<field name="detalle_modelo_nombre">DE CINTA</field>
+			<field name="modelo_id" ref="mod_257"/>	
+		</record>	
+		<record id="demod_451" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">451</field>
+			<field name="detalle_modelo_nombre">DE PEDESTAL</field>
+			<field name="modelo_id" ref="mod_258"/>	
+		</record>	
+		<record id="demod_452" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">452</field>
+			<field name="detalle_modelo_nombre">DE 2 PUERTAS</field>
+			<field name="modelo_id" ref="mod_259"/>	
+		</record>	
+		<record id="demod_453" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">453</field>
+			<field name="detalle_modelo_nombre">STATION</field>
+			<field name="modelo_id" ref="mod_260"/>	
+		</record>	
+		<record id="demod_454" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">454</field>
+			<field name="detalle_modelo_nombre">DE SONIDO</field>
+			<field name="modelo_id" ref="mod_256"/>	
+		</record>	
+		<record id="demod_455" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">455</field>
+			<field name="detalle_modelo_nombre">FOTOGRAFIA</field>
+			<field name="modelo_id" ref="mod_77"/>	
+		</record>
+		<record id="demod_457" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">457</field>
+			<field name="detalle_modelo_nombre">PLACA AEO-833</field>
+			<field name="modelo_id" ref="mod_261"/>	
+		</record>
+		<record id="demod_458" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">458</field>
+			<field name="detalle_modelo_nombre">PLACA BBW25V</field>
+			<field name="modelo_id" ref="mod_262"/>	
+		</record>
+		<record id="demod_459" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">459</field>
+			<field name="detalle_modelo_nombre">PLACA MCE-572</field>
+			<field name="modelo_id" ref="mod_263"/>	
+		</record>		
+		<record id="demod_460" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">460</field>
+			<field name="detalle_modelo_nombre">DE DVD</field>
+			<field name="modelo_id" ref="mod_264"/>	
+		</record>
+		<record id="demod_461" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">461</field>
+			<field name="detalle_modelo_nombre">OPTICO</field>
+			<field name="modelo_id" ref="mod_128"/>	
+		</record>
+		<record id="demod_462" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">462</field>
+			<field name="detalle_modelo_nombre">PLACA AER-429</field>
+			<field name="modelo_id" ref="mod_261"/>	
+		</record>
+		<record id="demod_463" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">463</field>
+			<field name="detalle_modelo_nombre">S/P</field>
+			<field name="modelo_id" ref="mod_261"/>	
+		</record>	
+		<record id="demod_464" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">464</field>
+			<field name="detalle_modelo_nombre">PLACA MFH69H</field>
+			<field name="modelo_id" ref="mod_262"/>	
+		</record>
+		<record id="demod_465" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">465</field>
+			<field name="detalle_modelo_nombre">PLACA ADT-25A</field>
+			<field name="modelo_id" ref="mod_265"/>	
+		</record>		
+		<record id="demod_466" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">466</field>
+			<field name="detalle_modelo_nombre">PLACA  GDH28H</field>
+			<field name="modelo_id" ref="mod_233"/>	
+		</record>				
+		<record id="demod_467" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">467</field>
+			<field name="detalle_modelo_nombre">ABIERTO</field>
+			<field name="modelo_id" ref="mod_266"/>	
+		</record>			
+		<record id="demod_467" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">467</field>
+			<field name="detalle_modelo_nombre">ABIERTO</field>
+			<field name="modelo_id" ref="mod_266"/>	
+		</record>	
+		<record id="demod_468" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">468</field>
+			<field name="detalle_modelo_nombre">CERRADO</field>
+			<field name="modelo_id" ref="mod_266"/>	
+		</record>	
+		<record id="demod_469" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">469</field>
+			<field name="detalle_modelo_nombre">DE DISCO DURO</field>
+			<field name="modelo_id" ref="mod_267"/>	
+		</record>			
+		<record id="demod_470" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">470</field>
+			<field name="detalle_modelo_nombre">DE DISCOS DE TRABAJO</field>
+			<field name="modelo_id" ref="mod_268"/>	
+		</record>			
+		<record id="demod_474" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">474</field>
+			<field name="detalle_modelo_nombre">DE DOS NIVELES</field>
+			<field name="modelo_id" ref="mod_270"/>	
+		</record>	
+		<record id="demod_475" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">474</field>
+			<field name="detalle_modelo_nombre">N/A</field>
+			<field name="modelo_id" ref="mod_271"/>	
+		</record>			
+		<record id="demod_476" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">476</field>
+			<field name="detalle_modelo_nombre">ELECTRICA</field>
+			<field name="modelo_id" ref="mod_273"/>	
+		</record>			
+		<record id="demod_478" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">478</field>
+			<field name="detalle_modelo_nombre">CON MENU, PANTALLA Y FUNCIONES AVANZADAS</field>
+			<field name="modelo_id" ref="mod_275"/>	
+		</record>		
+		<record id="demod_479" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">479</field>
+			<field name="detalle_modelo_nombre">DE LINEAS ANALOGICAS</field>
+			<field name="modelo_id" ref="mod_276"/>	
+		</record>		
+		<record id="demod_480" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">480</field>
+			<field name="detalle_modelo_nombre">TRANSMISION DE DATOS</field>
+			<field name="modelo_id" ref="mod_277"/>	
+		</record>
+		<record id="demod_482" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">482</field>
+			<field name="detalle_modelo_nombre">DE BANDA</field>
+			<field name="modelo_id" ref="mod_278"/>	
+		</record>
+		<record id="demod_483" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">483</field>
+			<field name="detalle_modelo_nombre">MANUAL</field>
+			<field name="modelo_id" ref="mod_279"/>	
+		</record>
+		<record id="demod_484" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">484</field>
+			<field name="detalle_modelo_nombre">DE PUNTOS</field>
+			<field name="modelo_id" ref="mod_280"/>	
+		</record>
+		<record id="demod_485" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">484</field>
+			<field name="detalle_modelo_nombre">PORTAHERRAMIENTA</field>
+			<field name="modelo_id" ref="mod_281"/>	
+		</record>
+		<record id="demod_486" model="detalle_modelo_bien">
+			<field name="detalle_modelo_codigo">486</field>
+			<field name="detalle_modelo_nombre">ELECTRONICO</field>
+			<field name="modelo_id" ref="mod_282"/>	
+		</record>	
+	</data>
+</openerp>

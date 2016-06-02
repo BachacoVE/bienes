@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <menuitem id="menu_jasper_informes" name="Reportes de Bienes" parent="menu_p"/>
+ 
+        <record id="report_report_bienes_wizard" model="ir.ui.view">
+            <field name="name">report.report_bienes_wizard</field>
+            <field name="model">report.report_bienes_wizard</field>
+            <field name="arch" type="xml">
+            <form string="Opciones Reporte" version="7.0">
+                        <group col="4">
+                            <field name="oficinas_id"/>
+                            <field name= "fecha_imp"/>
+                        </group>
+                <footer>
+                    <button name="check_report" string="Generar reporte jasper" type="object" default_focus="1" class="oe_highlight"/>
+                    <button string="Cancel" class="oe_link" special="cancel" />
+                </footer>
+            </form>
+            </field>
+        </record>
+         
+        <record id="action_menu_jasper_report_bienes" model="ir.actions.act_window">
+            <field name="name">Reporte por Oficinas</field>
+            <field name="res_model">report.report_bienes_wizard</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="report_report_bienes_wizard"/>
+            <field name="target">new</field>
+        </record>
+         
+
+        <menuitem
+            parent="menu_jasper_informes"
+            action="action_menu_jasper_report_bienes"
+            id="menu_jasper_report_bienes"/>
+
+    </data>
+</openerp>

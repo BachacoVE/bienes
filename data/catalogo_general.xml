@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data noupdate="1">
+		<record id="cat_14000_0000" model="catalogo_sudebi">
+              <field name="catalogo_sudebi_codigo">14000-0000</field>
+              <field name="catalogo_sudebi_nombre">Maquinaria y demás equipos de construcción industria y taller</field>
+        </record>
+
+		<record id="cat_15000_0000" model="catalogo_sudebi">
+			<field name="catalogo_sudebi_codigo">15000-0000</field>
+			<field name="catalogo_sudebi_nombre">Equipos de transporte tracción y elevación</field>
+		</record>	
+		
+		<record id="cat_16000_0000" model="catalogo_sudebi">   
+			<field name="catalogo_sudebi_codigo">16000-0000</field>
+	   	    <field name="catalogo_sudebi_nombre">Equipos de comunicaciones y de señalamiento</field>
+	   	</record>   
+	   	
+		<record id="cat_17000_0000" model="catalogo_sudebi">   
+			<field name="catalogo_sudebi_codigo">17000-0000</field>
+			<field name="catalogo_sudebi_nombre">Equipos médicos - quirúrgicos dentales y veterinarios</field>
+	    </record>
+	    
+		<record id="cat_18000_0000" model="catalogo_sudebi">    
+	     <field name="catalogo_sudebi_codigo">18000-0000</field>
+	     <field name="catalogo_sudebi_nombre">Equipos científicos religiosos de enseñanza y recreación</field>
+	   </record>
+	   
+		<record id="cat_19000_0000" model="catalogo_sudebi">    
+	     <field name="catalogo_sudebi_codigo">19000-0000</field>
+	     <field name="catalogo_sudebi_nombre">Equipos de defensa y seguridad del Estado</field>
+		</record>
+		
+		<record id="cat_20000_0000" model="catalogo_sudebi">    
+	     <field name="catalogo_sudebi_codigo">20000-0000</field>
+	     <field name="catalogo_sudebi_nombre">Muebles y demás equipos de oficina y de alojamiento</field>
+	    </record>
+	    
+		<record id="cat_21000_0000" model="catalogo_sudebi">    
+	     <field name="catalogo_sudebi_codigo">21000-0000</field>
+	     <field name="catalogo_sudebi_nombre">Semovientes</field>       		     
+		</record>
+	</data>
+</openerp>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data noupdate="1">
+	   <!-- Estados de Venezuela, segun codificacion del INE -->
+	   <record id="geo_est_00" model="mppp_reg_pro_estados">
+		  <field name="codigo">00</field>
+		  <field name="estado">NO APLICA</field>
+	   </record>
+	   <record id="geo_est_01" model="mppp_reg_pro_estados">
+		  <field name="codigo">01</field>
+		  <field name="estado">DISTRITO CAPITAL</field>
+	   </record>
+	   <record id="geo_est_02" model="mppp_reg_pro_estados">
+		  <field name="codigo">02</field>
+		  <field name="estado">AMAZONAS</field>
+	   </record>
+	   <record id="geo_est_03" model="mppp_reg_pro_estados">
+		  <field name="codigo">03</field>
+		  <field name="estado">ANZOÁTEGUI</field>
+	   </record>
+	   <record id="geo_est_04" model="mppp_reg_pro_estados">
+		  <field name="codigo">04</field>
+		  <field name="estado">APURE</field>
+	   </record>
+	   <record id="geo_est_05" model="mppp_reg_pro_estados">
+		  <field name="codigo">05</field>
+		  <field name="estado">ARAGUA</field>
+	   </record>
+	   <record id="geo_est_06" model="mppp_reg_pro_estados">
+		  <field name="codigo">06</field>
+		  <field name="estado">BARINAS</field>
+	   </record>
+	   <record id="geo_est_07" model="mppp_reg_pro_estados">
+		  <field name="codigo">07</field>
+		  <field name="estado">BOLÍVAR</field>
+	   </record>
+	   <record id="geo_est_08" model="mppp_reg_pro_estados">
+		  <field name="codigo">08</field>
+		  <field name="estado">CARABOBO</field>
+	   </record>
+	   <record id="geo_est_09" model="mppp_reg_pro_estados">
+		  <field name="codigo">09</field>
+		  <field name="estado">COJEDES</field>
+	   </record>
+	   <record id="geo_est_10" model="mppp_reg_pro_estados">
+		  <field name="codigo">10</field>
+		  <field name="estado">DELTA AMACURO</field>
+	   </record>
+	   <record id="geo_est_11" model="mppp_reg_pro_estados">
+		  <field name="codigo">11</field>
+		  <field name="estado">FALCÓN</field>
+	   </record>
+	   <record id="geo_est_12" model="mppp_reg_pro_estados">
+		  <field name="codigo">12</field>
+		  <field name="estado">GUÁRICO</field>
+	   </record>
+	   <record id="geo_est_13" model="mppp_reg_pro_estados">
+		  <field name="codigo">13</field>
+		  <field name="estado">LARA</field>
+	   </record>
+	   <record id="geo_est_14" model="mppp_reg_pro_estados">
+		  <field name="codigo">14</field>
+		  <field name="estado">MÉRIDA</field>
+	   </record>
+	   <record id="geo_est_15" model="mppp_reg_pro_estados">
+		  <field name="codigo">15</field>
+		  <field name="estado">MIRANDA</field>
+	   </record>
+	   <record id="geo_est_16" model="mppp_reg_pro_estados">
+		  <field name="codigo">16</field>
+		  <field name="estado">MONAGAS</field>
+	   </record>
+	   <record id="geo_est_17" model="mppp_reg_pro_estados">
+		  <field name="codigo">17</field>
+		  <field name="estado">NUEVA ESPARTA</field>
+	   </record>
+	   <record id="geo_est_18" model="mppp_reg_pro_estados">
+		  <field name="codigo">18</field>
+		  <field name="estado">PORTUGUESA</field>
+	   </record>
+	   <record id="geo_est_19" model="mppp_reg_pro_estados">
+		  <field name="codigo">19</field>
+		  <field name="estado">SUCRE</field>
+	   </record>
+	   <record id="geo_est_20" model="mppp_reg_pro_estados">
+		  <field name="codigo">20</field>
+		  <field name="estado">TÁCHIRA</field>
+	   </record>
+	   <record id="geo_est_21" model="mppp_reg_pro_estados">
+		  <field name="codigo">21</field>
+		  <field name="estado">TRUJILLO</field>
+	   </record>
+	   <record id="geo_est_22" model="mppp_reg_pro_estados">
+		  <field name="codigo">22</field>
+		  <field name="estado">YARACUY</field>
+	   </record>
+	   <record id="geo_est_23" model="mppp_reg_pro_estados">
+		  <field name="codigo">23</field>
+		  <field name="estado">ZULIA</field>
+	   </record>
+	   <record id="geo_est_24" model="mppp_reg_pro_estados">
+		  <field name="codigo">24</field>
+		  <field name="estado">VARGAS</field>
+	   </record>
+	   <record id="geo_est_25" model="mppp_reg_pro_estados">
+		  <field name="codigo">25</field>
+		  <field name="estado">DEPENDENCIAS FEDERALES</field>
+	   </record>
+	</data>
+</openerp>

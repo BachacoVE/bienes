@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data noupdate="1">
+		<record id="color_1" model="color">
+			<field name="color_codigo">1</field>
+			<field name="color_nombre">COLOR NEGRO</field>
+		</record>
+		<record id="color_3" model="color">
+			<field name="color_codigo">3</field>
+			<field name="color_nombre">COLOR AMARILLO</field>
+		</record>
+		<record id="color_5" model="color">
+			<field name="color_codigo">5</field>
+			<field name="color_nombre">COLOR MARRON</field>
+		</record>
+		<record id="color_6" model="color">
+			<field name="color_codigo">6</field>
+			<field name="color_nombre">COLOR BLANCO</field>
+		</record>
+		<record id="color_7" model="color">
+			<field name="color_codigo">7</field>
+			<field name="color_nombre">COLOR GRIS</field>
+		</record>
+		<record id="color_8" model="color">
+			<field name="color_codigo">8</field>
+			<field name="color_nombre">COLOR AZUL / GRIS</field>
+		</record>
+		<record id="color_9" model="color">
+			<field name="color_codigo">9</field>
+			<field name="color_nombre">COLOR AZUL / NEGRO</field>
+		</record>
+		<record id="color_10" model="color">
+			<field name="color_codigo">10</field>
+			<field name="color_nombre">COLOR AZUL</field>
+		</record>
+		<record id="color_11" model="color">
+			<field name="color_codigo">11</field>
+			<field name="color_nombre">COLOR PALO ROSA</field>
+		</record>
+		<record id="color_12" model="color">
+			<field name="color_codigo">12</field>
+			<field name="color_nombre">COLOR NARANJA</field>
+		</record>
+		<record id="color_14" model="color">
+			<field name="color_codigo">14</field>
+			<field name="color_nombre">COLOR VERDE</field>
+		</record>
+		<record id="color_15" model="color">
+			<field name="color_codigo">15</field>
+			<field name="color_nombre">COLOR BEIGE</field>
+		</record>
+		<record id="color_16" model="color">
+			<field name="color_codigo">16</field>
+			<field name="color_nombre">CROMÁTICO</field>
+		</record>
+		<record id="color_17" model="color">
+			<field name="color_codigo">17</field>
+			<field name="color_nombre">COLOR VINOTINTO</field>
+		</record>
+		<record id="color_18" model="color">
+			<field name="color_codigo">18</field>
+			<field name="color_nombre">COLOR GRIS / NEGRO</field>
+		</record>
+		<record id="color_19" model="color">
+			<field name="color_codigo">19</field>
+			<field name="color_nombre">COLOR PLATEADO</field>
+		</record>
+		<record id="color_21" model="color">
+			<field name="color_codigo">21</field>
+			<field name="color_nombre">COLOR BEIGE AUSTRALIA</field>
+		</record>
+		<record id="color_23" model="color">
+			<field name="color_codigo">23</field>
+			<field name="color_nombre">COLOR PLATEADO FERROSO</field>
+		</record>
+		<record id="color_24" model="color">
+			<field name="color_codigo">24</field>
+			<field name="color_nombre">COLOR PERLA</field>
+		</record>
+		<record id="color_25" model="color">
+			<field name="color_codigo">25</field>
+			<field name="color_nombre">COLOR BEIGE OLIMPICO</field>
+		</record>
+		<record id="color_26" model="color">
+			<field name="color_codigo">26</field>
+			<field name="color_nombre">COLOR ARENA METALIZADO</field>
+		</record>
+		<record id="color_27" model="color">
+			<field name="color_codigo">27</field>
+			<field name="color_nombre">COLOR PLATA</field>
+		</record>
+		<record id="color_28" model="color">
+			<field name="color_codigo">28</field>
+			<field name="color_nombre">COLOR ROJO</field>
+		</record>
+		<record id="color_29" model="color">
+			<field name="color_codigo">29</field>
+			<field name="color_nombre">COLOR ACERO</field>
+		</record>
+		<record id="color_30" model="color">
+			<field name="color_codigo">30</field>
+			<field name="color_nombre">COLOR BEIGE DUNA</field>
+		</record>
+		<record id="color_31" model="color">
+			<field name="color_codigo">31</field>
+			<field name="color_nombre">COLOR MARRÓN / NEGRO</field>
+		</record>
+		<record id="color_32" model="color">
+			<field name="color_codigo">32</field>
+			<field name="color_nombre">COLOR AZUL / BEIGE</field>
+		</record>
+		<record id="color_33" model="color">
+			<field name="color_codigo">33</field>
+			<field name="color_nombre">COLOR MARRÓN / BEIGE</field>
+		</record>
+		<record id="color_34" model="color">
+			<field name="color_codigo">34</field>
+			<field name="color_nombre">COLOR VERDE ESMERALDA</field>
+		</record>
+		<record id="color_35" model="color">
+			<field name="color_codigo">35</field>
+			<field name="color_nombre">COLOR PLATA CLARO</field>
+		</record>
+		<record id="color_36" model="color">
+			<field name="color_codigo">36</field>
+			<field name="color_nombre">COLOR PLATEADO BRILLANTE</field>
+		</record>
+		<record id="color_37" model="color">
+			<field name="color_codigo">37</field>
+			<field name="color_nombre">COLOR MARRÓN PARDILLO BICAPA</field>
+		</record>
+		<record id="color_38" model="color">
+			<field name="color_codigo">38</field>
+			<field name="color_nombre">COLOR GRIS PALMERA</field>
+		</record>
+		<record id="color_39" model="color">
+			<field name="color_codigo">39</field>
+			<field name="color_nombre">COLOR DORADO</field>
+		</record>
+		<record id="color_40" model="color">
+			<field name="color_codigo">40</field>
+			<field name="color_nombre">COLOR MADERA NATURAL,</field>
+		</record>
+		<record id="color_41" model="color">
+			<field name="color_codigo">41</field>
+			<field name="color_nombre">COLOR NEGRO/AMARILLO MOSTAZA</field>
+		</record>
+		<record id="color_7" model="color">
+			<field name="color_codigo">7</field>
+			<field name="color_nombre">Coordinación</field>
+		</record>
+		<record id="color_8" model="color">
+			<field name="color_codigo">8</field>
+			<field name="color_nombre">División</field>
+		</record>
+		<record id="color_9" model="color">
+			<field name="color_codigo">9</field>
+			<field name="color_nombre">Departamento</field>
+		</record>
+		<record id="color_10" model="color">
+			<field name="color_codigo">10</field>
+			<field name="color_nombre">Presidencia</field>
+		</record>
+		<record id="color_11" model="color">
+			<field name="color_codigo">11</field>
+			<field name="color_nombre">Gerencia General</field>
+		</record>
+		<record id="color_12" model="color">
+			<field name="color_codigo">12</field>
+			<field name="color_nombre">Gerencia</field>
+		</record>
+		<record id="color_13" model="color">
+			<field name="color_codigo">13</field>
+			<field name="color_nombre">Sub-Gerencia</field>
+		</record>
+		<record id="color_14" model="color">
+			<field name="color_codigo">14</field>
+			<field name="color_nombre">Despacho del Superintendente</field>
+		</record>
+		<record id="color_15" model="color">
+			<field name="color_codigo">15</field>
+			<field name="color_nombre">Dirección General Adjunta</field>
+		</record>
+		<record id="color_16" model="color">
+			<field name="color_codigo">16</field>
+			<field name="color_nombre">Intendencia</field>
+		</record>
+		<record id="color_17" model="color">
+			<field name="color_codigo">17</field>
+			<field name="color_nombre">Unidad Ad- Hoc</field>
+		</record>
+		<record id="color_18" model="color">
+			<field name="color_codigo">18</field>
+			<field name="color_nombre">Área Organizacional</field>
+		</record>
+		<record id="color_19" model="color">
+			<field name="color_codigo">19</field>
+			<field name="color_nombre">Área de Trabajo</field>
+		</record>
+		<record id="color_20" model="color">
+			<field name="color_codigo">20</field>
+			<field name="color_nombre">Otra Categoría de Unidad</field>
+		</record>
+	</data>
+</openerp>
+
+
+
+

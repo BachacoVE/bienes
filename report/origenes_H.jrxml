@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.1.0.final using JasperReports Library version 6.1.0  -->
+<!-- 2016-05-30T11:04:11 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_Letter_Landscape_1" pageWidth="1008" pageHeight="612" orientation="Landscape" columnWidth="968" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="com.jaspersoft.studio.data.sql.tables" value="Zm9ybWFfYWRxdWlzaWNpb24gQVMgLDM1MywxMTAsMjBkYmM4M2EtODVjNC00MzE2LWE1OTYtODRh&#xA;M2I3YjAzNzU3O2RldGFsbGVfYWRxdWlzaSBBUyAsOTcsNjMsYjA0N2RiNTItYzEwOS00ZjdkLWI1&#xA;ODktNWZhY2NiZDg3Mjc2Ow=="/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="bienbea"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+    <property name="net.sf.jasperreports.export.csv.field.delimiter" value=";"/>
+	<property name="net.sf.jasperreports.export.csv.record.delimiter" value=";"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+    <property name="net.sf.jasperreports.print.keep.full.text" value="true"/>
+	<queryString>
+		<![CDATA[SELECT detalle_adquisi.detalle_adquisi_codigo,
+	forma_adquisicion.forma_adquisicion_codigo,
+	detalle_adquisi.nombre_transfiere,
+	detalle_adquisi.nombre_benefici,
+	detalle_adquisi.num_autoriza,
+	detalle_adquisi.fecha_autoriza,
+	detalle_adquisi.nombre_registro,
+	detalle_adquisi.tomo,
+	detalle_adquisi.folio,
+	detalle_adquisi.fecha_registro,
+	bienes_ministerio.nsudebip,
+	bienes_ministerio.rif,
+	bienes_ministerio.fecha_remision
+FROM 	bienes_ministerio,detalle_adquisi
+	INNER JOIN forma_adquisicion ON 
+	 detalle_adquisi.forma_adquisi_id = forma_adquisicion.id
+	 where  forma_adquisicion.id = 5]]>
+	</queryString>
+	<field name="detalle_adquisi_codigo" class="java.lang.String"/>
+	<field name="forma_adquisicion_codigo" class="java.lang.String"/>
+	<field name="nombre_transfiere" class="java.lang.String"/>
+	<field name="nombre_benefici" class="java.lang.String"/>
+	<field name="num_autoriza" class="java.lang.String"/>
+	<field name="fecha_autoriza" class="java.sql.Date"/>
+	<field name="nombre_registro" class="java.lang.String"/>
+	<field name="tomo" class="java.lang.String"/>
+	<field name="folio" class="java.lang.Integer"/>
+	<field name="fecha_registro" class="java.sql.Date"/>
+	<field name="nsudebip" class="java.lang.String"/>
+	<field name="rif" class="java.lang.String"/>
+	<field name="fecha_remision" class="java.sql.Date"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="33" splitType="Stretch">
+			<textField>
+				<reportElement x="18" y="1" width="100" height="30">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{nsudebip}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="1" width="100" height="30"/>
+				<textFieldExpression><![CDATA[$F{rif}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="ddMYYYY" isBlankWhenNull="true">
+				<reportElement x="19" y="1" width="100" height="30">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[new java.text.SimpleDateFormat("ddMMyyyy").format($F{fecha_remision})]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="42" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="40" height="30"/>
+				<textFieldExpression><![CDATA[$F{detalle_adquisi_codigo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="47" y="0" width="33" height="30"/>
+				<textFieldExpression><![CDATA[$F{forma_adquisicion_codigo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="84" y="0" width="100" height="40"/>
+				<textFieldExpression><![CDATA[$F{nombre_transfiere}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="190" y="0" width="100" height="30"/>
+				<textFieldExpression><![CDATA[$F{nombre_benefici}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="290" y="0" width="100" height="30"/>
+				<textFieldExpression><![CDATA[$F{num_autoriza}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="490" y="0" width="100" height="30"/>
+				<textFieldExpression><![CDATA[$F{nombre_registro}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="590" y="0" width="100" height="30"/>
+				<textFieldExpression><![CDATA[$F{tomo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="690" y="0" width="100" height="30"/>
+				<textFieldExpression><![CDATA[$F{folio}]]></textFieldExpression>
+			</textField>
+			<textField pattern="ddMyyy">
+				<reportElement x="390" y="0" width="100" height="30"/>
+				<textFieldExpression><![CDATA[new java.text.SimpleDateFormat("ddMMyyyy").format($F{fecha_autoriza})]]></textFieldExpression>
+			</textField>
+			<textField pattern="ddMyyy">
+				<reportElement x="790" y="0" width="160" height="30"/>
+                <textFieldExpression><![CDATA[new java.text.SimpleDateFormat("ddMMyyyy").format($F{fecha_registro})]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

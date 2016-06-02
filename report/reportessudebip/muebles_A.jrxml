@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.1.0.final using JasperReports Library version 6.1.0  -->
+<!-- 2015-11-05T09:03:04 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="bienesujrxml" pageWidth="3456" pageHeight="2592" orientation="Landscape" columnWidth="3409" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" whenResourceMissingType="Empty">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="bienesfin"/>
+	<property name="com.jaspersoft.studio.unit." value="cm"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value="b2ZpY2luYXMgLDU3MSwzODQsN2ZjOWYyOWQtYTcxOS00NWEzLTg3N2ItOTc5MDNkNmQ0NDMyO2Vz&#xA;dGF0dXNfdXNvICw0MDAsNDEyLDNhMTk2ZGEzLThkZjctNDM1ZC1iZGY4LTYxNjBjMDA4NWY1NDtj&#xA;YXRhbG9nb19zdWRlYmkgQVMgLDMzOSw0MCwyZTE0ODliNS00MjU2LTQzZGQtOTZiYS1lZmM3ZTNk&#xA;OTNhOWM7Y29sb3Jfc3VkZWJpICw5NTMsNDEyLDdmN2Y4ZjI3LWQxMDktNDM4OS1iOTYxLTY5OThl&#xA;ZmQ2ZDZmYTtjYXRhbG9nb19zdWRlYmlfZXNwICw1MTksMzcsNjExNWQ5YjQtZjUyZi00ZDk2LTgw&#xA;YTUtZmM2NWJmNjNkYWI5O2VzdGF0dXNfYmllbiAsMjI1LDQxMixhMDE2ZWRmZS02MjkxLTQ5MjEt&#xA;OTM3ZS03M2M3NDA1N2FhYmY7ZGV0YWxsZV9hZHF1aXNpICw3NzIsMTMyLGU4ODE0OGY2LTQyZWYt&#xA;NGI2YS05NGJkLTlkOGYyNjE0MTQ2ZTtiaWVuZXMgLDIwLDIwLDNhZjk5ODhlLWM0M2ItNDAzYi1h&#xA;M2YzLWRkY2IwN2IwMzU4Yjs="/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="cm"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="cm"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="cm"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="cm"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="cm"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="cm"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="cm"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="cm"/>
+	<queryString>
+		<![CDATA[SELECT bienes.resp_pat_id,
+	bienes.resp_uso_id,
+	bienes.bienes_numbien,
+	bienes.costo,
+	estatus_uso.estatus_uso_codigo,
+	estatus_bien.estatus_bien_codigo,
+	oficinas.oficinas_codigo,
+	detalle_adquisi.fecha_ordcompra,
+	detalle_adquisi.fecha_nota_entrega,
+	bienes.bienes_serial,
+	bienes.marcas_id,
+	bienes.modelo_fab_id,
+	color_sudebi.color_sudebi_codigo,
+	bienes.bienes_nombre,
+	bienes.poliza_id,
+	detalle_adquisi.detalle_adquisi_codigo,
+	catalogo_sudebi_esp.catalogo_sudebi_esp_codigo,
+	bienes.garantia,
+	bienes.unidad_garantia,
+	bienes.fecha_fin_garantia,
+	bienes.fecha_ini_garantia
+FROM bienes
+	INNER JOIN catalogo_sudebi_esp ON 
+	 bienes.catalogo_sudebi_esp_id = catalogo_sudebi_esp.id 
+	INNER JOIN catalogo_sudebi ON 
+	 bienes.catalogo_sudebi_id = catalogo_sudebi.id ,
+	estatus_bien,
+	estatus_uso,
+	oficinas,
+	detalle_adquisi,
+	color_sudebi
+WHERE 
+	 bienes.catalogo_sudebi_id <> 2 AND
+	 bienes.estatus_bien_id = estatus_bien.id 
+	 AND bienes.estatus_uso_id = estatus_uso.id 
+	 AND bienes.oficinas_id = oficinas.id 
+	 AND bienes.detalle_adquisi_id = detalle_adquisi.id 
+	 AND bienes.color_sudebi_id = color_sudebi.id]]>
+	</queryString>
+	<field name="resp_pat_id" class="java.lang.Integer"/>
+	<field name="resp_uso_id" class="java.lang.Integer"/>
+	<field name="bienes_numbien" class="java.lang.String"/>
+	<field name="costo" class="java.lang.Double"/>
+	<field name="estatus_uso_codigo" class="java.lang.String"/>
+	<field name="estatus_bien_codigo" class="java.lang.String"/>
+	<field name="oficinas_codigo" class="java.lang.String"/>
+	<field name="fecha_ordcompra" class="java.sql.Date"/>
+	<field name="fecha_nota_entrega" class="java.sql.Date"/>
+	<field name="bienes_serial" class="java.lang.String"/>
+	<field name="marcas_id" class="java.lang.Integer"/>
+	<field name="modelo_fab_id" class="java.lang.Integer"/>
+	<field name="color_sudebi_codigo" class="java.lang.String"/>
+	<field name="bienes_nombre" class="java.lang.String"/>
+	<field name="poliza_id" class="java.lang.Integer"/>
+	<field name="detalle_adquisi_codigo" class="java.lang.String"/>
+	<field name="catalogo_sudebi_esp_codigo" class="java.lang.String"/>
+	<field name="garantia" class="java.lang.Integer"/>
+	<field name="unidad_garantia" class="java.lang.String"/>
+	<field name="fecha_fin_garantia" class="java.sql.Date"/>
+	<field name="fecha_ini_garantia" class="java.sql.Date"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="34" splitType="Stretch">
+<!--
+			<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+-->
+			<textField>
+				<reportElement positionType="Float" x="370" y="0" width="45" height="22"/>
+				<textElement verticalAlignment="Top"/>
+				<textFieldExpression><![CDATA[$F{resp_pat_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="415" y="0" width="90" height="22"/>
+				<textElement verticalAlignment="Top"/>
+				<textFieldExpression><![CDATA[$F{resp_uso_id}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="720" y="0" width="58" height="22"/>
+				<textElement verticalAlignment="Top"/>
+				<text><![CDATA[noaplica]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="915" y="0" width="58" height="22"/>
+				<textElement verticalAlignment="Top"/>
+				<text><![CDATA[noaplica]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="505" y="0" width="109" height="22"/>
+				<textElement verticalAlignment="Top"/>
+				<textFieldExpression><![CDATA[$F{bienes_numbien}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="614" y="0" width="106" height="22"/>
+				<textElement verticalAlignment="Top"/>
+				<textFieldExpression><![CDATA[$F{estatus_uso_codigo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="780" y="0" width="106" height="22"/>
+				<textElement verticalAlignment="Top"/>
+				<textFieldExpression><![CDATA[$F{costo}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="889" y="0" width="26" height="22"/>
+				<textElement verticalAlignment="Top"/>
+				<text><![CDATA[1]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="2" y="0" width="100" height="30"/>
+				<textFieldExpression><![CDATA[$F{detalle_adquisi_codigo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="102" y="0" width="68" height="30"/>
+				<textFieldExpression><![CDATA[$F{catalogo_sudebi_esp_codigo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="170" y="0" width="100" height="30"/>
+				<textFieldExpression><![CDATA[$F{oficinas_codigo}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="270" y="0" width="97" height="30"/>
+				<text><![CDATA[NAC-EJE-MIN-00906]]></text>
+			</staticText>
+<!--
+			<textField pattern="ddMyyyy">
+				<reportElement key="" x="970" y="0" width="105" height="30"/>
+				<textFieldExpression><![CDATA[IF(($F{fecha_ordcompra}!==null),$F{fecha_ordcompra},"11111111 ")]]></textFieldExpression>
+			</textField>
+-->
+<!--
+			<textField pattern="ddMyyyy">
+				<reportElement x="1078" y="0" width="105" height="30"/>
+				<textFieldExpression><![CDATA[IF($F{fecha_nota_entrega}!=null,$F{fecha_nota_entrega},"11111111 ")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1183" y="0" width="91" height="22"/>
+				<textElement verticalAlignment="Top"/>
+				<textFieldExpression><![CDATA[$F{estatus_bien_codigo}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="1274" y="0" width="58" height="22"/>
+				<textElement verticalAlignment="Top"/>
+				<text><![CDATA[noaplica]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1333" y="0" width="56" height="20"/>
+				<text><![CDATA[XXX]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="1391" y="0" width="100" height="30"/>
+				<textFieldExpression><![CDATA[IF(($F{bienes_serial}!=null),$F{bienes_serial},"XXX")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1492" y="0" width="48" height="30"/>
+				<textFieldExpression><![CDATA[IF($F{marcas_id}!=null,$F{marcas_id},"XXX")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1541" y="0" width="100" height="30"/>
+				<textFieldExpression><![CDATA[IF($F{modelo_fab_id}!=null,$F{modelo_fab_id},"XXX")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1641" y="0" width="80" height="19"/>
+				<textFieldExpression><![CDATA[99]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1722" y="0" width="100" height="30"/>
+				<textFieldExpression><![CDATA[$F{color_sudebi_codigo}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="1824" y="0" width="50" height="30"/>
+				<text><![CDATA[XXX]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1874" y="0" width="30" height="30"/>
+				<text><![CDATA[XXX]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="1904" y="0" width="390" height="30"/>
+				<textFieldExpression><![CDATA[$F{bienes_nombre}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="2297" y="0" width="50" height="30"/>
+				<text><![CDATA[XXX]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="2346" y="0" width="40" height="30"/>
+				<textFieldExpression><![CDATA[IF(EQUALS($F{garantia},0),"99",$F{garantia})]]></textFieldExpression>
+			</textField>
+			<textField pattern="ddMyyy">
+				<reportElement x="2422" y="0" width="60" height="30"/>
+				<textFieldExpression><![CDATA[IF(($F{fecha_ini_garantia}!=null),$F{fecha_ini_garantia},"11111111")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="2389" y="0" width="30" height="30"/>
+				<textFieldExpression><![CDATA[IF($F{unidad_garantia}!=null,$F{unidad_garantia},"99")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="2480" y="0" width="26" height="30"/>
+				<text><![CDATA[N]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="2506" y="0" width="100" height="30"/>
+				<textFieldExpression><![CDATA[IF(EQUALS($F{poliza_id},0),"S","N")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="2607" y="0" width="140" height="30"/>
+				<textFieldExpression><![CDATA[IF(EQUALS($F{poliza_id},0),$F{poliza_id},"99")]]></textFieldExpression>
+			</textField>
+-->
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

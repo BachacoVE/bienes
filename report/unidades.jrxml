@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.1.0.final using JasperReports Library version 6.1.0  -->
+<!-- 2015-12-07T10:39:41 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="unidades" pageWidth="792" pageHeight="612" orientation="Landscape" columnWidth="752" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="com.jaspersoft.studio.data.sql.tables" value="b2ZpY2luYXMgQVMgLDIwMCw5MywyNzgyMDM1ZS1lMTZkLTQwMzAtOWI1OC01MDNjMjM1OTFmMzI7&#xA;b2ZpY2luYXMgLDIwLDIwLDJkMjg2NGQzLWZjMzktNDBjMS04MDYzLWZhNGEzYzQzZmJhNDtiaWVu&#xA;ZXNfbWluaXN0ZXJpbyBBUyAsNDczLDE0NiwwOTFiZDE2Ni1lMzA4LTQwYjUtOGZkZS02MmJkYjFl&#xA;NmZlYmI7"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="bienes45"/>
+	<property name="net.sf.jasperreports.export.csv.field.delimiter" value=";"/>
+	<queryString>
+		<![CDATA[SELECT oficinas.id,
+	oficinas.oficinas_nombre,
+	oficinas.uniadm_sudebi_codigo,
+	oficinas.oficinas_nombre AS padre,
+	ofi.id,
+	bienes_ministerio.rif,
+	bienes_ministerio.fecha_remision,
+	bienes_ministerio.nsudebip,
+	bienes_ministerio.seleinv
+FROM oficinas,
+	oficinas AS ofi,
+	bienes_ministerio
+WHERE 
+	 oficinas.oficinas_padre_id = ofi.id and seleinv = true]]>
+	</queryString>
+	<field name="id" class="java.lang.Integer"/>
+	<field name="oficinas_nombre" class="java.lang.String"/>
+	<field name="uniadm_sudebi_codigo" class="java.lang.Integer"/>
+	<field name="padre" class="java.lang.String"/>
+	<field name="COLUMN_5" class="java.lang.Integer"/>
+	<field name="rif" class="java.lang.String"/>
+	<field name="fecha_remision" class="java.sql.Date"/>
+	<field name="nsudebip" class="java.lang.String"/>
+	<field name="seleinv" class="java.lang.Boolean"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="32" splitType="Stretch">
+			<textField>
+				<reportElement x="-1" y="2" width="100" height="30">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{rif}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1" y="2" width="100" height="30"/>
+				<textFieldExpression><![CDATA[new java.text.SimpleDateFormat("ddMMyyyy").format($F{fecha_remision})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="2" width="100" height="30">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{nsudebip}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="31" splitType="Stretch">
+			<textField>
+				<reportElement x="-1" y="0" width="100" height="30"/>
+				<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="0" width="100" height="30"/>
+				<textFieldExpression><![CDATA[$F{oficinas_nombre}.trim()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1" y="0" width="100" height="30"/>
+				<textFieldExpression><![CDATA[$F{uniadm_sudebi_codigo}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="1" y="0" width="100" height="30">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<text><![CDATA[no aplica]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="3" y="0" width="100" height="30"/>
+				<textFieldExpression><![CDATA[$F{COLUMN_5}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

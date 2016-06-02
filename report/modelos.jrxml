@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.1.0.final using JasperReports Library version 6.1.0  -->
+<!-- 2015-12-07T14:38:47 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="modelofab" pageWidth="792" pageHeight="612" orientation="Landscape" columnWidth="752" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="com.jaspersoft.studio.data.sql.tables" value="YmllbmVzX21pbmlzdGVyaW8gQVMgLDI0MSwxMjYsNzEwYTBhMTAtMjE3Ny00N2Y5LTljMjgtMGI0&#xA;ZmVkYzM0NjJkO21vZGVsb19mYWIgLDIwLDIwLDRmY2RiZjUxLTcyZDQtNGQ5Yy1hZTBmLTQ2MzZi&#xA;OTBiMjk5Zjs="/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="bienbea"/>
+	<property name="net.sf.jasperreports.export.csv.field.delimiter" value=";"/>
+	<queryString>
+		<![CDATA[SELECT modelo_fab.id,
+	modelo_fab.modelo_fab_nombre,
+	modelo_fab.marcas_id,
+	bienes_ministerio.fecha_remision,
+	bienes_ministerio.rif,
+	bienes_ministerio.nsudebip
+FROM modelo_fab,
+	bienes_ministerio]]>
+	</queryString>
+	<field name="id" class="java.lang.Integer"/>
+	<field name="modelo_fab_nombre" class="java.lang.String"/>
+	<field name="marcas_id" class="java.lang.Integer"/>
+	<field name="fecha_remision" class="java.sql.Date"/>
+	<field name="rif" class="java.lang.String"/>
+	<field name="nsudebip" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="32" splitType="Stretch">
+			<textField>
+				<reportElement x="-1" y="2" width="100" height="30"/>
+				<textElement textAlignment="Left"/>
+				<textFieldExpression><![CDATA[$F{rif}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="2" width="100" height="30"/>
+				<textElement textAlignment="Left"/>
+				<textFieldExpression><![CDATA[$F{nsudebip}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="ddMYYYY" isBlankWhenNull="true">
+				<reportElement x="1" y="2" width="100" height="30">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left"/>
+				<textFieldExpression><![CDATA[new java.text.SimpleDateFormat("ddMMyyyy").format($F{fecha_remision})]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="38" splitType="Stretch">
+			<textField isStretchWithOverflow="true">
+				<reportElement key="" x="-1" y="0" width="30" height="30"/>
+				<textElement textAlignment="Left"/>
+				<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="0" width="100" height="30"/>
+				<textFieldExpression><![CDATA[$F{modelo_fab_nombre}.trim()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1" y="0" width="100" height="30"/>
+				<textFieldExpression><![CDATA[$F{marcas_id}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="1" y="0" width="28" height="30"/>
+				<text><![CDATA[XXX]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

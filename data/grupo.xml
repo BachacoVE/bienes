@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data noupdate="1">
+		<record id="grupo_1" model="grupo_bien">
+			<field name="grupo_bien_codigo">1</field>
+			<field name="grupo_bien_nombre">MÁQUINAS, MUEBLES Y DEMÁS EQUIPOS DE OFICINA</field>
+		</record>
+		<record id="grupo_2" model="grupo_bien">
+			<field name="grupo_bien_codigo">2</field>
+			<field name="grupo_bien_nombre">MAQUINARIAS Y EQUIPOS DE ARTES GRÁFICAS Y REPRODUCCIÓN</field>
+		</record>
+		<record id="grupo_5" model="grupo_bien">
+			<field name="grupo_bien_codigo">5</field>
+			<field name="grupo_bien_nombre">VEHÍCULOS AUTOMORES TERRESTRE</field>
+		</record>
+		<record id="grupo_6" model="grupo_bien">
+			<field name="grupo_bien_codigo">6</field>
+			<field name="grupo_bien_nombre">MOBILIARIO Y EQUIPOS DE ALOJAMIENTO</field>
+		</record>
+		<record id="grupo_8" model="grupo_bien">
+			<field name="grupo_bien_codigo">8</field>
+			<field name="grupo_bien_nombre">EQUIPOS DE OFICINA ELECTRICOS</field>
+		</record>
+		<record id="grupo_9" model="grupo_bien">
+			<field name="grupo_bien_codigo">9</field>
+			<field name="grupo_bien_nombre">EQUIPOS DE TELECOMUNICACIONES</field>
+		</record>
+		<record id="grupo_10" model="grupo_bien">
+			<field name="grupo_bien_codigo">10</field>
+			<field name="grupo_bien_nombre">OBRAS DE ARTE</field>
+		</record>
+		<record id="grupo_12" model="grupo_bien">
+			<field name="grupo_bien_codigo">12</field>
+			<field name="grupo_bien_nombre">EQUIPOS MÉDICOS</field>
+		</record>
+		<record id="grupo_14" model="grupo_bien">
+			<field name="grupo_bien_codigo">14</field>
+			<field name="grupo_bien_nombre">MAQUINARIAS Y EQUIPOS DE CONSTRUCCIÓN Y MANTENIMIENTO</field>
+		</record>
+		<record id="grupo_15" model="grupo_bien">
+			<field name="grupo_bien_codigo">15</field>
+			<field name="grupo_bien_nombre">EQUIPOS DE PROCESAMIENTO DE DATOS</field>
+		</record>			
+	</data>
+</openerp>
+
+
+
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data noupdate="1">
+		<record id="estatus_1" model="estatus_bien">
+			<field name="estatus_bien_codigo">1</field>
+			<field name="estatus_bien_nombre">Óptimo</field>
+		</record>
+		<record id="estatus_2" model="estatus_bien">
+			<field name="estatus_bien_codigo">2</field>
+			<field name="estatus_bien_nombre">Regular</field>
+		</record>
+		<record id="estatus_3" model="estatus_bien">
+			<field name="estatus_bien_codigo">3</field>
+			<field name="estatus_bien_nombre">Deteriorado</field>
+		</record>
+		<record id="estatus_4" model="estatus_bien">
+			<field name="estatus_bien_codigo">4</field>
+			<field name="estatus_bien_nombre">Averiado</field>
+		</record>
+		<record id="estatus_5" model="estatus_bien">
+			<field name="estatus_bien_codigo">5</field>
+			<field name="estatus_bien_nombre">Chatarra</field>
+		</record>
+		<record id="estatus_6" model="estatus_bien">
+			<field name="estatus_bien_codigo">6</field>
+			<field name="estatus_bien_nombre">No operativo</field>
+		</record>
+		<record id="estatus_7" model="estatus_bien">
+			<field name="estatus_bien_codigo">7</field>
+			<field name="estatus_bien_nombre">Otra condición física</field>
+		</record>
+	</data>
+</openerp>
+
+
+
+

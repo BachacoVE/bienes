@@ -1,0 +1,1810 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+<!--
+                       Catalogo Interno de Bienes
+-->
+	<record model="ir.ui.view" id="view_grupo_bien_form">
+		<field name="name">grupo_bien.form</field>
+		<field name="model">grupo_bien</field>
+		<field name="type">form</field>
+		<field name="arch" type="xml">
+			<form string="grupo_bien">
+				<sheet>
+					<notebook>
+						<page string="Grupos de Bienes">	    
+							<group col="4" colspan="2">
+<!--
+								<field name="grupo_bien_codigo" select="1"/>
+-->
+								<field name="grupo_bien_nombre" select="2"/>
+								<field name="grupo_bien_partidapre" select="0"/>
+							</group>
+						</page>
+					</notebook>
+				</sheet>
+			</form>
+		</field>
+	</record>
+    
+    <record model="ir.ui.view" id="view_grupo_bien_tree">
+        <field name="name">grupo_bien.tree</field>
+        <field name="model">grupo_bien</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="grupo_bien">
+<!--
+                <field name="grupo_bien_codigo"/>
+-->
+                <field name="grupo_bien_nombre"/>
+                <field name="grupo_bien_partidapre"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_grupo_bien">
+        <field name="name">Grupo de Bienes</field>
+        <field name="res_model">grupo_bien</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+   
+
+
+    <record model="ir.ui.view" id="view_clasificador_bien_form">
+        <field name="name">clasificador_bien.form</field>
+        <field name="model">clasificador_bien</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="clasificador_bien">
+				<sheet>
+					<notebook>
+						<page string="Clasificador de Bienes">	    
+							<group col="4" colspan="2">
+<!--
+								<field name="clasificador_codigo" select="1"/>
+-->
+								<field name="clasificador_nombre" select="2"/>
+								<field name="grupo_bien_id" select="0"/>
+							</group>
+						</page>
+					</notebook>
+				</sheet>
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_clasificador_bien_tree">
+        <field name="name">clasificador_bien.tree</field>
+        <field name="model">clasificador_bien</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="clasificador_bien">
+<!--
+                <field name="clasificador_codigo"/>
+-->
+                <field name="clasificador_nombre"/>
+                <field name="grupo_bien_id"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_clasificador_bien">
+        <field name="name">Clasificador de Bienes</field>
+        <field name="res_model">clasificador_bien</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+         
+   
+    <record model="ir.ui.view" id="view_modelo_bien_form">
+        <field name="name">modelo_bien.form</field>
+        <field name="model">modelo_bien</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="modelo_bien">
+			  <sheet>
+				<notebook>
+				  <page string="Modelos de Bienes">	    
+					<group col="4" colspan="2">
+<!--
+						<field name="modelo_codigo" select="1"/>
+-->
+						<field name="modelo_nombre" select="2"/>
+						<field name="clasificador_id" select="0"/>
+					</group>
+				  </page>
+			    </notebook>
+			</sheet>
+          </form>
+       </field>
+    </record>
+    <record model="ir.ui.view" id="view_modelo_bien_tree">
+        <field name="name">modelo_bien.tree</field>
+        <field name="model">modelo_bien</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="modelo_bien">
+<!--
+                <field name="modelo_codigo"/>
+-->
+                <field name="modelo_nombre"/>
+                <field name="clasificador_id"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_modelo_bien">
+        <field name="name">Modelo de Bienes</field>
+        <field name="res_model">modelo_bien</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+ 
+    <record model="ir.ui.view" id="view_detalle_modelo_bien_form">
+        <field name="name">detalle_modelo_bien.form</field>
+        <field name="model">detalle_modelo_bien</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="detalle_modelo_bien">
+			  <sheet>
+				<notebook>
+				  <page string="Detalle del Modelo de Bienes">	    
+					<group col="4" colspan="2">
+<!--
+				       <field name="detalle_modelo_codigo" select="1"/>
+-->
+				       <field name="detalle_modelo_nombre" select="2"/>
+					   <field name="modelo_id" select="0"/>
+					</group>			
+				 </page>
+			   </notebook>
+			  </sheet>	
+			</form>
+		</field>
+    </record>
+    <record model="ir.ui.view" id="view_detalle_modelo_bien_tree">
+        <field name="name">detalle_modelo_bien.tree</field>
+        <field name="model">detalle_modelo_bien</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="detalle_modelo_bien">
+<!--
+                <field name="detalle_modelo_codigo"/>
+-->
+                <field name="detalle_modelo_nombre"/>
+                <field name="modelo_id"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_detalle_modelo_bien">
+        <field name="name">Detalle del Modelo de Bienes</field>
+        <field name="res_model">detalle_modelo_bien</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+  
+    <record model="ir.ui.view" id="view_color_form">
+        <field name="name">color.form</field>
+        <field name="model">color</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="color">
+			  <sheet>
+				<notebook>
+				  <page string="Color del Bien">	    
+					<group col="4" colspan="2">
+<!--
+						<field name="codigo_color" select="1"/>
+-->
+						<field name="color_nombre" select="2"/>
+   					</group>			
+				 </page>
+			   </notebook>
+			  </sheet>	
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_color_tree">
+        <field name="name">color.tree</field>
+        <field name="model">color</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="color">
+<!--
+                <field name="codigo_color"/>
+-->
+                <field name="color_nombre"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_color">
+        <field name="name">Color de los Bienes </field>
+        <field name="res_model">color</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+  
+  
+   <record model="ir.ui.view" id="view_marcas_form">
+        <field name="name">marcas.form</field>
+        <field name="model">marcas</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="marcas">
+			  <sheet>
+				<notebook>
+				  <page string="Marcas del Bien">	    
+					<group col="4" colspan="2">
+<!--
+						<field name="marcas_codigo" select="1"/>
+-->
+						<field name="marcas_nombre" select="2"/>
+   					</group>			
+				 </page>
+		       </notebook>
+		      </sheet>	
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_marcas_tree">
+        <field name="name">marcas.tree</field>
+        <field name="model">marcas</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="marcas">
+<!--
+                <field name="marcas_codigo"/>
+-->
+                <field name="marcas_nombre"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_marcas">
+        <field name="name">Marcas del Bien</field>
+        <field name="res_model">marcas</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+   
+ 
+  
+    <record model="ir.ui.view" id="view_modelo_fab_form">
+        <field name="name">modelo_fab.form</field>
+        <field name="model">modelo_fab</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="modelo_fab">
+				<sheet>
+			       <notebook>
+				     <page string="Modelo de Fabrica del Bien">	    
+					    <group col="4" colspan="2">
+<!--
+							<field name="modelo_fab_codigo" select="1"/>
+-->
+							<field name="modelo_fab_nombre" select="2"/>
+							<field name="marcas_id" select="0"/>
+						</group>			
+				    </page>
+		         </notebook>
+		       </sheet>	
+          </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_modelo_fab_tree">
+        <field name="name">modelo_fab.tree</field>
+        <field name="model">modelo_fab</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="modelo_fab">
+<!--
+                <field name="modelo_fab_codigo"/>
+-->
+                <field name="modelo_fab_nombre"/>
+                <field name="marcas_id"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_modelo_fab">
+        <field name="name">Modelo de Fabrica del Bien</field>
+        <field name="res_model">modelo_fab</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+
+        
+    <record model="ir.ui.view" id="view_material_form">
+        <field name="name">material.form</field>
+        <field name="model">material</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="material">
+				<sheet>
+			       <notebook>
+				     <page string="Material del Bien">	    
+					    <group col="4" colspan="2">
+<!--
+							<field name="material_codigo" select="1"/>
+-->
+							<field name="material_nombre" select="2"/>
+						</group>			
+				    </page>
+		         </notebook>
+		       </sheet>			
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_material_tree">
+        <field name="name">material.tree</field>
+        <field name="model">material</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="material">
+<!--
+                <field name="material_codigo"/>
+-->
+                <field name="material_nombre"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_material">
+        <field name="name">Material del Bien</field>
+        <field name="res_model">material</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+     
+  
+  
+<!--
+				Fin del Catalogo Interno de Bienes
+-->
+  
+  
+  
+<!--
+                      Catalogo de la Sudebip
+-->
+  
+   <record model="ir.ui.view" id="view_catalogo_sudebi_form">
+        <field name="name">catalogo_sudebi.form</field>
+        <field name="model">catalogo_sudebi</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="catalogo_sudebi">
+				<sheet>
+			       <notebook>
+				     <page string="Catalogo General de la SUDEBIP">	    
+					    <group col="2" colspan="2">
+							<field name="catalogo_sudebi_codigo" select="1"/>
+							<field name="catalogo_sudebi_nombre" select="2"/>
+						</group>			
+				    </page>
+		         </notebook>
+		       </sheet>				
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_catalogo_sudebi_tree">
+        <field name="name">catalogo_sudebi.tree</field>
+        <field name="model">catalogo_sudebi</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="catalogo_sudebi">
+                <field name="catalogo_sudebi_codigo"/>
+                <field name="catalogo_sudebi_nombre"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_catalogo_sudebi">
+        <field name="name">Catalogo General de Bienes segun (SUDEBIP)</field>
+        <field name="res_model">catalogo_sudebi</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+   
+
+        
+    <record model="ir.ui.view" id="view_catalogo_sudebi_sub_form">
+        <field name="name">catalogo_sudebi_sub.form</field>
+        <field name="model">catalogo_sudebi_sub</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="catalogo_sudebi_sub">
+				<sheet>
+			       <notebook>
+				     <page string="Catalogo Sub-General de la SUDEBIP">	    
+					    <group col="2" colspan="2">
+							<field name="catalogo_sudebi_sub_codigo" select="1"/>
+							<field name="catalogo_sudebi_sub_nombre" select="2"/>
+							<field name="catalogo_sudebi_id" select="0"/>
+						</group>	
+				    </page>
+		         </notebook>
+		       </sheet>			
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_catalogo_sudebi_sub_tree">
+        <field name="name">catalogo_sudebi_sub.tree</field>
+        <field name="model">catalogo_sudebi_sub</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="catalogo_sudebi_sub">
+                <field name="catalogo_sudebi_sub_codigo"/>
+                <field name="catalogo_sudebi_sub_nombre"/>
+                <field name="catalogo_sudebi_id"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_catalogo_sudebi_sub">
+        <field name="name">Catalogo Sub-General de Bienes segun (SUDEBIP)</field>
+        <field name="res_model">catalogo_sudebi_sub</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+   
+        
+    <record model="ir.ui.view" id="view_catalogo_sudebi_esp_form">
+        <field name="name">catalogo_sudebi_esp.form</field>
+        <field name="model">catalogo_sudebi_esp</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="catalogo_sudebi_esp">
+				<sheet>
+			       <notebook>
+				     <page string="Catalogo EspecÃ­fico de la SUDEBIP">	    
+					    <group col="2" colspan="2">
+							<field name="catalogo_sudebi_esp_codigo" select="1"/>
+							<field name="catalogo_sudebi_esp_nombre" select="2"/>
+							<field name="catalogo_sudebi_sub_id" select="0"/>
+						</group>	
+				    </page>
+		         </notebook>
+		       </sheet>			
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_catalogo_sudebi_esp_tree">
+        <field name="name">catalogo_sudebi_esp.tree</field>
+        <field name="model">catalogo_sudebi_esp</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="catalogo_sudebi_esp">
+                <field name="catalogo_sudebi_esp_codigo"/>
+                <field name="catalogo_sudebi_esp_nombre"/>
+                <field name="catalogo_sudebi_sub_id"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_catalogo_sudebi_esp">
+        <field name="name">Catalogo Especifico de Bienes segun (SUDEBIP)</field>
+        <field name="res_model">catalogo_sudebi_esp</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+   
+  
+ 
+       
+    <record model="ir.ui.view" id="view_clase_sudebi_form">
+        <field name="name">clase_sudebi.form</field>
+        <field name="model">clase_sudebi</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="clase_sudebi">
+				<sheet>
+			       <notebook>
+				     <page string="Clase de Vehí­culos segun la SUDEBIP">	    
+					    <group col="4" colspan="2">
+							<field name="clase_sudebi_codigo" select="1"/>
+							<field name="clase_sudebi_nombre" select="2"/>
+						</group>	
+				    </page>
+		         </notebook>
+		       </sheet>		
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_clase_sudebi_tree">
+        <field name="name">clase_sudebi.tree</field>
+        <field name="model">clase_sudebi</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="clase_sudebi">
+                <field name="clase_sudebi_codigo"/>
+                <field name="clase_sudebi_nombre"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_clase_sudebi">
+        <field name="name">Clase de Vehí­culos segun SUDEBIP</field>
+        <field name="res_model">clase_sudebi</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+ 
+  
+  
+  
+  
+  <record model="ir.ui.view" id="view_color_sudebi_form">
+        <field name="name">color_sudebi.form</field>
+        <field name="model">color_sudebi</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="color_sudebi">
+				<sheet>
+			       <notebook>
+				     <page string="Color de los Bienes segun la SUDEBIP">	    
+					    <group col="4" colspan="2">
+							<field name="color_sudebi_codigo" select="1"/>
+							<field name="color_sudebi_nombre" select="2"/>
+						</group>	
+				    </page>
+		         </notebook>
+		       </sheet>		
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_color_sudebi_tree">
+        <field name="name">color_sudebi.tree</field>
+        <field name="model">color_sudebi</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="color_sudebi">
+                <field name="color_sudebi_codigo"/>
+                <field name="color_sudebi_nombre"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_color_sudebi">
+        <field name="name">Color de los Bienes segun SUDEBIP</field>
+        <field name="res_model">color_sudebi</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+  
+ <!--
+                      FIN DEL Catalogo de la Sudebip
+--> 
+  
+ 
+  
+  <!--
+                     Datos Requeridos por la Sudebip
+--> 
+  
+        
+    <record model="ir.ui.view" id="view_personas_form">
+        <field name="name">personas.form</field>
+        <field name="model">personas</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="personas">
+				<sheet>
+			       <notebook>
+				     <page string="Personal de la InstituciÃ³n">	    
+					    <group col="4" colspan="2">
+		    	           <field name="personas_cedula" select="1"/>
+        					<field name="personas_pnombre" select="2"/>
+							<field name="personas_snombre" select="0"/>
+							<field name="personas_papellido" select="0"/>
+							<field name="personas_sapellido" select="0"/>
+							<field name="personas_cargo" select="0"/>
+                            <field name="tipo_resp" select="0"/>
+                            <field name="correo_e" select="0"/>
+                        </group>	 
+                         <group col="2" colspan="2">  
+							<field name="oficinas_id" select="0"/>
+						</group>
+				    </page>
+		         </notebook>
+		       </sheet>								
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_personas_tree">
+        <field name="name">personas.tree</field>
+        <field name="model">personas</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="personas">
+                    <field name="personas_cedula"/>
+                    <field name="personas_pnombre"/>
+                    <field name="personas_snombre"/>
+                    <field name="personas_papellido"/>
+                    <field name="personas_sapellido"/>
+                    <field name="personas_cargo"/>
+                    <field name="tipo_resp"/>
+                    <field name="oficinas_id"/> 
+                    <field name="correo_e"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_personas">
+        <field name="name">Personal del Ministerio</field>
+        <field name="res_model">personas</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+   
+ 
+        
+    <record model="ir.ui.view" id="view_estatus_uso_form">
+        <field name="name">estatus_uso.form</field>
+        <field name="model">estatus_uso</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="estatus_uso">
+				<sheet>
+			       <notebook>
+				     <page string="Estatus de Uso del Bien">	    
+					    <group col="4" colspan="2">
+							<field name="estatus_uso_codigo" select="1"/>
+							<field name="estatus_uso_nombre" select="2"/>
+						</group>	
+				    </page>
+		         </notebook>
+		       </sheet>					
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_estatus_uso_tree">
+        <field name="name">estatus_uso.tree</field>
+        <field name="model">estatus_uso</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="estatus_uso">
+                <field name="estatus_uso_codigo"/>
+                <field name="estatus_uso_nombre"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_estatus_uso">
+        <field name="name">Estatus de uso del Bien</field>
+        <field name="res_model">estatus_uso</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+
+        
+    <record model="ir.ui.view" id="view_estatus_bien_form">
+        <field name="name">estatus_bien.form</field>
+        <field name="model">estatus_bien</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="estatus_bien">
+				<sheet>
+			       <notebook>
+				     <page string="Estatus del Bien">	    
+					    <group col="4" colspan="2">
+				            <field name="estatus_bien_codigo" select="1"/>
+							<field name="estatus_bien_nombre" select="2"/>
+						</group>	
+				    </page>
+		         </notebook>
+		       </sheet>			
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_estatus_bien_tree">
+        <field name="name">estatus_bien.tree</field>
+        <field name="model">estatus_bien</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="estatus_bien">
+                <field name="estatus_bien_codigo"/>
+                <field name="estatus_bien_nombre"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_estatus_bien">
+        <field name="name">Estatus del Bien</field>
+        <field name="res_model">estatus_bien</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+   
+
+        
+
+    <record model="ir.ui.view" id="view_detalle_adquisi_form">
+        <field name="name">detalle_adquisi.form</field>
+        <field name="model">detalle_adquisi</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="detalle_adquisi">
+			    <sheet>
+			    <notebook>
+                     <page string="Detalle de la Adquisicion del Bien">	 
+                        <group col="8" colspan="2">
+                            <field name="forma_adquisi_id" select="2"/>
+                            <field name="detalle_adquisi_codigo" select="0"/>
+                         
+                         </group>    
+                        <group col="4" colspan="2">
+                        <field name="proveedores_id" select="0"/>
+                          </group> 
+                        <group col="4" colspan="2">
+                        <field name="numero_factura" select="0"/>
+                        <field name="monto_fact" select="0"/>
+                        <field name="fecha_factura" select="0"/>
+                        <field name="numero_nota_entrega" select="0"/>
+                        <field name="fecha_nota_entrega" select="0"/>
+                        <field name="codigo_pre" select="0"/>
+                    </group>	
+                </page>
+
+                <page string= "Compra Directa (B-)" attrs="{'invisible': [('forma_adquisi_id','!=',1)]}">
+                     <group col="4" colspan="2">
+                                  
+                                  <field name="numero_ordcompra" select="0"/>
+                                  <field name="fecha_ordcompra" select="0"/>
+					  
+							     
+                    </group>	
+              </page>
+            <page string= "Permuta (G-)" attrs="{'invisible': [('forma_adquisi_id','!=',2)]}">
+                               <group col="4" colspan="2">
+                                    <field name="nombre_copermutante" select="0"/>
+                                    <field name="nombre_benefici" select="0"/> 
+                                    <field name="nombre_licitacion" select="0"/> 
+                                    <field name="numero_licitacion" select="0"/> 
+                                    <field name="fecha_licitacion" select="0"/>
+                                    <field name="numero_contrato" select="0"/>
+                                    <field name="fecha_contrato" select="0"/>
+                                    <field name="nombre_registro" select="0"/>
+                                    <field name="tomo" select="0"/>
+                                    <field name="folio" select="0"/>
+                                    <field name="fecha_registro" select="0"/>
+                                </group> 
+                  </page>       
+                  
+                  <page string= "Dación en Pago (D-)" attrs="{'invisible': [('forma_adquisi_id','!=',3)]}">
+                               <group col="4" colspan="2">
+                                    <field name="nombre_cedente" select="0"/>
+                                    <field name="nombre_benefici" select="0"/> 
+                                    <field name="numero_finiquito" select="0"/>
+                                    <field name="fecha_finiquito" select="0"/>
+                                    <field name="nombre_registro" select="0"/>
+                                    <field name="tomo" select="0"/>
+                                    <field name="folio" select="0"/>
+                                    <field name="fecha_registro" select="0"/>
+                                </group> 
+                  </page>                                             
+              
+                  <page string= "Donación (E-)" attrs="{'invisible': [('forma_adquisi_id','!=',4)]}">
+                               <group col="4" colspan="2">
+                                    <field name="nombre_donante" select="0"/>
+                                    <field name="nombre_benefici" select="0"/> 
+                                    <field name="numero_contrato" select="0"/>
+                                    <field name="fecha_contrato" select="0"/>
+                                    <field name="nombre_registro" select="0"/>
+                                    <field name="tomo" select="0"/>
+                                    <field name="folio" select="0"/>
+                                    <field name="fecha_registro" select="0"/>
+                                </group> 
+                  </page>                          
+
+                  <page string= "Transferencia (H-)" attrs="{'invisible': [('forma_adquisi_id','!=',5)]}">
+                               <group col="4" colspan="2">
+                                    <field name="nombre_transfiere" select="0"/>
+                                    <field name="nombre_benefici" select="0"/> 
+                                    <field name="num_autoriza" select="0"/>
+                                    <field name="fecha_autoriza" select="0"/>
+                                    <field name="nombre_registro" select="0"/>
+                                    <field name="tomo" select="0"/>
+                                    <field name="folio" select="0"/>
+                                    <field name="fecha_registro" select="0"/>
+                                </group> 
+                  </page>                          
+
+                <page string= "Expropiación (F-)" attrs="{'invisible': [('forma_adquisi_id','!=',6)]}">
+                               <group col="4" colspan="2">
+                                    <field name="nombre_prop_ant" select="0"/>
+                                    <field name="nombre_benefici" select="0"/> 
+                                    <field name="nombre_autoridad" select="0"/> 
+                                    <field name="num_sentencia" select="0"/>
+                                    <field name="fecha_sentencia" select="0"/>
+                                    <field name="nombre_registro" select="0"/>
+                                    <field name="tomo" select="0"/>
+                                    <field name="folio" select="0"/>
+                                    <field name="fecha_registro" select="0"/>
+                                </group> 
+                </page>                         
+            
+                 <page string= "Confiscación (C-)" attrs="{'invisible': [('forma_adquisi_id','!=',7)]}">
+                               <group col="4" colspan="2">
+                                    <field name="nombre_prop_ant" select="0"/>
+                                    <field name="nombre_benefici" select="0"/> 
+                                    <field name="nombre_autoridad" select="0"/> 
+                                    <field name="num_sentencia" select="0"/>
+                                    <field name="fecha_sentencia" select="0"/>
+                                    <field name="nombre_registro" select="0"/>
+                                    <field name="tomo" select="0"/>
+                                    <field name="folio" select="0"/>
+                                    <field name="fecha_registro" select="0"/>
+                                </group> 
+                  </page>                          
+            
+            
+              
+               <page string= "Concurso Abierto (A-)" attrs="{'invisible': [('forma_adquisi_id','!=',8)]}">
+                               <group col="4" colspan="2">
+                                  <field name="nombre_concurso" select="0"/>
+						          <field name="fecha_concurso" select="0"/>
+							      <field name="numero_concurso" select="0"/>
+                                  <field name="numero_contrato" select="0"/>
+                                  <field name="fecha_contrato" select="0"/>
+							      
+							      
+                            </group>	
+                </page>
+                
+                <page string= "Concurso Cerrado (A-)" attrs="{'invisible': [('forma_adquisi_id','!=',9)]}">
+                               <group col="4" colspan="2">
+                                  <field name="nombre_concurso" select="0"/>
+						          <field name="fecha_concurso" select="0"/>
+							      <field name="numero_concurso" select="0"/>
+                                  <field name="numero_contrato" select="0"/>
+                                  <field name="fecha_contrato" select="0"/>
+							      
+                            </group>	
+                </page>
+          
+                <page string= "Adjudicación (I-)" attrs="{'invisible': [('forma_adquisi_id','!=',10)]}">
+                               <group col="4" colspan="2">
+                                    <field name="nombre_prop_ant" select="0"/>
+                                    <field name="nombre_benefici" select="0"/> 
+                                    <field name="nombre_autoridad" select="0"/> 
+                                    <field name="num_sentencia" select="0"/>
+                                    <field name="fecha_sentencia" select="0"/>
+                                    <field name="nombre_registro" select="0"/>
+                                    <field name="tomo" select="0"/>
+                                    <field name="folio" select="0"/>
+                                    <field name="fecha_registro" select="0"/>
+                                </group> 
+                  </page>                          
+
+           
+
+             
+
+            
+
+
+                </notebook>
+		       </sheet>			
+            </form>
+        </field>
+    </record>
+    
+    
+    
+    <record model="ir.ui.view" id="view_detalle_adquisi_tree">
+        <field name="name">detalle_adquisi.tree</field>
+        <field name="model">detalle_adquisi</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="detalle_adquisi">
+                <field name="detalle_adquisi_codigo"/>
+                <field name="forma_adquisi_id"/>
+                <field name="nombre_concurso"/>
+                <field name="fecha_concurso"/>
+                <field name="proveedores_id"/>
+                <field name="numero_contrato"/>
+                <field name="numero_nota_entrega"/>
+                <field name="fecha_nota_entrega"/>
+                <field name="numero_factura"/>
+                <field name="fecha_factura"/>
+                <field name="codigo_pre"/>
+                <field name="monto_fact"/>
+                <field name="num_sentencia"/>
+                <field name="fecha_sentencia"/>
+                <field name="nombre_copermutante"/>
+                <field name="nombre_benefici"/> 
+                <field name="nombre_licitacion"/> 
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_detalle_adquisi">
+        <field name="name">Detalle de Adquisición del Bien</field>
+        <field name="res_model">detalle_adquisi</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+   
+
+        
+    <record model="ir.ui.view" id="view_forma_adquisicion_form">
+        <field name="name">forma_adquisicion.form</field>
+        <field name="model">forma_adquisicion</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="forma_adquisicion">
+				<sheet>
+			       <notebook>
+				     <page string="Forma de Adquisición del Bien">	    
+					    <group col="4" colspan="2">
+							<field name="forma_adquisicion_codigo" select="1"/>
+							<field name="forma_adquisicion_nombre" select="2"/>
+						</group>	
+				    </page>
+		         </notebook>
+		       </sheet>		
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_forma_adquisicion_tree">
+        <field name="name">forma_adquisicion.tree</field>
+        <field name="model">forma_adquisicion</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="forma_adquisicion">
+                <field name="forma_adquisicion_codigo"/>
+                <field name="forma_adquisicion_nombre"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_forma_adquisicion">
+        <field name="name">Formas de Adquisicion</field>
+        <field name="res_model">forma_adquisicion</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+
+        
+    <record model="ir.ui.view" id="view_proveedores_form">
+        <field name="name">proveedores.form</field>
+        <field name="model">proveedores</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="proveedores">
+				<sheet>
+			       <notebook>
+				     <page string="Proveedores del Bien">	    
+					    <group col="4" colspan="2">
+							<field name="proveedores_codigo" select="1"/>
+							<field name="proveedores_nombre" select="2"/>
+							<field name="rif" select="0"/>
+							<field name="proveedores_tipo" select="0"/>
+							<field name="proveedores_observacion" select="0"/>
+						</group>	
+				    </page>
+		         </notebook>
+		       </sheet>		
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_proveedores_tree">
+        <field name="name">proveedores.tree</field>
+        <field name="model">proveedores</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="proveedores">
+                <field name="proveedores_codigo"/>
+                <field name="proveedores_nombre"/>
+                <field name="rif"/>
+                <field name="proveedores_tipo"/>
+                <field name="proveedores_observacion"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_proveedores">
+        <field name="name">Proveedores de Bienes</field>
+        <field name="res_model">proveedores</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+         
+    <record model="ir.ui.view" id="view_poliza_form">
+        <field name="name">poliza.form</field>
+        <field name="model">poliza</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="poliza">
+				<sheet>
+			       <notebook>
+				     <page string="Detalle de la Poliza de Seguro">	    
+					    <group col="4" colspan="2">
+							<field name="poliza_codigo" select="1"/>
+							<field name="poliza_numero" select="2"/>
+							<field name="aseguradoras_id" select="0"/>
+							<field name="poliza_tipo" select="0"/>
+							<field name="poliza_monto" select="0"/>
+							<field name="poliza_fecha_ini" select="0"/>
+							<field name="ploza_fecha_fin" select="0"/>
+							<field name="poliza_respon_civil" select="0"/>
+							<field name="cobertura_id" select="0"/>
+						</group>	
+				    </page>
+		         </notebook>
+		       </sheet>		
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_poliza_tree">
+        <field name="name">poliza.tree</field>
+        <field name="model">poliza</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="poliza">
+                <field name="poliza_codigo"/>
+                <field name="poliza_numero"/>
+                <field name="aseguradoras_id"/>
+                <field name="poliza_tipo"/>
+                <field name="poliza_monto"/>
+                <field name="poliza_fecha_ini"/>
+                <field name="ploza_fecha_fin"/>
+                <field name="poliza_respon_civil"/>
+                <field name="cobertura_id"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_poliza">
+        <field name="name">Detalle de la Poliza de Seguro</field>
+        <field name="res_model">poliza</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+
+        
+    <record model="ir.ui.view" id="view_aseguradoras_form">
+        <field name="name">aseguradoras.form</field>
+        <field name="model">aseguradoras</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="aseguradoras">
+				<sheet>
+			       <notebook>
+				     <page string="Compañí­as Aseguradoras">	    
+					    <group col="2" colspan="2">
+							<field name="aseguradoras_nombre" select="1"/>
+							<field name="aseguradoras_codigo" select="2"/>
+						</group>	
+				    </page>
+		         </notebook>
+		       </sheet>		
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_aseguradoras_tree">
+        <field name="name">aseguradoras.tree</field>
+        <field name="model">aseguradoras</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="aseguradoras">
+                <field name="aseguradoras_nombre"/>
+                <field name="aseguradoras_codigo"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_aseguradoras">
+        <field name="name">Compañías Aseguradoras</field>
+        <field name="res_model">aseguradoras</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+  
+
+        
+    <record model="ir.ui.view" id="view_cobertura_form">
+        <field name="name">cobertura.form</field>
+        <field name="model">cobertura</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="cobertura">
+				<sheet>
+			       <notebook>
+				     <page string="Coberturas de la Poliza">	    
+					    <group col="4" colspan="2">
+							<field name="cobertura_codigo" select="1"/>
+							<field name="cobertura_nombre" select="2"/>
+						</group>	
+				    </page>
+		         </notebook>
+		       </sheet>		
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_cobertura_tree">
+        <field name="name">cobertura.tree</field>
+        <field name="model">cobertura</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="cobertura">
+                <field name="cobertura_codigo"/>
+                <field name="cobertura_nombre"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_cobertura">
+        <field name="name">Cobertura de la Poliza</field>
+        <field name="res_model">cobertura</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+ 
+ 
+  <record model="ir.ui.view" id="view_uniadm_sudebi_form">
+        <field name="name">uniadm_sudebi.form</field>
+        <field name="model">uniadm_sudebi</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="uniadm_sudebi">
+				<sheet>
+			       <notebook>
+				     <page string="Categorias de Unidades Administrativas segun SUDEBIP">	    
+					    <group col="2" colspan="2">
+							<field name="uniadm_sudebi_codigo" select="1"/>
+							<field name="uniadm_sudebi_nombre" select="2"/>
+						</group>	
+				    </page>
+		         </notebook>
+		       </sheet>		
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_uniadm_sudebi_tree">
+        <field name="name">uniadm_sudebi.tree</field>
+        <field name="model">uniadm_sudebi</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="uniadm_sudebi">
+                <field name="uniadm_sudebi_codigo"/>
+                <field name="uniadm_sudebi_nombre"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_uniadm_sudebi">
+        <field name="name">Categorias de Unidades Administrativas segun Sudebip</field>
+        <field name="res_model">uniadm_sudebi</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+ 
+
+        
+    <record model="ir.ui.view" id="view_oficinas_form">
+        <field name="name">oficinas.form</field>
+        <field name="model">oficinas</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="oficinas">
+				<sheet>
+			       <notebook>
+				     <page string="Oficinas">	    
+					    <group col="2" colspan="2">
+							<field name="oficinas_codigo" select="1"/>
+							<field name="oficinas_nombre" select="2"/>
+<!--
+							<field name="oficinas_depe_id" select="0"/>
+-->
+							<field name="uniadm_sudebi_codigo" select="0"/>
+							<field name="oficinas_padre_id" select="0"/>
+
+						</group>	
+				    </page>
+		         </notebook>
+		       </sheet>		
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_oficinas_tree">
+        <field name="name">oficinas.tree</field>
+        <field name="model">oficinas</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="oficinas">
+                <field name="oficinas_codigo"/>
+                <field name="oficinas_nombre"/>
+<!--
+                <field name="oficinas_depe_id"/>
+-->
+                <field name="uniadm_sudebi_codigo"/>
+                <field name="oficinas_padre_id"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_oficinas">
+        <field name="name">Oficinas del Ministerio</field>
+        <field name="res_model">oficinas</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+
+
+
+<!--
+****************Ubicacion Fisica**************************
+-->
+ <record model="ir.ui.view" id="view_ubicacion_fisica_form">
+        <field name="name">ubicacion_fisica.form</field>
+        <field name="model">ubicacion_fisica</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="ubicacion_fisica">
+				<sheet>
+			       <notebook>
+				     <page string="Ubicación Fisica del Bien">	    
+					    <group col="2" colspan="2">
+                            <field name="ubicacion_fisica_nombre" select="1"/>
+						</group>	
+				    </page>
+		         </notebook>
+		       </sheet>		
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_ubicacion_fisica_tree">
+        <field name="name">ubicacion_fisica.tree</field>
+        <field name="model">ubicacion_fisica</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="ubicacion_fisica">
+               <field name="ubicacion_fisica_nombre"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_ubicacion_fisica">
+        <field name="name">Ubicación Fisica del Bien</field>
+        <field name="res_model">ubicacion_fisica</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+<!--
+****************Fin Ubicacion Fisica**************************
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+************************************************************************************
+-->
+<!--
+    <record id="view_oficrep" model="ir.ui.view">
+        <field name="name">oficrep.form</field>
+        <field name="model">oficrep</field>
+        <field name="type">form</field>
+        <field name="arch" type = "xml">
+        <form string="Oficinas">
+            <group colspan="4" >
+                <separator string="Selecionar Oficinas" colspan="4"/>
+                    <field colspan="4" name="ofi" nolabel="1" mode="tree,form">
+                            <tree string="Seleccionar Oficinas">
+                                <field name="oficinas_nombre"/>
+                               
+                    </tree>
+                    </field>
+                    <newline/>
+            </group>
+                    <separator string="" colspan="4" />
+                    <button icon="gtk-cancel" special="cancel" string="Cancel"/>
+                    <button name="oficinas" string="Generar reporte jasper" type="object" default_focus="1" class="oe_highlight"/>
+                   <button name="oficinas" string="Ver Oficinas" type="action"/>
+
+                    <button icon="gtk-ok" name="oficrep" string="Generar Reporte" type="object"/>
+                    
+        </form>
+        </field>
+    </record>
+           
+      <record id="action_oficrep" model="ir.actions.act_window">
+            <field name="name">Oficrep</field>
+            <field name="res_model">oficrep</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="view_oficrep"/>
+            <field name="target">new</field>
+    </record>
+
+    <act_window id="action_oficrep_values"
+        key2="client_action_multi" name="Oficinas"
+        res_model="oficrep" src_model="oficinas"
+        view_mode="form" target="new" view_type="form"/>
+
+          
+    <act_window id="actions_report_xml"
+        key2="client_action_multi" name="Oficinas"
+        res_model="oficrep" src_model="oficinas"
+        view_mode="form" target="new" view_type="form"/>
+
+            
+            
+    <record id="actions_report_xml" model="ir.actions.act_window">          
+        <field name="name">Jasper Report</field>
+        <field name="res_model">oficrep</field>
+        <field name="report_name">oficinas_report</field>
+        <field name="report_rml">bienes/report/inv2.jrxml</field>
+        <field name="report_type">pdf</field>
+        <field name="jasper_report">True</field>
+        <field name="jasper_output">pdf</field>
+
+    </record>        
+-->
+
+
+        
+    <record model="ir.ui.view" id="view_mppp_reg_pro_estados_form">
+        <field name="name">mppp_reg_pro_estados.form</field>
+        <field name="model">mppp_reg_pro_estados</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="mppp_reg_pro_estados">
+				<sheet>
+			       <notebook>
+				     <page string="Estados del Pais">	    
+					    <group col="2" colspan="2">
+							<field name="codigo" select="1"/>
+							<field name="estado" select="2"/>
+                            <field name="seledo" select="2"/>
+						</group>	
+				    </page>
+		         </notebook>
+		       </sheet>		
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_mppp_reg_pro_estados_tree">
+        <field name="name">mppp_reg_pro_estados.tree</field>
+        <field name="model">mppp_reg_pro_estados</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="mppp_reg_pro_estados">
+                <field name="codigo"/>
+                <field name="estado"/>
+                <field name="seledo"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_mppp_reg_pro_estados">
+        <field name="name">Tabla Referencial de Estados </field>
+        <field name="res_model">mppp_reg_pro_estados</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+
+
+  
+
+        
+    <record model="ir.ui.view" id="view_mppp_reg_pro_municipios_form">
+        <field name="name">mppp_reg_pro_municipios.form</field>
+        <field name="model">mppp_reg_pro_municipios</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="mppp_reg_pro_municipios">
+				<sheet>
+			       <notebook>
+				     <page string="Municipios del Estado">	    
+					    <group col="2" colspan="2">
+							<field name="codigo" select="1"/>
+							<field name="municipio" select="2"/>
+							<field name="estado_id" select="0"/>
+                            <field name="selemu" select="2"/>
+						</group>	
+				    </page>
+		         </notebook>
+		       </sheet>		
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_mppp_reg_pro_municipios_tree">
+        <field name="name">mppp_reg_pro_municipios.tree</field>
+        <field name="model">mppp_reg_pro_municipios</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="mppp_reg_pro_municipios">
+                <field name="codigo"/>
+                <field name="municipio"/>
+                <field name="estado_id"/>
+                <field name="selemu"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_mppp_reg_pro_municipios">
+        <field name="name">Tabla Referencial de  Municipios</field>
+        <field name="res_model">mppp_reg_pro_municipios</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+  
+
+
+
+        
+    <record model="ir.ui.view" id="view_mppp_reg_pro_parroquias_form">
+        <field name="name">mppp_reg_pro_parroquias.form</field>
+        <field name="model">mppp_reg_pro_parroquias</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="mppp_reg_pro_parroquias">
+				<sheet>
+			       <notebook>
+				     <page string="Parroquias del Municipio">	    
+					    <group col="2" colspan="2">
+				            <field name="codigo" select="1"/>
+							<field name="parroquia" select="2"/>
+							<field name="municipios_id" select="0"/>
+                            <field name="selepa" select="2"/>
+						</group>	
+				    </page>
+		         </notebook>
+		       </sheet>		
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_mppp_reg_pro_parroquias_tree">
+        <field name="name">mppp_reg_pro_parroquias.tree</field>
+        <field name="model">mppp_reg_pro_parroquias</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="mppp_reg_pro_parroquias">
+                <field name="codigo"/>
+                <field name="parroquia"/>
+                <field name="municipios_id"/>
+                <field name="selepa"/>
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_mppp_reg_pro_parroquias">
+        <field name="name">Tabla Referencial de Parroquias</field>
+        <field name="res_model">mppp_reg_pro_parroquias</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+<!--
+                   Datos del Ministerio en la Sudebip
+--> 
+
+        
+    <record model="ir.ui.view" id="view_bienes_ministerio">
+        <field name="name">bienes_ministerio.form</field>
+        <field name="model">bienes_ministerio</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="bienes_ministerio">
+				<sheet>
+			       <notebook>
+				     <page string="Informacion del Ministerio en la Sudebip">	    
+					    <group col="4" colspan="4">
+				            <field name="rif" select="1"/>
+							<field name="nsudebip" select="2"/>
+							<field name="fecha_remision" select="0"/>
+                            <field name="telefono" select="2"/>
+                            <field name="seleinv" select="0"/>
+                        </group>	
+				    </page>
+		         </notebook>
+		       </sheet>		
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_bienes_ministerio_tree">
+        <field name="name">bienes_ministerio.tree</field>
+        <field name="model">bienes_ministerio</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="bienes_ministerio">
+                <field name="rif"/>
+                <field name="nsudebip"/>
+                <field name="fecha_remision"/>
+                <field name="telefono"/>
+                <field name="seleinv"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_bienes_ministerio">
+        <field name="name">Informacion del Ministerio en la Sudebip</field>
+        <field name="res_model">bienes_ministerio</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ <!--
+                   Fin de   Datos Requeridos por la Sudebip
+--> 
+ 
+      
+    <record model="ir.ui.view" id="view_bienes_form">
+        <field name="name">bienes_form</field>
+        <field name="model">bienes</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="bienes">
+				<sheet>
+					<notebook>
+						<page string="Datos Basicos">	
+							<group col="2" colspan="4">
+								<field name="bienes_numbien" select="1"/>
+								<field name="bienes_nombre" select="2"/>
+								<field name="bienes_serial" select="0"/>
+								<field name="bienes_numbien_ant" select="0"/>
+								<field name="bienes_piso" select="0"/>
+							</group>
+							<group col="2" colspan="2">
+								<field name="grupo_bien_id" select="0"/>
+								<field name="clasificador_bien_id" />
+
+<!--
+								<field name="clasificador_bien_id" select="0" domain="[('clasificador.grupo_bien_id','=',grupo_bien_id)]"/>
+-->
+								<field name="modelo_bien_id" select="0"/>
+								<field name="detalle_modelo_id" select="0"/>
+								<field name="material_id" select="0"/>
+								<field name="color_id" select="0"/>
+								<field name="marcas_id" select="0"/>
+								<field name="modelo_fab_id" select="0"/>
+								<field name="medidas" select="0"/>
+							</group>	
+						</page>		
+						
+						
+						<page string="Datos Requeridos por la SUDEBIP">			
+							<group col="4" colspan="2">	
+								<field name="oficinas_id" select="0"/>
+                                <field name="bienes_ubica" select="0"/>
+                                <field name="resp_uso_id" select="0"/>
+                                <field name="resp_pat_id" select="0"/>
+							</group>	
+							<group col="4" colspan="2">		
+								<field name="detalle_adquisi_id" select="0"/>
+								<field name="costo" select="0"/>
+								<field name="estatus_uso_id" select="0"/>
+								<field name="estatus_bien_id" select="0"/>
+								<field name="poliza_id" select="0"/>
+							</group>
+							<group col="2" colspan="2">		
+								<field name="catalogo_sudebi_id" select="0"/>
+								<field name="catalogo_sudebi_sub_id" select="0"/>
+								<field name="catalogo_sudebi_esp_id" select="0"/>
+                                <field name="clase_sudebi_id" select="0"/>
+								<field name="color_sudebi_id" select="0"/>
+                               <group col="4" colspan="2">		
+                                <field name="garantia" select="0"/>
+                                <field name="unidad_garantia" select="0"/>
+                                <field name="fecha_ini_garantia" select="0"/>
+                                <field name="fecha_fin_garantia" select="0"/>
+                                </group>
+							</group>			
+							<group col="4" colspan="2">					
+								<field name="estado_id" select="0"/>
+								<field name="municipios_id" select="0"/>
+								<field name="parroquias_id" select="0"/>
+							</group>
+						</page>
+                        
+                        <page string="Datos de los Vehiculos Requeridos por la SUDEBIP">	
+                            <group col="4" colspan="2">	
+								<field name="ano_fab" select="0"/>
+								<field name="serial_carro" select="0"/>
+								<field name="serial_motor" select="0"/>
+                                <field name="placas" select="0"/>
+                                <field name="titulo_prop" select="0"/>
+                                <field name="capacidad" select="0"/>
+                                <field name="uso" select="0"/>
+                              
+                                <field name="rastreo" select="0"/>
+                                <field name="desc_rastreo" select="0"/>
+							</group>	
+                        </page>
+					</notebook>
+		  	   </sheet>
+            </form>
+        </field>
+    </record>
+    
+        
+ 
+    
+    
+    <record model="ir.ui.view" id="view_bienes_tree">
+        <field name="name">bienes_tree</field>
+        <field name="model">bienes</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="bienes">
+                <field name="bienes_numbien"/>
+                <field name="bienes_nombre"/>
+
+                <field name="bienes_serial"/>
+                <field name="bienes_numbien_ant"/>
+                <field name="bienes_piso"/>
+                <field name="grupo_bien_id"/>
+                <field name="clasificador_bien_id"/>
+                <field name="modelo_bien_id"/>
+                <field name="detalle_modelo_id"/>
+                <field name="color_id"/>
+                <field name="material_id"/>
+                <field name="oficinas_id"/>
+                <field name="marcas_id"/>
+                <field name="modelo_fab_id"/>
+                <field name="medidas"/>
+                <field name="resp_uso_id"/>
+                <field name="resp_pat_id"/>
+                <field name="costo"/>
+                <field name="estatus_uso_id"/>
+                <field name="estatus_bien_id"/>
+                <field name="detalle_adquisi_id"/>
+                <field name="catalogo_sudebi_id"/>
+                <field name="catalogo_sudebi_sub_id"/>
+                <field name="catalogo_sudebi_esp_id"/>
+                <field name="estado_id"/>
+                <field name="municipios_id"/>
+                <field name="parroquias_id"/>
+                <field name="poliza_id"/>
+                <field name="color_sudebi_id"/>
+
+
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_bienes">
+        <field name="name">Bienes</field>
+        <field name="res_model">bienes</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+  
+
+  
+  
+  
+  
+         
+    <menuitem name="Bienes Publicos" id="menu_p"/>
+		<menuitem name="Registro de Bienes" id="menu_registro" parent="menu_p"/>
+        
+			<menuitem name="Bienes" id="menu_bienes" parent="menu_registro" action="action_bienes"/>
+          
+     	<menuitem name=" Catalogo Interno de Bienes" id="menu_cat_in" parent="menu_p"/>
+     				<menuitem name="Grupo de Bienes" id="menu_grupo_bien" parent="menu_cat_in" action="action_grupo_bien"/>
+					<menuitem name="Clasificador de Bienes" id="menu_clasificador_bien"  parent="menu_cat_in" action="action_clasificador_bien"/>
+					<menuitem name="Modelo de Bienes" id="menu_modelo_bien"  parent="menu_cat_in" action="action_modelo_bien"/>
+					<menuitem name="Detalle del Modelo de Bienes" id="menu_detalle_modelo_bien"  parent="menu_cat_in" action="action_detalle_modelo_bien"/>
+					<menuitem name="Material del Bien" id="menu_material"  parent="menu_cat_in" action="action_material"/>
+					<menuitem name="Color de los Bienes " id="menu_color"  parent="menu_cat_in"  action="action_color"/>
+					<menuitem name="Marcas del Bien" id="menu_marcas"  parent="menu_cat_in" action="action_marcas"/>
+					<menuitem name="Modelo de Fabrica del Bien" id="menu_modelo_fab"  parent="menu_cat_in" action="action_modelo_fab"/>
+     	
+		<menuitem name=" Catalogo de la SUDEBIP" id="menu_cat_sud" parent="menu_p"/>
+					<menuitem name="Catalogo General de Bienes segun (SUDEBIP)" id="menu_catalogo_sudebi" parent="menu_cat_sud" action="action_catalogo_sudebi"/>
+					<menuitem name="Catalogo Sub-General de Bienes segun (SUDEBIP)" id="menu_catalogo_sudebi_sub" parent="menu_cat_sud" action="action_catalogo_sudebi_sub"/>
+					<menuitem name="Catalogo Especifico de Bienes segun (SUDEBIP)" id="menu_catalogo_sudebi_esp" parent="menu_cat_sud" action="action_catalogo_sudebi_esp"/>
+					<menuitem name="Color de los Bienes segun SUDEBIP" id="menu_color_sudebi"  parent="menu_cat_sud" action="action_color_sudebi"/>
+                    <menuitem name="Clase de Vehiculos segun SUDEBIP"  id="menu_clase_sudebi"  parent="menu_cat_sud" action="action_clase_sudebi"/>
+                    
+
+	    <menuitem name=" Datos Requeridos por la SUDEBIP" id="menu_datos_sud" parent="menu_p"/>
+                    <menuitem name="Informacion del Ministerio en la Sudebip" id="menu_bienes_ministerio" parent="menu_datos_sud" action="action_bienes_ministerio"/>
+                    <menuitem name="Categorias de Unidades Administrativas segun Sudebip" id="menu_uniadm_sudebi" parent="menu_datos_sud" action="action_uniadm_sudebi"/>
+                    <menuitem name="Ubicacion Fisica de los Bienes" id="menu_ubicacion_fisica" parent="menu_datos_sud" action="action_ubicacion_fisica"/>
+					<menuitem name="Oficinas del Ministerio" id="menu_oficinas" parent="menu_datos_sud" action="action_oficinas"/>
+					<menuitem name="Personal del Ministerio" id="menu_personas"  parent="menu_datos_sud" action="action_personas"/>
+					<menuitem name="Estatus de uso del Bien" id="menu_estatus_uso"  parent="menu_datos_sud" action="action_estatus_uso"/>
+					<menuitem name="Estatus del Bien" id="menu_estatus_bien"  parent="menu_datos_sud" action="action_estatus_bien"/>					
+					<menuitem name="Formas de Adquisicion" id="menu_forma_adquisicion"  parent="menu_datos_sud" action="action_forma_adquisicion"/>
+					<menuitem name="Detalle de Adquisicion del Bien" id="menu_detalle_adquisi"  parent="menu_datos_sud" action="action_detalle_adquisi"/>
+				
+					<menuitem name="Proveedores de Bienes" id="menu_proveedores"  parent="menu_datos_sud" action="action_proveedores"/>
+					<menuitem name="Compañias Aseguradoras" id="menu_aseguradoras"  parent="menu_datos_sud" action="action_aseguradoras"/>
+					<menuitem name="Cobertura de la Poliza" id="menu_cobertura"  parent="menu_datos_sud" action="action_cobertura"/>
+					<menuitem name="Detalle de la Poliza de Seguro" id="menu_poliza"  parent="menu_datos_sud" action="action_poliza"/>
+					
+					<menuitem name="Tabla Referencial de Estados " id="menu_mppp_reg_pro_estados" parent="menu_datos_sud" action="action_mppp_reg_pro_estados"/>
+					<menuitem name="Tabla Referencial de  Municipios" id="menu_mppp_reg_pro_municipios" parent="menu_datos_sud" action="action_mppp_reg_pro_municipios"/> 
+					<menuitem name="Tabla Referencial de Parroquias" id="menu_mppp_reg_pro_parroquias" parent="menu_datos_sud" action="action_mppp_reg_pro_parroquias"/>
+		
+
+
+<!--
+        <menuitem id="menu_jasper_informes" name="Informes Jasper" parent="menu_p"/>
+                  <menuitem
+                    parent="menu_jasper_informes"
+                    action="action_menu_jasper_oficinas_bienes"
+                    id="menu_jasper_report_oficinas"
+                />
+-->
+
+
+            
+            
+		<menuitem name="Reporte por Oficinas" id="menu_reportes" parent="menu_p"/>
+        <menuitem name="Inventario Sudebip"   id="menu_reportes" parent="menu_p"/>
+<!--
+            <menuitem name="Selecionar Oficina" id="menu_oficrep" parent="menu_reportes" action="action_oficrep"/>
+-->
+		
+		
+		
+		
+
+			
+	
+			
+		
+			
+				
+			
+		
+			
+			
+			
+			
+      
+</data>
+</openerp>

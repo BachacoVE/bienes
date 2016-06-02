@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data noupdate="1">
+		<record id="estatus_uso_1" model="estatus_uso">
+			<field name="estatus_uso_codigo">1</field>
+			<field name="estatus_uso_nombre">En uso</field>
+		</record>
+		<record id="estatus_uso_2" model="estatus_uso">
+			<field name="estatus_uso_codigo">2</field>
+			<field name="estatus_uso_nombre">En comodato</field>
+		</record>
+		<record id="estatus_uso_3" model="estatus_uso">
+			<field name="estatus_uso_codigo">3</field>
+			<field name="estatus_uso_nombre">En arrendamiento</field>
+		</record>
+		<record id="estatus_uso_4" model="estatus_uso">
+			<field name="estatus_uso_codigo">4</field>
+			<field name="estatus_uso_nombre">En mantenimiento</field>
+		</record>
+		<record id="estatus_uso_5" model="estatus_uso">
+			<field name="estatus_uso_codigo">5</field>
+			<field name="estatus_uso_nombre">En reparación</field>
+		</record>
+		<record id="estatus_uso_6" model="estatus_uso">
+			<field name="estatus_uso_codigo">6</field>
+			<field name="estatus_uso_nombre">En proceso de disposición</field>
+		</record>
+		<record id="estatus_uso_7" model="estatus_uso">
+			<field name="estatus_uso_codigo">7</field>
+			<field name="estatus_uso_nombre">En desuso por obsolescencia</field>
+		</record>
+		<record id="estatus_uso_8" model="estatus_uso">
+			<field name="estatus_uso_codigo">8</field>
+			<field name="estatus_uso_nombre">En desuso por  inservibilidad</field>
+		</record>
+		<record id="estatus_uso_9" model="estatus_uso">
+			<field name="estatus_uso_codigo">9</field>
+			<field name="estatus_uso_nombre">En desuso por  obsolescencia e inservibilidad</field>
+		</record>
+		<record id="estatus_uso_10" model="estatus_uso">
+			<field name="estatus_uso_codigo">10</field>
+			<field name="estatus_uso_nombre">En Almacén o Depósito para su asignación</field>
+		</record>
+		<record id="estatus_uso_11" model="estatus_uso">
+			<field name="estatus_uso_codigo">11</field>
+			<field name="estatus_uso_nombre">Otro uso</field>
+		</record>
+	</data>
+</openerp>
+
+
+
+

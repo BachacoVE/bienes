@@ -1,0 +1,1882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data noupdate="1">
+		<record id="modfab_5" model="modelo_fab">
+		  <field name="modelo_fab_codigo">5</field>
+		  <field name="modelo_fab_nombre">DESKJET 990</field>
+		  <field name="marcas_id" ref="marc_1"/>
+		</record>
+	   <record id="modfab_9" model="modelo_fab">
+		  <field name="modelo_fab_codigo">9</field>
+		  <field name="modelo_fab_nombre">KX-B530</field>
+		  <field name="marcas_id" ref="marc_8"/>
+	   </record>
+	   <record id="modfab_11" model="modelo_fab">
+		  <field name="modelo_fab_codigo">11</field>
+		  <field name="modelo_fab_nombre">DR-120LB</field>
+		  <field name="marcas_id" ref="marc_7"/>
+	   </record>
+	   <record id="modfab_12" model="modelo_fab">
+		  <field name="modelo_fab_codigo">12</field>
+		  <field name="modelo_fab_nombre">FAXCENTRE 170</field>
+		  <field name="marcas_id" ref="marc_12"/>
+	   </record>
+	   <record id="modfab_14" model="modelo_fab">
+		  <field name="modelo_fab_codigo">14</field>
+		  <field name="modelo_fab_nombre">EUROSET 805-S</field>
+		  <field name="marcas_id" ref="marc_4"/>
+	   </record>
+	   <record id="modfab_15" model="modelo_fab">
+		  <field name="modelo_fab_codigo">15</field>
+		  <field name="modelo_fab_nombre">OPTISET E BASIC</field>
+		  <field name="marcas_id" ref="marc_4"/>
+	   </record>
+	   <record id="modfab_16" model="modelo_fab">
+		  <field name="modelo_fab_codigo">16</field>
+		  <field name="modelo_fab_nombre">1008</field>
+		  <field name="marcas_id" ref="marc_14"/>
+	   </record>
+	   <record id="modfab_17" model="modelo_fab">
+		  <field name="modelo_fab_codigo">17</field>
+		  <field name="modelo_fab_nombre">SYNC MASTER 710</field>
+		  <field name="marcas_id" ref="marc_15"/>
+	   </record>
+	   <record id="modfab_18" model="modelo_fab">
+		  <field name="modelo_fab_codigo">18</field>
+		  <field name="modelo_fab_nombre">SK 1688</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_19" model="modelo_fab">
+		  <field name="modelo_fab_codigo">19</field>
+		  <field name="modelo_fab_nombre">DX-2000</field>
+		  <field name="marcas_id" ref="marc_17"/>
+	   </record>
+	   <record id="modfab_20" model="modelo_fab">
+		  <field name="modelo_fab_codigo">20</field>
+		  <field name="modelo_fab_nombre">DX-2200</field>
+		  <field name="marcas_id" ref="marc_17"/>
+	   </record>
+	   <record id="modfab_21" model="modelo_fab">
+		  <field name="modelo_fab_codigo">21</field>
+		  <field name="modelo_fab_nombre">DESKJET 3550</field>
+		  <field name="marcas_id" ref="marc_1"/>
+		</record>
+	   <record id="modfab_22" model="modelo_fab">
+		  <field name="modelo_fab_codigo">22</field>
+		  <field name="modelo_fab_nombre">6678-DVA</field>
+		  <field name="marcas_id" ref="marc_18"/>
+	   </record>
+	   <record id="modfab_23" model="modelo_fab">
+		  <field name="modelo_fab_codigo">23</field>
+		  <field name="modelo_fab_nombre">DP 6850</field>
+		  <field name="marcas_id" ref="marc_19"/>
+	   </record>
+	   <record id="modfab_24" model="modelo_fab">
+		  <field name="modelo_fab_codigo">24</field>
+		  <field name="modelo_fab_nombre">LASERJET 4 PLUS</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_25" model="modelo_fab">
+		  <field name="modelo_fab_codigo">25</field>
+		  <field name="modelo_fab_nombre">DESKJET 970</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_27" model="modelo_fab">
+		  <field name="modelo_fab_codigo">27</field>
+		  <field name="modelo_fab_nombre">PP01X</field>
+		  <field name="marcas_id" ref="marc_2"/>
+	   </record>
+	   <record id="modfab_28" model="modelo_fab">
+		  <field name="modelo_fab_codigo">28</field>
+		  <field name="modelo_fab_nombre">6331-41E</field>
+		  <field name="marcas_id" ref="marc_22"/>
+	   </record>
+	   <record id="modfab_29" model="modelo_fab">
+		  <field name="modelo_fab_codigo">29</field>
+		  <field name="modelo_fab_nombre">SK-8811</field>
+		  <field name="marcas_id" ref="marc_22"/>
+	   </record>
+	   <record id="modfab_30" model="modelo_fab">
+		  <field name="modelo_fab_codigo">30</field>
+		  <field name="modelo_fab_nombre">WORK CENTRE M20I</field>
+		  <field name="marcas_id" ref="marc_12"/>
+	   </record>
+	   <record id="modfab_31" model="modelo_fab">
+		  <field name="modelo_fab_codigo">31</field>
+		  <field name="modelo_fab_nombre">LASERJET 3550</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_32" model="modelo_fab">
+		  <field name="modelo_fab_codigo">32</field>
+		  <field name="modelo_fab_nombre">OPTISET E STANDARD</field>
+		  <field name="marcas_id" ref="marc_4"/>
+	   </record>
+	   <record id="modfab_33" model="modelo_fab">
+		  <field name="modelo_fab_codigo">33</field>
+		  <field name="modelo_fab_nombre">DOCKING STATION</field>
+		  <field name="marcas_id" ref="marc_2"/>
+	   </record>
+	   <record id="modfab_34" model="modelo_fab">
+		  <field name="modelo_fab_codigo">34</field>
+		  <field name="modelo_fab_nombre">7540</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_36" model="modelo_fab">
+		  <field name="modelo_fab_codigo">36</field>
+		  <field name="modelo_fab_nombre">1300</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_37" model="modelo_fab">
+		  <field name="modelo_fab_codigo">37</field>
+		  <field name="modelo_fab_nombre">4250</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_38" model="modelo_fab">
+		  <field name="modelo_fab_codigo">38</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_35"/>
+	   </record>
+	   <record id="modfab_39" model="modelo_fab">
+		  <field name="modelo_fab_codigo">39</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_25"/>
+	   </record>
+	   <record id="modfab_40" model="modelo_fab">
+		  <field name="modelo_fab_codigo">40</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_37"/>
+	   </record>
+	   <record id="modfab_41" model="modelo_fab">
+		  <field name="modelo_fab_codigo">41</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_38"/>
+	   </record>
+<!--
+	   <record id="modfab_42" model="modelo_fab">
+		  <field name="modelo_fab_codigo">42</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_39"/>
+	   </record>
+-->
+	   <record id="modfab_47" model="modelo_fab">
+		  <field name="modelo_fab_codigo">47</field>
+		  <field name="modelo_fab_nombre">DESKJET 692 C</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_49" model="modelo_fab">
+		  <field name="modelo_fab_codigo">49</field>
+		  <field name="modelo_fab_nombre">VECTRA VL 400</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_50" model="modelo_fab">
+		  <field name="modelo_fab_codigo">50</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_36"/>
+	   </record>
+	   <record id="modfab_52" model="modelo_fab">
+		  <field name="modelo_fab_codigo">52</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_3"/>
+	   </record>
+	   <record id="modfab_54" model="modelo_fab">
+		  <field name="modelo_fab_codigo">54</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_10"/>
+	   </record>
+	   <record id="modfab_55" model="modelo_fab">
+		  <field name="modelo_fab_codigo">55</field>
+		  <field name="modelo_fab_nombre">EL-2607</field>
+		  <field name="marcas_id" ref="marc_42"/>
+	   </record>
+	   <record id="modfab_56" model="modelo_fab">
+		  <field name="modelo_fab_codigo">56</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_43"/>
+	   </record>
+	   <record id="modfab_57" model="modelo_fab">
+		  <field name="modelo_fab_codigo">57</field>
+		  <field name="modelo_fab_nombre">MR-65T-1</field>
+		  <field name="marcas_id" ref="marc_44"/>
+	   </record>
+	   <record id="modfab_59" model="modelo_fab">
+		  <field name="modelo_fab_codigo">59</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_45"/>
+	   </record>
+	   <record id="modfab_60" model="modelo_fab">
+		  <field name="modelo_fab_codigo">60</field>
+		  <field name="modelo_fab_nombre">WF-904</field>
+		  <field name="marcas_id" ref="marc_46"/>
+	   </record>
+	   <record id="modfab_61" model="modelo_fab">
+		  <field name="modelo_fab_codigo">61</field>
+		  <field name="modelo_fab_nombre">AC-9000M</field>
+		  <field name="marcas_id" ref="marc_47"/>
+	   </record>
+	   <record id="modfab_62" model="modelo_fab">
+		  <field name="modelo_fab_codigo">62</field>
+		  <field name="modelo_fab_nombre">DESKJET 940 C</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_64" model="modelo_fab">
+		  <field name="modelo_fab_codigo">64</field>
+		  <field name="modelo_fab_nombre">M009K2</field>
+		  <field name="marcas_id" ref="marc_22"/>
+	   </record>
+	   <record id="modfab_65" model="modelo_fab">
+		  <field name="modelo_fab_codigo">65</field>
+		  <field name="modelo_fab_nombre">OPTISET E ADVANCE PLUS</field>
+		  <field name="marcas_id" ref="marc_4"/>
+	   </record>
+	   <record id="modfab_66" model="modelo_fab">
+		  <field name="modelo_fab_codigo">66</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_51"/>
+	   </record>
+	   <record id="modfab_67" model="modelo_fab">
+		  <field name="modelo_fab_codigo">67</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_52"/>
+	   </record>
+	  
+	   <record id="modfab_71" model="modelo_fab">
+		  <field name="modelo_fab_codigo">71</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_28"/>
+	   </record>
+	   <record id="modfab_73" model="modelo_fab">
+		  <field name="modelo_fab_codigo">73</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_5"/>
+	   </record>
+	   <record id="modfab_75" model="modelo_fab">
+		  <field name="modelo_fab_codigo">75</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_24"/>
+	   </record>
+	   <record id="modfab_76" model="modelo_fab">
+		  <field name="modelo_fab_codigo">76</field>
+		  <field name="modelo_fab_nombre">KDE600</field>
+		  <field name="marcas_id" ref="marc_54"/>
+	   </record>
+	   <record id="modfab_77" model="modelo_fab">
+		  <field name="modelo_fab_codigo">77</field>
+		  <field name="modelo_fab_nombre">7540 N</field>
+		  <field name="marcas_id" ref="marc_15"/>
+	   </record>
+	   <record id="modfab_78" model="modelo_fab">
+		  <field name="modelo_fab_codigo">78</field>
+		  <field name="modelo_fab_nombre">KB-0316</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_79" model="modelo_fab">
+		  <field name="modelo_fab_codigo">79</field>
+		  <field name="modelo_fab_nombre">DESKJET 670C</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_80" model="modelo_fab">
+		  <field name="modelo_fab_codigo">80</field>
+		  <field name="modelo_fab_nombre">MO42KC</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_81" model="modelo_fab">
+		  <field name="modelo_fab_codigo">81</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+<!--
+	   <record id="modfab_82" model="modelo_fab">
+		  <field name="modelo_fab_codigo">82</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+-->
+	   <record id="modfab_84" model="modelo_fab">
+		  <field name="modelo_fab_codigo">84</field>
+		  <field name="modelo_fab_nombre">A5</field>
+		  <field name="marcas_id" ref="marc_57"/>
+	   </record>
+	   <record id="modfab_85" model="modelo_fab">
+		  <field name="modelo_fab_codigo">85</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_58"/>
+	   </record>
+	   <record id="modfab_86" model="modelo_fab">
+		  <field name="modelo_fab_codigo">86</field>
+		  <field name="modelo_fab_nombre">3291</field>
+		  <field name="marcas_id" ref="marc_10"/>
+	   </record>
+	   <record id="modfab_88" model="modelo_fab">
+		  <field name="modelo_fab_codigo">88</field>
+		  <field name="modelo_fab_nombre">KX-FHD331</field>
+		  <field name="marcas_id" ref="marc_8"/>
+	   </record>
+<!--
+	   <record id="modfab_89" model="modelo_fab">
+		  <field name="modelo_fab_codigo">89</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_59"/>
+	   </record>
+-->
+	   <record id="modfab_90" model="modelo_fab">
+		  <field name="modelo_fab_codigo">90</field>
+		  <field name="modelo_fab_nombre">1702</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_92" model="modelo_fab">
+		  <field name="modelo_fab_codigo">92</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_2"/>
+	   </record>
+	   <record id="modfab_93" model="modelo_fab">
+		  <field name="modelo_fab_codigo">93</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_32"/>
+	   </record>
+	   <record id="modfab_94" model="modelo_fab">
+		  <field name="modelo_fab_codigo">94</field>
+		  <field name="modelo_fab_nombre">LASERJET 4250N</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_95" model="modelo_fab">
+		  <field name="modelo_fab_codigo">95</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_29"/>
+	   </record>
+	   <record id="modfab_96" model="modelo_fab">
+		  <field name="modelo_fab_codigo">96</field>
+		  <field name="modelo_fab_nombre">SCANJET ADF</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_97" model="modelo_fab">
+		  <field name="modelo_fab_codigo">97</field>
+		  <field name="modelo_fab_nombre">4300 U</field>
+		  <field name="marcas_id" ref="marc_18"/>
+	   </record>
+	   <record id="modfab_98" model="modelo_fab">
+		  <field name="modelo_fab_codigo">98</field>
+		  <field name="modelo_fab_nombre">LASERJET 1320 N</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_99" model="modelo_fab">
+		  <field name="modelo_fab_codigo">99</field>
+		  <field name="modelo_fab_nombre">TRINITRON</field>
+		  <field name="marcas_id" ref="marc_9"/>
+	   </record>
+	   <record id="modfab_100" model="modelo_fab">
+		  <field name="modelo_fab_codigo">100</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_60"/>
+	   </record>
+	   <record id="modfab_101" model="modelo_fab">
+		  <field name="modelo_fab_codigo">101</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_61"/>
+	   </record>
+	   <record id="modfab_103" model="modelo_fab">
+		  <field name="modelo_fab_codigo">103</field>
+		  <field name="modelo_fab_nombre">LASERJET 8150DN</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+<!--
+	   <record id="modfab_105" model="modelo_fab">
+		  <field name="modelo_fab_codigo">105</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_8"/>
+	   </record>
+-->
+	   <record id="modfab_106" model="modelo_fab">
+		  <field name="modelo_fab_codigo">106</field>
+		  <field name="modelo_fab_nombre">SP228</field>
+		  <field name="marcas_id" ref="marc_63"/>
+	   </record>
+<!--
+	   <record id="modfab_109" model="modelo_fab">
+		  <field name="modelo_fab_codigo">109</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_66"/>
+	   </record>
+-->
+	   <record id="modfab_111" model="modelo_fab">
+		  <field name="modelo_fab_codigo">111</field>
+		  <field name="modelo_fab_nombre">DESKJET 500</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_113" model="modelo_fab">
+		  <field name="modelo_fab_codigo">113</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_68"/>
+	   </record>
+	   <record id="modfab_114" model="modelo_fab">
+		  <field name="modelo_fab_codigo">114</field>
+		  <field name="modelo_fab_nombre">KB-9970</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_115" model="modelo_fab">
+		  <field name="modelo_fab_codigo">115</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_70"/>
+	   </record>
+	   <record id="modfab_116" model="modelo_fab">
+		  <field name="modelo_fab_codigo">116</field>
+		  <field name="modelo_fab_nombre">E54</field>
+		  <field name="marcas_id" ref="marc_22"/>
+	   </record>
+	   <record id="modfab_117" model="modelo_fab">
+		  <field name="modelo_fab_codigo">117</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_71"/>
+	   </record>
+	   <record id="modfab_119" model="modelo_fab">
+		  <field name="modelo_fab_codigo">119</field>
+		  <field name="modelo_fab_nombre">5114</field>
+		  <field name="marcas_id" ref="marc_72"/>
+	   </record>
+	   <record id="modfab_120" model="modelo_fab">
+		  <field name="modelo_fab_codigo">120</field>
+		  <field name="modelo_fab_nombre">DESKJET 930 C</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_121" model="modelo_fab">
+		  <field name="modelo_fab_codigo">121</field>
+		  <field name="modelo_fab_nombre">C7DIE-T02</field>
+		  <field name="marcas_id" ref="marc_73"/>
+	   </record>
+	   <record id="modfab_122" model="modelo_fab">
+		  <field name="modelo_fab_codigo">122</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_74"/>
+	   </record>
+	   <record id="modfab_123" model="modelo_fab">
+		  <field name="modelo_fab_codigo">123</field>
+		  <field name="modelo_fab_nombre">DL-2800</field>
+		  <field name="marcas_id" ref="marc_7"/>
+	   </record>
+	   <record id="modfab_124" model="modelo_fab">
+		  <field name="modelo_fab_codigo">124</field>
+		  <field name="modelo_fab_nombre">400</field>
+		  <field name="marcas_id" ref="marc_75"/>
+	   </record>
+	   <record id="modfab_125" model="modelo_fab">
+		  <field name="modelo_fab_codigo">125</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_76"/>
+	   </record>
+	   <record id="modfab_126" model="modelo_fab">
+		  <field name="modelo_fab_codigo">126</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_77"/>
+	   </record>
+<!--
+	   <record id="modfab_127" model="modelo_fab">
+		  <field name="modelo_fab_codigo">127</field>
+		  <field name="modelo_fab_nombre">NEW COOKING</field>
+		  <field name="marcas_id" ref="marc_66"/>
+	   </record>
+-->
+<!--
+	   <record id="modfab_129" model="modelo_fab">
+		  <field name="modelo_fab_codigo">129</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_52"/>
+	   </record>
+-->
+	   <record id="modfab_130" model="modelo_fab">
+		  <field name="modelo_fab_codigo">130</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_80"/>
+	   </record>
+	   <record id="modfab_131" model="modelo_fab">
+		  <field name="modelo_fab_codigo">131</field>
+		  <field name="modelo_fab_nombre">LASERJET 5M</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_133" model="modelo_fab">
+		  <field name="modelo_fab_codigo">133</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_83"/>
+	   </record>
+	   <record id="modfab_134" model="modelo_fab">
+		  <field name="modelo_fab_codigo">134</field>
+		  <field name="modelo_fab_nombre">LASERJET 8550 DN</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_136" model="modelo_fab">
+		  <field name="modelo_fab_codigo">136</field>
+		  <field name="modelo_fab_nombre">SLV-440</field>
+		  <field name="marcas_id" ref="marc_9"/>
+	   </record>
+	   <record id="modfab_137" model="modelo_fab">
+		  <field name="modelo_fab_codigo">137</field>
+		  <field name="modelo_fab_nombre">DR140 N</field>
+		  <field name="marcas_id" ref="marc_7"/>
+	   </record>
+	   <record id="modfab_138" model="modelo_fab">
+		  <field name="modelo_fab_codigo">138</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_23"/>
+	   </record>
+	   <record id="modfab_139" model="modelo_fab">
+		  <field name="modelo_fab_codigo">139</field>
+		  <field name="modelo_fab_nombre">2238-M03</field>
+		  <field name="marcas_id" ref="marc_22"/>
+	   </record>
+	   <record id="modfab_140" model="modelo_fab">
+		  <field name="modelo_fab_codigo">140</field>
+		  <field name="modelo_fab_nombre">DP-30</field>
+		  <field name="marcas_id" ref="marc_85"/>
+	   </record>
+	   <record id="modfab_141" model="modelo_fab">
+		  <field name="modelo_fab_codigo">141</field>
+		  <field name="modelo_fab_nombre">S321</field>
+		  <field name="marcas_id" ref="marc_86"/>
+	   </record>
+	   <record id="modfab_142" model="modelo_fab">
+		  <field name="modelo_fab_codigo">142</field>
+		  <field name="modelo_fab_nombre">88BGC</field>
+		  <field name="marcas_id" ref="marc_87"/>
+	   </record>
+	   <record id="modfab_143" model="modelo_fab">
+		  <field name="modelo_fab_codigo">143</field>
+		  <field name="modelo_fab_nombre">601</field>
+		  <field name="marcas_id" ref="marc_88"/>
+	   </record>
+	   <record id="modfab_144" model="modelo_fab">
+		  <field name="modelo_fab_codigo">144</field>
+		  <field name="modelo_fab_nombre">7201</field>
+		  <field name="marcas_id" ref="marc_89"/>
+	   </record>
+	   <record id="modfab_145" model="modelo_fab">
+		  <field name="modelo_fab_codigo">145</field>
+		  <field name="modelo_fab_nombre">5-95054-8</field>
+		  <field name="marcas_id" ref="marc_91"/>
+	   </record>
+	   <record id="modfab_146" model="modelo_fab">
+		  <field name="modelo_fab_codigo">146</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_48"/>
+	   </record>
+	   <record id="modfab_148" model="modelo_fab">
+		  <field name="modelo_fab_codigo">148</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_92"/>
+	   </record>
+	   <record id="modfab_149" model="modelo_fab">
+		  <field name="modelo_fab_codigo">149</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_93"/>
+	   </record>
+	   <record id="modfab_150" model="modelo_fab">
+		  <field name="modelo_fab_codigo">150</field>
+		  <field name="modelo_fab_nombre">LQMF-6</field>
+		  <field name="marcas_id" ref="marc_94"/>
+	   </record>
+	   <record id="modfab_151" model="modelo_fab">
+		  <field name="modelo_fab_codigo">151</field>
+		  <field name="modelo_fab_nombre">6512-TW</field>
+		  <field name="marcas_id" ref="marc_95"/>
+	   </record>
+	   <record id="modfab_152" model="modelo_fab">
+		  <field name="modelo_fab_codigo">152</field>
+		  <field name="modelo_fab_nombre">TRINICON DXC-1640</field>
+		  <field name="marcas_id" ref="marc_9"/>
+	   </record>
+	   <record id="modfab_153" model="modelo_fab">
+		  <field name="modelo_fab_codigo">153</field>
+		  <field name="modelo_fab_nombre">13H6690</field>
+		  <field name="marcas_id" ref="marc_22"/>
+	   </record>
+	   <record id="modfab_154" model="modelo_fab">
+		  <field name="modelo_fab_codigo">154</field>
+		  <field name="modelo_fab_nombre">VO2860</field>
+		  <field name="marcas_id" ref="marc_9"/>
+	   </record>
+	   <record id="modfab_155" model="modelo_fab">
+		  <field name="modelo_fab_codigo">155</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_97"/>
+	   </record>
+	   <record id="modfab_157" model="modelo_fab">
+		  <field name="modelo_fab_codigo">157</field>
+		  <field name="modelo_fab_nombre">5-95534-9</field>
+		  <field name="marcas_id" ref="marc_91"/>
+	   </record>
+	   <record id="modfab_158" model="modelo_fab">
+		  <field name="modelo_fab_codigo">158</field>
+		  <field name="modelo_fab_nombre">SH1524CP</field>
+		  <field name="marcas_id" ref="marc_99"/>
+	   </record>
+	   <record id="modfab_159" model="modelo_fab">
+		  <field name="modelo_fab_codigo">159</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_100"/>
+	   </record>
+	   <record id="modfab_160" model="modelo_fab">
+		  <field name="modelo_fab_codigo">160</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_101"/>
+	   </record>
+	   <record id="modfab_161" model="modelo_fab">
+		  <field name="modelo_fab_codigo">161</field>
+		  <field name="modelo_fab_nombre">3650D</field>
+		  <field name="marcas_id" ref="marc_104"/>
+	   </record>
+<!--	
+	   <record id="modfab_162" model="modelo_fab">
+		  <field name="modelo_fab_codigo">162</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_102"/>
+	   </record>
+-->
+	   <record id="modfab_163" model="modelo_fab">
+		  <field name="modelo_fab_codigo">163</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_105"/>
+	   </record>
+	   <record id="modfab_164" model="modelo_fab">
+		  <field name="modelo_fab_codigo">164</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_106"/>
+	   </record>
+	   <record id="modfab_165" model="modelo_fab">
+		  <field name="modelo_fab_codigo">165</field>
+		  <field name="modelo_fab_nombre">WORKCENTER M201</field>
+		  <field name="marcas_id" ref="marc_12"/>
+	   </record>
+	   <record id="modfab_166" model="modelo_fab">
+		  <field name="modelo_fab_codigo">166</field>
+		  <field name="modelo_fab_nombre">FR-2650</field>
+		  <field name="marcas_id" ref="marc_7"/>
+	   </record>
+<!--
+	   <record id="modfab_167" model="modelo_fab">
+		  <field name="modelo_fab_codigo">167</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_108"/>
+	   </record>
+-->
+	   <record id="modfab_169" model="modelo_fab">
+		  <field name="modelo_fab_codigo">169</field>
+		  <field name="modelo_fab_nombre">2424ST</field>
+		  <field name="marcas_id" ref="marc_109"/>
+	   </record>
+	   <record id="modfab_170" model="modelo_fab">
+		  <field name="modelo_fab_codigo">170</field>
+		  <field name="modelo_fab_nombre">DESKJET 920C</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_171" model="modelo_fab">
+		  <field name="modelo_fab_codigo">171</field>
+		  <field name="modelo_fab_nombre">121 PA</field>
+		  <field name="marcas_id" ref="marc_111"/>
+	   </record>
+	   <record id="modfab_172" model="modelo_fab">
+		  <field name="modelo_fab_codigo">172</field>
+		  <field name="modelo_fab_nombre">8812</field>
+		  <field name="marcas_id" ref="marc_112"/>
+	   </record>
+	   <record id="modfab_173" model="modelo_fab">
+		  <field name="modelo_fab_codigo">173</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_113"/>
+	   </record>
+	   <record id="modfab_174" model="modelo_fab">
+		  <field name="modelo_fab_codigo">174</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_114"/>
+	   </record>
+	   <record id="modfab_175" model="modelo_fab">
+		  <field name="modelo_fab_codigo">175</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_115"/>
+	   </record>
+	   <record id="modfab_176" model="modelo_fab">
+		  <field name="modelo_fab_codigo">176</field>
+		  <field name="modelo_fab_nombre">PRO-5150</field>
+		  <field name="marcas_id" ref="marc_116"/>
+	   </record>
+	   <record id="modfab_177" model="modelo_fab">
+		  <field name="modelo_fab_codigo">177</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_117"/>
+	   </record>
+	   <record id="modfab_178" model="modelo_fab">
+		  <field name="modelo_fab_codigo">178</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_31"/>
+	   </record>
+	   <record id="modfab_179" model="modelo_fab">
+		  <field name="modelo_fab_codigo">179</field>
+		  <field name="modelo_fab_nombre">KV347</field>
+		  <field name="marcas_id" ref="marc_9"/>
+	   </record>
+	   <record id="modfab_180" model="modelo_fab">
+		  <field name="modelo_fab_codigo">180</field>
+		  <field name="modelo_fab_nombre">325A</field>
+		  <field name="marcas_id" ref="marc_76"/>
+	   </record>
+	   <record id="modfab_181" model="modelo_fab">
+		  <field name="modelo_fab_codigo">181</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_118"/>
+	   </record>
+	   <record id="modfab_183" model="modelo_fab">
+		  <field name="modelo_fab_codigo">183</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_119"/>
+	   </record>
+	   <record id="modfab_184" model="modelo_fab">
+		  <field name="modelo_fab_codigo">184</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_120"/>
+	   </record>
+	   <record id="modfab_185" model="modelo_fab">
+		  <field name="modelo_fab_codigo">185</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_121"/>
+	   </record>
+	   <record id="modfab_186" model="modelo_fab">
+		  <field name="modelo_fab_codigo">186</field>
+		  <field name="modelo_fab_nombre">10/720E</field>
+		  <field name="marcas_id" ref="marc_122"/>
+	   </record>
+	   <record id="modfab_187" model="modelo_fab">
+		  <field name="modelo_fab_codigo">187</field>
+		  <field name="modelo_fab_nombre">DP-63P</field>
+		  <field name="marcas_id" ref="marc_123"/>
+	   </record>
+	   <record id="modfab_189" model="modelo_fab">
+		  <field name="modelo_fab_codigo">189</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_124"/>
+	   </record>
+	   <record id="modfab_190" model="modelo_fab">
+		  <field name="modelo_fab_codigo">190</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_125"/>
+	   </record>
+	   <record id="modfab_191" model="modelo_fab">
+		  <field name="modelo_fab_codigo">191</field>
+		  <field name="modelo_fab_nombre">363A</field>
+		  <field name="marcas_id" ref="marc_127"/>
+	   </record>
+	   <record id="modfab_192" model="modelo_fab">
+		  <field name="modelo_fab_codigo">192</field>
+		  <field name="modelo_fab_nombre">SK-2860</field>
+		  <field name="marcas_id" ref="marc_51"/>
+	   </record>
+	   <record id="modfab_193" model="modelo_fab">
+		  <field name="modelo_fab_codigo">193</field>
+		  <field name="modelo_fab_nombre">753DFX</field>
+		  <field name="marcas_id" ref="marc_15"/>
+	   </record>
+	   <record id="modfab_194" model="modelo_fab">
+		  <field name="modelo_fab_codigo">194</field>
+		  <field name="modelo_fab_nombre">WORK CENTRE PRO 90</field>
+		  <field name="marcas_id" ref="marc_12"/>
+	   </record>
+	   <record id="modfab_195" model="modelo_fab">
+		  <field name="modelo_fab_codigo">195</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_128"/>
+	   </record>
+	   <record id="modfab_196" model="modelo_fab">
+		  <field name="modelo_fab_codigo">196</field>
+		  <field name="modelo_fab_nombre">WORK CENTRE 265</field>
+		  <field name="marcas_id" ref="marc_12"/>
+	   </record>
+	   <record id="modfab_197" model="modelo_fab">
+		  <field name="modelo_fab_codigo">197</field>
+		  <field name="modelo_fab_nombre">WORK CENTRE 275</field>
+		  <field name="marcas_id" ref="marc_12"/>
+	   </record>
+	   <record id="modfab_198" model="modelo_fab">
+		  <field name="modelo_fab_codigo">198</field>
+		  <field name="modelo_fab_nombre">WORK CENTRE N-45</field>
+		  <field name="marcas_id" ref="marc_12"/>
+	   </record>
+	   <record id="modfab_202" model="modelo_fab">
+		  <field name="modelo_fab_codigo">202</field>
+		  <field name="modelo_fab_nombre">UB-5815</field>
+		  <field name="marcas_id" ref="marc_59"/>
+	   </record>
+	   <record id="modfab_204" model="modelo_fab">
+		  <field name="modelo_fab_codigo">204</field>
+		  <field name="modelo_fab_nombre">LASERJET 4650DN,</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_205" model="modelo_fab">
+		  <field name="modelo_fab_codigo">205</field>
+		  <field name="modelo_fab_nombre">CRE-01A</field>
+		  <field name="marcas_id" ref="marc_100"/>
+	   </record>
+	   <record id="modfab_206" model="modelo_fab">
+		  <field name="modelo_fab_codigo">206</field>
+		  <field name="modelo_fab_nombre">5187URF+</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_207" model="modelo_fab">
+		  <field name="modelo_fab_codigo">207</field>
+		  <field name="modelo_fab_nombre">SYNC MASTER 214T,</field>
+		  <field name="marcas_id" ref="marc_15"/>
+	   </record>
+	   <record id="modfab_209" model="modelo_fab">
+		  <field name="modelo_fab_codigo">209</field>
+		  <field name="modelo_fab_nombre">XPC-RC01</field>
+		  <field name="marcas_id" ref="marc_130"/>
+	   </record>
+	   <record id="modfab_210" model="modelo_fab">
+		  <field name="modelo_fab_codigo">210</field>
+		  <field name="modelo_fab_nombre">PAVILION W 5000,</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_211" model="modelo_fab">
+		  <field name="modelo_fab_codigo">211</field>
+		  <field name="modelo_fab_nombre">NX6120,</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_215" model="modelo_fab">
+		  <field name="modelo_fab_codigo">215</field>
+		  <field name="modelo_fab_nombre">PJ562</field>
+		  <field name="marcas_id" ref="marc_52"/>
+	   </record>
+	   <record id="modfab_216" model="modelo_fab">
+		  <field name="modelo_fab_codigo">216</field>
+		  <field name="modelo_fab_nombre">N2750W</field>
+		  <field name="marcas_id" ref="marc_52"/>
+	   </record>
+	   <record id="modfab_217" model="modelo_fab">
+		  <field name="modelo_fab_codigo">217</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_132"/>
+	   </record>
+	   <record id="modfab_218" model="modelo_fab">
+		  <field name="modelo_fab_codigo">218</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_134"/>
+	   </record>
+	   <record id="modfab_219" model="modelo_fab">
+		  <field name="modelo_fab_codigo">219</field>
+		  <field name="modelo_fab_nombre">KC22</field>
+		  <field name="marcas_id" ref="marc_135"/>
+	   </record>
+	   <record id="modfab_221" model="modelo_fab">
+		  <field name="modelo_fab_codigo">221</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_136"/>
+	   </record>
+	   <record id="modfab_222" model="modelo_fab">
+		  <field name="modelo_fab_codigo">222</field>
+		  <field name="modelo_fab_nombre">W23-180</field>
+		  <field name="marcas_id" ref="marc_137"/>
+	   </record>
+	   <record id="modfab_223" model="modelo_fab">
+		  <field name="modelo_fab_codigo">223</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_138"/>
+	   </record>
+	   <record id="modfab_224" model="modelo_fab">
+		  <field name="modelo_fab_codigo">224</field>
+		  <field name="modelo_fab_nombre">1 1/2</field>
+		  <field name="marcas_id" ref="marc_139"/>
+	   </record>
+	   <record id="modfab_225" model="modelo_fab">
+		  <field name="modelo_fab_codigo">225</field>
+		  <field name="modelo_fab_nombre">6443</field>
+		  <field name="marcas_id" ref="marc_140"/>
+	   </record>
+	   <record id="modfab_226" model="modelo_fab">
+		  <field name="modelo_fab_codigo">226</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_140"/>
+	   </record>
+	   <record id="modfab_227" model="modelo_fab">
+		  <field name="modelo_fab_codigo">227</field>
+		  <field name="modelo_fab_nombre">ST 50 PENDIX</field>
+		  <field name="marcas_id" ref="marc_137"/>
+	   </record>
+	   <record id="modfab_230" model="modelo_fab">
+		  <field name="modelo_fab_codigo">230</field>
+		  <field name="modelo_fab_nombre">WDO06250</field>
+		  <field name="marcas_id" ref="marc_141"/>
+	   </record>
+	   <record id="modfab_231" model="modelo_fab">
+		  <field name="modelo_fab_codigo">231</field>
+		  <field name="modelo_fab_nombre">KB-064</field>
+		  <field name="marcas_id" ref="marc_24"/>
+	   </record>
+	   <record id="modfab_234" model="modelo_fab">
+		  <field name="modelo_fab_codigo">234</field>
+		  <field name="modelo_fab_nombre">BW-692</field>
+		  <field name="marcas_id" ref="marc_39"/>
+	   </record>
+	   <record id="modfab_235" model="modelo_fab">
+		  <field name="modelo_fab_codigo">235</field>
+		  <field name="modelo_fab_nombre">HX-6120</field>
+		  <field name="marcas_id" ref="marc_17"/>
+	   </record>
+	   <record id="modfab_237" model="modelo_fab">
+		  <field name="modelo_fab_codigo">237</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_144"/>
+	   </record>
+	   <record id="modfab_238" model="modelo_fab">
+		  <field name="modelo_fab_codigo">238</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_145"/>
+	   </record>
+	   <record id="modfab_239" model="modelo_fab">
+		  <field name="modelo_fab_codigo">239</field>
+		  <field name="modelo_fab_nombre">140938</field>
+		  <field name="marcas_id" ref="marc_146"/>
+	   </record>
+	   <record id="modfab_240" model="modelo_fab">
+		  <field name="modelo_fab_codigo">240</field>
+		  <field name="modelo_fab_nombre">1770</field>
+		  <field name="marcas_id" ref="marc_5"/>
+	   </record>
+	   <record id="modfab_241" model="modelo_fab">
+		  <field name="modelo_fab_codigo">241</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_147"/>
+	   </record>
+	   <record id="modfab_242" model="modelo_fab">
+		  <field name="modelo_fab_codigo">242</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_148"/>
+	   </record>
+	   <record id="modfab_244" model="modelo_fab">
+		  <field name="modelo_fab_codigo">244</field>
+		  <field name="modelo_fab_nombre">KB-10XV2</field>
+		  <field name="marcas_id" ref="marc_24"/>
+	   </record>
+	   <record id="modfab_245" model="modelo_fab">
+		  <field name="modelo_fab_codigo">245</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_149"/>
+	   </record>
+	   <record id="modfab_246" model="modelo_fab">
+		  <field name="modelo_fab_codigo">246</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_150"/>
+	   </record>
+	   <record id="modfab_247" model="modelo_fab">
+		  <field name="modelo_fab_codigo">247</field>
+		  <field name="modelo_fab_nombre">MP3130</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_249" model="modelo_fab">
+		  <field name="modelo_fab_codigo">249</field>
+		  <field name="modelo_fab_nombre">PA286A</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+<!--	   <record id="modfab_250" model="modelo_fab">
+		  <field name="modelo_fab_codigo">250</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_151"/>
+	   </record>
+-->
+	   <record id="modfab_251" model="modelo_fab">
+		  <field name="modelo_fab_codigo">251</field>
+		  <field name="modelo_fab_nombre">705 V</field>
+		  <field name="marcas_id" ref="marc_9"/>
+	   </record>
+	   <record id="modfab_252" model="modelo_fab">
+		  <field name="modelo_fab_codigo">252</field>
+		  <field name="modelo_fab_nombre">5ER PLUS</field>
+		  <field name="marcas_id" ref="marc_152"/>
+	   </record>
+	   <record id="modfab_253" model="modelo_fab">
+		  <field name="modelo_fab_codigo">253</field>
+		  <field name="modelo_fab_nombre">CNMSX-AV</field>
+		  <field name="marcas_id" ref="marc_153"/>
+	   </record>
+	   <record id="modfab_254" model="modelo_fab">
+		  <field name="modelo_fab_codigo">254</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_154"/>
+	   </record>
+	   <record id="modfab_255" model="modelo_fab">
+		  <field name="modelo_fab_codigo">255</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_155"/>
+	   </record>
+	   <record id="modfab_256" model="modelo_fab">
+		  <field name="modelo_fab_codigo">256</field>
+		  <field name="modelo_fab_nombre">AMPLUS 100</field>
+		  <field name="marcas_id" ref="marc_156"/>
+	   </record>
+	   <record id="modfab_257" model="modelo_fab">
+		  <field name="modelo_fab_codigo">257</field>
+		  <field name="modelo_fab_nombre">705V</field>
+		  <field name="marcas_id" ref="marc_9"/>
+	   </record>
+	   <record id="modfab_258" model="modelo_fab">
+		  <field name="modelo_fab_codigo">258</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_157"/>
+	   </record>
+	   <record id="modfab_261" model="modelo_fab">
+		  <field name="modelo_fab_codigo">261</field>
+		  <field name="modelo_fab_nombre">22-75096</field>
+		  <field name="marcas_id" ref="marc_58"/>
+	   </record>
+	   <record id="modfab_262" model="modelo_fab">
+		  <field name="modelo_fab_codigo">262</field>
+		  <field name="modelo_fab_nombre">5020</field>
+		  <field name="marcas_id" ref="marc_43"/>
+	   </record>
+	   <record id="modfab_263" model="modelo_fab">
+		  <field name="modelo_fab_codigo">263</field>
+		  <field name="modelo_fab_nombre">34FS17/6</field>
+		  <field name="marcas_id" ref="marc_9"/>
+	   </record>
+	   <record id="modfab_265" model="modelo_fab">
+		  <field name="modelo_fab_codigo">265</field>
+		  <field name="modelo_fab_nombre">XPC-RC01</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_267" model="modelo_fab">
+		  <field name="modelo_fab_codigo">267</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_159"/>
+	   </record>
+	   <record id="modfab_268" model="modelo_fab">
+		  <field name="modelo_fab_codigo">268</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_34"/>
+	   </record>
+	   <record id="modfab_269" model="modelo_fab">
+		  <field name="modelo_fab_codigo">269</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_160"/>
+	   </record>
+	   <record id="modfab_270" model="modelo_fab">
+		  <field name="modelo_fab_codigo">270</field>
+		  <field name="modelo_fab_nombre">HCD-DX70</field>
+		  <field name="marcas_id" ref="marc_9"/>
+	   </record>
+	   <record id="modfab_271" model="modelo_fab">
+		  <field name="modelo_fab_codigo">271</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_40"/>
+	   </record>
+
+	   <record id="modfab_272" model="modelo_fab">
+		  <field name="modelo_fab_codigo">272</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_16"/>
+	   </record>
+<!--
+	   <record id="modfab_273" model="modelo_fab">
+		  <field name="modelo_fab_codigo">273</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_8"/>
+	   </record>
+-->
+	   <record id="modfab_274" model="modelo_fab">
+		  <field name="modelo_fab_codigo">274</field>
+		  <field name="modelo_fab_nombre">KX-TC1500B</field>
+		  <field name="marcas_id" ref="marc_8"/>
+	   </record>
+	   <record id="modfab_275" model="modelo_fab">
+		  <field name="modelo_fab_codigo">275</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_161"/>
+	   </record>
+	   <record id="modfab_276" model="modelo_fab">
+		  <field name="modelo_fab_codigo">276</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_162"/>
+	   </record>
+	   <record id="modfab_277" model="modelo_fab">
+		  <field name="modelo_fab_codigo">277</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_163"/>
+	   </record>
+	   <record id="modfab_278" model="modelo_fab">
+		  <field name="modelo_fab_codigo">278</field>
+		  <field name="modelo_fab_nombre">2000MT</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_279" model="modelo_fab">
+		  <field name="modelo_fab_codigo">279</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_164"/>
+	   </record>
+	   <record id="modfab_281" model="modelo_fab">
+		  <field name="modelo_fab_codigo">281</field>
+		  <field name="modelo_fab_nombre">DESKJET 840</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_282" model="modelo_fab">
+		  <field name="modelo_fab_codigo">282</field>
+		  <field name="modelo_fab_nombre">SBS10</field>
+		  <field name="marcas_id" ref="marc_40"/>
+	   </record>
+	   <record id="modfab_283" model="modelo_fab">
+		  <field name="modelo_fab_codigo">283</field>
+		  <field name="modelo_fab_nombre">WORKCENTRE M128</field>
+		  <field name="marcas_id" ref="marc_12"/>
+	   </record>
+	   <record id="modfab_284" model="modelo_fab">
+		  <field name="modelo_fab_codigo">284</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_166"/>
+	   </record>
+	   <record id="modfab_285" model="modelo_fab">
+		  <field name="modelo_fab_codigo">285</field>
+		  <field name="modelo_fab_nombre">IMAGECARD IV</field>
+		  <field name="marcas_id" ref="marc_167"/>
+	   </record>
+	   <record id="modfab_286" model="modelo_fab">
+		  <field name="modelo_fab_codigo">286</field>
+		  <field name="modelo_fab_nombre">PHOTOSMART 8150</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_287" model="modelo_fab">
+		  <field name="modelo_fab_codigo">287</field>
+		  <field name="modelo_fab_nombre">SLV-LX0SV2</field>
+		  <field name="marcas_id" ref="marc_9"/>
+	   </record>
+<!--
+	   <record id="modfab_288" model="modelo_fab">
+		  <field name="modelo_fab_codigo">288</field>
+		  <field name="modelo_fab_nombre">DVG-8500N</field>
+		  <field name="marcas_id" ref="marc_66"/>
+	   </record>
+-->
+	   <record id="modfab_289" model="modelo_fab">
+		  <field name="modelo_fab_codigo">289</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_20"/>
+	   </record>
+	   <record id="modfab_290" model="modelo_fab">
+		  <field name="modelo_fab_codigo">290</field>
+		  <field name="modelo_fab_nombre">UAE96</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_291" model="modelo_fab">
+		  <field name="modelo_fab_codigo">291</field>
+		  <field name="modelo_fab_nombre">TFT1780PS</field>
+		  <field name="marcas_id" ref="marc_5"/>
+	   </record>
+	   <record id="modfab_293" model="modelo_fab">
+		  <field name="modelo_fab_codigo">293</field>
+		  <field name="modelo_fab_nombre">NX6120</field>
+		  <field name="marcas_id" ref="marc_17"/>
+	   </record>
+	   <record id="modfab_294" model="modelo_fab">
+		  <field name="modelo_fab_codigo">294</field>
+		  <field name="modelo_fab_nombre">KB-9910</field>
+		  <field name="marcas_id" ref="marc_22"/>
+	   </record>
+	   <record id="modfab_295" model="modelo_fab">
+		  <field name="modelo_fab_codigo">295</field>
+		  <field name="modelo_fab_nombre">SYNCMASTER 740N,</field>
+		  <field name="marcas_id" ref="marc_15"/>
+	   </record>
+	   <record id="modfab_297" model="modelo_fab">
+		  <field name="modelo_fab_codigo">297</field>
+		  <field name="modelo_fab_nombre">C S120 SPEAKERS</field>
+		  <field name="marcas_id" ref="marc_40"/>
+	   </record>
+	   <record id="modfab_298" model="modelo_fab">
+		  <field name="modelo_fab_codigo">298</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_168"/>
+	   </record>
+	   <record id="modfab_299" model="modelo_fab">
+		  <field name="modelo_fab_codigo">299</field>
+		  <field name="modelo_fab_nombre">D2813</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_300" model="modelo_fab">
+		  <field name="modelo_fab_codigo">300</field>
+		  <field name="modelo_fab_nombre">SP-Q06S</field>
+		  <field name="marcas_id" ref="marc_24"/>
+	   </record>
+	   <record id="modfab_301" model="modelo_fab">
+		  <field name="modelo_fab_codigo">301</field>
+		  <field name="modelo_fab_nombre">METLISTA</field>
+		  <field name="marcas_id" ref="marc_22"/>
+	   </record>
+	   <record id="modfab_302" model="modelo_fab">
+		  <field name="modelo_fab_codigo">302</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_169"/>
+	   </record>
+	   <record id="modfab_303" model="modelo_fab">
+		  <field name="modelo_fab_codigo">303</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_170"/>
+	   </record>
+	   <record id="modfab_306" model="modelo_fab">
+		  <field name="modelo_fab_codigo">306</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_173"/>
+	   </record>
+	   <record id="modfab_307" model="modelo_fab">
+		  <field name="modelo_fab_codigo">307</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_174"/>
+	   </record>
+	   <record id="modfab_308" model="modelo_fab">
+		  <field name="modelo_fab_codigo">308</field>
+		  <field name="modelo_fab_nombre">SM58</field>
+		  <field name="marcas_id" ref="marc_175"/>
+	   </record>
+	   <record id="modfab_310" model="modelo_fab">
+		  <field name="modelo_fab_codigo">310</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_176"/>
+	   </record>
+	   <record id="modfab_311" model="modelo_fab">
+		  <field name="modelo_fab_codigo">311</field>
+		  <field name="modelo_fab_nombre">N/A,</field>
+		  <field name="marcas_id" ref="marc_177"/>
+	   </record>
+	   <record id="modfab_312" model="modelo_fab">
+		  <field name="modelo_fab_codigo">312</field>
+		  <field name="modelo_fab_nombre">DL2802</field>
+		  <field name="marcas_id" ref="marc_178"/>
+	   </record>
+	   <record id="modfab_315" model="modelo_fab">
+		  <field name="modelo_fab_codigo">315</field>
+		  <field name="modelo_fab_nombre">1600 PROLIANT</field>
+		  <field name="marcas_id" ref="marc_51"/>
+	   </record>
+	   <record id="modfab_316" model="modelo_fab">
+		  <field name="modelo_fab_codigo">316</field>
+		  <field name="modelo_fab_nombre">PUS-14XX</field>
+		  <field name="marcas_id" ref="marc_170"/>
+	   </record>
+	   <record id="modfab_317" model="modelo_fab">
+		  <field name="modelo_fab_codigo">317</field>
+		  <field name="modelo_fab_nombre">SYSTEM SER PLUSS</field>
+		  <field name="marcas_id" ref="marc_152"/>
+	   </record>
+	   <record id="modfab_318" model="modelo_fab">
+		  <field name="modelo_fab_codigo">318</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_152"/>
+	   </record>
+	   <record id="modfab_320" model="modelo_fab">
+		  <field name="modelo_fab_codigo">320</field>
+		  <field name="modelo_fab_nombre">FR-3100</field>
+		  <field name="marcas_id" ref="marc_7"/>
+	   </record>
+	   <record id="modfab_321" model="modelo_fab">
+		  <field name="modelo_fab_codigo">321</field>
+		  <field name="modelo_fab_nombre">SK-8000</field>
+		  <field name="marcas_id" ref="marc_2"/>
+	   </record>
+	   <record id="modfab_322" model="modelo_fab">
+		  <field name="modelo_fab_codigo">322</field>
+		  <field name="modelo_fab_nombre">SYNCMASTER 550V,</field>
+		  <field name="marcas_id" ref="marc_15"/>
+	   </record>
+	   <record id="modfab_323" model="modelo_fab">
+		  <field name="modelo_fab_codigo">323</field>
+		  <field name="modelo_fab_nombre">P891A,</field>
+		  <field name="marcas_id" ref="marc_80"/>
+	   </record>
+	   <record id="modfab_324" model="modelo_fab">
+		  <field name="modelo_fab_codigo">324</field>
+		  <field name="modelo_fab_nombre">MS-697 BASS</field>
+		  <field name="marcas_id" ref="marc_39"/>
+	   </record>
+	   <record id="modfab_325" model="modelo_fab">
+		  <field name="modelo_fab_codigo">325</field>
+		  <field name="modelo_fab_nombre">SYNCMASTER 920N,</field>
+		  <field name="marcas_id" ref="marc_15"/>
+	   </record>
+	   <record id="modfab_326" model="modelo_fab">
+		  <field name="modelo_fab_codigo">326</field>
+		  <field name="modelo_fab_nombre">2.0A</field>
+		  <field name="marcas_id" ref="marc_14"/>
+	   </record>
+	   <record id="modfab_327" model="modelo_fab">
+		  <field name="modelo_fab_codigo">327</field>
+		  <field name="modelo_fab_nombre">FP-38</field>
+		  <field name="marcas_id" ref="marc_181"/>
+	   </record>
+	   <record id="modfab_329" model="modelo_fab">
+		  <field name="modelo_fab_codigo">329</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_182"/>
+	   </record>
+	   <record id="modfab_330" model="modelo_fab">
+		  <field name="modelo_fab_codigo">330</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_183"/>
+	   </record>
+<!--
+	   <record id="modfab_332" model="modelo_fab">
+		  <field name="modelo_fab_codigo">332</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_68"/>
+	   </record>
+-->
+	   <record id="modfab_333" model="modelo_fab">
+		  <field name="modelo_fab_codigo">333</field>
+		  <field name="modelo_fab_nombre">600VA</field>
+		  <field name="marcas_id" ref="marc_29"/>
+	   </record>
+	   <record id="modfab_335" model="modelo_fab">
+		  <field name="modelo_fab_codigo">335</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_188"/>
+	   </record>
+	   <record id="modfab_337" model="modelo_fab">
+		  <field name="modelo_fab_codigo">337</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_190"/>
+	   </record>
+	   <record id="modfab_338" model="modelo_fab">
+		  <field name="modelo_fab_codigo">338</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_191"/>
+	   </record>
+	   <record id="modfab_339" model="modelo_fab">
+		  <field name="modelo_fab_codigo">339</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_192"/>
+	   </record>
+<!--
+	   <record id="modfab_340" model="modelo_fab">
+		  <field name="modelo_fab_codigo">340</field>
+		  <field name="modelo_fab_nombre">KOR-63DBM</field>
+		  <field name="marcas_id" ref="marc_66"/>
+	   </record>
+-->
+	   <record id="modfab_341" model="modelo_fab">
+		  <field name="modelo_fab_codigo">341</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_193"/>
+	   </record>
+	   <record id="modfab_342" model="modelo_fab">
+		  <field name="modelo_fab_codigo">342</field>
+		  <field name="modelo_fab_nombre">SLV-LX70SVZ</field>
+		  <field name="marcas_id" ref="marc_9"/>
+	   </record>
+	   <record id="modfab_343" model="modelo_fab">
+		  <field name="modelo_fab_codigo">343</field>
+		  <field name="modelo_fab_nombre">SA12059</field>
+		  <field name="marcas_id" ref="marc_58"/>
+	   </record>
+	   <record id="modfab_344" model="modelo_fab">
+		  <field name="modelo_fab_codigo">344</field>
+		  <field name="modelo_fab_nombre">6332-4HE/B</field>
+		  <field name="marcas_id" ref="marc_22"/>
+	   </record>
+	   <record id="modfab_345" model="modelo_fab">
+		  <field name="modelo_fab_codigo">345</field>
+		  <field name="modelo_fab_nombre">8149KSA</field>
+		  <field name="marcas_id" ref="marc_22"/>
+	   </record>
+	   <record id="modfab_346" model="modelo_fab">
+		  <field name="modelo_fab_codigo">346</field>
+		  <field name="modelo_fab_nombre">DESIGNJET 5500PS</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_348" model="modelo_fab">
+		  <field name="modelo_fab_codigo">348</field>
+		  <field name="modelo_fab_nombre">KB-9902E</field>
+		  <field name="marcas_id" ref="marc_182"/>
+	   </record>
+	   <record id="modfab_349" model="modelo_fab">
+		  <field name="modelo_fab_codigo">349</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_41"/>
+	   </record>
+	   <record id="modfab_350" model="modelo_fab">
+		  <field name="modelo_fab_codigo">350</field>
+		  <field name="modelo_fab_nombre">SHE16/115</field>
+		  <field name="marcas_id" ref="marc_195"/>
+	   </record>
+	   <record id="modfab_351" model="modelo_fab">
+		  <field name="modelo_fab_codigo">351</field>
+		  <field name="modelo_fab_nombre">SUPERSTAK2</field>
+		  <field name="marcas_id" ref="marc_195"/>
+	   </record>
+	   <record id="modfab_352" model="modelo_fab">
+		  <field name="modelo_fab_codigo">352</field>
+		  <field name="modelo_fab_nombre">C7670A</field>
+		  <field name="marcas_id" ref="marc_80"/>
+	   </record>
+	   <record id="modfab_353" model="modelo_fab">
+		  <field name="modelo_fab_codigo">353</field>
+		  <field name="modelo_fab_nombre">CATALYST 3560</field>
+		  <field name="marcas_id" ref="marc_197"/>
+	   </record>
+	   <record id="modfab_354" model="modelo_fab">
+		  <field name="modelo_fab_codigo">354</field>
+		  <field name="modelo_fab_nombre">CATALYST 3750</field>
+		  <field name="marcas_id" ref="marc_197"/>
+	   </record>
+	   <record id="modfab_355" model="modelo_fab">
+		  <field name="modelo_fab_codigo">355</field>
+		  <field name="modelo_fab_nombre">525</field>
+		  <field name="marcas_id" ref="marc_197"/>
+	   </record>
+	   <record id="modfab_356" model="modelo_fab">
+		  <field name="modelo_fab_codigo">356</field>
+		  <field name="modelo_fab_nombre">CATALYST 2950</field>
+		  <field name="marcas_id" ref="marc_197"/>
+	   </record>
+	   <record id="modfab_357" model="modelo_fab">
+		  <field name="modelo_fab_codigo">357</field>
+		  <field name="modelo_fab_nombre">CATALYST 3500</field>
+		  <field name="marcas_id" ref="marc_197"/>
+	   </record>
+	   <record id="modfab_359" model="modelo_fab">
+		  <field name="modelo_fab_codigo">359</field>
+		  <field name="modelo_fab_nombre">CATALYST 4000</field>
+		  <field name="marcas_id" ref="marc_197"/>
+	   </record>
+	   <record id="modfab_360" model="modelo_fab">
+		  <field name="modelo_fab_codigo">360</field>
+		  <field name="modelo_fab_nombre">CATALYST 3550</field>
+		  <field name="marcas_id" ref="marc_197"/>
+	   </record>
+	   <record id="modfab_361" model="modelo_fab">
+		  <field name="modelo_fab_codigo">361</field>
+		  <field name="modelo_fab_nombre">1841</field>
+		  <field name="marcas_id" ref="marc_197"/>
+	   </record>
+	   <record id="modfab_362" model="modelo_fab">
+		  <field name="modelo_fab_codigo">362</field>
+		  <field name="modelo_fab_nombre">CATALYST 4507R</field>
+		  <field name="marcas_id" ref="marc_197"/>
+	   </record>
+	   <record id="modfab_363" model="modelo_fab">
+		  <field name="modelo_fab_codigo">363</field>
+		  <field name="modelo_fab_nombre">ML350</field>
+		  <field name="marcas_id" ref="marc_198"/>
+	   </record>
+	   <record id="modfab_364" model="modelo_fab">
+		  <field name="modelo_fab_codigo">364</field>
+		  <field name="modelo_fab_nombre">P793</field>
+		  <field name="marcas_id" ref="marc_2"/>
+	   </record>
+	   <record id="modfab_365" model="modelo_fab">
+		  <field name="modelo_fab_codigo">365</field>
+		  <field name="modelo_fab_nombre">7AX</field>
+		  <field name="marcas_id" ref="marc_22"/>
+	   </record>
+	   <record id="modfab_366" model="modelo_fab">
+		  <field name="modelo_fab_codigo">366</field>
+		  <field name="modelo_fab_nombre">XSERIE346</field>
+		  <field name="marcas_id" ref="marc_22"/>
+	   </record>
+	   <record id="modfab_367" model="modelo_fab">
+		  <field name="modelo_fab_codigo">367</field>
+		  <field name="modelo_fab_nombre">EXP400</field>
+		  <field name="marcas_id" ref="marc_22"/>
+	   </record>
+	   <record id="modfab_368" model="modelo_fab">
+		  <field name="modelo_fab_codigo">368</field>
+		  <field name="modelo_fab_nombre">MS-34</field>
+		  <field name="marcas_id" ref="marc_51"/>
+	   </record>
+	   <record id="modfab_369" model="modelo_fab">
+		  <field name="modelo_fab_codigo">369</field>
+		  <field name="modelo_fab_nombre">11X</field>
+		  <field name="marcas_id" ref="marc_22"/>
+	   </record>
+	   <record id="modfab_370" model="modelo_fab">
+		  <field name="modelo_fab_codigo">370</field>
+		  <field name="modelo_fab_nombre">ML330</field>
+		  <field name="marcas_id" ref="marc_198"/>
+	   </record>
+	   <record id="modfab_371" model="modelo_fab">
+		  <field name="modelo_fab_codigo">371</field>
+		  <field name="modelo_fab_nombre">4400POWER EDGE</field>
+		  <field name="marcas_id" ref="marc_2"/>
+	   </record>
+	   <record id="modfab_372" model="modelo_fab">
+		  <field name="modelo_fab_codigo">372</field>
+		  <field name="modelo_fab_nombre">365</field>
+		  <field name="marcas_id" ref="marc_22"/>
+	   </record>
+	   <record id="modfab_373" model="modelo_fab">
+		  <field name="modelo_fab_codigo">373</field>
+		  <field name="modelo_fab_nombre">4300</field>
+		  <field name="marcas_id" ref="marc_2"/>
+	   </record>
+	   <record id="modfab_374" model="modelo_fab">
+		  <field name="modelo_fab_codigo">374</field>
+		  <field name="modelo_fab_nombre">MS34</field>
+		  <field name="marcas_id" ref="marc_2"/>
+	   </record>
+	   <record id="modfab_375" model="modelo_fab">
+		  <field name="modelo_fab_codigo">375</field>
+		  <field name="modelo_fab_nombre">X03-53437</field>
+		  <field name="marcas_id" ref="marc_14"/>
+	   </record>
+	   <record id="modfab_376" model="modelo_fab">
+		  <field name="modelo_fab_codigo">376</field>
+		  <field name="modelo_fab_nombre">MS6000</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_377" model="modelo_fab">
+		  <field name="modelo_fab_codigo">377</field>
+		  <field name="modelo_fab_nombre">M-S48A</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_378" model="modelo_fab">
+		  <field name="modelo_fab_codigo">378</field>
+		  <field name="modelo_fab_nombre">LE1200</field>
+		  <field name="marcas_id" ref="marc_83"/>
+	   </record>
+	   <record id="modfab_379" model="modelo_fab">
+		  <field name="modelo_fab_codigo">379</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_199"/>
+	   </record>
+	   <record id="modfab_380" model="modelo_fab">
+		  <field name="modelo_fab_codigo">380</field>
+		  <field name="modelo_fab_nombre">5310</field>
+		  <field name="marcas_id" ref="marc_200"/>
+	   </record>
+	   <record id="modfab_381" model="modelo_fab">
+		  <field name="modelo_fab_codigo">381</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_201"/>
+	   </record>
+<!--
+	   <record id="modfab_382" model="modelo_fab">
+		  <field name="modelo_fab_codigo">382</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_202"/>
+	   </record>
+-->
+	   <record id="modfab_383" model="modelo_fab">
+		  <field name="modelo_fab_codigo">383</field>
+		  <field name="modelo_fab_nombre">MVC-FD92</field>
+		  <field name="marcas_id" ref="marc_9"/>
+	   </record>
+	   <record id="modfab_384" model="modelo_fab">
+		  <field name="modelo_fab_codigo">384</field>
+		  <field name="modelo_fab_nombre">VE170B</field>
+		  <field name="marcas_id" ref="marc_52"/>
+	   </record>
+	   <record id="modfab_385" model="modelo_fab">
+		  <field name="modelo_fab_codigo">385</field>
+		  <field name="modelo_fab_nombre">K632</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_386" model="modelo_fab">
+		  <field name="modelo_fab_codigo">386</field>
+		  <field name="modelo_fab_nombre">1500</field>
+		  <field name="marcas_id" ref="marc_83"/>
+	   </record>
+	   <record id="modfab_387" model="modelo_fab">
+		  <field name="modelo_fab_codigo">387</field>
+		  <field name="modelo_fab_nombre">TID2400</field>
+		  <field name="marcas_id" ref="marc_147"/>
+	   </record>
+	   <record id="modfab_388" model="modelo_fab">
+		  <field name="modelo_fab_codigo">388</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_204"/>
+	   </record>
+	   <record id="modfab_389" model="modelo_fab">
+		  <field name="modelo_fab_codigo">389</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_205"/>
+	   </record>
+	   <record id="modfab_390" model="modelo_fab">
+		  <field name="modelo_fab_codigo">390</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_8"/>
+	   </record>
+	   <record id="modfab_391" model="modelo_fab">
+		  <field name="modelo_fab_codigo">391</field>
+		  <field name="modelo_fab_nombre">1400</field>
+		  <field name="marcas_id" ref="marc_83"/>
+	   </record>
+	   <record id="modfab_392" model="modelo_fab">
+		  <field name="modelo_fab_codigo">392</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_207"/>
+	   </record>
+	   <record id="modfab_393" model="modelo_fab">
+		  <field name="modelo_fab_codigo">393</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_208"/>
+	   </record>
+	   <record id="modfab_395" model="modelo_fab">
+		  <field name="modelo_fab_codigo">395</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_209"/>
+	   </record>
+	   <record id="modfab_396" model="modelo_fab">
+		  <field name="modelo_fab_codigo">396</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_212"/>
+	   </record>
+	   <record id="modfab_397" model="modelo_fab">
+		  <field name="modelo_fab_codigo">397</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_210"/>
+	   </record>
+	   <record id="modfab_398" model="modelo_fab">
+		  <field name="modelo_fab_codigo">398</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_211"/>
+	   </record>
+	   <record id="modfab_399" model="modelo_fab">
+		  <field name="modelo_fab_codigo">399</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_213"/>
+	   </record>
+	   <record id="modfab_400" model="modelo_fab">
+		  <field name="modelo_fab_codigo">400</field>
+		  <field name="modelo_fab_nombre">LASERJET 4650 COLOR</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_401" model="modelo_fab">
+		  <field name="modelo_fab_codigo">401</field>
+		  <field name="modelo_fab_nombre">RPC PLUS 600 I</field>
+		  <field name="marcas_id" ref="marc_196"/>
+	   </record>
+	   <record id="modfab_402" model="modelo_fab">
+		  <field name="modelo_fab_codigo">402</field>
+		  <field name="modelo_fab_nombre">LASERJET 5550DTN</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_403" model="modelo_fab">
+		  <field name="modelo_fab_codigo">403</field>
+		  <field name="modelo_fab_nombre">EUROSET 3005</field>
+		  <field name="marcas_id" ref="marc_4"/>
+	   </record>
+<!--
+	   <record id="modfab_404" model="modelo_fab">
+		  <field name="modelo_fab_codigo">404</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_214"/>
+	   </record>
+-->
+	   <record id="modfab_405" model="modelo_fab">
+		  <field name="modelo_fab_codigo">405</field>
+		  <field name="modelo_fab_nombre">E550</field>
+		  <field name="marcas_id" ref="marc_2"/>
+	   </record>
+	   <record id="modfab_406" model="modelo_fab">
+		  <field name="modelo_fab_codigo">406</field>
+		  <field name="modelo_fab_nombre">53324HE</field>
+		  <field name="marcas_id" ref="marc_22"/>
+	   </record>
+	   <record id="modfab_407" model="modelo_fab">
+		  <field name="modelo_fab_codigo">407</field>
+		  <field name="modelo_fab_nombre">42KC</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_408" model="modelo_fab">
+		  <field name="modelo_fab_codigo">408</field>
+		  <field name="modelo_fab_nombre">C7098A</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_409" model="modelo_fab">
+		  <field name="modelo_fab_codigo">409</field>
+		  <field name="modelo_fab_nombre">D 640 5000</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_411" model="modelo_fab">
+		  <field name="modelo_fab_codigo">411</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_216"/>
+	   </record>
+	   <record id="modfab_412" model="modelo_fab">
+		  <field name="modelo_fab_codigo">412</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_217"/>
+	   </record>
+	   <record id="modfab_413" model="modelo_fab">
+		  <field name="modelo_fab_codigo">413</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_218"/>
+	   </record>
+	   <record id="modfab_414" model="modelo_fab">
+		  <field name="modelo_fab_codigo">414</field>
+		  <field name="modelo_fab_nombre">COLOR 3000</field>
+		  <field name="marcas_id" ref="marc_80"/>
+	   </record>
+	   <record id="modfab_415" model="modelo_fab">
+		  <field name="modelo_fab_codigo">415</field>
+		  <field name="modelo_fab_nombre">DFX8500</field>
+		  <field name="marcas_id" ref="marc_80"/>
+	   </record>
+	   <record id="modfab_416" model="modelo_fab">
+		  <field name="modelo_fab_codigo">416</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_219"/>
+	   </record>
+	   <record id="modfab_417" model="modelo_fab">
+		  <field name="modelo_fab_codigo">417</field>
+		  <field name="modelo_fab_nombre">M-RR95</field>
+		  <field name="marcas_id" ref="marc_132"/>
+	   </record>
+	   <record id="modfab_418" model="modelo_fab">
+		  <field name="modelo_fab_codigo">418</field>
+		  <field name="modelo_fab_nombre">NS-400D</field>
+		  <field name="marcas_id" ref="marc_9"/>
+	   </record>
+	   <record id="modfab_419" model="modelo_fab">
+		  <field name="modelo_fab_codigo">419</field>
+		  <field name="modelo_fab_nombre">DVP-NS400D</field>
+		  <field name="marcas_id" ref="marc_9"/>
+	   </record>
+	   <record id="modfab_421" model="modelo_fab">
+		  <field name="modelo_fab_codigo">421</field>
+		  <field name="modelo_fab_nombre">ASU II 5000-2150</field>
+		  <field name="marcas_id" ref="marc_220"/>
+	   </record>
+	   <record id="modfab_422" model="modelo_fab">
+		  <field name="modelo_fab_codigo">422</field>
+		  <field name="modelo_fab_nombre">MTM679211S</field>
+		  <field name="marcas_id" ref="marc_22"/>
+	   </record>
+	   <record id="modfab_423" model="modelo_fab">
+		  <field name="modelo_fab_codigo">423</field>
+		  <field name="modelo_fab_nombre">ST-1014</field>
+		  <field name="marcas_id" ref="marc_222"/>
+	   </record>
+	   <record id="modfab_424" model="modelo_fab">
+		  <field name="modelo_fab_codigo">424</field>
+		  <field name="modelo_fab_nombre">2751</field>
+		  <field name="marcas_id" ref="marc_127"/>
+	   </record>
+	   <record id="modfab_425" model="modelo_fab">
+		  <field name="modelo_fab_codigo">425</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_223"/>
+	   </record>
+	   <record id="modfab_426" model="modelo_fab">
+		  <field name="modelo_fab_codigo">426</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_224"/>
+	   </record>
+	   <record id="modfab_427" model="modelo_fab">
+		  <field name="modelo_fab_codigo">427</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_225"/>
+	   </record>
+	   <record id="modfab_428" model="modelo_fab">
+		  <field name="modelo_fab_codigo">428</field>
+		  <field name="modelo_fab_nombre">LASERJET 6L</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_429" model="modelo_fab">
+		  <field name="modelo_fab_codigo">429</field>
+		  <field name="modelo_fab_nombre">MTM8149KSA</field>
+		  <field name="marcas_id" ref="marc_22"/>
+	   </record>
+	   <record id="modfab_430" model="modelo_fab">
+		  <field name="modelo_fab_codigo">430</field>
+		  <field name="modelo_fab_nombre">BA410</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_431" model="modelo_fab">
+		  <field name="modelo_fab_codigo">431</field>
+		  <field name="modelo_fab_nombre">OPTIPLEX JX100</field>
+		  <field name="marcas_id" ref="marc_2"/>
+	   </record>
+	   <record id="modfab_432" model="modelo_fab">
+		  <field name="modelo_fab_codigo">432</field>
+		  <field name="modelo_fab_nombre">SK-8809</field>
+		  <field name="marcas_id" ref="marc_22"/>
+	   </record>
+	   <record id="modfab_433" model="modelo_fab">
+		  <field name="modelo_fab_codigo">433</field>
+		  <field name="modelo_fab_nombre">KB-0225</field>
+		  <field name="marcas_id" ref="marc_22"/>
+	   </record>
+	   <record id="modfab_434" model="modelo_fab">
+		  <field name="modelo_fab_codigo">434</field>
+		  <field name="modelo_fab_nombre">2530SK</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_435" model="modelo_fab">
+		  <field name="modelo_fab_codigo">435</field>
+		  <field name="modelo_fab_nombre">HICOM 300E</field>
+		  <field name="marcas_id" ref="marc_4"/>
+	   </record>
+	   <record id="modfab_436" model="modelo_fab">
+		  <field name="modelo_fab_codigo">436</field>
+		  <field name="modelo_fab_nombre">CPV STOLMANN</field>
+		  <field name="marcas_id" ref="marc_4"/>
+	   </record>
+	   <record id="modfab_437" model="modelo_fab">
+		  <field name="modelo_fab_codigo">437</field>
+		  <field name="modelo_fab_nombre">LE-100</field>
+		  <field name="marcas_id" ref="marc_227"/>
+	   </record>
+	   <record id="modfab_438" model="modelo_fab">
+		  <field name="modelo_fab_codigo">438</field>
+		  <field name="modelo_fab_nombre">OPTISET E ENTRY</field>
+		  <field name="marcas_id" ref="marc_4"/>
+	   </record>
+	   <record id="modfab_440" model="modelo_fab">
+		  <field name="modelo_fab_codigo">440</field>
+		  <field name="modelo_fab_nombre">POWER EDGE 2800</field>
+		  <field name="marcas_id" ref="marc_2"/>
+	   </record>
+	   <record id="modfab_441" model="modelo_fab">
+		  <field name="modelo_fab_codigo">441</field>
+		  <field name="modelo_fab_nombre">XSERIE 205</field>
+		  <field name="marcas_id" ref="marc_22"/>
+	   </record>
+	   <record id="modfab_442" model="modelo_fab">
+		  <field name="modelo_fab_codigo">442</field>
+		  <field name="modelo_fab_nombre">T61 THINK PAD</field>
+		  <field name="marcas_id" ref="marc_228"/>
+	   </record>
+<!--
+	   <record id="modfab_443" model="modelo_fab">
+		  <field name="modelo_fab_codigo">443</field>
+		  <field name="modelo_fab_nombre">LASERJET 4650</field>
+		  <field name="marcas_id" ref="marc_229"/>
+	   </record>
+-->
+	   <record id="modfab_444" model="modelo_fab">
+		  <field name="modelo_fab_codigo">444</field>
+		  <field name="modelo_fab_nombre">KV-32522</field>
+		  <field name="marcas_id" ref="marc_9"/>
+	   </record>
+<!--
+	   <record id="modfab_445" model="modelo_fab">
+		  <field name="modelo_fab_codigo">445</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_230"/>
+	   </record>
+-->
+	   <record id="modfab_446" model="modelo_fab">
+		  <field name="modelo_fab_codigo">446</field>
+		  <field name="modelo_fab_nombre">T60M28300</field>
+		  <field name="marcas_id" ref="marc_1"/>
+	   </record>
+	   <record id="modfab_448" model="modelo_fab">
+		  <field name="modelo_fab_codigo">448</field>
+		  <field name="modelo_fab_nombre">MAVICA 1.6 (MVC-FD92)</field>
+		  <field name="marcas_id" ref="marc_9"/>
+	   </record>
+	   <record id="modfab_449" model="modelo_fab">
+		  <field name="modelo_fab_codigo">449</field>
+		  <field name="modelo_fab_nombre">ELP-5100</field>
+		  <field name="marcas_id" ref="marc_80"/>
+	   </record>
+	   <record id="modfab_450" model="modelo_fab">
+		  <field name="modelo_fab_codigo">450</field>
+		  <field name="modelo_fab_nombre">N/A</field>
+		  <field name="marcas_id" ref="marc_231"/>
+	   </record>
+	</data>
+</openerp>
+				
+				
+				
+				
+				

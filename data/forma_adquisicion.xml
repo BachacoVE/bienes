@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data noupdate="1">
+		<record id="forma_adquisicion_1" model="forma_adquisicion">
+			<field name="forma_adquisicion_codigo">1</field>
+			<field name="forma_adquisicion_nombre">Compra Directa (por consulta de Precio)</field>
+		</record>
+		<record id="forma_adquisicion_2" model="forma_adquisicion">
+			<field name="forma_adquisicion_codigo">2</field>
+			<field name="forma_adquisicion_nombre">Permuta</field>
+		</record>
+		<record id="forma_adquisicion_3" model="forma_adquisicion">
+			<field name="forma_adquisicion_codigo">3</field>
+			<field name="forma_adquisicion_nombre">Dación en Pago</field>
+		</record>
+		<record id="forma_adquisicion_4" model="forma_adquisicion">
+			<field name="forma_adquisicion_codigo">4</field>
+			<field name="forma_adquisicion_nombre">Donación</field>
+		</record>
+		<record id="forma_adquisicion_5" model="forma_adquisicion">
+			<field name="forma_adquisicion_codigo">5</field>
+			<field name="forma_adquisicion_nombre">Transferencia</field>
+		</record>
+		<record id="forma_adquisicion_6" model="forma_adquisicion">
+			<field name="forma_adquisicion_codigo">6</field>
+			<field name="forma_adquisicion_nombre">Expropiación</field>
+		</record>
+		<record id="forma_adquisicion_7" model="forma_adquisicion">
+			<field name="forma_adquisicion_codigo">7</field>
+			<field name="forma_adquisicion_nombre">Confiscación</field>
+		</record>
+		<record id="forma_adquisicion_8" model="forma_adquisicion">
+			<field name="forma_adquisicion_codigo">8</field>
+			<field name="forma_adquisicion_nombre">Compra por Concurso Abierto</field>
+		</record>
+		<record id="forma_adquisicion_9" model="forma_adquisicion">
+			<field name="forma_adquisicion_codigo">9</field>
+			<field name="forma_adquisicion_nombre">Compra por Concurso Cerrado</field>
+		</record>
+		<record id="forma_adquisicion_10" model="forma_adquisicion">
+			<field name="forma_adquisicion_codigo">10</field>
+			<field name="forma_adquisicion_nombre">Adjudicación</field>
+		</record>
+	</data>
+</openerp>
+
+
+
+

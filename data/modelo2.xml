@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data noupdate="1">
+		<record id="1" model="modelo_bien">
+			<field name="modelo_codigo">1</field>
+			<field name="modelo_nombre">EJECUTIVA</field>
+			<field name="clasificador_id" ref="2"/>
+		</record>
+		<record id="7" model="modelo_bien">
+			<field name="modelo_codigo">7</field>
+			<field name="modelo_nombre">SECRETARIAL</field>
+			<field name="clasificador_id" ref="2"/>
+			</record>
+		<record id="8" model="modelo_bien">
+			<field name="modelo_codigo">8</field>
+			<field name="modelo_nombre">DE CONFERENCIA</field>
+			<field name="clasificador_id" ref="4"/>
+		</record>
+		<record id="9" model="modelo_bien">
+			<field name="modelo_codigo">9</field>
+			<field name="modelo_nombre">DE CENTRO</field>
+			<field name="clasificador_id" ref="4"/>
+		</record>
+		<record id="10" model="modelo_bien">
+			<field name="modelo_codigo">10</field>
+			<field name="modelo_nombre">NEVERA</field>
+			<field name="clasificador_id" ref="7"/>
+		</record>
+		<record id="11" model="modelo_bien">
+			<field name="modelo_codigo">11</field>
+			<field name="modelo_nombre">VISITANTE</field>
+			<field name="clasificador_id" ref="2"/>
+			</record>
+		<record id="12" model="modelo_bien">
+			<field name="modelo_codigo">12</field>
+			<field name="modelo_nombre">ELÉCTRICA</field>
+			<field name="clasificador_id" ref="8"/>
+		</record>
+		<record id="14" model="modelo_bien">
+			<field name="modelo_codigo">14</field>
+			<field name="modelo_nombre">AUXILIAR</field>
+			<field name="clasificador_id" ref="9"/>
+		</record>
+		<record id="15" model="modelo_bien">
+			<field name="modelo_codigo">15</field>
+			<field name="modelo_nombre">AIRE ACONDICIONADO PORTÁTIL</field>
+			<field name="clasificador_id" ref="7"/>
+		</record>
+		<record id="17" model="modelo_bien">
+			<field name="modelo_codigo">17</field>
+			<field name="modelo_nombre">CAFETERA</field>
+			<field name="clasificador_id" ref="7"/>
+		</record>
+		<record id="18" model="modelo_bien">
+			<field name="modelo_codigo">18</field>
+			<field name="modelo_nombre">HORNO MICROONDAS</field>
+			<field name="clasificador_id" ref="7"/>
+		</record>
+		<record id="19" model="modelo_bien">
+			<field name="modelo_codigo">19</field>
+			<field name="modelo_nombre">TELEFONERA</field>
+			<field name="clasificador_id" ref="12"/>
+		</record>
+		<record id="20" model="modelo_bien">
+			<field name="modelo_codigo">20</field>
+			<field name="modelo_nombre">EJECUTIVO</field>
+			<field name="clasificador_id" ref="13"/>
+		</record>
+		<record id="21" model="modelo_bien">
+			<field name="modelo_codigo">21</field>
+			<field name="modelo_nombre">ESTACIÓN DE TRABAJO</field>
+			<field name="clasificador_id" ref="14"/>
+		</record>
+		<record id="24" model="modelo_bien">
+			<field name="modelo_codigo">24</field>
+			<field name="modelo_nombre">SEMI EJECUTIVA</field>
+			<field name="clasificador_id" ref="2"/>
+		</record>
+		<record id="27" model="modelo_bien">
+			<field name="modelo_codigo">27</field>
+			<field name="modelo_nombre">ELÉCTRICA</field>
+			<field name="clasificador_id" ref="17"/>
+		</record>
+		<record id="29" model="modelo_bien">
+			<field name="modelo_codigo">29</field>
+			<field name="modelo_nombre">TIPO ROTAFOLIO</field>
+			<field name="clasificador_id" ref="18"/>
+		</record>
+		<record id="30" model="modelo_bien">
+			<field name="modelo_codigo">30</field>
+			<field name="modelo_nombre">MODULAR</field>
+			<field name="clasificador_id" ref="19"/>
+		</record>
+		<record id="32" model="modelo_bien">
+			<field name="modelo_codigo">32</field>
+			<field name="modelo_nombre">PARA DIBUJANTE</field>
+			<field name="clasificador_id" ref="2"/>
+		</record>
+		<record id="34" model="modelo_bien">
+			<field name="modelo_codigo">34</field>
+			<field name="modelo_nombre">ESTÁNDAR</field>
+			<field name="clasificador_id" ref="9"/>
+		</record>
+		<record id="35" model="modelo_bien">
+			<field name="modelo_codigo">35</field>
+			<field name="modelo_nombre">MOD E.Z CRIP</field>
+			<field name="clasificador_id" ref="21"/>
+		</record>
+		<record id="37" model="modelo_bien">
+			<field name="modelo_codigo">37</field>
+			<field name="modelo_nombre">ELÉCTRICO</field>
+			<field name="clasificador_id" ref="22"/>
+		</record>
+		<record id="38" model="modelo_bien">
+			<field name="modelo_codigo">38</field>
+			<field name="modelo_nombre">POLTRONA</field>
+			<field name="clasificador_id" ref="24"/>
+		</record>
+		<record id="39" model="modelo_bien">
+			<field name="modelo_codigo">39</field>
+			<field name="modelo_nombre">DE CONFERENCIA</field>
+			<field name="clasificador_id" ref="2"/>
+		</record>
+		<record id="40" model="modelo_bien">
+			<field name="modelo_codigo">40</field>
+			<field name="modelo_nombre">INFORMATIVA</field>
+			<field name="clasificador_id" ref="26"/>
+		</record>
+		<record id="41" model="modelo_bien">
+			<field name="modelo_codigo">41</field>
+			<field name="modelo_nombre">TELEVISOR</field>
+			<field name="clasificador_id" ref="7"/>
+		</record>
+		<record id="42" model="modelo_bien">
+			<field name="modelo_codigo">42</field>
+			<field name="modelo_nombre">EQUIPO DE SONIDO</field>
+			<field name="clasificador_id" ref="7"/>
+		</record>
+		<record id="46" model="modelo_bien">
+			<field name="modelo_codigo">46</field>
+			<field name="modelo_nombre">MÓVIL</field>
+			<field name="clasificador_id" ref="29"/>
+		</record>
+		<record id="50" model="modelo_bien">
+			<field name="modelo_codigo">50</field>
+			<field name="modelo_nombre">ESQUELÉTICO</field>
+			<field name="clasificador_id" ref="30"/>
+		</record>
+		<record id="51" model="modelo_bien">
+			<field name="modelo_codigo">51</field>
+			<field name="modelo_nombre">PARA PC</field>
+			<field name="clasificador_id" ref="4"/>
+		</record>
+		<record id="53" model="modelo_bien">
+			<field name="modelo_codigo">53</field>
+			<field name="modelo_nombre">DE SOBREMESA</field>
+			<field name="clasificador_id" ref="31"/>
+		</record>
+		<record id="55" model="modelo_bien">
+			<field name="modelo_codigo">55</field>
+			<field name="modelo_nombre">ENCUADERNADORA DE GUSANILLO</field>
+			<field name="clasificador_id" ref="32"/>
+		</record>
+		<record id="56" model="modelo_bien">
+			<field name="modelo_codigo">56</field>
+			<field name="modelo_nombre">ENGRAPADORA</field>
+			<field name="clasificador_id" ref="32"/>
+		</record>
+		<record id="57" model="modelo_bien">
+			<field name="modelo_codigo">57</field>
+			<field name="modelo_nombre">GUILLOTINA</field>
+			<field name="clasificador_id" ref="32"/>
+		</record>
+		<record id="59" model="modelo_bien">
+			<field name="modelo_codigo">59</field>
+			<field name="modelo_nombre">PLASTIFICADORA</field>
+			<field name="clasificador_id" ref="32"/>
+		</record>
+		<record id="60" model="modelo_bien">
+			<field name="modelo_codigo">60</field>
+			<field name="modelo_nombre">PRENSA</field>
+			<field name="clasificador_id" ref="32"/>
+		</record>
+		<record id="61" model="modelo_bien">
+			<field name="modelo_codigo">61</field>
+			<field name="modelo_nombre">DUPLICADORA</field>
+			<field name="clasificador_id" ref="32"/>
+		</record>
+		<record id="62" model="modelo_bien">
+			<field name="modelo_codigo">62</field>
+			<field name="modelo_nombre">ENCUADERNADORA TÉRMICA</field>
+			<field name="clasificador_id" ref="32"/>
+		</record>
+		<record id="63" model="modelo_bien">
+			<field name="modelo_codigo">63</field>
+			<field name="modelo_nombre">FOTOCOPIADORA</field>
+			<field name="clasificador_id" ref="32"/>
+		</record>
+		<record id="64" model="modelo_bien">
+			<field name="modelo_codigo">64</field>
+			<field name="modelo_nombre">BÁSICO</field>
+			<field name="clasificador_id" ref="35"/>
+		</record>
+		<record id="65" model="modelo_bien">
+			<field name="modelo_codigo">65</field>
+			<field name="modelo_nombre">CONTROL REMOTO</field>
+			<field name="clasificador_id" ref="7"/>
+		</record>
+		<record id="66" model="modelo_bien">
+			<field name="modelo_codigo">66</field>
+			<field name="modelo_nombre">PANTALLA ELECTRÓNICA</field>
+			<field name="clasificador_id" ref="78"/>
+		</record>
+		<record id="67" model="modelo_bien">
+			<field name="modelo_codigo">67</field>
+			<field name="modelo_nombre">BASICO</field>
+			<field name="clasificador_id" ref="37"/>
+		</record>
+		<record id="68" model="modelo_bien">
+			<field name="modelo_codigo">68</field>
+			<field name="modelo_nombre">SEMI-EJECUTIVO</field>
+			<field name="clasificador_id" ref="13"/>
+		</record>
+		<record id="69" model="modelo_bien">
+			<field name="modelo_codigo">69</field>
+			<field name="modelo_nombre">SENIOR</field>
+			<field name="clasificador_id" ref="13"/>
+		</record>
+		<record id="73" model="modelo_bien">
+			<field name="modelo_codigo">73</field>
+			<field name="modelo_nombre">EJECUTIVO</field>
+			<field name="clasificador_id" ref="35"/>
+		</record>
+		<record id="75" model="modelo_bien">
+			<field name="modelo_codigo">75</field>
+			<field name="modelo_nombre">LAMINADA</field>
+			<field name="clasificador_id" ref="16"/>
+		</record>
+		<record id="76" model="modelo_bien">
+			<field name="modelo_codigo">76</field>
+			<field name="modelo_nombre">DE PEDESTAL</field>
+			<field name="clasificador_id" ref="31"/>
+		</record>
+		<record id="77" model="modelo_bien">
+			<field name="modelo_codigo">77</field>
+			<field name="modelo_nombre">PAISAJISTA</field>
+			<field name="clasificador_id" ref="38"/>
+		</record>
+		<record id="79" model="modelo_bien">
+			<field name="modelo_codigo">79</field>
+			<field name="modelo_nombre">DÍGITAL</field>
+			<field name="clasificador_id" ref="40"/>
+		</record>
+		<record id="80" model="modelo_bien">
+			<field name="modelo_codigo">80</field>
+			<field name="modelo_nombre">VAGONES PARA EXPEDIENTES</field>
+			<field name="clasificador_id" ref="9"/>
+		</record>
+		<record id="82" model="modelo_bien">
+			<field name="modelo_codigo">82</field>
+			<field name="modelo_nombre">ELÉCTRICA</field>
+			<field name="clasificador_id" ref="42"/>
+		</record>
+		<record id="83" model="modelo_bien">
+			<field name="modelo_codigo">83</field>
+			<field name="modelo_nombre">ABSTRACTOS</field>
+			<field name="clasificador_id" ref="38"/>
+		</record>
+		<record id="84" model="modelo_bien">
+			<field name="modelo_codigo">84</field>
+			<field name="modelo_nombre">RETRATOS</field>
+			<field name="clasificador_id" ref="38"/>
+		</record>
+		<record id="85" model="modelo_bien">
+			<field name="modelo_codigo">85</field>
+			<field name="modelo_nombre">ALA DE ESCRITORIO</field>
+			<field name="clasificador_id" ref="44"/>
+		</record>
+		<record id="87" model="modelo_bien">
+			<field name="modelo_codigo">87</field>
+			<field name="modelo_nombre">PERFORADORA</field>
+			<field name="clasificador_id" ref="32"/>
+		</record>
+		<record id="88" model="modelo_bien">
+			<field name="modelo_codigo">88</field>
+			<field name="modelo_nombre">MAPA</field>
+			<field name="clasificador_id" ref="38"/>
+		</record>
+		<record id="89" model="modelo_bien">
+			<field name="modelo_codigo">89</field>
+			<field name="modelo_nombre">ESTÁNDAR</field>
+			<field name="clasificador_id" ref="46"/>
+		</record>
+		<record id="91" model="modelo_bien">
+			<field name="modelo_codigo">91</field>
+			<field name="modelo_nombre">LOCKER</field>
+			<field name="clasificador_id" ref="46"/>
+		</record>
+		<record id="92" model="modelo_bien">
+			<field name="modelo_codigo">92</field>
+			<field name="modelo_nombre">MEDIDOR DE PESO Y TALLA</field>
+			<field name="clasificador_id" ref="48"/>
+		</record>
+		<record id="93" model="modelo_bien">
+			<field name="modelo_codigo">93</field>
+			<field name="modelo_nombre">NEBULIZADOR</field>
+			<field name="clasificador_id" ref="49"/>
+		</record>
+		<record id="94" model="modelo_bien">
+			<field name="modelo_codigo">94</field>
+			<field name="modelo_nombre">KIT DE OTORRINOLARINGOLOGÍA</field>
+			<field name="clasificador_id" ref="49"/>
+		</record>
+		<record id="95" model="modelo_bien">
+			<field name="modelo_codigo">95</field>
+			<field name="modelo_nombre">KIT DE CIRUGÍA MENOR</field>
+			<field name="clasificador_id" ref="49"/>
+		</record>
+		<record id="96" model="modelo_bien">
+			<field name="modelo_codigo">96</field>
+			<field name="modelo_nombre">PARAL</field>
+			<field name="clasificador_id" ref="50"/>
+		</record>
+		<record id="97" model="modelo_bien">
+			<field name="modelo_codigo">97</field>
+			<field name="modelo_nombre">DE USO CLÍNICO (EVALUACIÓN)</field>
+			<field name="clasificador_id" ref="51"/>
+		</record>
+		<record id="98" model="modelo_bien">
+			<field name="modelo_codigo">98</field>
+			<field name="modelo_nombre">PARABÁN</field>
+			<field name="clasificador_id" ref="52"/>
+		</record>
+		<record id="100" model="modelo_bien">
+			<field name="modelo_codigo">100</field>
+			<field name="modelo_nombre">LITERA</field>
+			<field name="clasificador_id" ref="53"/>
+		</record>
+		<record id="102" model="modelo_bien">
+			<field name="modelo_codigo">102</field>
+			<field name="modelo_nombre">DE PALA FIJA</field>
+			<field name="clasificador_id" ref="56"/>
+		</record>
+		<record id="103" model="modelo_bien">
+			<field name="modelo_codigo">103</field>
+			<field name="modelo_nombre">TIPO BOTELLÓN</field>
+			<field name="clasificador_id" ref="57"/>
+		</record>
+		<record id="104" model="modelo_bien">
+			<field name="modelo_codigo">104</field>
+			<field name="modelo_nombre">CERRADURA DE COMBINACIÓN MECÁNICA</field>
+			<field name="clasificador_id" ref="58"/>
+		</record>
+		<record id="105" model="modelo_bien">
+			<field name="modelo_codigo">105</field>
+			<field name="modelo_nombre">DE PRESIÓN INCORPORADA</field>
+			<field name="clasificador_id" ref="59"/>
+		</record>
+		<record id="106" model="modelo_bien">
+			<field name="modelo_codigo">106</field>
+			<field name="modelo_nombre">PORTÁTIL</field>
+			<field name="clasificador_id" ref="60"/>
+		</record>
+		<record id="107" model="modelo_bien">
+			<field name="modelo_codigo">107</field>
+			<field name="modelo_nombre">DVD</field>
+			<field name="clasificador_id" ref="7"/>
+		</record>
+		<record id="111" model="modelo_bien">
+			<field name="modelo_codigo">111</field>
+			<field name="modelo_nombre">DE DISCO ABRASIVO</field>
+			<field name="clasificador_id" ref="65"/>
+		</record>
+		<record id="112" model="modelo_bien">
+			<field name="modelo_codigo">112</field>
+			<field name="modelo_nombre">ANGULAR</field>
+			<field name="clasificador_id" ref="66"/>
+		</record>
+		<record id="113" model="modelo_bien">
+			<field name="modelo_codigo">113</field>
+			<field name="modelo_nombre">ELÉCTRICO</field>
+			<field name="clasificador_id" ref="67"/>
+		</record>
+		<record id="114" model="modelo_bien">
+			<field name="modelo_codigo">114</field>
+			<field name="modelo_nombre">DE DISCO</field>
+			<field name="clasificador_id" ref="68"/>
+		</record>
+		<record id="115" model="modelo_bien">
+			<field name="modelo_codigo">115</field>
+			<field name="modelo_nombre">TRANSPORTABLE</field>
+			<field name="clasificador_id" ref="69"/>
+		</record>
+		<record id="116" model="modelo_bien">
+			<field name="modelo_codigo">116</field>
+			<field name="modelo_nombre">ELÉCTRICA</field>
+			<field name="clasificador_id" ref="70"/>
+		</record>
+		<record id="117" model="modelo_bien">
+			<field name="modelo_codigo">117</field>
+			<field name="modelo_nombre">DE OFICINA ESTANDAR</field>
+			<field name="clasificador_id" ref="72"/>
+		</record>
+		<record id="118" model="modelo_bien">
+			<field name="modelo_codigo">118</field>
+			<field name="modelo_nombre">SERVIDOR DE RED</field>
+			<field name="clasificador_id" ref="74"/>
+		</record>
+		<record id="119" model="modelo_bien">
+			<field name="modelo_codigo">119</field>
+			<field name="modelo_nombre">LAPTOP</field>
+			<field name="clasificador_id" ref="75"/>
+		</record>
+		<record id="121" model="modelo_bien">
+			<field name="modelo_codigo">121</field>
+			<field name="modelo_nombre">TABLE PC</field>
+			<field name="clasificador_id" ref="75"/>
+		</record>
+		<record id="125" model="modelo_bien">
+			<field name="modelo_codigo">125</field>
+			<field name="modelo_nombre">MONITOR</field>
+			<field name="clasificador_id" ref="77"/>
+		</record>
+		<record id="127" model="modelo_bien">
+			<field name="modelo_codigo">127</field>
+			<field name="modelo_nombre">TECLADO</field>
+			<field name="clasificador_id" ref="77"/>
+		</record>
+		<record id="128" model="modelo_bien">
+			<field name="modelo_codigo">128</field>
+			<field name="modelo_nombre">MOUSE</field>
+			<field name="clasificador_id" ref="77"/>
+		</record>
+		<record id="129" model="modelo_bien">
+			<field name="modelo_codigo">129</field>
+			<field name="modelo_nombre">SCANNER</field>
+			<field name="clasificador_id" ref="77"/>
+		</record>
+		<record id="130" model="modelo_bien">
+			<field name="modelo_codigo">130</field>
+			<field name="modelo_nombre">REGULADOR DE VOLTAJE</field>
+			<field name="clasificador_id" ref="77"/>
+		</record>
+		<record id="132" model="modelo_bien">
+			<field name="modelo_codigo">132</field>
+			<field name="modelo_nombre">UPS</field>
+			<field name="clasificador_id" ref="77"/>
+		</record>
+		<record id="133" model="modelo_bien">
+			<field name="modelo_codigo">133</field>
+			<field name="modelo_nombre">DOCKING STATION</field>
+			<field name="clasificador_id" ref="77"/>
+		</record>
+		<record id="134" model="modelo_bien">
+			<field name="modelo_codigo">134</field>
+			<field name="modelo_nombre">VIDEO BEAM</field>
+			<field name="clasificador_id" ref="78"/>
+		</record>
+		<record id="135" model="modelo_bien">
+			<field name="modelo_codigo">135</field>
+			<field name="modelo_nombre">RETROPROYECTOR</field>
+			<field name="clasificador_id" ref="78"/>
+		</record>
+		<record id="136" model="modelo_bien">
+			<field name="modelo_codigo">136</field>
+			<field name="modelo_nombre">IMPRESORAS LÁSER</field>
+			<field name="clasificador_id" ref="80"/>
+		</record>
+		<record id="137" model="modelo_bien">
+			<field name="modelo_codigo">137</field>
+			<field name="modelo_nombre">IMPRESORAS DE INYECCIÓN</field>
+			<field name="clasificador_id" ref="80"/>
+		</record>
+		<record id="138" model="modelo_bien">
+			<field name="modelo_codigo">138</field>
+			<field name="modelo_nombre">IMPRESORAS DE MATRIZ DE PUNTO</field>
+			<field name="clasificador_id" ref="80"/>
+		</record>
+		<record id="139" model="modelo_bien">
+			<field name="modelo_codigo">139</field>
+			<field name="modelo_nombre">IMPRESORAS PORTABLES</field>
+			<field name="clasificador_id" ref="80"/>
+		</record>
+		<record id="140" model="modelo_bien">
+			<field name="modelo_codigo">140</field>
+			<field name="modelo_nombre">PLOTTER</field>
+			<field name="clasificador_id" ref="80"/>
+		</record>
+		<record id="141" model="modelo_bien">
+			<field name="modelo_codigo">141</field>
+			<field name="modelo_nombre">CORNETAS</field>
+			<field name="clasificador_id" ref="81"/>
+		</record>
+		<record id="143" model="modelo_bien">
+			<field name="modelo_codigo">143</field>
+			<field name="modelo_nombre">CÁMARA FILMADORA</field>
+			<field name="clasificador_id" ref="81"/>
+		</record>
+		<record id="144" model="modelo_bien">
+			<field name="modelo_codigo">144</field>
+			<field name="modelo_nombre">CÁMARA FOTOGRÁFICA</field>
+			<field name="clasificador_id" ref="81"/>
+		</record>
+		<record id="145" model="modelo_bien">
+			<field name="modelo_codigo">145</field>
+			<field name="modelo_nombre">COCINA</field>
+			<field name="clasificador_id" ref="7"/>
+		</record>
+		<record id="146" model="modelo_bien">
+			<field name="modelo_codigo">146</field>
+			<field name="modelo_nombre">MULTIFUNCIONAL</field>
+			<field name="clasificador_id" ref="80"/>
+		</record>
+		<record id="147" model="modelo_bien">
+			<field name="modelo_codigo">147</field>
+			<field name="modelo_nombre">UNIDAD DE RESPALDO</field>
+			<field name="clasificador_id" ref="77"/>
+		</record>
+		<record id="148" model="modelo_bien">
+			<field name="modelo_codigo">148</field>
+			<field name="modelo_nombre">UNIDAD DE RESPALDO</field>
+			<field name="clasificador_id" ref="76"/>
+		</record>
+		<record id="149" model="modelo_bien">
+			<field name="modelo_codigo">149</field>
+			<field name="modelo_nombre">VHS</field>
+			<field name="clasificador_id" ref="7"/>
+		</record>
+		<record id="150" model="modelo_bien">
+			<field name="modelo_codigo">150</field>
+			<field name="modelo_nombre">ORGANIZADOR</field>
+			<field name="clasificador_id" ref="82"/>
+		</record>
+		<record id="175" model="modelo_bien">
+			<field name="modelo_codigo">175</field>
+			<field name="modelo_nombre">IMPALA</field>
+			<field name="clasificador_id" ref="95"/>
+		</record>
+		<record id="176" model="modelo_bien">
+			<field name="modelo_codigo">176</field>
+			<field name="modelo_nombre">L.C. AUTANA</field>
+			<field name="clasificador_id" ref="98"/>
+		</record>
+		<record id="177" model="modelo_bien">
+			<field name="modelo_codigo">177</field>
+			<field name="modelo_nombre">MAZDA 3MF</field>
+			<field name="clasificador_id" ref="95"/>
+		</record>
+		<record id="178" model="modelo_bien">
+			<field name="modelo_codigo">178</field>
+			<field name="modelo_nombre">CIVIC 1.6</field>
+			<field name="clasificador_id" ref="95"/>
+		</record>
+		<record id="179" model="modelo_bien">
+			<field name="modelo_codigo">179</field>
+			<field name="modelo_nombre">XT 600E</field>
+			<field name="clasificador_id" ref="99"/>
+		</record>
+		<record id="181" model="modelo_bien">
+			<field name="modelo_codigo">181</field>
+			<field name="modelo_nombre">TRAIL BLAZER</field>
+			<field name="clasificador_id" ref="98"/>
+		</record>
+		<record id="182" model="modelo_bien">
+			<field name="modelo_codigo">182</field>
+			<field name="modelo_nombre">GRAN CHEROKEE</field>
+			<field name="clasificador_id" ref="98"/>
+		</record>
+		<record id="183" model="modelo_bien">
+			<field name="modelo_codigo">183</field>
+			<field name="modelo_nombre">PREGIO GRAND</field>
+			<field name="clasificador_id" ref="98"/>
+		</record>
+		<record id="184" model="modelo_bien">
+			<field name="modelo_codigo">184</field>
+			<field name="modelo_nombre">SILVERADO</field>
+			<field name="clasificador_id" ref="98"/>
+		</record>
+		<record id="185" model="modelo_bien">
+			<field name="modelo_codigo">185</field>
+			<field name="modelo_nombre">C 3500 CHASSIS</field>
+			<field name="clasificador_id" ref="100"/>
+		</record>
+		<record id="186" model="modelo_bien">
+			<field name="modelo_codigo">186</field>
+			<field name="modelo_nombre">FREELANDER</field>
+			<field name="clasificador_id" ref="98"/>
+		</record>
+		<record id="187" model="modelo_bien">
+			<field name="modelo_codigo">187</field>
+			<field name="modelo_nombre">EXPLORER</field>
+			<field name="clasificador_id" ref="98"/>
+		</record>
+		<record id="188" model="modelo_bien">
+			<field name="modelo_codigo">188</field>
+			<field name="modelo_nombre">COROLLA</field>
+			<field name="clasificador_id" ref="95"/>
+		</record>
+		<record id="189" model="modelo_bien">
+			<field name="modelo_codigo">189</field>
+			<field name="modelo_nombre">BLAZER 4 X 2</field>
+			<field name="clasificador_id" ref="98"/>
+		</record>
+		<record id="190" model="modelo_bien">
+			<field name="modelo_codigo">190</field>
+			<field name="modelo_nombre">EXPLORER 245A</field>
+			<field name="clasificador_id" ref="98"/>
+		</record>
+		<record id="191" model="modelo_bien">
+			<field name="modelo_codigo">191</field>
+			<field name="modelo_nombre">DE ALTO RENDIMIENTO</field>
+			<field name="clasificador_id" ref="72"/>
+		</record>
+		<record id="192" model="modelo_bien">
+			<field name="modelo_codigo">192</field>
+			<field name="modelo_nombre">PDA / PALM</field>
+			<field name="clasificador_id" ref="75"/>
+		</record>
+		<record id="193" model="modelo_bien">
+			<field name="modelo_codigo">193</field>
+			<field name="modelo_nombre">DISCO DURO</field>
+			<field name="clasificador_id" ref="77"/>
+		</record>
+		<record id="194" model="modelo_bien">
+			<field name="modelo_codigo">194</field>
+			<field name="modelo_nombre">FLOPPYS</field>
+			<field name="clasificador_id" ref="76"/>
+		</record>
+		<record id="195" model="modelo_bien">
+			<field name="modelo_codigo">195</field>
+			<field name="modelo_nombre">UNIDADES ÓPTICAS</field>
+			<field name="clasificador_id" ref="76"/>
+		</record>
+		<record id="196" model="modelo_bien">
+			<field name="modelo_codigo">196</field>
+			<field name="modelo_nombre">CASE</field>
+			<field name="clasificador_id" ref="77"/>
+		</record>
+		<record id="201" model="modelo_bien">
+			<field name="modelo_codigo">201</field>
+			<field name="modelo_nombre">UNIDADES ÓPTICAS</field>
+			<field name="clasificador_id" ref="77"/>
+		</record>
+		<record id="202" model="modelo_bien">
+			<field name="modelo_codigo">202</field>
+			<field name="modelo_nombre">DATA SWITCH</field>
+			<field name="clasificador_id" ref="77"/>
+		</record>
+		<record id="203" model="modelo_bien">
+			<field name="modelo_codigo">203</field>
+			<field name="modelo_nombre">ACCESS POINT</field>
+			<field name="clasificador_id" ref="101"/>
+		</record>
+		<record id="204" model="modelo_bien">
+			<field name="modelo_codigo">204</field>
+			<field name="modelo_nombre">ROUTER</field>
+			<field name="clasificador_id" ref="101"/>
+		</record>
+		<record id="205" model="modelo_bien">
+			<field name="modelo_codigo">205</field>
+			<field name="modelo_nombre">HUB</field>
+			<field name="clasificador_id" ref="101"/>
+		</record>
+		<record id="206" model="modelo_bien">
+			<field name="modelo_codigo">206</field>
+			<field name="modelo_nombre">SWITCH</field>
+			<field name="clasificador_id" ref="101"/>
+		</record>
+		<record id="207" model="modelo_bien">
+			<field name="modelo_codigo">207</field>
+			<field name="modelo_nombre">FIREWALL</field>
+			<field name="clasificador_id" ref="101"/>
+		</record>
+		<record id="208" model="modelo_bien">
+			<field name="modelo_codigo">208</field>
+			<field name="modelo_nombre">TRANCEIVER</field>
+			<field name="clasificador_id" ref="101"/>
+		</record>
+		<record id="209" model="modelo_bien">
+			<field name="modelo_codigo">209</field>
+			<field name="modelo_nombre">JETDIRECT</field>
+			<field name="clasificador_id" ref="101"/>
+		</record>
+		<record id="210" model="modelo_bien">
+			<field name="modelo_codigo">210</field>
+			<field name="modelo_nombre">PIZARRAS ELÉCTRICAS</field>
+			<field name="clasificador_id" ref="102"/>
+		</record>
+		<record id="211" model="modelo_bien">
+			<field name="modelo_codigo">211</field>
+			<field name="modelo_nombre">SYMPODIUM</field>
+			<field name="clasificador_id" ref="102"/>
+		</record>
+		<record id="212" model="modelo_bien">
+			<field name="modelo_codigo">212</field>
+			<field name="modelo_nombre">SCSI</field>
+			<field name="clasificador_id" ref="77"/>
+		</record>
+		<record id="213" model="modelo_bien">
+			<field name="modelo_codigo">213</field>
+			<field name="modelo_nombre">DE VIDEO CONFERENCIA</field>
+			<field name="clasificador_id" ref="81"/>
+		</record>
+		<record id="214" model="modelo_bien">
+			<field name="modelo_codigo">214</field>
+			<field name="modelo_nombre">BÁSICO IP</field>
+			<field name="clasificador_id" ref="35"/>
+		</record>
+		<record id="216" model="modelo_bien">
+			<field name="modelo_codigo">216</field>
+			<field name="modelo_nombre">SERIGRAFÍAS</field>
+			<field name="clasificador_id" ref="38"/>
+		</record>
+		<record id="217" model="modelo_bien">
+			<field name="modelo_codigo">217</field>
+			<field name="modelo_nombre">PARA FORMACIÓN</field>
+			<field name="clasificador_id" ref="4"/>
+		</record>
+		<record id="218" model="modelo_bien">
+			<field name="modelo_codigo">218</field>
+			<field name="modelo_nombre">AUXILIAR</field>
+			<field name="clasificador_id" ref="30"/>
+		</record>
+		<record id="221" model="modelo_bien">
+			<field name="modelo_codigo">221</field>
+			<field name="modelo_nombre">EMPOTRADO</field>
+			<field name="clasificador_id" ref="14"/>
+		</record>
+		<record id="222" model="modelo_bien">
+			<field name="modelo_codigo">222</field>
+			<field name="modelo_nombre">CUERPO HUMANO</field>
+			<field name="clasificador_id" ref="38"/>
+		</record>
+		<record id="223" model="modelo_bien">
+			<field name="modelo_codigo">223</field>
+			<field name="modelo_nombre">PROYECCIÓN</field>
+			<field name="clasificador_id" ref="106"/>
+		</record>
+		<record id="224" model="modelo_bien">
+			<field name="modelo_codigo">224</field>
+			<field name="modelo_nombre">DE CHEQUES</field>
+			<field name="clasificador_id" ref="107"/>
+		</record>
+		<record id="226" model="modelo_bien">
+			<field name="modelo_codigo">226</field>
+			<field name="modelo_nombre">PROYECTOR</field>
+			<field name="clasificador_id" ref="78"/>
+		</record>
+		<record id="228" model="modelo_bien">
+			<field name="modelo_codigo">228</field>
+			<field name="modelo_nombre">TRIPODE</field>
+			<field name="clasificador_id" ref="108"/>
+		</record>
+		<record id="229" model="modelo_bien">
+			<field name="modelo_codigo">229</field>
+			<field name="modelo_nombre">BASE PARA TRIPODE</field>
+			<field name="clasificador_id" ref="108"/>
+		</record>
+		<record id="230" model="modelo_bien">
+			<field name="modelo_codigo">230</field>
+			<field name="modelo_nombre">JUEGO DE LUCES</field>
+			<field name="clasificador_id" ref="110"/>
+		</record>
+		<record id="231" model="modelo_bien">
+			<field name="modelo_codigo">231</field>
+			<field name="modelo_nombre">GRABADOR </field>
+			<field name="clasificador_id" ref="81"/>
+		</record>
+		<record id="232" model="modelo_bien">
+			<field name="modelo_codigo">232</field>
+			<field name="modelo_nombre">BALANZA DE PESO</field>
+			<field name="clasificador_id" ref="32"/>
+		</record>
+		<record id="233" model="modelo_bien">
+			<field name="modelo_codigo">233</field>
+			<field name="modelo_nombre">EXPEDITION</field>
+			<field name="clasificador_id" ref="98"/>
+		</record>
+		<record id="234" model="modelo_bien">
+			<field name="modelo_codigo">234</field>
+			<field name="modelo_nombre">WEBCAM (CÁMARA)</field>
+			<field name="clasificador_id" ref="81"/>
+		</record>
+		<record id="235" model="modelo_bien">
+			<field name="modelo_codigo">235</field>
+			<field name="modelo_nombre">ELÉCTRICA</field>
+			<field name="clasificador_id" ref="113"/>
+		</record>
+		<record id="236" model="modelo_bien">
+			<field name="modelo_codigo">236</field>
+			<field name="modelo_nombre">ELÉCTRICA</field>
+			<field name="clasificador_id" ref="114"/>
+		</record>
+		<record id="237" model="modelo_bien">
+			<field name="modelo_codigo">237</field>
+			<field name="modelo_nombre">ELÉCTRICO</field>
+			<field name="clasificador_id" ref="115"/>
+		</record>
+		<record id="240" model="modelo_bien">
+			<field name="modelo_codigo">240</field>
+			<field name="modelo_nombre">ELÉCTRICA</field>
+			<field name="clasificador_id" ref="117"/>
+		</record>
+		<record id="242" model="modelo_bien">
+			<field name="modelo_codigo">242</field>
+			<field name="modelo_nombre">BANDERAS</field>
+			<field name="clasificador_id" ref="38"/>
+		</record>
+		<record id="243" model="modelo_bien">
+			<field name="modelo_codigo">243</field>
+			<field name="modelo_nombre">SOFÁ</field>
+			<field name="clasificador_id" ref="24"/>
+		</record>
+		<record id="244" model="modelo_bien">
+			<field name="modelo_codigo">244</field>
+			<field name="modelo_nombre">ELECTRICA</field>
+			<field name="clasificador_id" ref="68"/>
+		</record>
+		<record id="245" model="modelo_bien">
+			<field name="modelo_codigo">245</field>
+			<field name="modelo_nombre">CORNETAS</field>
+			<field name="clasificador_id" ref="7"/>
+		</record>
+		<record id="246" model="modelo_bien">
+			<field name="modelo_codigo">246</field>
+			<field name="modelo_nombre">CAMPANA</field>
+			<field name="clasificador_id" ref="7"/>
+		</record>
+			<record id="247" model="modelo_bien">
+			<field name="modelo_codigo">247</field>
+			<field name="modelo_nombre">AMPLIFICADOR</field>
+			<field name="clasificador_id" ref="81"/>
+		</record>
+			<record id="248" model="modelo_bien">
+			<field name="modelo_codigo">248</field>
+			<field name="modelo_nombre">RECEPTOR PARA MICRÓFONOS</field>
+			<field name="clasificador_id" ref="102"/>
+		</record>
+		<record id="249" model="modelo_bien">
+			<field name="modelo_codigo">249</field>
+			<field name="modelo_nombre">CENTRO DE CONTROL</field>
+			<field name="clasificador_id" ref="102"/>
+		</record>
+		<record id="251" model="modelo_bien">
+			<field name="modelo_codigo">251</field>
+			<field name="modelo_nombre">BOX SPRING</field>
+			<field name="clasificador_id" ref="119"/>
+		</record>
+		<record id="252" model="modelo_bien">
+			<field name="modelo_codigo">252</field>
+			<field name="modelo_nombre">DE PARED</field>
+			<field name="clasificador_id" ref="120"/>
+		</record>
+		<record id="253" model="modelo_bien">
+			<field name="modelo_codigo">253</field>
+			<field name="modelo_nombre">PARA BANDERAS</field>
+			<field name="clasificador_id" ref="121"/>
+		</record>
+		<record id="254" model="modelo_bien">
+			<field name="modelo_codigo">254</field>
+			<field name="modelo_nombre">SOUND BUFFER (CORNETAS)</field>
+			<field name="clasificador_id" ref="81"/>
+		</record>
+		<record id="255" model="modelo_bien">
+			<field name="modelo_codigo">255</field>
+			<field name="modelo_nombre">LICUADORA</field>
+			<field name="clasificador_id" ref="7"/>
+		</record>
+		<record id="256" model="modelo_bien">
+			<field name="modelo_codigo">256</field>
+			<field name="modelo_nombre">MEZCLADOR</field>
+			<field name="clasificador_id" ref="81"/>
+		</record>
+		<record id="257" model="modelo_bien">
+			<field name="modelo_codigo">257</field>
+			<field name="modelo_nombre">REPRODUCTOR</field>
+			<field name="clasificador_id" ref="81"/>
+		</record>
+		<record id="258" model="modelo_bien">
+			<field name="modelo_codigo">258</field>
+			<field name="modelo_nombre">MICRÓFONO</field>
+			<field name="clasificador_id" ref="81"/>
+		</record>
+		<record id="259" model="modelo_bien">
+			<field name="modelo_codigo">259</field>
+			<field name="modelo_nombre">PODIUM</field>
+			<field name="clasificador_id" ref="24"/>
+		</record>
+		<record id="260" model="modelo_bien">
+			<field name="modelo_codigo">260</field>
+			<field name="modelo_nombre">VIDEO CONFERENCIA</field>
+			<field name="clasificador_id" ref="81"/>
+		</record>
+		<record id="261" model="modelo_bien">
+			<field name="modelo_codigo">261</field>
+			<field name="modelo_nombre">XT 660</field>
+			<field name="clasificador_id" ref="99"/>
+		</record>
+		<record id="262" model="modelo_bien">
+			<field name="modelo_codigo">262</field>
+			<field name="modelo_nombre">TAHOE 4X4</field>
+			<field name="clasificador_id" ref="98"/>
+		</record>
+		<record id="263" model="modelo_bien">
+			<field name="modelo_codigo">263</field>
+			<field name="modelo_nombre">FAISER</field>
+			<field name="clasificador_id" ref="99"/>
+		</record>
+		<record id="264" model="modelo_bien">
+			<field name="modelo_codigo">264</field>
+			<field name="modelo_nombre">SERVIDOR DE COPIADO</field>
+			<field name="clasificador_id" ref="74"/>
+		</record>
+		<record id="265" model="modelo_bien">
+			<field name="modelo_codigo">265</field>
+			<field name="modelo_nombre">LASER</field>
+			<field name="clasificador_id" ref="95"/>
+			</record>
+		<record id="266" model="modelo_bien">
+			<field name="modelo_codigo">266</field>
+			<field name="modelo_nombre">DE RED</field>
+			<field name="clasificador_id" ref="14"/>
+		</record>
+		<record id="267" model="modelo_bien">
+			<field name="modelo_codigo">267</field>
+			<field name="modelo_nombre">DE GABINETE</field>
+			<field name="clasificador_id" ref="77"/>
+		</record>
+		<record id="268" model="modelo_bien">
+			<field name="modelo_codigo">268</field>
+			<field name="modelo_nombre">ROBBOT DE RESPALDO</field>
+			<field name="clasificador_id" ref="77"/>
+		</record>
+			<record id="270" model="modelo_bien">
+			<field name="modelo_codigo">270</field>
+			<field name="modelo_nombre">PELDAÑO</field>
+			<field name="clasificador_id" ref="24"/>
+		</record>
+			<record id="271" model="modelo_bien">
+			<field name="modelo_codigo">271</field>
+			<field name="modelo_nombre">DE PEDESTAL</field>
+			<field name="clasificador_id" ref="124"/>
+		</record>
+		<record id="273" model="modelo_bien">
+			<field name="modelo_codigo">273</field>
+			<field name="modelo_nombre">DE MESA</field>
+			<field name="clasificador_id" ref="125"/>
+		</record>
+		<record id="275" model="modelo_bien">
+			<field name="modelo_codigo">275</field>
+			<field name="modelo_nombre">EJECUTIVO IP</field>
+			<field name="clasificador_id" ref="35"/>
+		</record>
+		<record id="276" model="modelo_bien">
+			<field name="modelo_codigo">276</field>
+			<field name="modelo_nombre">DE EQUIPO SECUNDARIO</field>
+			<field name="clasificador_id" ref="128"/>
+		</record>
+		<record id="277" model="modelo_bien">
+			<field name="modelo_codigo">277</field>
+			<field name="modelo_nombre">BÁSICO</field>
+			<field name="clasificador_id" ref="129"/>
+		</record>
+		<record id="278" model="modelo_bien">
+			<field name="modelo_codigo">278</field>
+			<field name="modelo_nombre">MANUAL</field>
+			<field name="clasificador_id" ref="68"/>
+		</record>
+		<record id="279" model="modelo_bien">
+			<field name="modelo_codigo">279</field>
+			<field name="modelo_nombre">DE CERÁMICA</field>
+			<field name="clasificador_id" ref="130"/>
+		</record>
+		<record id="280" model="modelo_bien">
+			<field name="modelo_codigo">280</field>
+			<field name="modelo_nombre">ELÉCTRICA</field>
+			<field name="clasificador_id" ref="131"/>
+		</record>
+		<record id="281" model="modelo_bien">
+			<field name="modelo_codigo">281</field>
+			<field name="modelo_nombre">MANUAL</field>
+			<field name="clasificador_id" ref="132"/>
+			</record>
+		<record id="282" model="modelo_bien">
+			<field name="modelo_codigo">282</field>
+			<field name="modelo_nombre">DE TELEVISIÓN</field>
+			<field name="clasificador_id" ref="133"/>
+		</record>
+	</data>
+</openerp>

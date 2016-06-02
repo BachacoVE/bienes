@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data noupdate="1">
+		<record id="uniadm_sudebi_1" model="uniadm_sudebi">
+			<field name="uniadm_sudebi_codigo">1</field>
+			<field name="uniadm_sudebi_nombre">Despacho del Presidente</field>
+		</record>
+		<record id="uniadm_sudebi_2" model="uniadm_sudebi">
+			<field name="uniadm_sudebi_codigo">2</field>
+			<field name="uniadm_sudebi_nombre">Despacho del Vicepresidente</field>
+		</record>
+		<record id="uniadm_sudebi_3" model="uniadm_sudebi">
+			<field name="uniadm_sudebi_codigo">3</field>
+			<field name="uniadm_sudebi_nombre">Despacho del Ministro</field>
+		</record>
+		<record id="uniadm_sudebi_4" model="uniadm_sudebi">
+			<field name="uniadm_sudebi_codigo">4</field>
+			<field name="uniadm_sudebi_nombre">Despacho Viceministro</field>
+		</record>
+		<record id="uniadm_sudebi_5" model="uniadm_sudebi">
+			<field name="uniadm_sudebi_codigo">5</field>
+			<field name="uniadm_sudebi_nombre">Dirección General</field>
+		</record>
+		<record id="uniadm_sudebi_6" model="uniadm_sudebi">
+			<field name="uniadm_sudebi_codigo">6</field>
+			<field name="uniadm_sudebi_nombre">Dirección de Línea</field>
+		</record>
+		<record id="uniadm_sudebi_7" model="uniadm_sudebi">
+			<field name="uniadm_sudebi_codigo">7</field>
+			<field name="uniadm_sudebi_nombre">Coordinación</field>
+		</record>
+		<record id="uniadm_sudebi_8" model="uniadm_sudebi">
+			<field name="uniadm_sudebi_codigo">8</field>
+			<field name="uniadm_sudebi_nombre">División</field>
+		</record>
+		<record id="uniadm_sudebi_9" model="uniadm_sudebi">
+			<field name="uniadm_sudebi_codigo">9</field>
+			<field name="uniadm_sudebi_nombre">Departamento</field>
+		</record>
+		<record id="uniadm_sudebi_10" model="uniadm_sudebi">
+			<field name="uniadm_sudebi_codigo">10</field>
+			<field name="uniadm_sudebi_nombre">Presidencia</field>
+		</record>
+		<record id="uniadm_sudebi_11" model="uniadm_sudebi">
+			<field name="uniadm_sudebi_codigo">11</field>
+			<field name="uniadm_sudebi_nombre">Gerencia General</field>
+		</record>
+		<record id="uniadm_sudebi_12" model="uniadm_sudebi">
+			<field name="uniadm_sudebi_codigo">12</field>
+			<field name="uniadm_sudebi_nombre">Gerencia</field>
+		</record>
+		<record id="uniadm_sudebi_13" model="uniadm_sudebi">
+			<field name="uniadm_sudebi_codigo">13</field>
+			<field name="uniadm_sudebi_nombre">Sub-Gerencia</field>
+		</record>
+		<record id="uniadm_sudebi_14" model="uniadm_sudebi">
+			<field name="uniadm_sudebi_codigo">14</field>
+			<field name="uniadm_sudebi_nombre">Despacho del Superintendente</field>
+		</record>
+		<record id="uniadm_sudebi_15" model="uniadm_sudebi">
+			<field name="uniadm_sudebi_codigo">15</field>
+			<field name="uniadm_sudebi_nombre">Dirección General Adjunta</field>
+		</record>
+		<record id="uniadm_sudebi_16" model="uniadm_sudebi">
+			<field name="uniadm_sudebi_codigo">16</field>
+			<field name="uniadm_sudebi_nombre">Intendencia</field>
+		</record>
+		<record id="uniadm_sudebi_17" model="uniadm_sudebi">
+			<field name="uniadm_sudebi_codigo">17</field>
+			<field name="uniadm_sudebi_nombre">Unidad Ad- Hoc</field>
+		</record>
+		<record id="uniadm_sudebi_18" model="uniadm_sudebi">
+			<field name="uniadm_sudebi_codigo">18</field>
+			<field name="uniadm_sudebi_nombre">Área Organizacional</field>
+		</record>
+		<record id="uniadm_sudebi_19" model="uniadm_sudebi">
+			<field name="uniadm_sudebi_codigo">19</field>
+			<field name="uniadm_sudebi_nombre">Área de Trabajo</field>
+		</record>
+		<record id="uniadm_sudebi_20" model="uniadm_sudebi">
+			<field name="uniadm_sudebi_codigo">20</field>
+			<field name="uniadm_sudebi_nombre">Otra Categoría de Unidad</field>
+		</record>
+	</data>
+</openerp>
+
+
+
+

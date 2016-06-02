@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data noupdate="1">
+		<record id="color_sudebi_1" model="color_sudebi">
+			<field name="color_sudebi_codigo">1</field>
+			<field name="color_sudebi_nombre">NEGRO</field>
+		</record>
+		<record id="color_sudebi_2" model="color_sudebi">
+			<field name="color_sudebi_codigo">2</field>
+			<field name="color_sudebi_nombre">AZUL</field>
+		</record>
+		<record id="color_sudebi_3" model="color_sudebi">
+			<field name="color_sudebi_codigo">3</field>
+			<field name="color_sudebi_nombre">PALO ROSA</field>
+		</record>
+		<record id="color_sudebi_4" model="color_sudebi">
+			<field name="color_sudebi_codigo">4</field>
+			<field name="color_sudebi_nombre">NARANJA</field>
+		</record>
+		<record id="color_sudebi_5" model="color_sudebi">
+			<field name="color_sudebi_codigo">5</field>
+			<field name="color_sudebi_nombre">VERDE</field>
+		</record>
+		<record id="color_sudebi_6" model="color_sudebi">
+			<field name="color_sudebi_codigo">6</field>
+			<field name="color_sudebi_nombre">BEIGE</field>
+		</record>
+		<record id="color_sudebi_7" model="color_sudebi">
+			<field name="color_sudebi_codigo">7</field>
+			<field name="color_sudebi_nombre">CROMÁTICO</field>
+		</record>
+		<record id="color_sudebi_8" model="color_sudebi">
+			<field name="color_sudebi_codigo">8</field>
+			<field name="color_sudebi_nombre">VINOTINTO</field>
+		</record>
+		<record id="color_sudebi_9" model="color_sudebi">
+			<field name="color_sudebi_codigo">9</field>
+			<field name="color_sudebi_nombre">GRIS / NEGRO</field>
+		</record>
+		<record id="color_sudebi_10" model="color_sudebi">
+			<field name="color_sudebi_codigo">10</field>
+			<field name="color_sudebi_nombre">PLATEADO</field>
+		</record>
+		<record id="color_sudebi_11" model="color_sudebi">
+			<field name="color_sudebi_codigo">11</field>
+			<field name="color_sudebi_nombre">BEIGE AUSTRALIA</field>
+		</record>
+		<record id="color_sudebi_12" model="color_sudebi">
+			<field name="color_sudebi_codigo">12</field>
+			<field name="color_sudebi_nombre">PLATEADO FERROSO</field>
+		</record>
+		<record id="color_sudebi_13" model="color_sudebi">
+			<field name="color_sudebi_codigo">13</field>
+			<field name="color_sudebi_nombre">PERLA</field>
+		</record>
+		<record id="color_sudebi_14" model="color_sudebi">
+			<field name="color_sudebi_codigo">14</field>
+			<field name="color_sudebi_nombre">BEIGE OLIMPICO</field>
+		</record>
+		<record id="color_sudebi_15" model="color_sudebi">
+			<field name="color_sudebi_codigo">15</field>
+			<field name="color_sudebi_nombre">ARENA METALIZADO</field>
+		</record>
+		<record id="color_sudebi_16" model="color_sudebi">
+			<field name="color_sudebi_codigo">16</field>
+			<field name="color_sudebi_nombre">PLATA</field>
+		</record>
+		<record id="color_sudebi_17" model="color_sudebi">
+			<field name="color_sudebi_codigo">17</field>
+			<field name="color_sudebi_nombre">ROJO</field>
+		</record>
+		<record id="color_sudebi_18" model="color_sudebi">
+			<field name="color_sudebi_codigo">18</field>
+			<field name="color_sudebi_nombre">AMARILLO</field>
+		</record>
+		<record id="color_sudebi_19" model="color_sudebi">
+			<field name="color_sudebi_codigo">19</field>
+			<field name="color_sudebi_nombre">BEIGE DUNA</field>
+		</record>
+		<record id="color_sudebi_20" model="color_sudebi">
+			<field name="color_sudebi_codigo">20</field>
+			<field name="color_sudebi_nombre">MARRÓN / NEGRO</field>
+		</record>
+		<record id="color_sudebi_21" model="color_sudebi">
+			<field name="color_sudebi_codigo">21</field>
+			<field name="color_sudebi_nombre">AZUL / BEIGE</field>
+		</record>
+		<record id="color_sudebi_22" model="color_sudebi">
+			<field name="color_sudebi_codigo">22</field>
+			<field name="color_sudebi_nombre">MARRÓN /BEIGE</field>
+		</record>
+		<record id="color_sudebi_23" model="color_sudebi">
+			<field name="color_sudebi_codigo">23</field>
+			<field name="color_sudebi_nombre">VERDE ESMERALDA</field>
+		</record>
+		<record id="color_sudebi_24" model="color_sudebi">
+			<field name="color_sudebi_codigo">24</field>
+			<field name="color_sudebi_nombre">PLATA CLARO</field>
+		</record>
+		<record id="color_sudebi_25" model="color_sudebi">
+			<field name="color_sudebi_codigo">25</field>
+			<field name="color_sudebi_nombre">PLATEADO BRILLANTE</field>
+		</record>
+		<record id="color_sudebi_26" model="color_sudebi">
+			<field name="color_sudebi_codigo">26</field>
+			<field name="color_sudebi_nombre">MARRÓN PARDILLO BICAPA</field>
+		</record>
+		<record id="color_sudebi_27" model="color_sudebi">
+			<field name="color_sudebi_codigo">27</field>
+			<field name="color_sudebi_nombre">GRIS PALMERA</field>
+		</record>
+		<record id="color_sudebi_28" model="color_sudebi">
+			<field name="color_sudebi_codigo">28</field>
+			<field name="color_sudebi_nombre">DORADO</field>
+		</record>
+		<record id="color_sudebi_29" model="color_sudebi">
+			<field name="color_sudebi_codigo">29</field>
+			<field name="color_sudebi_nombre">MADERA NATURAL</field>
+		</record>
+		<record id="color_sudebi_30" model="color_sudebi">
+			<field name="color_sudebi_codigo">30</field>
+			<field name="color_sudebi_nombre">NEGRO/AMARILLO MOSTAZA</field>
+		</record>
+		<record id="color_sudebi_31" model="color_sudebi">
+			<field name="color_sudebi_codigo">31</field>
+			<field name="color_sudebi_nombre">MARRON</field>
+		</record>
+		<record id="color_sudebi_32" model="color_sudebi">
+			<field name="color_sudebi_codigo">32</field>
+			<field name="color_sudebi_nombre">BLANCO</field>
+		</record>
+		<record id="color_sudebi_33" model="color_sudebi">
+			<field name="color_sudebi_codigo">33</field>
+			<field name="color_sudebi_nombre">GRIS</field>
+		</record>
+		<record id="color_sudebi_34" model="color_sudebi">
+			<field name="color_sudebi_codigo">34</field>
+			<field name="color_sudebi_nombre">AZUL / GRIS</field>
+		</record>
+		<record id="color_sudebi_35" model="color_sudebi">
+			<field name="color_sudebi_codigo">35</field>
+			<field name="color_sudebi_nombre">AZUL / NEGRO</field>
+		</record>
+		<record id="color_sudebi_36" model="color_sudebi">
+			<field name="color_sudebi_codigo">36</field>
+			<field name="color_sudebi_nombre">ACERO</field>
+		</record>
+		<record id="color_sudebi_37" model="color_sudebi">
+			<field name="color_sudebi_codigo">37</field>
+			<field name="color_sudebi_nombre">OTRO COLOR</field>
+		</record>
+	</data>
+</openerp>
+
+
+
+

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data noupdate="1">
+				
+	   <!-- Catalago Sub-General Sudebi -->
+		<record id="14010_0000" model="catalogo_sudebi_sub">
+              <field name="catalogo_sudebi_sub_codigo">14010-0000</field>
+              <field name="catalogo_sudebi_sub_nombre">Maquinarias y equipos de construcción y mantenimiento</field>
+              <field name="catalogo_sudebi_id" ref="cat_14000_0000"/>
+        </record>
+       
+		<record id="14020_0000" model="catalogo_sudebi_sub">
+              <field name="catalogo_sudebi_sub_codigo">14020-0000</field>
+              <field name="catalogo_sudebi_sub_nombre">Maquinarias y equipos para mantenimiento de automotores</field>
+              <field name="catalogo_sudebi_id" ref="cat_14000_0000"/> 
+        </record>
+        
+        <record id="14030_0000" model="catalogo_sudebi_sub">
+              <field name="catalogo_sudebi_sub_codigo">14030-0000</field>
+              <field name="catalogo_sudebi_sub_nombre">	Maquinarias y equipos agrícolas y pecuarios</field>
+              <field name="catalogo_sudebi_id" ref="cat_14000_0000"/> 
+        </record>
+        
+        <record id="14040_0000" model="catalogo_sudebi_sub">
+              <field name="catalogo_sudebi_sub_codigo">14040-0000</field>
+              <field name="catalogo_sudebi_sub_nombre">	Maquinarias y equipos de artes gráficas y reproducción</field>
+              <field name="catalogo_sudebi_id" ref="cat_14000_0000"/> 
+        </record>
+        
+        <record id="14050_0000" model="catalogo_sudebi_sub">
+              <field name="catalogo_sudebi_sub_codigo">14050-0000</field>
+              <field name="catalogo_sudebi_sub_nombre">	Maquinarias y equipos industriales y de taller</field>
+              <field name="catalogo_sudebi_id" ref="cat_14000_0000"/> 
+        </record>
+         
+        <record id="14060_0000" model="catalogo_sudebi_sub">
+              <field name="catalogo_sudebi_sub_codigo">14060-0000</field>
+              <field name="catalogo_sudebi_sub_nombre">	Maquinarias y equipos de energía</field>
+              <field name="catalogo_sudebi_id" ref="cat_14000_0000"/> 
+        </record>
+         
+        <record id="14070_0000" model="catalogo_sudebi_sub">
+              <field name="catalogo_sudebi_sub_codigo">14070-0000</field>
+              <field name="catalogo_sudebi_sub_nombre">	Maquinarias y equipos de riego y acueductos</field>
+              <field name="catalogo_sudebi_id" ref="cat_14000_0000"/> 
+        </record>
+         
+        <record id="14080_0000" model="catalogo_sudebi_sub">
+              <field name="catalogo_sudebi_sub_codigo">14080-0000</field>
+              <field name="catalogo_sudebi_sub_nombre">Equipos de almacén</field>
+              <field name="catalogo_sudebi_id" ref="cat_14000_0000"/> 
+        </record>
+        
+        
+        <record id="14990_0000" model="catalogo_sudebi_sub">
+              <field name="catalogo_sudebi_sub_codigo">14990-0000</field>
+              <field name="catalogo_sudebi_sub_nombre">Otras maquinarias y demás equipos de construcción</field>
+              <field name="catalogo_sudebi_id" ref="cat_14000_0000"/>
+        </record>
+        
+        <record id="15010_0000" model="catalogo_sudebi_sub">
+               <field name="catalogo_sudebi_sub_codigo">15010-0000</field>
+               <field name="catalogo_sudebi_sub_nombre">Equipos de transporte tracción y elevación</field>
+               <field name="catalogo_sudebi_id" ref="cat_15000_0000"/>
+        </record> 
+        
+        <record id="15020_0000" model="catalogo_sudebi_sub">
+               <field name="catalogo_sudebi_sub_codigo">15020-0000</field>
+               <field name="catalogo_sudebi_sub_nombre">Equipos ferroviarios y de cables aéreos</field>
+               <field name="catalogo_sudebi_id" ref="cat_15000_0000"/>
+        </record>
+       
+        <record id="15030_0000" model="catalogo_sudebi_sub">
+               <field name="catalogo_sudebi_sub_codigo">15030-0000</field>
+               <field name="catalogo_sudebi_sub_nombre">Equipos marítimos de transporte</field>
+               <field name="catalogo_sudebi_id" ref="cat_15000_0000"/>
+        </record> 
+       
+        <record id="15040_0000" model="catalogo_sudebi_sub">
+               <field name="catalogo_sudebi_sub_codigo">15040-0000</field>
+               <field name="catalogo_sudebi_sub_nombre">Equipos aéreos de transporte</field>
+               <field name="catalogo_sudebi_id" ref="cat_15000_0000"/>
+        </record>
+         
+        <record id="15050_0000" model="catalogo_sudebi_sub">
+               <field name="catalogo_sudebi_sub_codigo">15050-0000</field>
+               <field name="catalogo_sudebi_sub_nombre">Vehículos de tracción no motorizados</field>
+               <field name="catalogo_sudebi_id" ref="cat_15000_0000"/>
+        </record>         
+ 
+		<record id="15060_0000" model="catalogo_sudebi_sub">
+               <field name="catalogo_sudebi_sub_codigo">15060-0000</field>
+               <field name="catalogo_sudebi_sub_nombre">Equipos auxiliares de transporte</field>
+               <field name="catalogo_sudebi_id" ref="cat_15000_0000"/>
+		</record>
+		
+		<record id="15990_0000" model="catalogo_sudebi_sub">
+               <field name="catalogo_sudebi_sub_codigo">15990-0000</field>
+               <field name="catalogo_sudebi_sub_nombre">Otros equipos de transporte</field>
+               <field name="catalogo_sudebi_id" ref="cat_15000_0000"/>
+                
+        </record>         
+		
+		<record id="16010_0000" model="catalogo_sudebi_sub">   
+				<field name="catalogo_sudebi_sub_codigo">16010-0000</field>
+		   	    <field name="catalogo_sudebi_sub_nombre">Equipos de telecomunicaciones</field>
+				<field name="catalogo_sudebi_id" ref="cat_16000_0000"/>
+		</record>
+        
+      
+		<record id="16020_0000" model="catalogo_sudebi_sub">   
+				<field name="catalogo_sudebi_sub_codigo">16020-0000</field>
+		   	    <field name="catalogo_sudebi_sub_nombre">Equipos de señalamiento</field>
+				<field name="catalogo_sudebi_id" ref="cat_16000_0000"/>
+		</record>
+		
+		<record id="16030_0000" model="catalogo_sudebi_sub">   
+				<field name="catalogo_sudebi_sub_codigo">16030-0000</field>
+		   	    <field name="catalogo_sudebi_sub_nombre">Equipos de control de tráfico aéreo</field>
+				<field name="catalogo_sudebi_id" ref="cat_16000_0000"/>
+        </record>
+
+		<record id="16040_0000" model="catalogo_sudebi_sub">   
+				<field name="catalogo_sudebi_sub_codigo">16040-0000</field>
+		   	    <field name="catalogo_sudebi_sub_nombre">Equipos de correo</field>
+				<field name="catalogo_sudebi_id" ref="cat_16000_0000"/>
+        </record>
+
+		<record id="16990_0000" model="catalogo_sudebi_sub">   
+				<field name="catalogo_sudebi_sub_codigo">16990-0000</field>
+		   	    <field name="catalogo_sudebi_sub_nombre">Otros equipos de comunicaciones y señalamiento</field>
+				<field name="catalogo_sudebi_id" ref="cat_16000_0000"/>
+        </record>
+        
+        <record id="17010_0000" model="catalogo_sudebi_sub">   
+				<field name="catalogo_sudebi_sub_codigo">17010-0000</field>
+		   	    <field name="catalogo_sudebi_sub_nombre">Equipos médico - quirúrgicos dentales y veterinarios</field>
+				<field name="catalogo_sudebi_id" ref="cat_17000_0000"/>
+        </record>		
+        
+		<record id="17990_0000" model="catalogo_sudebi_sub">   
+				<field name="catalogo_sudebi_sub_codigo">17990-0000</field>
+		   	    <field name="catalogo_sudebi_sub_nombre">Otros Equipos médico - quirúrgicos dentales y veterinarios</field>
+				<field name="catalogo_sudebi_id" ref="cat_17000_0000"/>
+		</record>
+
+        <record id="18010_0000" model="catalogo_sudebi_sub">   
+				<field name="catalogo_sudebi_sub_codigo">18010-0000</field>
+		   	    <field name="catalogo_sudebi_sub_nombre">Equipos científicos y de laboratorio</field>
+				<field name="catalogo_sudebi_id" ref="cat_18000_0000"/>
+		</record>
+		
+		<record id="18020_0000" model="catalogo_sudebi_sub">   
+				<field name="catalogo_sudebi_sub_codigo">18020-0000</field>
+		   	    <field name="catalogo_sudebi_sub_nombre">Equipos de enseñanza</field>
+				<field name="catalogo_sudebi_id" ref="cat_18000_0000"/>
+		</record>
+
+		<record id="18030_0000" model="catalogo_sudebi_sub">   
+				<field name="catalogo_sudebi_sub_codigo">18030-0000</field>
+		   	    <field name="catalogo_sudebi_sub_nombre">Obras de arte</field>
+				<field name="catalogo_sudebi_id" ref="cat_18000_0000"/>
+		</record>
+
+		<record id="18040_0000" model="catalogo_sudebi_sub">   
+				<field name="catalogo_sudebi_sub_codigo">18040-0000</field>
+		   	    <field name="catalogo_sudebi_sub_nombre">Libros y revistas</field>
+				<field name="catalogo_sudebi_id" ref="cat_18000_0000"/>
+		</record>
+
+		<record id="18050_0000" model="catalogo_sudebi_sub">   
+				<field name="catalogo_sudebi_sub_codigo">18050-0000</field>
+		   	    <field name="catalogo_sudebi_sub_nombre">Equipos religiosos</field>
+				<field name="catalogo_sudebi_id" ref="cat_18000_0000"/>
+
+		</record>
+		
+		<record id="18060_0000" model="catalogo_sudebi_sub">   
+				<field name="catalogo_sudebi_sub_codigo">18060-0000</field>
+		   	    <field name="catalogo_sudebi_sub_nombre">Instrumentos musicales</field>
+				<field name="catalogo_sudebi_id" ref="cat_18000_0000"/>
+		</record>
+
+
+		<record id="18990_0000" model="catalogo_sudebi_sub">   
+				<field name="catalogo_sudebi_sub_codigo">18990-0000</field>
+		   	    <field name="catalogo_sudebi_sub_nombre">Otros equipos científicos religiosos de enseñanza y recreación</field>
+				<field name="catalogo_sudebi_id" ref="cat_18000_0000"/>
+		</record>
+		
+		<record id="19010_0000" model="catalogo_sudebi_sub">   
+				<field name="catalogo_sudebi_sub_codigo">19010-0000</field>
+		   	    <field name="catalogo_sudebi_sub_nombre">Equipos y armamentos de defensa y seguridad pública</field>
+				<field name="catalogo_sudebi_id" ref="cat_19000_0000"/>
+		</record>
+		
+		<record id="19990_0000" model="catalogo_sudebi_sub">   
+				<field name="catalogo_sudebi_sub_codigo">19990-0000</field>
+		   	    <field name="catalogo_sudebi_sub_nombre">Otros equipos para la defensa y seguridad pública</field>
+				<field name="catalogo_sudebi_id" ref="cat_19000_0000"/>
+		</record>
+		
+
+		<record id="20010_0000" model="catalogo_sudebi_sub">   
+				<field name="catalogo_sudebi_sub_codigo">20010-0000</field>
+		   	    <field name="catalogo_sudebi_sub_nombre">Mobiliario y equipos de oficina</field>
+				<field name="catalogo_sudebi_id" ref="cat_20000_0000"/>
+		</record>
+		
+		<record id="20020_0000" model="catalogo_sudebi_sub">   
+				<field name="catalogo_sudebi_sub_codigo">20020-0000</field>
+		   	    <field name="catalogo_sudebi_sub_nombre">Equipos de procesamiento de datos</field>
+				<field name="catalogo_sudebi_id" ref="cat_20000_0000"/>
+		</record>
+
+		<record id="20090_0000" model="catalogo_sudebi_sub">   
+				<field name="catalogo_sudebi_sub_codigo">20090-0000</field>
+		   	    <field name="catalogo_sudebi_sub_nombre">Mobiliario y equipos de alojamiento</field>
+				<field name="catalogo_sudebi_id" ref="cat_20000_0000"/>
+		</record>
+	
+		
+		<record id="20990_0000" model="catalogo_sudebi_sub">   
+				<field name="catalogo_sudebi_sub_codigo">20990-0000</field>
+		   	    <field name="catalogo_sudebi_sub_nombre">Otras máquinas, muebles y demás equipos de oficina y de alojamiento</field>
+				<field name="catalogo_sudebi_id" ref="cat_20000_0000"/>
+		</record>
+		
+		<record id="21010_0000" model="catalogo_sudebi_sub">   
+				<field name="catalogo_sudebi_sub_codigo">21010-0000</field>
+		   	    <field name="catalogo_sudebi_sub_nombre">Semovientes</field>
+				<field name="catalogo_sudebi_id" ref="cat_21000_0000"/>
+		
+		</record>
+	</data>
+</openerp>

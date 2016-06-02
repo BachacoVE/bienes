@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.1.0.final using JasperReports Library version 6.1.0  -->
+<!-- 2016-01-04T13:51:39 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="total" pageWidth="260" pageHeight="55" orientation="Landscape" columnWidth="260" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="90e8a9e8-b5db-486b-bba3-22fbce735d05">
+	<property name="com.jaspersoft.studio.data.sql.tables" value="b2ZpY2luYXMgQVMgLDI0Myw0LDliYWZhMjZhLWVjMTgtNDExYi05NzA5LTEzYTg4Zjg5NDE1ZDti&#xA;aWVuZXMgQVMgLDE4LDgsNzdkMGMzMWYtMzE3Yy00OWJlLWI2N2YtYmVkNjUxMGVhNTc5Ow=="/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="bienespro"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<parameter name="ofi" class="java.lang.Integer">
+		<defaultValueExpression><![CDATA[0]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT count(bienes.id) as tot
+FROM bienes
+	INNER JOIN oficinas ON 
+	 bienes.oficinas_id = oficinas.id 
+ where oficinas_id = $P{ofi}]]>
+	</queryString>
+	<field name="tot" class="java.lang.Long"/>
+	<detail>
+		<band height="26" splitType="Stretch">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="20" y="3" width="60" height="20" uuid="80c54bd0-e991-4164-9b43-55dd5e78e75a"/>
+				<textElement textAlignment="Right">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tot}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

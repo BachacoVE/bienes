@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.1.0.final using JasperReports Library version 6.1.0  -->
+<!-- 2016-01-27T10:08:23 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="reuso" pageWidth="792" pageHeight="250" orientation="Landscape" columnWidth="792" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="bienespro"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value="dWJpY2FjaW9uX2Zpc2ljYSAsMTgyLDMwLDMxZjg3OGFmLTMwMTUtNDVjOC1iZTRjLTE0NmQ4ZTM5&#xA;NDM3Yjttb2RlbG9fZmFiICwyMDcsMjM5LDQxZDRiMWNjLTA3Y2MtNDJlYy04YTI2LWE5OTRjOGFm&#xA;MGRjYztwZXJzb25hcyAsMjI1LDIyNTUsY2ZiOThlYTgtMWExMy00ZDQxLTk0Y2UtNjA1ZDBlMzdi&#xA;NzljO2JpZW5lcyAsMjAsOTAwLDNjMmQxYTg0LTEzNzAtNGJlMy04Yjc2LTk0ZWYxMDU3MmUyMDs="/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.HorizontalRowLayout"/>
+	<parameter name="ID" class="java.lang.Integer">
+		<defaultValueExpression><![CDATA[0]]></defaultValueExpression>
+	</parameter>
+	<parameter name="oficinas_id" class="java.lang.Integer">
+		<defaultValueExpression><![CDATA[0]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT bienes.bienes_numbien,
+	bienes.bienes_serial,
+	bienes.bienes_nombre,
+	bienes.bienes_piso,
+	bienes.costo,
+	bienes.resp_uso_id,
+	personas.personas_pnombre,
+	personas.personas_papellido,
+	ubicacion_fisica.ubicacion_fisica_nombre,
+	bienes.oficinas_id,
+	bienes.modelo_fab_id,
+	bienes.marcas_id,
+	marcas.marcas_nombre,
+	modelo_fab.modelo_fab_nombre
+FROM bienes
+	LEFT JOIN personas ON 
+	 bienes.resp_uso_id = personas.id 
+	LEFT JOIN ubicacion_fisica ON 
+	 bienes.bienes_ubica = ubicacion_fisica.id 
+	LEFT JOIN marcas ON 
+	 bienes.marcas_id = marcas.id 
+	LEFT JOIN modelo_fab ON 
+	 bienes.modelo_fab_id = modelo_fab.id 
+WHERE 
+	 bienes.resp_uso_id >= 1 
+<!--
+	 AND bienes.resp_uso_id = $P{ID} 
+	 AND bienes.oficinas_id = $P{oficinas_id} 
+-->
+     AND bienes.resp_uso_id = 2
+	 AND bienes.oficinas_id = 312
+ORDER BY bienes.bienes_numbien ASC]]>
+	</queryString>
+	<field name="bienes_numbien" class="java.lang.String"/>
+	<field name="bienes_serial" class="java.lang.String"/>
+	<field name="bienes_nombre" class="java.lang.String"/>
+	<field name="bienes_piso" class="java.lang.Integer"/>
+	<field name="costo" class="java.lang.Double"/>
+	<field name="resp_uso_id" class="java.lang.Integer"/>
+	<field name="personas_pnombre" class="java.lang.String"/>
+	<field name="personas_papellido" class="java.lang.String"/>
+	<field name="ubicacion_fisica_nombre" class="java.lang.String"/>
+	<field name="oficinas_id" class="java.lang.Integer"/>
+	<field name="modelo_fab_id" class="java.lang.Integer"/>
+	<field name="marcas_id" class="java.lang.Integer"/>
+	<field name="marcas_nombre" class="java.lang.String"/>
+	<field name="modelo_fab_nombre" class="java.lang.String"/>
+	<variable name="bienes_resp" class="java.lang.Integer">
+		<variableExpression><![CDATA[$V{REPORT_COUNT}]]></variableExpression>
+	</variable>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="25" splitType="Stretch">
+			<textField>
+				<reportElement x="3" y="0" width="88" height="21"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{bienes_numbien}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="68" y="0" width="252" height="21" />
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{bienes_nombre}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToBandHeight" x="662" y="3" width="84" height="18"/>
+				<textElement>
+					<font size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ubicacion_fisica_nombre}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="456" y="0" width="100" height="21"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{modelo_fab_nombre}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="343" y="1" width="100" height="20"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{bienes_serial}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="569" y="0" width="100" height="21" />
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{marcas_nombre}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

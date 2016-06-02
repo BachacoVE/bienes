@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data noupdate="1">
+		<record id="cobertura_1" model="cobertura">
+			<field name="cobertura_codigo">1</field>
+			<field name="cobertura_nombre">Total</field>
+		</record>
+		<record id="cobertura_2" model="cobertura">
+			<field name="cobertura_codigo">2</field>
+			<field name="cobertura_nombre">Parcial</field>
+		</record>
+		<record id="cobertura_3" model="cobertura">
+			<field name="cobertura_codigo">3</field>
+			<field name="cobertura_nombre">Otro tipo de cobertura</field>
+		</record>
+	</data>
+</openerp>
+
+
+
+

@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data noupdate="1">
+		<record id="marc_1" model="marcas">
+			<field name="marcas_codigo">1</field>
+			<field name="marcas_nombre">HP</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_2" model="marcas">
+			<field name="marcas_codigo">2</field>
+			<field name="marcas_nombre">DELL</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_3" model="marcas">
+			<field name="marcas_codigo">3</field>
+			<field name="marcas_nombre">WHIRPOOL</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+
+		<record id="marc_4" model="marcas">
+			<field name="marcas_codigo">4</field>
+			<field name="marcas_nombre">SIEMENS</field>
+			<field name="grupo_bien_id" ref="grupo_9"/>
+		</record>
+		<record id="marc_5" model="marcas">
+			<field name="marcas_codigo">5</field>
+			<field name="marcas_nombre">AOC</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_6" model="marcas">
+			<field name="marcas_codigo">6</field>
+			<field name="marcas_nombre">DAEWOO</field>
+			<field name="grupo_bien_id" ref="grupo_8"/>
+		</record>
+		<record id="marc_7" model="marcas">
+			<field name="marcas_codigo">7</field>
+			<field name="marcas_nombre">CASIO</field>
+			<field name="grupo_bien_id" ref="grupo_8"/>
+		</record>
+		<record id="marc_8" model="marcas">
+			<field name="marcas_codigo">8</field>
+			<field name="marcas_nombre">PANASONIC</field>
+			<field name="grupo_bien_id" ref="grupo_9"/>
+		</record>
+		<record id="marc_9" model="marcas">
+			<field name="marcas_codigo">9</field>
+			<field name="marcas_nombre">SONY</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+		<record id="marc_10" model="marcas">
+			<field name="marcas_codigo">10</field>
+			<field name="marcas_nombre">OSTER</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+		<record id="marc_12" model="marcas">
+			<field name="marcas_codigo">12</field>
+			<field name="marcas_nombre">XEROX</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_14" model="marcas">
+			<field name="marcas_codigo">14</field>
+			<field name="marcas_nombre">MICROSOFT</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_15" model="marcas">
+			<field name="marcas_codigo">15</field>
+			<field name="marcas_nombre">SAMSUNG</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+	
+		<record id="marc_17" model="marcas">
+			<field name="marcas_codigo">17</field>
+			<field name="marcas_nombre">HP COMPAQ</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_18" model="marcas">
+			<field name="marcas_codigo">18</field>
+			<field name="marcas_nombre">BEN Q</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_19" model="marcas">
+			<field name="marcas_codigo">19</field>
+			<field name="marcas_nombre">PROXIMA</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_20" model="marcas">
+			<field name="marcas_codigo">20</field>
+			<field name="marcas_nombre">CDP</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_22" model="marcas">
+			<field name="marcas_codigo">22</field>
+			<field name="marcas_nombre">IBM</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_23" model="marcas">
+			<field name="marcas_codigo">23</field>
+			<field name="marcas_nombre">MULTIMEDIA</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_24" model="marcas">
+			<field name="marcas_codigo">24</field>
+			<field name="marcas_nombre">GENIUS</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_25" model="marcas">
+			<field name="marcas_codigo">25</field>
+			<field name="marcas_nombre">BOSTON</field>
+			<field name="grupo_bien_id" ref="grupo_8"/>
+		</record>
+<!--
+		<record id="marc_26" model="marcas">
+			<field name="marcas_codigo">26</field>
+			<field name="marcas_nombre">XEROX</field>
+			<field name="grupo_bien_id" ref="grupo_9"/>
+		</record>
+-->
+		<record id="marc_28" model="marcas">
+			<field name="marcas_codigo">28</field>
+			<field name="marcas_nombre">GENERICO (A)</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_29" model="marcas">
+			<field name="marcas_codigo">29</field>
+			<field name="marcas_nombre">INTEGRA</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_31" model="marcas">
+			<field name="marcas_codigo">31</field>
+			<field name="marcas_nombre">FRIGILUX</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+		<record id="marc_32" model="marcas">
+			<field name="marcas_codigo">32</field>
+			<field name="marcas_nombre">ZUHIPOINT</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+<!--
+		<record id="marc_34" model="marcas">
+			<field name="marcas_codigo">34</field>
+			<field name="marcas_nombre">N/A</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+-->
+		<record id="marc_35" model="marcas">
+			<field name="marcas_codigo">35</field>
+			<field name="marcas_nombre">N/A</field>
+			<field name="grupo_bien_id" ref="grupo_1"/>
+		</record>
+		<record id="marc_36" model="marcas">
+			<field name="marcas_codigo">36</field>
+			<field name="marcas_nombre">ARCHIMÓVIL</field>
+			<field name="grupo_bien_id" ref="grupo_1"/>
+		</record>
+<!--
+		<record id="marc_37" model="marcas">
+			<field name="marcas_codigo">37</field>
+			<field name="marcas_nombre">N/A</field>
+			<field name="grupo_bien_id" ref="grupo_2"/>
+-->
+		</record>
+		<record id="marc_38" model="marcas">
+			<field name="marcas_codigo">38</field>
+			<field name="marcas_nombre">DELUXE</field>
+			<field name="grupo_bien_id" ref="grupo_8"/>
+		</record>
+		<record id="marc_39" model="marcas">
+			<field name="marcas_codigo">39</field>
+			<field name="marcas_nombre">SPEAKERS SYSTEM</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_40" model="marcas">
+			<field name="marcas_codigo">40</field>
+			<field name="marcas_nombre">CREATIVE</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_41" model="marcas">
+			<field name="marcas_codigo">41</field>
+			<field name="marcas_nombre">SUNSHINE</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_42" model="marcas">
+			<field name="marcas_codigo">42</field>
+			<field name="marcas_nombre">SHARP</field>
+			<field name="grupo_bien_id" ref="grupo_8"/>
+		</record>
+		<record id="marc_43" model="marcas">
+			<field name="marcas_codigo">43</field>
+			<field name="marcas_nombre">TAUROS</field>
+			<field name="grupo_bien_id" ref="grupo_8"/>
+		</record>
+		<record id="marc_44" model="marcas">
+			<field name="marcas_codigo">44</field>
+			<field name="marcas_nombre">WELBILT-TURN</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+		<record id="marc_45" model="marcas">
+			<field name="marcas_codigo">45</field>
+			<field name="marcas_nombre">CECS</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_46" model="marcas">
+			<field name="marcas_codigo">46</field>
+			<field name="marcas_nombre">CELSIUS</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+		<record id="marc_47" model="marcas">
+			<field name="marcas_codigo">47</field>
+			<field name="marcas_nombre">KING POST</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+		<record id="marc_48" model="marcas">
+			<field name="marcas_codigo">48</field>
+			<field name="marcas_nombre">BW-692</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_51" model="marcas">
+			<field name="marcas_codigo">51</field>
+			<field name="marcas_nombre">COMPAQ</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_52" model="marcas">
+			<field name="marcas_codigo">52</field>
+			<field name="marcas_nombre">VIEW SONIC</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+<!--
+		<record id="marc_53" model="marcas">
+			<field name="marcas_codigo">53</field>
+			<field name="marcas_nombre">N/A</field>
+			<field name="grupo_bien_id" ref="grupo_10"/>
+		</record>
+-->
+		<record id="marc_54" model="marcas">
+			<field name="marcas_codigo">54</field>
+			<field name="marcas_nombre">KODE</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_57" model="marcas">
+			<field name="marcas_codigo">57</field>
+			<field name="marcas_nombre">ETERNA</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+		<record id="marc_58" model="marcas">
+			<field name="marcas_codigo">58</field>
+			<field name="marcas_nombre">KENMORE</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+<!--
+		<record id="marc_59" model="marcas">
+			<field name="marcas_codigo">59</field>
+			<field name="marcas_nombre">PANASONIC</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+-->
+		<record id="marc_60" model="marcas">
+			<field name="marcas_codigo">60</field>
+			<field name="marcas_nombre">PRINTEX</field>
+			<field name="grupo_bien_id" ref="grupo_8"/>
+		</record>
+		<record id="marc_61" model="marcas">
+			<field name="marcas_codigo">61</field>
+			<field name="marcas_nombre">NATIONAL</field>
+			<field name="grupo_bien_id" ref="grupo_8"/>
+		</record>
+<!--
+		<record id="marc_62" model="marcas">
+			<field name="marcas_codigo">62</field>
+			<field name="marcas_nombre">PANASONIC</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+-->
+		<record id="marc_63" model="marcas">
+			<field name="marcas_codigo">63</field>
+			<field name="marcas_nombre">PONE</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_64" model="marcas">
+			<field name="marcas_codigo">64</field>
+			<field name="marcas_nombre">AUDITEH</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+<!--
+		<record id="marc_66" model="marcas">
+			<field name="marcas_codigo">66</field>
+			<field name="marcas_nombre">DAEWOO</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+-->
+		<record id="marc_68" model="marcas">
+			<field name="marcas_codigo">68</field>
+			<field name="marcas_nombre">SUMBEAM</field>
+			<field name="grupo_bien_id" ref="grupo_8"/>
+		</record>
+		<record id="marc_70" model="marcas">
+			<field name="marcas_codigo">70</field>
+			<field name="marcas_nombre">CENTINELA</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_71" model="marcas">
+			<field name="marcas_codigo">71</field>
+			<field name="marcas_nombre">DIGITAL</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_72" model="marcas">
+			<field name="marcas_codigo">72</field>
+			<field name="marcas_nombre">LEITZ</field>
+			<field name="grupo_bien_id" ref="grupo_2"/>
+		</record>
+		<record id="marc_73" model="marcas">
+			<field name="marcas_codigo">73</field>
+			<field name="marcas_nombre">TANTUNG</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_74" model="marcas">
+			<field name="marcas_codigo">74</field>
+			<field name="marcas_nombre">TEACH</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_75" model="marcas">
+			<field name="marcas_codigo">75</field>
+			<field name="marcas_nombre">COMPACTA</field>
+			<field name="grupo_bien_id" ref="grupo_8"/>
+		</record>
+		<record id="marc_76" model="marcas">
+			<field name="marcas_codigo">76</field>
+			<field name="marcas_nombre">KW TRIO</field>
+			<field name="grupo_bien_id" ref="grupo_8"/>
+		</record>
+		<record id="marc_77" model="marcas">
+			<field name="marcas_codigo">77</field>
+			<field name="marcas_nombre">OLIVETTI</field>
+			<field name="grupo_bien_id" ref="grupo_8"/>
+		</record>
+<!--
+		<record id="marc_79" model="marcas">
+			<field name="marcas_codigo">79</field>
+			<field name="marcas_nombre">VIEW SONIC</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+-->
+		<record id="marc_80" model="marcas">
+			<field name="marcas_codigo">80</field>
+			<field name="marcas_nombre">EPSON</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_83" model="marcas">
+			<field name="marcas_codigo">83</field>
+			<field name="marcas_nombre">APC</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_85" model="marcas">
+			<field name="marcas_codigo">85</field>
+			<field name="marcas_nombre">PLUS</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_86" model="marcas">
+			<field name="marcas_codigo">86</field>
+			<field name="marcas_nombre">BOLEX PAILLARD</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_87" model="marcas">
+			<field name="marcas_codigo">87</field>
+			<field name="marcas_nombre">3M</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_88" model="marcas">
+			<field name="marcas_codigo">88</field>
+			<field name="marcas_nombre">FM</field>
+			<field name="grupo_bien_id" ref="grupo_8"/>
+		</record>
+		<record id="marc_89" model="marcas">
+			<field name="marcas_codigo">89</field>
+			<field name="marcas_nombre">SAMSON</field>
+			<field name="grupo_bien_id" ref="grupo_2"/>
+		</record>
+		<record id="marc_91" model="marcas">
+			<field name="marcas_codigo">91</field>
+			<field name="marcas_nombre">QUICKSEL</field>
+			<field name="grupo_bien_id" ref="grupo_2"/>
+		</record>
+		<record id="marc_92" model="marcas">
+			<field name="marcas_codigo">92</field>
+			<field name="marcas_nombre">TOSHIBA</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+		<record id="marc_93" model="marcas">
+			<field name="marcas_codigo">93</field>
+			<field name="marcas_nombre">LG</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+		<record id="marc_94" model="marcas">
+			<field name="marcas_codigo">94</field>
+			<field name="marcas_nombre">RDS</field>
+			<field name="grupo_bien_id" ref="grupo_2"/>
+		</record>
+		<record id="marc_95" model="marcas">
+			<field name="marcas_codigo">95</field>
+			<field name="marcas_nombre">ACER</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+<!--
+		<record id="marc_96" model="marcas">
+			<field name="marcas_codigo">96</field>
+			<field name="marcas_nombre">SONY</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+-->
+		<record id="marc_97" model="marcas">
+			<field name="marcas_codigo">97</field>
+			<field name="marcas_nombre">LIE SEGANG</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_99" model="marcas">
+			<field name="marcas_codigo">99</field>
+			<field name="marcas_nombre">DOOUGUARD</field>
+			<field name="grupo_bien_id" ref="grupo_8"/>
+		</record>
+		<record id="marc_100" model="marcas">
+			<field name="marcas_codigo">100</field>
+			<field name="marcas_nombre">IOMEGA</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_101" model="marcas">
+			<field name="marcas_codigo">101</field>
+			<field name="marcas_nombre">KHALED</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+<!--
+		<record id="marc_102" model="marcas">
+			<field name="marcas_codigo">102</field>
+			<field name="marcas_nombre">N/A</field>
+			<field name="grupo_bien_id" ref="grupo_12"/>
+		</record>
+-->
+		<record id="marc_104" model="marcas">
+			<field name="marcas_codigo">104</field>
+			<field name="marcas_nombre">SUNRISE</field>
+			<field name="grupo_bien_id" ref="grupo_12"/>
+		</record>
+		<record id="marc_105" model="marcas">
+			<field name="marcas_codigo">105</field>
+			<field name="marcas_nombre">ELECTROSONIC</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+		<record id="marc_106" model="marcas">
+			<field name="marcas_codigo">106</field>
+			<field name="marcas_nombre">TAPPAN</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+<!--
+		<record id="marc_108" model="marcas">
+			<field name="marcas_codigo">108</field>
+			<field name="marcas_nombre">SAMSUNG</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+-->
+		<record id="marc_109" model="marcas">
+			<field name="marcas_codigo">109</field>
+			<field name="marcas_nombre">OFITECH</field>
+			<field name="grupo_bien_id" ref="grupo_8"/>
+		</record>
+		<record id="marc_111" model="marcas">
+			<field name="marcas_codigo">111</field>
+			<field name="marcas_nombre">TRIUMPH</field>
+			<field name="grupo_bien_id" ref="grupo_8"/>
+		</record>
+		<record id="marc_112" model="marcas">
+			<field name="marcas_codigo">112</field>
+			<field name="marcas_nombre">CASTI CARRY</field>
+			<field name="grupo_bien_id" ref="grupo_8"/>
+		</record>
+		<record id="marc_113" model="marcas">
+			<field name="marcas_codigo">113</field>
+			<field name="marcas_nombre">ADMIRAL</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+<!--
+		<record id="marc_114" model="marcas">
+			<field name="marcas_codigo">114</field>
+			<field name="marcas_nombre">N/A</field>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+-->
+		<record id="marc_115" model="marcas">
+			<field name="marcas_codigo">115</field>
+			<field name="marcas_nombre">TURBO STAR</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_116" model="marcas">
+			<field name="marcas_codigo">116</field>
+			<field name="marcas_nombre">MOTOROLA</field>
+			<field name="grupo_bien_id" ref="grupo_9"/>
+		</record>
+		<record id="marc_117" model="marcas">
+			<field name="marcas_codigo">117</field>
+			<field name="marcas_nombre">SOEHNLO</field>
+			<field name="grupo_bien_id" ref="grupo_2"/>
+		</record>
+		<record id="marc_118" model="marcas">
+			<field name="marcas_codigo">118</field>
+			<field name="marcas_nombre">PLANAX</field>
+			<field name="grupo_bien_id" ref="grupo_8"/>
+		</record>
+		<record id="marc_119" model="marcas">
+			<field name="marcas_codigo">119</field>
+			<field name="marcas_nombre">CROWN</field>
+			<field name="grupo_bien_id" ref="grupo_8"/>
+		</record>
+		<record id="marc_120" model="marcas">
+			<field name="marcas_codigo">120</field>
+			<field name="marcas_nombre">KAEV</field>
+			<field name="grupo_bien_id" ref="grupo_2"/>
+		</record>
+		<record id="marc_121" model="marcas">
+			<field name="marcas_codigo">121</field>
+			<field name="marcas_nombre">ARGENTOCON</field>
+			<field name="grupo_bien_id" ref="grupo_2"/>
+		</record>
+		<record id="marc_122" model="marcas">
+			<field name="marcas_codigo">122</field>
+			<field name="marcas_nombre">MULTICUT</field>
+			<field name="grupo_bien_id" ref="grupo_2"/>
+		</record>
+		<record id="marc_123" model="marcas">
+			<field name="marcas_codigo">123</field>
+			<field name="marcas_nombre">DUPLO</field>
+			<field name="grupo_bien_id" ref="grupo_2"/>
+		</record>
+		<record id="marc_124" model="marcas">
+			<field name="marcas_codigo">124</field>
+			<field name="marcas_nombre">GBC</field>
+			<field name="grupo_bien_id" ref="grupo_2"/>
+		</record>
+		<record id="marc_125" model="marcas">
+			<field name="marcas_codigo">125</field>
+			<field name="marcas_nombre">TASHIN</field>
+			<field name="grupo_bien_id" ref="grupo_2"/>
+		</record>
+		<record id="marc_127" model="marcas">
+			<field name="marcas_codigo">127</field>
+			<field name="marcas_nombre">GESTETNER</field>
+			<field name="grupo_bien_id" ref="grupo_2"/>
+		</record>
+		<record id="marc_128" model="marcas">
+			<field name="marcas_codigo">128</field>
+			<field name="marcas_nombre">ENCORE</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_130" model="marcas">
+			<field name="marcas_codigo">130</field>
+			<field name="marcas_nombre">MIC</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_132" model="marcas">
+			<field name="marcas_codigo">132</field>
+			<field name="marcas_nombre">LOGITECH</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_134" model="marcas">
+			<field name="marcas_codigo">134</field>
+			<field name="marcas_nombre">CJC</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_135" model="marcas">
+			<field name="marcas_codigo">135</field>
+			<field name="marcas_nombre">GENERAL</field>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="marc_136" model="marcas">
+			<field name="marcas_codigo">136</field>
+			<field name="marcas_nombre">PEDROLLO</field>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="marc_137" model="marcas">
+			<field name="marcas_codigo">137</field>
+			<field name="marcas_nombre">METABO</field>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="marc_138" model="marcas">
+			<field name="marcas_codigo">138</field>
+			<field name="marcas_nombre">TURBO</field>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="marc_139" model="marcas">
+			<field name="marcas_codigo">139</field>
+			<field name="marcas_nombre">PRETOLL</field>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="marc_140" model="marcas">
+			<field name="marcas_codigo">140</field>
+			<field name="marcas_nombre">SKILL</field>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="marc_141" model="marcas">
+			<field name="marcas_codigo">141</field>
+			<field name="marcas_nombre">RIDGID</field>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+		<record id="marc_144" model="marcas">
+			<field name="marcas_codigo">144</field>
+			<field name="marcas_nombre">SUECO</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+		<record id="marc_145" model="marcas">
+			<field name="marcas_codigo">145</field>
+			<field name="marcas_nombre">SILVER</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+		<record id="marc_146" model="marcas">
+			<field name="marcas_codigo">146</field>
+			<field name="marcas_nombre">SAMURAI</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+		<record id="marc_147" model="marcas">
+			<field name="marcas_codigo">147</field>
+			<field name="marcas_nombre">TOYOTOMI</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+		<record id="marc_148" model="marcas">
+			<field name="marcas_codigo">148</field>
+			<field name="marcas_nombre">JUPITER</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_149" model="marcas">
+			<field name="marcas_codigo">149</field>
+			<field name="marcas_nombre">AICA</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+<!--
+		<record id="marc_150" model="marcas">
+			<field name="marcas_codigo">150</field>
+			<field name="marcas_nombre">N/A</field>
+			<field name="grupo_bien_id" ref="grupo_8"/>
+		</record>
+-->
+		<record id="marc_151" model="marcas">
+			<field name="marcas_codigo">151</field>
+			<field name="marcas_nombre">DAL-LITE</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_152" model="marcas">
+			<field name="marcas_codigo">152</field>
+			<field name="marcas_nombre">EXTRON</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_153" model="marcas">
+			<field name="marcas_codigo">153</field>
+			<field name="marcas_nombre">CRESTON</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_154" model="marcas">
+			<field name="marcas_codigo">154</field>
+			<field name="marcas_nombre">BEAM</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_155" model="marcas">
+			<field name="marcas_codigo">155</field>
+			<field name="marcas_nombre">ELECTRO-VOICE</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_156" model="marcas">
+			<field name="marcas_codigo">156</field>
+			<field name="marcas_nombre">BOSE</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_157" model="marcas">
+			<field name="marcas_codigo">157</field>
+			<field name="marcas_nombre">OLEVIA</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+		<record id="marc_159" model="marcas">
+			<field name="marcas_codigo">159</field>
+			<field name="marcas_nombre">MICROSTARS</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_160" model="marcas">
+			<field name="marcas_codigo">160</field>
+			<field name="marcas_nombre">RHYTHM</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+		<record id="marc_161" model="marcas">
+			<field name="marcas_codigo">161</field>
+			<field name="marcas_nombre">SAITRONIC</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+<!--
+		<record id="marc_162" model="marcas">
+			<field name="marcas_codigo">162</field>
+			<field name="marcas_nombre">SAMURAI</field>
+			<field name="grupo_bien_id" ref="grupo_8"/>
+		</record>
+-->
+		<record id="marc_163" model="marcas">
+			<field name="marcas_codigo">163</field>
+			<field name="marcas_nombre">AGILEV</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_164" model="marcas">
+			<field name="marcas_codigo">164</field>
+			<field name="marcas_nombre">HITACHI</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+		<record id="marc_166" model="marcas">
+			<field name="marcas_codigo">166</field>
+			<field name="marcas_nombre">SALICRO</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_167" model="marcas">
+			<field name="marcas_codigo">167</field>
+			<field name="marcas_nombre">DATACARD</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_168" model="marcas">
+			<field name="marcas_codigo">168</field>
+			<field name="marcas_nombre">KEYMOUSE</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_169" model="marcas">
+			<field name="marcas_codigo">169</field>
+			<field name="marcas_nombre">BLACK AND DECKER</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+		<record id="marc_170" model="marcas">
+			<field name="marcas_codigo">170</field>
+			<field name="marcas_nombre">POLYCOM</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_173" model="marcas">
+			<field name="marcas_codigo">173</field>
+			<field name="marcas_nombre">CASET DENON</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_174" model="marcas">
+			<field name="marcas_codigo">174</field>
+			<field name="marcas_nombre">CHEVROLET</field>
+			<field name="grupo_bien_id" ref="grupo_5"/>
+		</record>
+		<record id="marc_175" model="marcas">
+			<field name="marcas_codigo">175</field>
+			<field name="marcas_nombre">SHURE</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_176" model="marcas">
+			<field name="marcas_codigo">176</field>
+			<field name="marcas_nombre">GENERAL ELECTRIC</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+		<record id="marc_177" model="marcas">
+			<field name="marcas_codigo">177</field>
+			<field name="marcas_nombre">"AIWA</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+		<record id="marc_178" model="marcas">
+			<field name="marcas_codigo">178</field>
+			<field name="marcas_nombre">FUNDIM</field>
+			<field name="grupo_bien_id" ref="grupo_8"/>
+		</record>
+<!--
+		<record id="marc_180" model="marcas">
+			<field name="marcas_codigo">180</field>
+			<field name="marcas_nombre">"POLYCON VIEW</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+-->
+		<record id="marc_181" model="marcas">
+			<field name="marcas_codigo">181</field>
+			<field name="marcas_nombre">RUSH</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_182" model="marcas">
+			<field name="marcas_codigo">182</field>
+			<field name="marcas_nombre">DIAMOND</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_183" model="marcas">
+			<field name="marcas_codigo">183</field>
+			<field name="marcas_nombre">PC WORDS</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+<!--
+		<record id="marc_186" model="marcas">
+			<field name="marcas_codigo">186</field>
+			<field name="marcas_nombre">SUMBEAN</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+-->
+		<record id="marc_188" model="marcas">
+			<field name="marcas_codigo">188</field>
+			<field name="marcas_nombre">POWER DIGITAL</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_190" model="marcas">
+			<field name="marcas_codigo">190</field>
+			<field name="marcas_nombre">YAMAHA</field>
+			<field name="grupo_bien_id" ref="grupo_5"/>
+		</record>
+		<record id="marc_191" model="marcas">
+			<field name="marcas_codigo">191</field>
+			<field name="marcas_nombre">FORD</field>
+			<field name="grupo_bien_id" ref="grupo_5"/>
+		</record>
+		<record id="marc_192" model="marcas">
+			<field name="marcas_codigo">192</field>
+			<field name="marcas_nombre">CONAIR</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+		<record id="marc_193" model="marcas">
+			<field name="marcas_codigo">193</field>
+			<field name="marcas_nombre">TOYOTA</field>
+			<field name="grupo_bien_id" ref="grupo_5"/>
+        </record>
+		<record id="marc_195" model="marcas">
+			<field name="marcas_codigo">195</field>
+			<field name="marcas_nombre">3COM</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+        	<record id="marc_196" model="marcas">
+			<field name="marcas_codigo">237</field>
+			<field name="marcas_nombre">AVTEK</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_197" model="marcas">
+			<field name="marcas_codigo">197</field>
+			<field name="marcas_nombre">CISCO</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_198" model="marcas">
+			<field name="marcas_codigo">198</field>
+			<field name="marcas_nombre">PROLIANT</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_199" model="marcas">
+			<field name="marcas_codigo">199</field>
+			<field name="marcas_nombre">PHILIPS</field>
+			<field name="grupo_bien_id" ref="grupo_6"/>
+		</record>
+        
+<!--
+		<record id="marc_200" model="marcas">
+			<field name="marcas_codigo">200</field>
+			<field name="marcas_nombre">"XEROX</field>
+			<field name="grupo_bien_id" ref="grupo_2"/>
+		</record>
+-->
+		<record id="marc_201" model="marcas">
+			<field name="marcas_codigo">201</field>
+			<field name="marcas_nombre">CANNON</field>
+			<field name="grupo_bien_id" ref="grupo_2"/>
+		</record>
+<!--
+		<record id="marc_202" model="marcas">
+			<field name="marcas_codigo">202</field>
+			<field name="marcas_nombre">CANNON</field>
+			<field name="grupo_bien_id" ref="grupo_8"/>
+		</record>
+-->
+		<record id="marc_204" model="marcas">
+			<field name="marcas_codigo">204</field>
+			<field name="marcas_nombre">SUPER DELUXE</field>
+			<field name="grupo_bien_id" ref="grupo_8"/>
+		</record>
+		<record id="marc_205" model="marcas">
+			<field name="marcas_codigo">205</field>
+			<field name="marcas_nombre">STASKY</field>
+			<field name="grupo_bien_id" ref="grupo_8"/>
+		</record>
+<!--
+		<record id="marc_206" model="marcas">
+			<field name="marcas_codigo">206</field>
+			<field name="marcas_nombre">PANASONIC</field>
+			<field name="grupo_bien_id" ref="grupo_8"/>
+		</record>
+-->
+		<record id="marc_207" model="marcas">
+			<field name="marcas_codigo">207</field>
+			<field name="marcas_nombre">MAZDA</field>
+			<field name="grupo_bien_id" ref="grupo_5"/>
+		</record>
+		<record id="marc_208" model="marcas">
+			<field name="marcas_codigo">208</field>
+			<field name="marcas_nombre">HONDA</field>
+			<field name="grupo_bien_id" ref="grupo_5"/>
+		</record>
+		<record id="marc_209" model="marcas">
+			<field name="marcas_codigo">209</field>
+			<field name="marcas_nombre">CIVIC</field>
+			<field name="grupo_bien_id" ref="grupo_5"/>
+		</record>
+		<record id="marc_210" model="marcas">
+			<field name="marcas_codigo">210</field>
+			<field name="marcas_nombre">EXPLORER</field>
+			<field name="grupo_bien_id" ref="grupo_5"/>
+		</record>
+		<record id="marc_211" model="marcas">
+			<field name="marcas_codigo">211</field>
+			<field name="marcas_nombre">COROLA</field>
+			<field name="grupo_bien_id" ref="grupo_5"/>
+		</record>
+		<record id="marc_212" model="marcas">
+			<field name="marcas_codigo">212</field>
+			<field name="marcas_nombre">BLAZER</field>
+			<field name="grupo_bien_id" ref="grupo_5"/>
+		</record>
+		<record id="marc_213" model="marcas">
+			<field name="marcas_codigo">213</field>
+			<field name="marcas_nombre">HEALTHO METER</field>
+			<field name="grupo_bien_id" ref="grupo_12"/>
+		</record>
+		
+		<record id="marc_216" model="marcas">
+			<field name="marcas_codigo">216</field>
+			<field name="marcas_nombre">AST</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_217" model="marcas">
+			<field name="marcas_codigo">217</field>
+			<field name="marcas_nombre">CVGA</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_218" model="marcas">
+			<field name="marcas_codigo">218</field>
+			<field name="marcas_nombre">GATEWAY</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_219" model="marcas">
+			<field name="marcas_codigo">219</field>
+			<field name="marcas_nombre">APPLE KEYBOARD</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_220" model="marcas">
+			<field name="marcas_codigo">220</field>
+			<field name="marcas_nombre">MITEL</field>
+			<field name="grupo_bien_id" ref="grupo_9"/>
+		</record>
+<!--
+		<record id="marc_222" model="marcas">
+			<field name="marcas_codigo">222</field>
+			<field name="marcas_nombre">SHARP</field>
+			<field name="grupo_bien_id" ref="grupo_2"/>
+		</record>
+-->
+		<record id="marc_223" model="marcas">
+			<field name="marcas_codigo">223</field>
+			<field name="marcas_nombre">COBY</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_224" model="marcas">
+			<field name="marcas_codigo">224</field>
+			<field name="marcas_nombre">ALTON</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_225" model="marcas">
+			<field name="marcas_codigo">225</field>
+			<field name="marcas_nombre">MARKVISIÓN</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+		<record id="marc_227" model="marcas">
+			<field name="marcas_codigo">227</field>
+			<field name="marcas_nombre">LION</field>
+			<field name="grupo_bien_id" ref="grupo_8"/>
+		</record>
+		<record id="marc_228" model="marcas">
+			<field name="marcas_codigo">228</field>
+			<field name="marcas_nombre">LENOVO</field>
+			<field name="grupo_bien_id" ref="grupo_15"/>
+		</record>
+<!--
+		<record id="marc_229" model="marcas">
+			<field name="marcas_codigo">229</field>
+			<field name="marcas_nombre">HP</field>
+			<field name="grupo_bien_id" ref="grupo_2"/>
+		</record>
+-->
+<!--
+		<record id="marc_230" model="marcas">
+			<field name="marcas_codigo">230</field>
+			<field name="marcas_nombre">IBM</field>
+			<field name="grupo_bien_id" ref="grupo_8"/>
+		</record>
+-->
+		<record id="marc_231" model="marcas">
+			<field name="marcas_codigo">231</field>
+			<field name="marcas_nombre">ORBITAL</field>
+			<field name="grupo_bien_id" ref="grupo_14"/>
+		</record>
+        <record id="marc_247" model="marcas">
+			<field name="marcas_codigo">247</field>
+			<field name="marcas_nombre">EAGLE</field>
+			<field name="grupo_bien_id" ref="grupo_8"/>
+		</record>
+        
+        
+	</data>
+</openerp>
+				
+				
+				
+				
+				

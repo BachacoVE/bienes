@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Bienes" pageWidth="1224" pageHeight="792" orientation="Landscape" columnWidth="1184" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" isSummaryNewPage="true" isFloatColumnFooter="true" whenResourceMissingType="Empty">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Bienes"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="net.sf.jasperreports.print.create.bookmarks" value="false"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.HorizontalRowLayout"/>
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<property name="OPENERP_RELATIONS" value="[&apos;invoice_line&apos;]"/>
+	<style name="Title" isDefault="true" fontName="Times New Roman" fontSize="50" isBold="true"/>
+	<style name="SubTitle" forecolor="#736343" fontName="Arial" fontSize="18"/>
+	<style name="Column header" forecolor="#666666" fontName="Arial" fontSize="12" isBold="true"/>
+	<style name="Detail" fontName="Arial" fontSize="12"/>
+	<style name="Row" mode="Transparent">
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$V{REPORT_COUNT}%2 == 0]]></conditionExpression>
+			<style backcolor="#E6DAC3"/>
+		</conditionalStyle>
+	</style>
+	<queryString>
+		<![CDATA[select * from Bienes,oficinas where oficinas_id = oficinas.id group by oficinas_id,bienes.id,oficinas.id order by oficinas_nombre]]>
+	</queryString>
+	<field name="id" class="java.lang.Integer"/>
+	<field name="estatus_bien_id" class="java.lang.Integer"/>
+	<field name="create_date" class="java.sql.Timestamp"/>
+	<field name="grupo_bien_id" class="java.lang.Integer"/>
+	<field name="estado_id" class="java.lang.Integer"/>
+	<field name="estatus_uso_id" class="java.lang.Integer"/>
+	<field name="color_sudebi_codigo" class="java.lang.Integer"/>
+	<field name="write_uid" class="java.lang.Integer"/>
+	<field name="resp_pat_id" class="java.lang.Integer"/>
+	<field name="catalogo_sudebi_sub_id" class="java.lang.Integer"/>
+	<field name="write_date" class="java.sql.Timestamp"/>
+	<field name="bienes_numbien_ant" class="java.lang.String"/>
+	<field name="resp_uso_id" class="java.lang.Integer"/>
+	<field name="modelo_bien_id" class="java.lang.Integer"/>
+	<field name="poliza_id" class="java.lang.Integer"/>
+	<field name="clasificador_bien_id" class="java.lang.Integer"/>
+	<field name="catalogo_sudebi_id" class="java.lang.Integer"/>
+	<field name="bienes_numbien" class="java.lang.String"/>
+	<field name="detalle_modelo_id" class="java.lang.Integer"/>
+	<field name="bienes_nombre" class="java.lang.String"/>
+	<field name="material_id" class="java.lang.Integer"/>
+	<field name="color_id" class="java.lang.Integer"/>
+	<field name="detalle_adquisi_id" class="java.lang.Integer"/>
+	<field name="oficinas_id" class="java.lang.Integer"/>
+	<field name="municipios_id" class="java.lang.Integer"/>
+	<field name="marcas_id" class="java.lang.Integer"/>
+	<field name="modelo_fab_id" class="java.lang.Integer"/>
+	<field name="costo" class="java.lang.Double"/>
+	<field name="parroquias_id" class="java.lang.Integer"/>
+	<field name="medidas" class="java.lang.String"/>
+	<field name="create_uid" class="java.lang.Integer"/>
+	<field name="catalogo_sudebi_esp_id" class="java.lang.Integer"/>
+	<field name="bienes_serial" class="java.lang.String"/>
+	<field name="bienes_piso" class="java.lang.Integer"/>
+	<field name="oficinas_nombre" class="java.lang.String"/>
+	<field name="oficinas_codigo" class="java.lang.String"/>
+	<field name="uniadm_sudebi_codigo" class="java.lang.Integer"/>
+	<field name="oficinas_padre_id" class="java.lang.Integer"/>
+	<group name="Group1" isStartNewPage="true" isReprintHeaderOnEachPage="true" keepTogether="true">
+		<groupHeader>
+			<band height="35">
+				<frame>
+					<reportElement mode="Opaque" x="4" y="8" width="1149" height="24" forecolor="#B89F7D" backcolor="#F2EBDF"/>
+					<rectangle>
+						<reportElement mode="Opaque" x="21" y="0" width="36" height="24" backcolor="#736343"/>
+						<graphicElement>
+							<pen lineWidth="0.0"/>
+						</graphicElement>
+					</rectangle>
+					<textField>
+						<reportElement style="SubTitle" x="64" y="0" width="49" height="24" isPrintWhenDetailOverflows="true" printWhenGroupChanges="Group1" forecolor="#736343"/>
+						<textElement>
+							<font isBold="true"/>
+						</textElement>
+						<textFieldExpression class="java.lang.String"><![CDATA[$F{oficinas_id}.toString()]]></textFieldExpression>
+					</textField>
+					<textField>
+						<reportElement style="SubTitle" x="180" y="0" width="969" height="24" forecolor="#736343"/>
+						<textElement textAlignment="Left">
+							<font isBold="true"/>
+						</textElement>
+						<textFieldExpression class="java.lang.String"><![CDATA[$F{oficinas_nombre}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<line>
+					<reportElement positionType="FixRelativeToBottom" x="0" y="7" width="980" height="1"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineColor="#999999"/>
+					</graphicElement>
+				</line>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="32"/>
+		</groupFooter>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band splitType="Immediate">
+			<printWhenExpression><![CDATA[]]></printWhenExpression>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="183" splitType="Stretch">
+			<image>
+				<reportElement key="" style="Title" isPrintRepeatedValues="false" x="20" y="0" width="592" height="70" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true" printWhenGroupChanges="Group1"/>
+				<imageExpression class="java.lang.String"><![CDATA["/home/bcoronel/Escritorio/LOGO MPPP/Cintillo1.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement key="" style="Title" x="250" y="111" width="592" height="50" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true" printWhenGroupChanges="Group1"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="24"/>
+				</textElement>
+				<text><![CDATA[Inventario de Bienes]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="4" y="168" width="92" height="15" forecolor="#736343"/>
+				<textElement/>
+				<text><![CDATA[N° Bien]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="120" y="168" width="92" height="15" forecolor="#736343"/>
+				<textElement/>
+				<text><![CDATA[N° Bien_Ant]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="230" y="168" width="276" height="15" forecolor="#736343"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Descripción]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="594" y="168" width="92" height="15" forecolor="#736343"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Serial]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="808" y="168" width="92" height="15" forecolor="#736343"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Piso]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="980" y="168" width="92" height="15" forecolor="#736343"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Costo]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="56" splitType="Stretch">
+			<frame>
+				<reportElement style="Row" mode="Opaque" x="150" y="0" width="555" height="15"/>
+			</frame>
+			<textField isStretchWithOverflow="true">
+				<reportElement style="Detail" x="980" y="12" width="92" height="15"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{costo}.toString()]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement style="Detail" x="0" y="16" width="92" height="15"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{bienes_numbien}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement style="Detail" x="842" y="12" width="43" height="15"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{bienes_piso}.toString()]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement style="Detail" x="212" y="12" width="322" height="15"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{bienes_nombre}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement style="Detail" x="552" y="12" width="180" height="15"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{bienes_serial}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement style="Detail" x="117" y="12" width="74" height="15"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{bienes_numbien_ant}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="3" width="555" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="25" splitType="Stretch">
+			<frame>
+				<reportElement mode="Opaque" x="-21" y="1" width="1165" height="24" forecolor="#D0B48E" backcolor="#F2EBDF"/>
+				<textField evaluationTime="Report">
+					<reportElement style="Column header" x="533" y="0" width="40" height="20" forecolor="#736343"/>
+					<textElement verticalAlignment="Middle">
+						<font size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression class="java.lang.String"><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="Column header" x="453" y="0" width="80" height="20" forecolor="#736343"/>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression class="java.lang.String"><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+				</textField>
+				<textField pattern="dd/MM/yyyy">
+					<reportElement x="41" y="4" width="100" height="20"/>
+					<textElement/>
+					<textFieldExpression class="java.util.Date"><![CDATA[new java.util.Date()]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.1.0.final using JasperReports Library version 6.1.0  -->
+<!-- 2016-01-29T12:03:19 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="inv9" pageWidth="792" pageHeight="612" orientation="Landscape" columnWidth="752" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="bienespro"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value="b2ZpY2luYXMgLDI2Nyw3MCwxNDM3NWI1YS0wMDg3LTQ4OTQtOWNjNi1lYzdjZDcwZGYzMDk7cGVy&#xA;c29uYXMgLDIwLDIwLDlhMGM5NzM1LTcyYzMtNGMwYy1iYmQzLWViZWJiMDQ5ZWFmYjs="/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<parameter name="oficinas_id" class="java.lang.Integer">
+		<parameterDescription><![CDATA[oficinas_id]]></parameterDescription>
+		<defaultValueExpression><![CDATA[0]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[select distinct bienes.resp_uso_id, oficinas.id, b.tot_general, oficinas_nombre,oficinas_codigo,
+personas.id,personas_pnombre,personas_papellido,personas_cargo,personas_cedula  
+from bienes 
+left join oficinas on bienes.oficinas_id = oficinas.id
+left join personas on bienes.resp_uso_id = personas.id
+inner join (select oficinas_id, COUNT(id) as tot_general from bienes group by oficinas_id) as b on b.oficinas_id=bienes.oficinas_id
+where bienes.resp_uso_id  >=1 and  bienes.oficinas_id= $P{oficinas_id}
+order by oficinas.id, resp_uso_id asc]]>
+	</queryString>
+	<field name="resp_uso_id" class="java.lang.Integer"/>
+	<field name="id" class="java.lang.Integer"/>
+	<field name="tot_general" class="java.lang.Long"/>
+	<field name="oficinas_nombre" class="java.lang.String"/>
+	<field name="oficinas_codigo" class="java.lang.String"/>
+	<field name="COLUMN_6" class="java.lang.Integer"/>
+	<field name="personas_pnombre" class="java.lang.String"/>
+	<field name="personas_papellido" class="java.lang.String"/>
+	<field name="personas_cargo" class="java.lang.String"/>
+	<field name="personas_cedula" class="java.lang.Integer"/>
+	<variable name="totalresp" class="java.lang.Integer" resetType="Group" resetGroup="Group1"/>
+	<variable name="gil_1" class="java.lang.Integer" resetType="None" incrementType="Group" incrementGroup="Group1">
+		<initialValueExpression><![CDATA[0]]></initialValueExpression>
+	</variable>
+	<group name="Group1" isStartNewPage="true" isReprintHeaderOnEachPage="true">
+		<groupExpression><![CDATA[$F{resp_uso_id}]]></groupExpression>
+		<groupFooter>
+			<band height="21">
+				<textField>
+					<reportElement x="116" y="3" width="533" height="15" isPrintWhenDetailOverflows="true"/>
+					<textElement textAlignment="Right">
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Total de Bienes de "+$F{personas_papellido}+" "+$F{personas_pnombre}+" :"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" x="632" y="3" width="48" height="15" printWhenGroupChanges="Group1"/>
+					<textElement textAlignment="Right">
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{totalresp}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupFooter>
+	</group>
+	<pageHeader>
+		<band height="159" splitType="Stretch">
+			<rectangle>
+				<reportElement x="634" y="37" width="116" height="14"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="105" y="63" width="100" height="15" isPrintWhenDetailOverflows="true">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Código: 71]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="207" y="62" width="430" height="17">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Denominación: MINISTERIO DEL PODER POPULAR DE PLANIFICACIÓN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="217" y="31" width="340" height="22"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Comprobante de Inventario]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="613" y="57" width="21" height="17"/>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[02.]]></text>
+			</staticText>
+			<textField evaluationTime="Report">
+				<reportElement x="681" y="38" width="50" height="12"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["DE  " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="205" y="75" width="100" height="15"/>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Código: 71006]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="639" y="38" width="40" height="12"/>
+				<textElement textAlignment="Left">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["N° " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="612" y="38" width="21" height="17">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[01.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="5" y="76" width="182" height="16">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[04. UNIDAD ADMINISTRADORA:]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="0" y="55" width="750" height="103"/>
+				<graphicElement>
+					<pen lineStyle="Solid"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="5" y="63" width="100" height="17">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[03. ORGANISMO:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="290" y="75" width="355" height="17"/>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Denominación: OFICINA DE GESTIÓN ADMINISTRATIVA]]></text>
+			</staticText>
+			<image>
+				<reportElement x="3" y="-2" width="277" height="50"/>
+				<imageExpression><![CDATA["/usr/lib/python2.7/dist-packages/openerp/addons/bienes/data/Cintillo1.jpg"]]></imageExpression>
+			</image>
+			<textField pattern="MMMMM dd, yyyy">
+				<reportElement x="644" y="57" width="100" height="19"/>
+				<textFieldExpression><![CDATA[new SimpleDateFormat("dd-MM-yyyy").format(new java.util.Date())]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="5" y="93" width="400" height="13">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[05. UBICACIÓN GEOGRAFICA Y GEOREFERENCIADA DEL BIEN: ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="207" y="106" width="542" height="16"/>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{oficinas_nombre}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="23" y="106" width="50" height="13">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Código:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="65" y="106" width="40" height="17"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{oficinas_codigo}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="1" y="121" width="749" height="1"/>
+			</line>
+			<staticText>
+				<reportElement x="589" y="128" width="79" height="14"/>
+				<textElement>
+					<font size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[10. MARCA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="80" y="127" width="263" height="23"/>
+				<textElement>
+					<font size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[7. INDICACIÓN Y DESCRIPCIÓN DE LOS BIENES MUEBLES]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="365" y="128" width="62" height="13"/>
+				<textElement>
+					<font size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[8. SERIAL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="479" y="128" width="60" height="14"/>
+				<textElement>
+					<font size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[9. MODELO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="676" y="127" width="70" height="31"/>
+				<textElement>
+					<font size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[11.CUALQUIER OTRA INFORMACIÓN QUE SE ESTIME CONVENIENTE / UBICACION FISICA]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band>
+			<staticText>
+				<reportElement x="112" y="-54" width="89" height="16">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Denominación:   ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="3" y="-35" width="69" height="30"/>
+				<textElement>
+					<font size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[6. NÚMERO DE BIEN PUBLICO]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="-73" width="750" height="1">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="31" splitType="Stretch">
+			<rectangle>
+				<reportElement key="" stretchType="RelativeToBandHeight" x="0" y="3" width="751" height="25" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true"/>
+			</rectangle>
+			<subreport>
+				<reportElement stretchType="RelativeToBandHeight" x="5" y="7" width="737" height="15" isPrintInFirstWholeBand="true" printWhenGroupChanges="Group1"/>
+				<subreportParameter name="ID">
+					<subreportParameterExpression><![CDATA[$F{resp_uso_id}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="oficinas_id">
+					<subreportParameterExpression><![CDATA[$P{oficinas_id}]]></subreportParameterExpression>
+				</subreportParameter>
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<returnValue subreportVariable="REPORT_COUNT" toVariable="totalresp"/>
+				<subreportExpression><![CDATA["/usr/lib/python2.7/dist-packages/openerp/addons/bienes/report/resp_uso_nuevo.jasper"]]></subreportExpression>
+			</subreport>
+			<line>
+				<reportElement stretchType="RelativeToBandHeight" x="60" y="3" width="1" height="25" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement stretchType="RelativeToBandHeight" x="339" y="3" width="1" height="25" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement stretchType="RelativeToBandHeight" x="450" y="3" width="1" height="25" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true" />
+			</line>
+			<line>
+				<reportElement stretchType="RelativeToBandHeight" x="565" y="3" width="1" height="25" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true"/>
+			</line>
+			<line>
+				<reportElement stretchType="RelativeToBandHeight" x="658" y="3" width="1" height="25" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true"/>
+			</line>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="111" splitType="Immediate">
+			<staticText>
+				<reportElement x="241" y="32" width="221" height="13"/>
+				<textElement textAlignment="Center">
+					<font size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[C.I: 6184114]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="241" y="40" width="221" height="11"/>
+				<textElement textAlignment="Center">
+					<font size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DIRECTORA ]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="58" width="749" height="1"/>
+			</line>
+			<staticText>
+				<reportElement x="1" y="32" width="240" height="13"/>
+				<textElement textAlignment="Center">
+					<font size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[C.I: 14568001]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="40" width="240" height="11"/>
+				<textElement textAlignment="Center">
+					<font size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DIRECTORA GENERAL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="241" y="47" width="221" height="15">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[UNIDAD DE BIENES PUBLICOS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="47" width="240" height="15"/>
+				<textElement textAlignment="Center">
+					<font size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DIRECCIÓN GENERAL DE LA OFICINA DE GESTION ADMINISTRATIVA ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="241" y="21" width="221" height="13">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DAISY BECERRA DE BIER]]></text>
+			</staticText>
+			<line>
+				<reportElement stretchType="RelativeToBandHeight" x="461" y="-1" width="1" height="111">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</line>
+			<textField isStretchWithOverflow="true">
+				<reportElement stretchType="RelativeToTallestObject" x="461" y="21" width="287" height="13"/>
+				<textElement textAlignment="Center">
+					<font size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{personas_pnombre}+" "+$F{personas_papellido}).toUpperCase()]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="461" y="47" width="287" height="15">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{oficinas_nombre}).toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="1" y="21" width="240" height="13"/>
+				<textElement textAlignment="Center">
+					<font size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[MARÍA GABRIELA GUILARTE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="5" y="3" width="361" height="10"/>
+				<textElement>
+					<font size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[12.RESPONSABLE PATRIMONIAL DEL MANTENIMIENTO, CONSERVACIÓN Y PROTECCIÓN DEL BIEN: ]]></text>
+			</staticText>
+			<line>
+				<reportElement stretchType="RelativeToBandHeight" x="240" y="13" width="1" height="97">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="464" y="3" width="246" height="10"/>
+				<textElement>
+					<font size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[13.RESPONSABLE PATRIMONIAL POR USO DEL BIEN: ]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="13" width="750" height="1">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</line>
+			<rectangle>
+				<reportElement mode="Transparent" x="0" y="-1" width="751" height="111"/>
+			</rectangle>
+			<textField>
+				<reportElement x="461" y="32" width="287" height="13"/>
+				<textElement textAlignment="Center">
+					<font size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["C.I:"+($F{personas_cedula})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="461" y="40" width="287" height="11"/>
+				<textElement textAlignment="Center">
+					<font size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{personas_cargo}).toUpperCase()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="23" splitType="Immediate">
+			<textField>
+				<reportElement x="20" y="1" width="627" height="18" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Right" markup="none">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Total de Bienes de "+$F{oficinas_nombre}+":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="666" y="0" width="65" height="18"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tot_general}]]></textFieldExpression>
+			</textField>
+		</band>
+	</summary>
+</jasperReport>

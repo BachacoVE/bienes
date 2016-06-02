@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data noupdate="1">
+		<record id="clase_sudebi_1" model="clase_sudebi">
+			<field name="clase_sudebi_codigo">1</field>
+			<field name="clase_sudebi_nombre">VEHICULOS DE TRANSPORTE TERRESTRE</field>
+		</record>
+		<record id="clase_sudebi_2" model="clase_sudebi">
+			<field name="clase_sudebi_codigo">2</field>
+			<field name="clase_sudebi_nombre">VEHICULOS DE TRANSPORTE MARITIMO</field>
+		</record>
+		<record id="clase_sudebi_3" model="clase_sudebi">
+			<field name="clase_sudebi_codigo">3</field>
+			<field name="clase_sudebi_nombre">VEHICULOS DE TRANSPORTE AEREO</field>
+		</record>
+		<record id="clase_sudebi_4" model="clase_sudebi">
+			<field name="clase_sudebi_codigo">4</field>
+			<field name="clase_sudebi_nombre">OTRA CLASE</field>
+		</record>
+    </data>
+</openerp>
+
+
+
+

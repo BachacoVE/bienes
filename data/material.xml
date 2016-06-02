@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data noupdate="1">
+		<record id="material_7" model="material">
+			<field name="material_codigo">7</field>
+			<field name="material_nombre">MATERIAL: ACERO INOXIDABLE,</field>
+		</record>
+		<record id="material_8" model="material">
+			<field name="material_codigo">8</field>
+			<field name="material_nombre">MATERIAL: PLÁSTICO,</field>
+		</record>
+		<record id="material_9" model="material">
+			<field name="material_codigo">9</field>
+			<field name="material_nombre">MATERIAL: FÓRMICA,</field>
+		</record>
+		<record id="material_10" model="material">
+			<field name="material_codigo">10</field>
+			<field name="material_nombre">MATERIAL: METAL,</field>
+		</record>
+		<record id="material_12" model="material">
+			<field name="material_codigo">12</field>
+			<field name="material_nombre">MATERIAL: METAL, TAPIZ: TELA,</field>
+		</record>
+		<record id="material_13" model="material">
+			<field name="material_codigo">13</field>
+			<field name="material_nombre">MATERIAL: ACRÍLICO (A),</field>
+		</record>
+		<record id="material_14" model="material">
+			<field name="material_codigo">14</field>
+			<field name="material_nombre">MATERIAL: MADERA,</field>
+		</record>
+		<record id="material_15" model="material">
+			<field name="material_codigo">15</field>
+			<field name="material_nombre">MATERIAL: SEMI CUERO,</field>
+		</record>
+		<record id="material_16" model="material">
+			<field name="material_codigo">16</field>
+			<field name="material_nombre">MATERIAL: CORCHO,</field>
+		</record>
+		<record id="material_18" model="material">
+			<field name="material_codigo">18</field>
+			<field name="material_nombre">MATERIAL: MADERA CON BASE DE METAL,</field>
+		</record>
+		<record id="material_19" model="material">
+			<field name="material_codigo">19</field>
+			<field name="material_nombre">MATERIAL: METAL, TAPIZ:  CUERO,</field>
+		</record>
+		<record id="material_20" model="material">
+			<field name="material_codigo">20</field>
+			<field name="material_nombre">MATERIAL: MAGNÉTICO,</field>
+		</record>
+		<record id="material_21" model="material">
+			<field name="material_codigo">21</field>
+			<field name="material_nombre">MATERIAL: LIENZO,</field>
+		</record>
+		<record id="material_22" model="material">
+			<field name="material_codigo">22</field>
+			<field name="material_nombre">MATERIAL: CHAPA DE ACERO,</field>
+		</record>
+		<record id="material_25" model="material">
+			<field name="material_codigo">25</field>
+			<field name="material_nombre">MATERIAL: ALUMINIO CON ACRÍLICO,</field>
+		</record>
+		<record id="material_26" model="material">
+			<field name="material_codigo">26</field>
+			<field name="material_nombre">AÑO 2000,</field>
+		</record>
+		<record id="material_28" model="material">
+			<field name="material_codigo">28</field>
+			<field name="material_nombre">MATERIAL: MDF (MADERA DE FÓRMICA),</field>
+		</record>
+		<record id="material_30" model="material">
+			<field name="material_codigo">30</field>
+			<field name="material_nombre">MATERIAL: METAL Y VIDRIO,</field>
+		</record>
+		<record id="material_31" model="material">
+			<field name="material_codigo">31</field>
+			<field name="material_nombre">MATERIAL: MDFM (MADERA DE FÓRMICA Y METAL),</field>
+		</record>
+		<record id="material_33" model="material">
+			<field name="material_codigo">33</field>
+			<field name="material_nombre">MATERIAL: MTC (MADERA TAPIZADA EN CUERO),</field>
+		</record>
+		<record id="material_34" model="material">
+			<field name="material_codigo">34</field>
+			<field name="material_nombre">AÑO 2005,</field>
+		</record>
+		<record id="material_35" model="material">
+			<field name="material_codigo">35</field>
+			<field name="material_nombre">AÑO 2002,</field>
+		</record>
+		<record id="material_36" model="material">
+			<field name="material_codigo">36</field>
+			<field name="material_nombre">AÑO 2001,</field>
+		</record>
+		<record id="material_38" model="material">
+			<field name="material_codigo">38</field>
+			<field name="material_nombre">AÑO 2004,</field>
+		</record>
+		<record id="material_39" model="material">
+			<field name="material_codigo">39</field>
+			<field name="material_nombre">AÑO 1997,</field>
+		</record>
+		<record id="material_40" model="material">
+			<field name="material_codigo">40</field>
+			<field name="material_nombre">AÑO 1999,</field>
+		</record>
+		<record id="material_41" model="material">
+			<field name="material_codigo">41</field>
+			<field name="material_nombre">AÑO 1996,</field>
+		</record>
+		<record id="material_42" model="material">
+			<field name="material_codigo">42</field>
+			<field name="material_nombre">AÑO 1993,</field>
+		</record>
+		<record id="material_43" model="material">
+			<field name="material_codigo">43</field>
+			<field name="material_nombre">AÑO 2006,</field>
+		</record>
+		<record id="material_46" model="material">
+			<field name="material_codigo">46</field>
+			<field name="material_nombre">MATERIAL: METAL/PLÁSTICO</field>
+		</record>
+		<record id="material_48" model="material">
+			<field name="material_codigo">48</field>
+			<field name="material_nombre">MATERIAL: METAL/FÓRMICA</field>
+		</record>
+		<record id="material_49" model="material">
+			<field name="material_codigo">49</field>
+			<field name="material_nombre">MATERIAL: REPRODUCCIÓN DE IMÁGENES SOBRE TELA,</field>
+		</record>
+		<record id="material_50" model="material">
+			<field name="material_codigo">50</field>
+			<field name="material_nombre">MATERIAL: FOTOGRÁFICO</field>
+		</record>
+		<record id="material_51" model="material">
+			<field name="material_codigo">51</field>
+			<field name="material_nombre">AÑO 2007,</field>
+		</record>
+		<record id="material_52" model="material">
+			<field name="material_codigo">52</field>
+			<field name="material_nombre">MATERIAL: DE MADERA Y VIDRIO</field>
+		</record>
+	</data>
+</openerp>
+
+
+
+

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.1.0.final using JasperReports Library version 6.1.0  -->
+<!-- 2016-03-09T13:12:49 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="reuso" pageWidth="792" pageHeight="250" orientation="Landscape" columnWidth="792" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="46079f1b-7ffa-40f4-a228-f293de0c6603">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="bienespro"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value="Y2F0YWxvZ29fc3VkZWJpX2VzcCAsMjI1LDIwLDg2YWZjM2U2LTFkOGQtNDIzZS05NmIwLWVhM2Vm&#xA;YmM2N2Q5NDtlc3RhdHVzX3VzbyAsMjI1LDIwMDQsY2QzMThhZDgtODQ0YS00YWEyLWJhYTgtZjU1&#xA;ODFlMDgwMmJjO2Zvcm1hX2FkcXVpc2ljaW9uICwyMjUsMTUwMiwwODg5YzU2My0yN2Y0LTQwZjQt&#xA;OWRjNy0zNjE3N2JmMzg4ODA7cGVyc29uYXMgLDIyNSwyMjU1LDRjYjNjMmMyLTEzZDctNGZjZC05&#xA;Y2I1LTVjMDgzMmUzZjllMTtlc3RhdHVzX2JpZW4gLDIyNSwxNzUzLGQ4ZDE4OGJjLTAwZmUtNGZj&#xA;ZC1hNDEwLWI1NTM3NzIzYjcwNztkZXRhbGxlX2FkcXVpc2kgLDIyNSwyOTksMmUxNDMzZjEtMDdl&#xA;Yy00NGZhLWFmNzYtNzM3NGVjNTM1MmJlO2JpZW5lcyAsMjAsOTAwLDlhZDIwOTYzLTk0OGEtNDc3&#xA;MS1iZWQ4LTU1ZWZhY2YwYjg0Mjt1YmljYWNpb25fZmlzaWNhIEFTICw2NCwzNCxkMDcxYjdmYS1l&#xA;NjgyLTRmMDMtODcwMS0wMmY5NjQ4Y2M4N2I7"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.HorizontalRowLayout"/>
+	<parameter name="ID" class="java.lang.Integer">
+		<defaultValueExpression><![CDATA[0]]></defaultValueExpression>
+	</parameter>
+	<parameter name="ofi" class="java.lang.Integer">
+		<defaultValueExpression><![CDATA[0]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT bienes.bienes_numbien,
+	bienes.bienes_serial,
+	bienes.bienes_nombre,
+	bienes.bienes_piso,
+	catalogo_sudebi_esp.catalogo_sudebi_esp_codigo,
+	forma_adquisicion.forma_adquisicion_nombre,
+	detalle_adquisi.fecha_factura,
+	detalle_adquisi.fecha_registro,
+	estatus_bien.estatus_bien_nombre,
+	estatus_uso.estatus_uso_nombre,
+	forma_adquisicion.forma_adquisicion_codigo,
+	bienes.costo,
+	bienes.resp_uso_id,
+	personas.personas_pnombre,
+	personas.personas_papellido,
+	ubicacion_fisica.ubicacion_fisica_nombre,
+	bienes.oficinas_id
+FROM bienes
+	LEFT JOIN catalogo_sudebi_esp ON 
+	 bienes.catalogo_sudebi_esp_id = catalogo_sudebi_esp.id 
+	LEFT JOIN detalle_adquisi ON 
+	 bienes.detalle_adquisi_id = detalle_adquisi.id 
+	LEFT JOIN forma_adquisicion ON 
+	 detalle_adquisi.forma_adquisi_id = forma_adquisicion.id 
+	LEFT JOIN estatus_bien ON 
+	 bienes.estatus_bien_id = estatus_bien.id 
+	LEFT JOIN estatus_uso ON 
+	 bienes.estatus_uso_id = estatus_uso.id 
+	LEFT JOIN personas ON 
+	 bienes.resp_uso_id = personas.id 
+	LEFT JOIN ubicacion_fisica ON 
+	 bienes.bienes_ubica = ubicacion_fisica.id 
+WHERE 
+	 bienes.resp_uso_id >= 1 
+	 AND bienes.resp_uso_id = $P{ID} 
+	 AND bienes.oficinas_id = $P{ofi} 
+ORDER BY bienes_numbien asc]]>
+	</queryString>
+	<field name="bienes_numbien" class="java.lang.String"/>
+	<field name="bienes_serial" class="java.lang.String"/>
+	<field name="bienes_nombre" class="java.lang.String"/>
+	<field name="bienes_piso" class="java.lang.Integer"/>
+	<field name="catalogo_sudebi_esp_codigo" class="java.lang.String"/>
+	<field name="forma_adquisicion_nombre" class="java.lang.String"/>
+	<field name="fecha_factura" class="java.sql.Date"/>
+	<field name="fecha_registro" class="java.sql.Date"/>
+	<field name="estatus_bien_nombre" class="java.lang.String"/>
+	<field name="estatus_uso_nombre" class="java.lang.String"/>
+	<field name="forma_adquisicion_codigo" class="java.lang.String"/>
+	<field name="costo" class="java.lang.Double"/>
+	<field name="resp_uso_id" class="java.lang.Integer"/>
+	<field name="personas_pnombre" class="java.lang.String"/>
+	<field name="personas_papellido" class="java.lang.String"/>
+	<field name="ubicacion_fisica_nombre" class="java.lang.String"/>
+	<field name="oficinas_id" class="java.lang.Integer"/>
+	<variable name="bienes_resp" class="java.lang.Integer">
+		<variableExpression><![CDATA[$V{REPORT_COUNT}]]></variableExpression>
+	</variable>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="35" splitType="Stretch">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="450" y="0" width="88" height="33" uuid="1011b751-62aa-4e5e-8941-ad371a3ed9d4"/>
+				<textElement>
+					<font size="8"/>
+					<paragraph lineSpacingSize="0.5"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{estatus_uso_nombre}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="true">
+				<reportElement x="377" y="0" width="88" height="33" uuid="d712df04-77bf-4a0c-a04b-c23931917be0"/>
+				<textElement>
+					<font size="8"/>
+					<paragraph lineSpacingSize="0.5"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{estatus_bien_nombre}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToBandHeight" x="500" y="0" width="70" height="33" uuid="fcb81b01-7cf9-4621-bf23-a07e73139a92"/>
+				<textElement>
+					<font size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{forma_adquisicion_nombre}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="0" width="88" height="33" uuid="664234df-355f-474a-9ad3-704996e591c2"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{bienes_numbien}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="74" y="0" width="88" height="33" uuid="429d043a-478d-409b-86c4-be43a4b0c9ae"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{catalogo_sudebi_esp_codigo}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="138" y="0" width="209" height="33" uuid="c2f53a00-9cda-4652-a972-f3e4d4df147c"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{bienes_nombre}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="d/M/yyyy " isBlankWhenNull="true">
+				<reportElement x="560" y="0" width="76" height="33" uuid="ff07e1d6-93d7-4e41-8ce0-cf4fc705616d"/>
+				<textElement>
+					<font size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new SimpleDateFormat("dd/MM/yyyy").format($F{fecha_factura})]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="#,##0.###;(#,##0.###-)" isBlankWhenNull="true">
+				<reportElement x="586" y="0" width="80" height="33" uuid="43a0690e-dc93-419a-b2b9-3fdfbf6318f9"/>
+				<textElement textAlignment="Right">
+					<font size="8"/>
+					<paragraph lineSpacingSize="0.5"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{costo}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToBandHeight" x="677" y="3" width="64" height="30" uuid="6340e927-a04d-42fc-b18a-98919a0abc36"/>
+				<textElement>
+					<font size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ubicacion_fisica_nombre}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

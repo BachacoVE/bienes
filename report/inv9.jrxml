@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.1.0.final using JasperReports Library version 6.1.0  -->
+<!-- 2016-01-06T16:19:17 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="inv9" pageWidth="792" pageHeight="612" orientation="Landscape" columnWidth="752" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="a6a9ba95-2522-478a-a82e-60b3504e655e">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="bienespro"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value="b2ZpY2luYXMgLDI2Nyw3MCwxNDM3NWI1YS0wMDg3LTQ4OTQtOWNjNi1lYzdjZDcwZGYzMDk7cGVy&#xA;c29uYXMgLDIwLDIwLDlhMGM5NzM1LTcyYzMtNGMwYy1iYmQzLWViZWJiMDQ5ZWFmYjs="/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<parameter name="ofi" class="java.lang.Integer">
+		<parameterDescription><![CDATA[ofi]]></parameterDescription>
+		<defaultValueExpression><![CDATA[0]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[select distinct bienes.resp_uso_id, oficinas.id, b.tot_general, oficinas_nombre,oficinas_codigo,
+personas.id,personas_pnombre,personas_papellido,personas_cargo,personas_cedula  
+from bienes 
+left join oficinas on bienes.oficinas_id = oficinas.id
+left join personas on bienes.resp_uso_id = personas.id
+inner join (select oficinas_id, COUNT(id) as tot_general from bienes group by oficinas_id) as b on b.oficinas_id=bienes.oficinas_id
+where bienes.resp_uso_id  >=1 and  bienes.oficinas_id  =$P{ofi}
+order by oficinas.id, resp_uso_id asc]]>
+	</queryString>
+	<field name="resp_uso_id" class="java.lang.Integer"/>
+	<field name="id" class="java.lang.Integer"/>
+	<field name="tot_general" class="java.lang.Long"/>
+	<field name="oficinas_nombre" class="java.lang.String"/>
+	<field name="oficinas_codigo" class="java.lang.String"/>
+	<field name="COLUMN_6" class="java.lang.Integer"/>
+	<field name="personas_pnombre" class="java.lang.String"/>
+	<field name="personas_papellido" class="java.lang.String"/>
+	<field name="personas_cargo" class="java.lang.String"/>
+	<field name="personas_cedula" class="java.lang.Integer"/>
+	<variable name="totalresp" class="java.lang.Integer" resetType="Group" resetGroup="Group1"/>
+	<variable name="gil_1" class="java.lang.Integer" resetType="None" incrementType="Group" incrementGroup="Group1">
+		<initialValueExpression><![CDATA[0]]></initialValueExpression>
+	</variable>
+	<group name="Group1" isStartNewPage="true" isReprintHeaderOnEachPage="true">
+		<groupExpression><![CDATA[$F{resp_uso_id}]]></groupExpression>
+		<groupFooter>
+			<band height="18">
+				<textField>
+					<reportElement x="116" y="3" width="533" height="15" isPrintWhenDetailOverflows="true" uuid="ff6044ed-c23b-4cf3-820a-84c4952f3187"/>
+					<textElement textAlignment="Right">
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Total de Bienes de "+$F{personas_papellido}+" "+$F{personas_pnombre}+" :"]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" x="632" y="3" width="48" height="15" uuid="e1b40566-26a2-4dd6-a2e8-387e3345ed80"/>
+					<textElement textAlignment="Right">
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{totalresp}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupFooter>
+	</group>
+	<pageHeader>
+		<band height="130" splitType="Stretch">
+			<rectangle>
+				<reportElement x="250" y="67" width="252" height="21" uuid="38368ec9-ad52-4842-bc2e-fa5b3136220d"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="630" y="48" width="120" height="37" uuid="a45661c1-85aa-4795-b538-849759cc026a"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="105" y="98" width="100" height="15" isPrintWhenDetailOverflows="true" uuid="93ba67dc-6ad6-4d93-ad0a-cc76084a509b">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Código: 71]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="210" y="97" width="430" height="17" uuid="bc9d9283-232d-4913-908f-eeae6ab5d727">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Denominación: MINISTERIO DEL PODER POPULAR DE PLANIFICACIÓN]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="389" y="68" width="21" height="18" uuid="dcc59f25-f2c8-44ea-b348-da4dcf5fa207"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="217" y="42" width="340" height="22" uuid="412b71ab-b87c-4fe9-a4aa-cbcb52695b78"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Comprobante de Inventario]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="609" y="71" width="21" height="17" uuid="ee2c68c2-f907-4527-92e3-7417bd020279">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[02.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="287" y="68" width="20" height="18" uuid="a3024a8e-7cfb-4a3e-9303-b0a9af0c7e14"/>
+				<box padding="2">
+					<topPen lineWidth="1.4" lineStyle="Solid"/>
+					<leftPen lineWidth="1.4"/>
+					<bottomPen lineWidth="1.4"/>
+					<rightPen lineWidth="1.4"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[X]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="309" y="70" width="72" height="16" uuid="ddeb01bf-45da-4180-9550-8951e7297790"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[BIENES MUEBLES]]></text>
+			</staticText>
+			<textField evaluationTime="Report">
+				<reportElement x="674" y="53" width="50" height="12" uuid="750d3f95-8e70-463a-b953-9754861c4952"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["DE  " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="260" y="70" width="21" height="17" uuid="c5427b6c-f12e-49a8-97c2-6edf3d7464df">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[03.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="205" y="110" width="100" height="15" uuid="0c777399-0071-4757-8529-1445bb4564b5"/>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Código: 71006]]></text>
+			</staticText>
+			<line>
+				<reportElement x="631" y="68" width="119" height="1" uuid="1d086d78-21c5-4267-b654-477aaa6e3a57"/>
+			</line>
+			<textField>
+				<reportElement x="634" y="52" width="40" height="14" uuid="33d94e5b-8d36-44e8-955b-cbc22c191eca"/>
+				<textElement textAlignment="Left">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["N° " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="609" y="60" width="21" height="17" uuid="79ef7101-c5b6-4545-a1ba-e675d61150ba">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[01.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="5" y="109" width="182" height="16" uuid="d77640bb-b667-4771-b0cb-8fce1179d140">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[05. UNIDAD ADMINISTRADORA:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="417" y="70" width="72" height="16" uuid="472e1d0c-aa0e-4df9-91fd-a3cbf6911395"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[MATERIALES]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="0" y="93" width="750" height="32" uuid="f3559eb0-38ab-46ef-a5f1-f9ae8d7b2440"/>
+				<graphicElement>
+					<pen lineStyle="Solid"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="5" y="98" width="100" height="17" uuid="ee49e733-7906-42e6-8817-3e760b66161f">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[04. ORGANISMO:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="290" y="110" width="355" height="17" uuid="c2368216-dce5-496e-b274-bd3a76c214f7"/>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Denominación: OFICINA DE GESTIÓN ADMINISTRATIVA]]></text>
+			</staticText>
+			<image>
+				<reportElement x="3" y="-2" width="277" height="50" uuid="13497677-9cf8-4297-9f1e-39bc893e5955"/>
+				<imageExpression><![CDATA["/usr/lib/python2.7/dist-packages/openerp/addons/bienes/data/Cintillo1.jpg"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="649" y="-2" width="92" height="44" uuid="4f184dcb-a258-403e-b8e3-89553010f830"/>
+				<imageExpression><![CDATA["/usr/lib/python2.7/dist-packages/openerp/addons/bienes/data/CIntillo2.jpg"]]></imageExpression>
+			</image>
+			<textField pattern="MMMMM dd, yyyy">
+				<reportElement x="634" y="69" width="100" height="19" uuid="4f7a6e7c-117d-480f-adce-7de402ba1e2d"/>
+				<textFieldExpression><![CDATA[new SimpleDateFormat("dd-MM-yyyy").format(new java.util.Date())]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="113">
+			<staticText>
+				<reportElement x="5" y="0" width="400" height="20" uuid="70139d11-047c-4965-be0d-6067dacfaf35">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[06. UBICACIÓN GEOGRAFICA Y GEOREFERENCIADA DEL BIEN: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="5" y="15" width="50" height="19" uuid="53c968d7-17ab-4dbe-bdde-3d9871cdbb11">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Código:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="116" y="14" width="89" height="16" uuid="9feb48d4-f18a-4608-96a4-f47cfc49aa9e"/>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Denominación:   ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="4" y="34" width="302" height="16" uuid="eb3430de-e04b-4e3d-81e1-d555e6bbef5f">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[07. RESPONSABLE PATRIMONIAL POR USO:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="3" y="50" width="153" height="20" uuid="4e4f4721-15f4-46e2-9957-edc7d8ef48dc"/>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[APELLIDOS Y NOMBRES ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="381" y="50" width="49" height="20" uuid="7681ba7b-1c68-4767-80e7-b8b0ed8bf52f">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CARGO]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement positionType="FixRelativeToBottom" stretchType="RelativeToBandHeight" mode="Transparent" x="0" y="-1" width="750" height="114" uuid="65d14e5c-6304-4261-80c2-985c6f8da683"/>
+				<graphicElement>
+					<pen lineStyle="Solid"/>
+				</graphicElement>
+			</rectangle>
+			<line>
+				<reportElement x="0" y="13" width="750" height="1" uuid="28dee654-ab92-479c-8aff-735c15071e9f">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</line>
+			<rectangle>
+				<reportElement mode="Transparent" x="0" y="13" width="750" height="19" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true" printWhenGroupChanges="Group1" uuid="a7ee3903-4984-4b6d-82da-93df6a568798"/>
+				<graphicElement>
+					<pen lineStyle="Solid"/>
+				</graphicElement>
+			</rectangle>
+			<line>
+				<reportElement x="1" y="48" width="750" height="1" uuid="daa0136a-324b-41e2-abb9-45d2a18bf164">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="0" y="77" width="750" height="1" uuid="af1ff881-2543-4f6e-b972-2d6b315a696a">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="5" y="83" width="69" height="30" uuid="6cab390d-dc57-4370-a8cc-1ebbf835a960"/>
+				<textElement>
+					<font size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[8. NÚMERO DE BIEN PUBLICO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="73" y="83" width="61" height="30" uuid="4dc3c85f-65fb-43bb-b495-66a0390ebf5d"/>
+				<textElement>
+					<font size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[9.  CÓDIGO DE CATALOGO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="154" y="83" width="215" height="30" uuid="d65cc2b1-270d-4503-bf57-d5de4b50b39a"/>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[10. INDICACIÓN Y DESCRIPCIÓN DE LOS BIENES MUEBLES]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="600" y="50" width="49" height="20" uuid="7a302620-29d4-467a-80b0-e7562ab81b1e">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[C.I]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="375" y="81" width="110" height="30" uuid="63babfd8-a2d2-4078-bf2e-7a5920665c3f"/>
+				<textElement>
+					<font size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[11. ESTADO DE CONSERVACIÓN, USO Y MANTENIMIENTO DEL BIEN]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="59" y="15" width="40" height="17" uuid="3b98ba03-7798-4c29-813f-bd2e3293c84d"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{oficinas_codigo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="210" y="14" width="500" height="16" uuid="609ecd2c-429f-4bd7-8c67-da984ef29dbb"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{oficinas_nombre}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="256" y="50" width="100" height="23" uuid="bb66acd9-2c4f-4d79-b84e-c934d28a41fd"/>
+				<textFieldExpression><![CDATA[$F{personas_pnombre}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="156" y="50" width="100" height="23" uuid="d2bc6e1f-0c9e-4274-a241-c4f55e646577"/>
+				<textFieldExpression><![CDATA[$F{personas_papellido}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="431" y="50" width="100" height="20" uuid="0abb8046-7ec0-4626-a99f-7f86d004e463"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{personas_cargo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="661" y="50" width="71" height="25" uuid="16df64c6-3f3a-407b-ae9d-d3187041cb47"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{personas_cedula}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="490" y="83" width="100" height="20" uuid="fb1254ed-ddd1-4221-b580-8f56e51800b3"/>
+				<textElement>
+					<font size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[12. FORMA Y FECHA DE ADQUISICIÓN DEL BIEN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="600" y="82" width="70" height="31" uuid="75212a60-d271-49d7-a7a8-77e846e66401"/>
+				<textElement>
+					<font size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[13.VALOR DE ADQUISICIÓN DEL BIEN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="678" y="80" width="70" height="31" uuid="e97a17cf-1f49-43ff-9bf9-a5d98ab268c7"/>
+				<textElement>
+					<font size="5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[14.CUALQUIER OTRA INFORMACIÓN QUE SE ESTIME CONVENIENTE / UBICACION FISICA]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="31" splitType="Stretch">
+			<rectangle>
+				<reportElement key="" stretchType="RelativeToBandHeight" x="2" y="3" width="748" height="25" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true" uuid="104f1898-26f4-4f03-adc8-2e3398c21ced"/>
+			</rectangle>
+			<subreport>
+				<reportElement stretchType="RelativeToBandHeight" x="5" y="8" width="737" height="15" isPrintInFirstWholeBand="true" printWhenGroupChanges="Group1" uuid="d7d0c36f-3492-4a8a-8b43-9b156f872b3b"/>
+				<subreportParameter name="ID">
+					<subreportParameterExpression><![CDATA[$F{resp_uso_id}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="ofi">
+					<subreportParameterExpression><![CDATA[$P{ofi}]]></subreportParameterExpression>
+				</subreportParameter>
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<returnValue subreportVariable="REPORT_COUNT" toVariable="totalresp"/>
+				<subreportExpression><![CDATA["resp_uso.jasper"]]></subreportExpression>
+			</subreport>
+			<line>
+				<reportElement stretchType="RelativeToBandHeight" x="60" y="1" width="1" height="28" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true" uuid="eb70ada3-1039-4750-afba-836c7ed5d055"/>
+			</line>
+			<line>
+				<reportElement stretchType="RelativeToBandHeight" x="135" y="0" width="1" height="28" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true" uuid="3b6a2848-355f-47fe-9463-1d41154f3e29"/>
+			</line>
+			<line>
+				<reportElement stretchType="RelativeToBandHeight" x="373" y="0" width="1" height="28" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true" uuid="6a303df5-c9fc-41f5-a32c-59d2fb39fdca"/>
+			</line>
+			<line>
+				<reportElement stretchType="RelativeToBandHeight" x="489" y="-1" width="1" height="28" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true" uuid="fbef5d0d-ecd0-4edc-ab70-f655f8ff7419"/>
+			</line>
+			<line>
+				<reportElement stretchType="RelativeToBandHeight" x="600" y="0" width="1" height="28" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true" uuid="c5a24aeb-c0a2-4516-9e6d-8df1e4895bd6"/>
+			</line>
+			<line>
+				<reportElement stretchType="RelativeToBandHeight" x="677" y="0" width="1" height="28" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true" uuid="4e841bbf-9fd7-4c37-80a9-a10bfa921f6b"/>
+			</line>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="102" splitType="Immediate">
+			<rectangle>
+				<reportElement stretchType="RelativeToBandHeight" x="1" y="3" width="750" height="99" uuid="b6df6f46-ec09-422f-b03b-ee451025e7e2"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="4" y="5" width="361" height="10" uuid="82fd6616-5a40-4b8a-aa25-52249ab08698"/>
+				<textElement>
+					<font size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[15.RESPONSABLE PATRIMONIAL DEL MANTENIMIENTO, CONSERVACIÓN Y PROTECCIÓN DEL BIEN: ]]></text>
+			</staticText>
+			<line>
+				<reportElement x="1" y="14" width="749" height="1" uuid="f056d72d-3992-4a67-8902-a274af900342"/>
+			</line>
+			<staticText>
+				<reportElement x="4" y="17" width="276" height="11" uuid="acfec301-111f-4e16-92c4-e0484d210d13"/>
+				<textElement>
+					<font size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NOMBRES Y APELLIDOS:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="1" y="40" width="749" height="1" uuid="b1bbb446-b0f7-434e-9c77-7c3087e40cc6"/>
+			</line>
+			<staticText>
+				<reportElement x="93" y="26" width="87" height="12" uuid="45b5e721-2d68-477b-bf78-fe1babf91718"/>
+				<textElement>
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[DAISY BECERRA DE BIER]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="377" y="26" width="87" height="12" uuid="98182fe4-6cb9-4b6f-a068-b241b55db491"/>
+				<textElement>
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[V.6.184.114]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="364" y="17" width="25" height="11" uuid="dd624728-864e-4c44-93a6-6296044a394e"/>
+				<textElement>
+					<font size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[C.I.]]></text>
+			</staticText>
+			<line>
+				<reportElement stretchType="RelativeToBandHeight" x="322" y="14" width="1" height="88" uuid="399c34a9-dd76-4f7b-8adb-65109cf7ec3b"/>
+			</line>
+			<staticText>
+				<reportElement x="550" y="18" width="25" height="11" uuid="809bd3a1-5a8c-4e55-9675-18387c69f3d2"/>
+				<textElement>
+					<font size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Cargo:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="560" y="28" width="182" height="12" uuid="8fbbe9e8-df26-495d-9273-be848e962dc1"/>
+				<textElement>
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[DIRECTORA DE LA UNIDAD DE BIENES PUBLICOS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="4" y="44" width="276" height="8" uuid="2a73732d-4885-4858-94d4-6d37621cb75c"/>
+				<textElement>
+					<font size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[16.DIRECCIÓN GENERAL DE LA OFICINA DE GESTION ADMINISTRATIVA: ]]></text>
+			</staticText>
+			<line>
+				<reportElement x="2" y="55" width="749" height="1" uuid="ab84cf43-cbc7-402d-a13c-85f00d8a6566"/>
+			</line>
+			<staticText>
+				<reportElement x="95" y="60" width="87" height="12" uuid="81681fe9-5516-40d3-b3ae-87e2f001d39d"/>
+				<textElement>
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[MARÍA GABRIELA GUILARTE]]></text>
+			</staticText>
+			<line>
+				<reportElement x="1" y="78" width="749" height="1" uuid="5b3c5e37-abb7-4aad-93e9-482d3d721bb4"/>
+			</line>
+			<staticText>
+				<reportElement x="4" y="81" width="116" height="13" uuid="0df12af4-8e78-4df3-b589-316081d9accf"/>
+				<textElement>
+					<font size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[LEVANTAMIENTO DE INVENTARIO:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="364" y="44" width="25" height="11" uuid="779fb157-e73f-400d-a6f8-7092e0bf8a70"/>
+				<textElement>
+					<font size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[C.I.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="377" y="60" width="87" height="12" uuid="0eab294f-3f19-4bd9-80dd-0d9f8295f030"/>
+				<textElement>
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[V.14.568.001]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="552" y="82" width="62" height="10" uuid="51a226f0-2020-47fc-9dae-c3339db16812"/>
+				<textElement>
+					<font size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[APROBADO POR:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="552" y="42" width="25" height="11" uuid="edbe6a9d-f3db-4ad1-9a00-a72a8a597434"/>
+				<textElement>
+					<font size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Cargo:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="559" y="62" width="182" height="12" uuid="bd2184b1-95a4-4d3a-9c56-ac08c15b0638"/>
+				<textElement>
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[DIRECTORA GENERAL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="369" y="86" width="62" height="10" uuid="fc4987ba-975f-4cd6-bdd2-698726dc33e2"/>
+				<textElement>
+					<font size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ELABORADO POR:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="610" y="85" width="111" height="12" uuid="77fc0fa0-614f-49a9-af3c-c8b657edfced"/>
+				<textElement>
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[UNIDAD DE BIENES PUBLICOS]]></text>
+			</staticText>
+			<line>
+				<reportElement stretchType="RelativeToBandHeight" x="520" y="14" width="1" height="88" uuid="0b4fa2fe-7695-4916-9abd-4c317bf5585b"/>
+			</line>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="20" splitType="Immediate">
+			<textField>
+				<reportElement x="20" y="2" width="627" height="18" isPrintWhenDetailOverflows="true" uuid="cd41ef2f-d4fc-4050-b31c-124a9eaaba13"/>
+				<textElement textAlignment="Right" markup="none">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Total de Bienes de "+$F{oficinas_nombre}+":"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="666" y="2" width="65" height="18" uuid="b0423904-e2c2-43fe-8ce1-c6668699b641"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tot_general}]]></textFieldExpression>
+			</textField>
+		</band>
+	</summary>
+</jasperReport>

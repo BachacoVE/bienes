@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.1.0.final using JasperReports Library version 6.1.0  -->
+<!-- 2016-05-30T10:48:26 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_Letter_Landscape_1" pageWidth="1008" pageHeight="612" orientation="Landscape" columnWidth="968" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="com.jaspersoft.studio.data.sql.tables" value="Zm9ybWFfYWRxdWlzaWNpb24gQVMgLDM1MywxMTAsMjBkYmM4M2EtODVjNC00MzE2LWE1OTYtODRh&#xA;M2I3YjAzNzU3O2RldGFsbGVfYWRxdWlzaSBBUyAsOTcsNjMsYjA0N2RiNTItYzEwOS00ZjdkLWI1&#xA;ODktNWZhY2NiZDg3Mjc2Ow=="/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="bienbea"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+    <property name="net.sf.jasperreports.export.csv.field.delimiter" value=";"/>
+	<property name="net.sf.jasperreports.export.csv.record.delimiter" value=";"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString>
+		<![CDATA[SELECT detalle_adquisi.detalle_adquisi_codigo,
+	forma_adquisicion.forma_adquisicion_codigo,
+	detalle_adquisi.proveedores_id,
+	detalle_adquisi.numero_ordcompra,
+	detalle_adquisi.fecha_ordcompra,
+	detalle_adquisi.numero_nota_entrega,
+	detalle_adquisi.fecha_nota_entrega,
+	detalle_adquisi.fecha_factura,
+	detalle_adquisi.numero_factura,
+	bienes_ministerio.nsudebip,
+	bienes_ministerio.rif,
+	bienes_ministerio.fecha_remision
+FROM bienes_ministerio, detalle_adquisi
+	INNER JOIN forma_adquisicion ON 
+	 detalle_adquisi.forma_adquisi_id = forma_adquisicion.id
+	 where  forma_adquisicion.id = 1]]>
+	</queryString>
+	<field name="detalle_adquisi_codigo" class="java.lang.String"/>
+	<field name="forma_adquisicion_codigo" class="java.lang.String"/>
+	<field name="proveedores_id" class="java.lang.Integer"/>
+	<field name="numero_ordcompra" class="java.lang.String"/>
+	<field name="fecha_ordcompra" class="java.sql.Date"/>
+	<field name="numero_nota_entrega" class="java.lang.String"/>
+	<field name="fecha_nota_entrega" class="java.sql.Date"/>
+	<field name="fecha_factura" class="java.sql.Date"/>
+	<field name="numero_factura" class="java.lang.String"/>
+	<field name="nsudebip" class="java.lang.String"/>
+	<field name="rif" class="java.lang.String"/>
+	<field name="fecha_remision" class="java.sql.Date"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="31" splitType="Stretch">
+			<textField>
+				<reportElement x="18" y="1" width="100" height="30" >
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{nsudebip}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="ddMYYYY" isBlankWhenNull="true">
+				<reportElement x="19" y="1" width="100" height="30">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[new java.text.SimpleDateFormat("ddMMyyyy").format($F{fecha_remision})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="1" width="100" height="30"/>
+				<textFieldExpression><![CDATA[$F{rif}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="31" splitType="Stretch">
+			<textField isBlankWhenNull="true">
+				<reportElement x="0" y="0" width="40" height="30"/>
+				<textFieldExpression><![CDATA[$F{detalle_adquisi_codigo}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="47" y="0" width="33" height="30"/>
+				<textFieldExpression><![CDATA[$F{forma_adquisicion_codigo}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="80" y="0" width="100" height="30"/>
+				<textFieldExpression><![CDATA[$F{proveedores_id}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="180" y="0" width="100" height="30"/>
+				<textFieldExpression><![CDATA[$F{numero_ordcompra}]]></textFieldExpression>
+			</textField>
+			<textField pattern="ddMyyy" isBlankWhenNull="true">
+				<reportElement x="480" y="0" width="100" height="30" />
+				<textFieldExpression><![CDATA[$F{fecha_nota_entrega}]]></textFieldExpression>
+			</textField>
+			<textField pattern="ddMyyy" isBlankWhenNull="true">
+				<reportElement x="280" y="0" width="100" height="30"/>
+				<textFieldExpression><![CDATA[$F{fecha_ordcompra}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="380" y="0" width="100" height="30"/>
+				<textFieldExpression><![CDATA[$F{numero_nota_entrega}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="580" y="0" width="100" height="30"/>
+				<textFieldExpression><![CDATA[$F{numero_factura}]]></textFieldExpression>
+			</textField>
+			<textField pattern="ddMyyy" isBlankWhenNull="true">
+				<reportElement x="680" y="0" width="100" height="30"/>
+				<textFieldExpression><![CDATA[$F{fecha_factura}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

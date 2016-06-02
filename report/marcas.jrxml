@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.1.0.final using JasperReports Library version 6.1.0  -->
+<!-- 2016-05-30T10:43:19 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="marcas" pageWidth="612" pageHeight="792" columnWidth="572" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b7584230-b3db-40ef-85bc-432267008a82">
+	<property name="com.jaspersoft.studio.data.sql.tables" value="bWFyY2FzICwyMCwyMCw1MDZjZjQ0Ny1kMjMzLTRkMzEtODg5YS1jNGJiM2I0ZjNiNDc7YmllbmVz&#xA;X21pbmlzdGVyaW8gQVMgLDIxNywxNDcsN2M4NzY0YjktMTkwMC00NjYzLTkxYTItZDdjMzEyYzdm&#xA;MWM0Ow=="/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="bienbea"/>
+	<property name="OPENERP_RELATIONS" value="[&apos;marcas.id&apos;]"/>
+	<property name="net.sf.jasperreports.export.csv.field.delimiter" value=";"/>
+	<property name="net.sf.jasperreports.export.csv.record.delimiter" value=";"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString>
+		<![CDATA[SELECT marcas.id,
+	marcas.marcas_nombre,
+	bienes_ministerio.nsudebip,
+	bienes_ministerio.rif,
+	bienes_ministerio.fecha_remision
+FROM marcas,
+	bienes_ministerio]]>
+	</queryString>
+	<field name="id" class="java.lang.Integer"/>
+	<field name="marcas_nombre" class="java.lang.String"/>
+	<field name="nsudebip" class="java.lang.String"/>
+	<field name="rif" class="java.lang.String"/>
+	<field name="fecha_remision" class="java.sql.Date"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="36">
+			<textField>
+				<reportElement x="0" y="1" width="100" height="30" uuid="92e8e1f7-20b0-4993-86e3-9aaf951c7f1a"/>
+				<textFieldExpression><![CDATA[$F{rif}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="18" y="1" width="100" height="30" uuid="aff3c063-62d0-4827-a0d6-1ee4a45932f2">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{nsudebip}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="ddMYYYY" isBlankWhenNull="true">
+				<reportElement x="19" y="1" width="100" height="30" uuid="14e22c04-9422-44fd-920e-c81471bd6eba">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[new java.text.SimpleDateFormat("ddMMyyyy").format($F{fecha_remision})]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="30" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="30" height="30" uuid="2eb9b324-f8fb-4e62-9242-54f34b496881"/>
+				<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="18" y="0" width="113" height="30" uuid="8b98811e-f127-45ff-8c34-9031f32fdf1d"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{marcas_nombre}.trim()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement stretchType="RelativeToBandHeight" x="19" y="0" width="37" height="30" uuid="da05333d-7466-4d18-a65f-f3705199cf0d"/>
+				<textElement markup="styled">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[XXX]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>
