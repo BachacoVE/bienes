@@ -23,7 +23,7 @@
 # from osv import fields,osv --- <8.0.X
 from openerp.osv import fields, osv, orm
 from openerp import api
-from openerp.addons.jasper_reports import jasper_report
+#from openerp.addons.jasper_reports import jasper_report
 from openerp import pooler
 from datetime import  datetime
 from time import time
