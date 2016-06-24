@@ -23,7 +23,7 @@
 # from osv import fields,osv --- <8.0.X
 from openerp.osv import fields, osv, orm
 from openerp import api
-from openerp.addons.jasper_reports import jasper_report
+#from openerp.addons.jasper_reports import jasper_report
 from openerp import pooler
 from datetime import  datetime
 from time import time
@@ -334,8 +334,8 @@ class poliza(osv.osv):
     _sql_constraints = [('poliza_codigo', 'unique(poliza_codigo)', 'El Código debe se único!')]  
     
     _defaults = { 
-        'poliza_fecha_ini': '1900/01/01', 
-        'ploza_fecha_fin': '1900/01/01', }
+        'poliza_fecha_ini': '1900-01-01', 
+        'ploza_fecha_fin': '1900-01-01', }
     
 poliza()
 
@@ -482,15 +482,27 @@ class bienes(osv.osv):
     
     @api.onchange('grupo_bien_id','clasificador_bien_id','modelo_bien_id','detalle_modelo_id','material_id','color_id')
     def onchange_categorias(self):
-        self.bienes_nombre = str(self.clasificador_bien_id.clasificador_nombre)+' '+ str(self.modelo_bien_id.modelo_nombre)+ ' ' + str(self.detalle_modelo_id.detalle_modelo_nombre).encode('utf-8') +' '+ str(self.material_id.material_nombre) +' '+ str(self.color_id.color_nombre)
- 
+        catego =''
+        if self.clasificador_bien_id.clasificador_nombre:
+            catego += str(self.clasificador_bien_id.clasificador_nombre)
+        if self.modelo_bien_id.modelo_nombre:
+              catego += ' '+ str(self.modelo_bien_id.modelo_nombre)
+        if self.detalle_modelo_id.detalle_modelo_nombre:
+             catego += ' '+str(self.detalle_modelo_id.detalle_modelo_nombre).encode('utf-8')
+        if self.material_id.material_nombre:
+            catego += ' '+str(self.material_id.material_nombre)
+        if  self.color_id.color_nombre:
+            catego += ' '+str(self.color_id.color_nombre)
+            
+        #self.bienes_nombre = str(self.clasificador_bien_id.clasificador_nombre)+' '+ str(self.modelo_bien_id.modelo_nombre)+ ' ' + str(self.detalle_modelo_id.detalle_modelo_nombre).encode('utf-8') +' '+ str(self.material_id.material_nombre) +' '+ str(self.color_id.color_nombre)
+        self.bienes_nombre = catego
    
        
     _sql_constraints = [('bienes_numbien', 'unique(bienes_numbien)', 'El Número de Bien debe se único!')]
  
     _defaults = { 
-        'fecha_ini_garantia': '1900/01/01', 
-        'fecha_fin_garantia': '1900/01/01', }
+        'fecha_ini_garantia': '1900-01-01', 
+        'fecha_fin_garantia': '1900-01-01', }
    
     
 bienes()

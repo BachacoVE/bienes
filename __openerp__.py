@@ -26,7 +26,8 @@
         "website" : "",
         "category" : "Bienes Publicos",
         "description": "Registro de Bienes""  """,
-        "depends" : ['base','jasper_reports'],
+#        "depends" : ['base','jasper_reports'],
+        "depends" : ['base'],
         'data':     [
                         'report.xml',
                         'wizard/report_wizard_view.xml'
